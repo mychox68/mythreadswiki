@@ -1,0 +1,12 @@
+# Skills
+> 노트 7개 | 마지막 갱신: 2026-04-08 13:31
+
+| 노트 | 저자 · 날짜 | 요약 |
+|------|-------------|------|
+| [[u260330_daon_k_Claude-Code의-O_cdd445]] | `@daon_k` · 26-03-30 | Claude Code의 Opus 4.6과 Remotion 조합으로 영상 제작 퀄리티가 향상되었다. 자연어 묘사로 React 코드를 생성하고 Remotion을 통해 MP4로 렌더링하는 방식이다. 특히 반복되는 구조의 영상 제작에 강점을 보이며, Skills 기능 확장으로 3D, 자막 등 다양한 요소들을 다룰 수 있다. |
+| [[u260327_aisolutiondev_Claude-Code-Sk_410d93]] | `@aisolutiondev` · 26-03-27 | Claude Code Skills가 대폭 증가(+598%)하여 실무 직결 스킬이 추가되었다. awesome-claude-skills, alirezarezvani/claude-skills 레포가 생태계를 주도하고 있으며, `npx skills add` 명령어로 간단하게 설치할 수 있다. |
+| [[u260327_choi.openai_앤트로픽-해커톤-우승자의-_9b3f38]] | `@choi.openai` · 26-03-27 | 앤트로픽 해커톤 우승자의 Claude Code 실전 설정 가이드가 공개되었습니다. Skills, Hooks, MCP 조합으로 생산성을 극대화하는 엔지니어링을 다루며, 65,000개 이상의 Claude Code 스킬을 정리한 Skils 사이트도 소개합니다. AI 활용이 직무 평가에 중요해지는 시대에 Skills 이해를 돕는 가이드북을 Manus를 통해 제작하여 공유합니다. |
+| [[u260327_choi.openai_앤트로픽-해커톤-우승자의-_a90dcb]] | `@choi.openai` · 26-03-27 | 앤트로픽 해커톤 우승자의 Claude Code 실전 설정 가이드가 공개되었으며, Skills, Hooks, MCP 조합을 통해 생산성을 극대화하는 엔지니어링 기법을 소개합니다. Claude Code 사용자를 위한 65,000개 이상의 스킬이 정리된 Skils 사이트와 가이드북을 통해 에이전트 성능을 극대화하고 개발 시간을 단축할 수 있습니다. AI 활용이 직무 평가에 중요해짐에 따라 Skills와 같은 AI 툴 활용의 중요성이 강조되고 있으며, 가이드북을 통해 쉽게 이해할 수 있도록 Manus를 통해 제작되었습니다. |
+| [[u260327_qjc.ai_Claude-Code-해커_ef201b]] | `@qjc.ai` · 26-03-27 | Claude Code 해커톤 우승자가 Claude Code 활용 팁 70가지를 공유합니다. 마인드셋, Plan Mode, 컨텍스트 관리, 환경 설정, MCP, Hooks, Skills, TDD, 보안, 생산성 향상 등 다양한 팁을 제공합니다. Claude Code를 주니어 개발자처럼 대하고, 컨텍스트 관리에 신경 쓰고, 프로젝트 규칙을 설정하는 것이 중요하다고 강조합니다. |
+| [[u260327_feelfree_ai_OpenAI가-에이전트-빌_60872f]] | `@feelfree_ai` · 26-03-27 | OpenAI가 에이전트 빌딩을 위한 새로운 기초를 공개하며, 수시간 동안 안정적으로 워크플로우를 이어가는 10가지 팁을 공유했습니다. Skills와 Shell을 활용하여 복잡한 작업을 핸들링하는 구체적인 방법이 제시되었습니다. MLOps나 에이전트 개발자에게 유용한 정보이며, 실무에 바로 적용 가능한 내용이 많습니다. |
+| [[u260327_choi.openai_앤트로픽-해커톤-우승자의-_fd7514]] | `@choi.openai` · 26-03-27 | 앤트로픽 해커톤 우승자의 Claude Code 실전 설정 가이드가 공개되었습니다. Skills, Hooks, MCP 조합으로 생산성을 극대화하는 엔지니어링 방법을 담고 있으며, 65,000개 이상의 스킬이 정리된 Skils 사이트 활용법도 소개합니다. AI 활용이 직무평가에 중요해지는 시대에 Skills 이해를 돕는 가이드북을 Manus를 통해 제작했으며, 한 번의 프롬프트로 제작 가능합니다. |

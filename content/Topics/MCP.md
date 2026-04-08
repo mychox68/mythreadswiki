@@ -1,0 +1,19 @@
+# MCP
+> 노트 14개 | 마지막 갱신: 2026-04-08 13:31
+
+| 노트 | 저자 · 날짜 | 요약 |
+|------|-------------|------|
+| [[u260327_ai___touch_Claude-Code-사용_809c44]] | `@ai___touch` · 26-03-27 | Claude Code 사용 중 Codex, Gemini와 함께 사용하고 싶다는 아이디어에서 MCP를 직접 구현했습니다. MCP를 통해 모델 간 토론이 가능하며, 백그라운드 작업 ID 관리를 통해 비동기 요청 문제를 해결했습니다. Oh-my-claudecode를 참고하여 MCP를 개발하고 실전적인 접근 방식을 적용했습니다. |
+| [[u260327_boris_cherny_Anthropic에서-Cl_971306]] | `@boris_cherny` · 26-03-27 | Anthropic에서 Claude Code를 Telegram과 Discord에서 제어할 수 있는 Channels 기능을 연구 프리뷰로 공개했습니다. 이를 통해 휴대폰에서 직접 Claude Code 세션을 제어하고, 작업을 비동기적으로 핸드오프하고 확인할 수 있습니다.  MCP 확장점을 통해 다양한 커뮤니케이션 채널로 확대될 예정이며, 코딩 워크플로우를 혁신할 것으로 기대됩니다. |
+| [[u260327_devdesign.kr_Claude-Code-사용_d51ad9]] | `@devdesign.kr` · 26-03-27 | Claude Code 사용 시 Obsidian과 연동하는 방법을 소개합니다. MCP를 사용하는 대신, Obsidian 설정을 통해 Claude Code가 로컬 마크다운 파일에 직접 접근하도록 하여 토큰 낭비를 줄일 수 있습니다. 옵시디언 볼트 경로를 Claude 설정에 추가하고, 볼트 구조를 Claude Code에 알려주면 효율적인 노트 관리가 가능합니다. |
+| [[u260327_geumverse_ai_Claude-Certifi_172c18]] | `@geumverse_ai` · 26-03-27 | Claude Certified Architect 인증 시험 대비를 위한 핵심 정보 요약. Anthropic 파트너가 아니어도 프로덕션급 앱을 만들 수 있는 지식 습득 가능. 5가지 도메인(Agentic Architecture, Tool Design & MCP, Claude Code 설정, Prompt & Structured Output, Context Management)별 핵심 내용 및 학습 순서 제시. |
+| [[u260327_geumverse_ai_Claude-Certifi_70c593]] | `@geumverse_ai` · 26-03-27 | Claude Certified Architect 인증 시험 대비 핵심 내용을 요약한 게시글입니다. Claude Code, Agent SDK, API, MCP 4가지 핵심 역량을 중심으로 시험 도메인별 중요 사항과 학습 순서를 제시합니다. 인증 없이도 프로덕션급 앱을 만들 수 있도록 실질적인 지식 습득에 초점을 맞추고 있습니다. |
+| [[u260327_openclaw_ko_Playwright를-활용_012c83]] | `@openclaw_ko` · 26-03-27 | Playwright를 활용하여 브라우저 자동화 작업을 수행하는 방법을 소개합니다. Codex CLI를 통해 Playwright MCP 스킬을 설치하거나, 직접 설치하여 오픈클루에서 제공하는 기능을 사용할 수 있습니다. Playwright는 웹사이트 제어, 스크린샷, 가격 모니터링 등 다양한 자동화 작업을 가능하게 합니다. |
+| [[u260327_qjc.ai_Claude-Code-해커_ef201b]] | `@qjc.ai` · 26-03-27 | Claude Code 해커톤 우승자가 Claude Code 활용 팁 70가지를 공유합니다. 마인드셋, Plan Mode, 컨텍스트 관리, 환경 설정, MCP, Hooks, Skills, TDD, 보안, 생산성 향상 등 다양한 팁을 제공합니다. Claude Code를 주니어 개발자처럼 대하고, 컨텍스트 관리에 신경 쓰고, 프로젝트 규칙을 설정하는 것이 중요하다고 강조합니다. |
+| [[u260327_toss.appsintoss_앱인토스-미니앱-개발-시-_c4a0bd]] | `@toss.appsintoss` · 26-03-27 | 앱인토스 미니앱 개발 시 앱인토스 팀에서 제공하는 AI 개발 가이드를 활용하면 효율적인 개발이 가능하다. 가이드에서는 MCP 서버 사용법, 앱인토스 공식 문서 기반 Skills, 문서 URL 인덱싱 방법을 제공한다. 빌드 에러를 줄이기 위해 공식 가이드 활용을 권장한다. |
+| [[u260327_choi.openai_Claude가-MCP를-통_04d1d2]] | `@choi.openai` · 26-03-27 | Claude가 MCP를 통해 'Financial Datasets'와 연결되어 30년치 재무 데이터를 자연어로 즉시 불러와 분석 및 시각화가 가능해졌습니다. 이를 통해 투자자들은 데이터 해석 및 자동화 워크플로우 구축에 집중할 수 있게 되었습니다. 하지만 댓글에서는 기존에 존재하던 서비스와 유사하며, 블룸버그 터미널을 대체하기에는 부족하다는 의견도 있습니다. |
+| [[u260327_freainer_Claude-또는-Curs_ed0bcc]] | `@freainer` · 26-03-27 | Claude 또는 Cursor 사용자를 위한 생산성 향상 MCP 5가지 소개: FireSEO, Notion MCP, WordPress MCP, Canva MCP, ElevenLabs MCP. 각 MCP는 SEO 분석, 콘텐츠 관리, SEO 최적화 발행, 디자인 생성, 블로그-팟캐스트 변환 등의 기능을 제공. 링크는 댓글에 제공. |
+| [[u260327_leehc_09_Docker-MCP를-사용_e37778]] | `@leehc_09` · 26-03-27 | Docker MCP를 사용하여 에이전트 컨텍스트를 효율적으로 관리하는 방법에 대한 게시글입니다. 필요할 때만 MCP를 로드하고 작업 완료 후 언로드하여 컨텍스트 윈도우 관리 및 토큰 절약이 가능합니다. Docker MCP를 통해 다양한 서비스 인증을 유지하며 300개 이상의 MCP를 연결하여 에이전트 성능을 유지할 수 있습니다. |
+| [[u260327_yeopo92_AI가-자연어-요청에-따라_dd7d6f]] | `@yeopo92` · 26-03-27 | AI가 자연어 요청에 따라 n8n 워크플로우를 직접 빌드해주는 MCP 서버가 등장했다. 이는 자율주행처럼 AI가 직접 실행하는 방식으로, 기존의 방법만 제시하는 방식과 차별화된다. 바이브코더에게 유용하며, 에이전트의 실행력 향상에 기여할 것으로 보인다. |
+| [[u260327_homebodify_Figma-MCP-유료화에_3acd2f]] | `@homebodify` · 26-03-27 | Figma MCP 유료화에 대한 대안으로 Opensource인 Penpot을 소개하며, UI MCP 사용 시 Penpot을 추천하는 이유를 설명한다. Penpot은 Native Design Token 시스템을 사용하며, LLM 사용 비용만 지불하면 된다. MCP를 직접 만드는 경험도 추천한다. |
+| [[u260327_seol.cc_Claude-Code를-활_ec6aa4]] | `@seol.cc` · 26-03-27 | Claude Code를 활용하여 iOS 앱스토어 제출 과정을 자동화하는 오픈소스 툴 MCP가 소개되었습니다. 서명 인증서 설정, 스크린샷 업로드 등 번거로운 작업을 '앱스토어에 제출해줘'라는 한 마디로 해결할 수 있습니다. 해당 툴은 Claude Code로 만들어졌으며 무료로 사용 가능합니다. |
