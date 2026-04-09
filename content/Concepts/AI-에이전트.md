@@ -1,5 +1,5 @@
 # AI 에이전트
-> 관련 노트: 74개 | 마지막 갱신: 2026-04-08 13:31
+> 관련 노트: 75개 | 마지막 갱신: 2026-04-09 18:33
 
 ## 개요
 
@@ -18,12 +18,13 @@
 
 ## 관련 개념
 
-[[Concepts/github.com|github.com]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/자동화|자동화]] | [[Concepts/AI|AI]] | [[Concepts/AI-코딩|AI 코딩]]
+[[Concepts/github.com|github.com]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/자동화|자동화]] | [[Concepts/AI|AI]] | [[Concepts/오픈소스|오픈소스]]
 
 ## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260409_sinbum_ai_GitHub에서-하루-스타_144b0b]] | `@sinbum_ai` · 26-04-09 | GitHub에서 하루 스타 2000개를 기록한 'superpowers'라는 프레임워크는 코딩 에이전트에게 스킬을 제공하는 시스템이다. 사용자 맞춤형 스킬셋을 만들 수 있으며, Shell 기반으로 다양한 에이전트와 통합이 가능하다. 이러한 오픈소스 표준화가 이루어진다면 에이전트 생태계에 긍정적인 영향을 미칠 것으로 예상된다. |
 | [[u260408_teum_soul_ainovel-cli라는-_5f40db]] | `@teum_soul` · 26-04-08 | ainovel-cli라는 Go 프로젝트는 500챕터까지 일관성을 유지하며 소설을 생성할 수 있는 AI 도구입니다. 이 도구는 여러 에이전트가 각각의 역할을 분담하여 최적의 출력 품질을 유지합니다. 초기 단계의 툴로, 사용자는 모델 이해와 설정이 필요합니다. |
 | [[u260408_unclejobs.ai_AGENTS.md는-다양한_6f43fc]] | `@unclejobs.ai` · 26-04-08 | AGENTS.md는 다양한 AI 코딩 에이전트를 위한 공통 설명서로, 프로젝트의 빌드 방법과 규칙을 포함하고 있습니다. 이 파일은 어떤 도구에서도 읽을 수 있는 형식으로 되어 있으며, 프로젝트마다 커스터마이즈 가능합니다. AGENTS.md는 AI 에이전트에게 명확한 지시를 제공하는 필수 파일로 자리 잡고 있습니다. |
 | [[u260408_unclejobs.ai_Nous-Research가_c26200]] | `@unclejobs.ai` · 26-04-08 | Nous Research가 공개한 Hermes Agent v0.7.0 업데이트가 진행되었습니다. 새로운 플러그인 시스템, API 키 관리 기능, 스텔스 브라우저, 보안 강화와 같은 주요 기능이 추가되었습니다. 에이전트는 세션 유지 및 성능 개선을 통해, 제작 환경에서 안정성을 한층 높였습니다. |
@@ -53,4 +54,3 @@
 | [[u260327_iam_mychan_1Code는-오픈소스-코딩_5be4d1]] | `@iam_mychan` · 26-03-27 | 1Code는 오픈소스 코딩 에이전트 클라이언트로, Claude Code, Codex 등의 에이전트를 한 앱에서 관리하고, Git worktree를 이용해 채팅마다 브랜치를 격리할 수 있다. 실시간 diff 미리보기, 백그라운드 에이전트, 라이브 브라우저 프리뷰 등의 기능으로 개발 편의성을 높여준다. 여러 코딩 에이전트를 효율적으로 관리하고 싶다면 1Code를 사용해보는 것을 추천한다. |
 | [[u260327_kjconsulting_tea_OpenAI가-Codex-_08f7e2]] | `@kjconsulting_team` · 26-03-27 | OpenAI가 Codex 에이전트용 Skills Catalog를 GitHub에 공개했습니다. 이는 코딩 에이전트가 재사용 가능한 검증된 스킬들을 모아둔 오픈소스 저장소입니다. AI 에이전트의 '스킬 생태계' 표준화를 향한 OpenAI의 첫 공식 움직임으로 보입니다. |
 | [[u260327_lazylittleyoyo_Ralph-Loop를-직접_7106f0]] | `@lazylittleyoyo` · 26-03-27 | Ralph Loop를 직접 구현하며 AI 에이전트의 작동 방식을 파악하고, context를 비운 상태로 작업을 진행하는 방법을 실험하고 있다. 계획, 구현, 작업 목록, 장기 기억을 위한 문서를 만들고, 스크립트를 통해 루프를 실행하며 AI가 작업을 수행하도록 한다. 기존 플러그인을 사용하는 대신 직접 구현하며 구조를 이해하고 문제 해결 능력을 키우는 데 집중한다. |
-| [[u260327_lian.lab71_KAIST-출신-스타트업-_1b3e2d]] | `@lian.lab71` · 26-03-27 | KAIST 출신 스타트업 개발자가 Claude Code를 사용하는 실전 스킬 조합을 소개합니다. Andrej Karpathy Skills, Ralph Wiggum Loop 등 유용한 스킬과 Frontend 작업 팁, 모델 간 토론 방법 등을 공유합니다. Codex와 Claude Code의 활용법 비교와 더불어 실제 개발 경험을 바탕으로 한 팁을 제공합니다. |

@@ -1,5 +1,5 @@
 # 지식 베이스 홈
-> 마지막 갱신: 2026-04-08 13:31 | 전체 노트: 533개
+> 마지막 갱신: 2026-04-09 18:33 | 전체 노트: 546개
 
 ---
 
@@ -7,8 +7,8 @@
 
 | 카테고리 | 노트 수 | 인덱스 |
 |----------|---------|--------|
-| AI 코딩 | 204개 | [[AI_Coding/_INDEX]] |
-| AI 참고 | 189개 | [[AI_Ref/_INDEX]] |
+| AI 코딩 | 210개 | [[AI_Coding/_INDEX]] |
+| AI 참고 | 196개 | [[AI_Ref/_INDEX]] |
 | 일반 참고 | 67개 | [[General_Ref/_INDEX]] |
 | 비즈니스 | 38개 | [[Business/_INDEX]] |
 | 일상 | 24개 | [[Daily/_INDEX]] |
@@ -18,11 +18,11 @@
 
 ## 상위 토픽
 
-[[Topics/AI\|AI]] `169` | [[Topics/Claude-Code\|Claude-Code]] `155` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `104`  
-[[Topics/AI-코딩\|AI-코딩]] `103` | [[Topics/AI-에이전트\|AI-에이전트]] `74` | [[Topics/오픈소스\|오픈소스]] `62` | [[Topics/Claude\|Claude]] `48`  
+[[Topics/AI\|AI]] `174` | [[Topics/Claude-Code\|Claude-Code]] `159` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `107`  
+[[Topics/AI-코딩\|AI-코딩]] `104` | [[Topics/AI-에이전트\|AI-에이전트]] `75` | [[Topics/오픈소스\|오픈소스]] `65` | [[Topics/Claude\|Claude]] `48`  
 [[Topics/프롬프트\|프롬프트]] `43` | [[Topics/생산성\|생산성]] `41` | [[Topics/Codex\|Codex]] `38` | [[Topics/Anthropic\|Anthropic]] `33`  
 [[Topics/마케팅\|마케팅]] `28` | [[Topics/코딩\|코딩]] `28` | [[Topics/GitHub\|GitHub]] `25` | [[Topics/개발\|개발]] `24`  
-[[Topics/LLM\|LLM]] `22` | [[Topics/Cursor\|Cursor]] `18` | [[Topics/프로그래밍\|프로그래밍]] `16` | [[Topics/ChatGPT\|ChatGPT]] `15`  
+[[Topics/LLM\|LLM]] `22` | [[Topics/프로그래밍\|프로그래밍]] `19` | [[Topics/Cursor\|Cursor]] `18` | [[Topics/보안\|보안]] `16`  
 
 ---
 
@@ -30,16 +30,16 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
-| [[u260408_choi.openai_코딩-입문자는-Claude_48fd5c]] | `@choi.openai` · 26-04-08 | 코딩 입문자는 Claude Code과 Codex의 차이를 이해하고 효율적으로 사용할 수 있는 방법을 배워야 한다. Codex는 Gode와 비교해 높은 토큰 효율성을 자랑하며, 복잡… |
-| [[u260408_unclejobs.ai_OpenMontage는-A_f16541]] | `@unclejobs.ai` · 26-04-08 | OpenMontage는 AI가 비디오 제작 전체 과정을 관리하는 오픈소스 툴입니다. 영상 제작에 필요한 다양한 도구와 에이전트 스킬이 포함되어 있으며, 제작 전에 견적을 제시합니다… |
-| [[u260408_unclejobs.ai_Nous-Research가_c26200]] | `@unclejobs.ai` · 26-04-08 | Nous Research가 공개한 Hermes Agent v0.7.0 업데이트가 진행되었습니다. 새로운 플러그인 시스템, API 키 관리 기능, 스텔스 브라우저, 보안 강화와 같은… |
-| [[u260408_choi.openai_구글-크롬-팀의-Addy-_55e3b4]] | `@choi.openai` · 26-04-08 | 구글 크롬 팀의 Addy Osmani가 AI 코딩 에이전트를 위한 'Agent Skills'를 오픈소스로 공개했습니다. 이 스킬셋은 간단한 명령어로 전체 개발 프로세스를 자동화하여… |
-| [[u260408_denniswithseo_SEO를-개선하기-위한-다_4d8547]] | `@denniswithseo` · 26-04-08 | SEO를 개선하기 위한 다섯 가지 흔한 실수를 설명합니다. 구글에 사이트를 등록하지 않거나, 느린 웹사이트, 중복된 페이지 등 문제점과 이를 해결하는 방법을 제시합니다. 최적의 S… |
-| [[u260408_unclejobs.ai_Codex를-사용할-때-반_72692a]] | `@unclejobs.ai` · 26-04-08 | Codex를 사용할 때 반복적인 질문과 불필요한 물음이 잦아 스트레스를 받는 사용자들의 경험이 공유되고 있다. 이를 해결하기 위해 OmO와 OmX 같은 오픈소스를 활용하는 방법이 … |
-| [[u260408_unclejobs.ai_AGENTS.md는-다양한_6f43fc]] | `@unclejobs.ai` · 26-04-08 | AGENTS.md는 다양한 AI 코딩 에이전트를 위한 공통 설명서로, 프로젝트의 빌드 방법과 규칙을 포함하고 있습니다. 이 파일은 어떤 도구에서도 읽을 수 있는 형식으로 되어 있으… |
-| [[u260408_kyungju_benj_goal-driven-au_ececae]] | `@kyungju_benj` · 26-04-08 | goal-driven-autoresearch-loop 스킬을 사용해 거의 자동으로 온라인 테트리스를 구현했다. 서버부터 클라이언트까지 모두 완성하였고, 코드 수정과 테스트를 반복하… |
-| [[u260408_leadjaeil_linked_Easy-Apply-기능을_c64f15]] | `@leadjaeil_linkedin` · 26-04-08 | Easy Apply 기능을 활용해 외국계 기업에 지원하는 방법을 공유합니다. 영문 이력서 하나로 신속하게 지원할 수 있으며, 복잡한 국내 채용 절차에 지친 사람들에게 유용한 팁입니… |
-| [[u260408_yc_melan_Supabase의-RLS는_86ace0]] | `@yc_melan` · 26-04-08 | Supabase의 RLS는 백엔드 지식이 부족한 개발자에 의해 잘못 사용될 수 있는 보안 위험 요소이다. 보안 문제는 RLS 자체가 아닌 백엔드 무지가 주된 원인으로 지적된다. R… |
+| [[u260409_tuberithm_유튜브-영상-제작을-자동화_7a2261]] | `@tuberithm` · 26-04-09 | 유튜브 영상 제작을 자동화하는 AI 워크플로우 소개. 구글의 NotebookLM과 Grabbit을 활용해 경쟁 채널의 콘텐츠를 분석하고, 보다 향상된 대본과 영상을 제작. 이를 통… |
+| [[u260409_onainseng_클로드코드를-활용하여-회사_3a070b]] | `@onainseng` · 26-04-09 | 클로드코드를 활용하여 회사 근처에서 커피 주문을 자동화한 경험을 공유합니다. 이를 통해 귀찮은 대기 시간을 줄이고, 위치 기반 기술의 응용 가능성을 언급합니다. 또한 리뷰 기반의 … |
+| [[u260409_unclejobs.ai_Honcho는-AI-에이전_f78181]] | `@unclejobs.ai` · 26-04-09 | Honcho는 AI 에이전트의 메모리를 넘어 이해하는 시스템으로, 대화 후에도 데이터를 분석하고 패턴을 인식합니다. 이를 통해 사용자의 성향을 이해하고, 더 나은 적응형 응답을 제… |
+| [[u260409_ju_tiger_lee_claude-code를-활_e1604f]] | `@_ju_tiger_lee_` · 26-04-09 | claude code를 활용하여 코드의 품질과 보안을 검토하는 방법이 소개되었습니다. 두 가지 명령어 /simplify와 /security-review로 코드 리뷰 및 보안 검토를… |
+| [[u260409_feelfree_ai_로컬-환경에서-스마트폰을-_1f9fa5]] | `@feelfree_ai` · 26-04-09 | 로컬 환경에서 스마트폰을 제어하는 AI 에이전트 'PokeClaw'가 출시되었습니다. 클라우드 연결 없이 개인정보 유출 걱정 없이 사용할 수 있으며, 완전 무료와 오픈소스입니다. … |
+| [[u260409_unclejobs.ai_Claude-Code에-새_cadfc6]] | `@unclejobs.ai` · 26-04-09 | Claude Code에 새로운 /autofix-pr 커맨드가 추가되어 PR을 올린 후 CI 에러와 리뷰 코멘트를 자동으로 수정할 수 있게 되었습니다. 이 기능은 클라우드 환경에서 … |
+| [[u260409_ju_tiger_lee_개발-방식의-차이에-관계없_b798fa]] | `@_ju_tiger_lee_` · 26-04-09 | 개발 방식의 차이에 관계없이 요구사항의 품질이 결과에 미치는 영향이 크다. OMC의 세 가지 개발 방식에서 결과물이 90% 유사했지만, 요구사항이 명확하지 않으면 일관성이 떨어진다… |
+| [[u260409_coding_beaver_노션과-클로드-코드의-통합_758be4]] | `@coding_beaver` · 26-04-09 | 노션과 클로드 코드의 통합 시스템을 통해 콘텐츠 제작 시간을 90% 단축할 수 있는 방법을 소개합니다. 노션에 정보를 입력하면 클로드 코드가 이를 자동으로 7개 채널 포맷으로 변환… |
+| [[u260409_sinbum_ai_GitNexus는-코드베이_53ebd4]] | `@sinbum_ai` · 26-04-09 | GitNexus는 코드베이스의 의존성을 알고리즘으로 시각화해주는 오픈소스 툴이다. 이 도구는 브라우저에서 서버 없이 실행 가능하며, 로컬 환경에서 안전하게 사용할 수 있다. 대규모… |
+| [[u260409_sinbum_ai_GitHub에서-하루-스타_144b0b]] | `@sinbum_ai` · 26-04-09 | GitHub에서 하루 스타 2000개를 기록한 'superpowers'라는 프레임워크는 코딩 에이전트에게 스킬을 제공하는 시스템이다. 사용자 맞춤형 스킬셋을 만들 수 있으며, Sh… |
 
 ---
 
