@@ -1,5 +1,5 @@
 # RAG
-> 관련 노트: 10개 | 마지막 갱신: 2026-04-15 21:18
+> 관련 노트: 11개 | 마지막 갱신: 2026-04-22 22:52
 
 ## 개요
 
@@ -9,9 +9,9 @@
 
 - OpenRAG는 문서 파서, 벡터 검색 엔진, 워크플로 오케스트레이터, 프론트엔드를 통합한 오픈소스 RAG 플랫폼입니다. Docling을 사용하여 문서 구조를 보존하며 파싱하고, …
 - Claude Code를 활용한 코드 설계 팁으로, AI가 회사 문맥을 이해하도록 문서 구조를 만들고, 설계 스킬을 사전에 설정하는 방법을 소개한다. 회사 목표, 배경, 제약 조건 …
+- Google Research의 TurboQuant 알고리즘을 RAG에 적용한 'pyturboquant'가 출시되었습니다. 이 덕분에 기존 31GB의 인덱스 공간이 단 4GB로 줄어…
 - 구글이 텍스트, 이미지, 비디오, 오디오, 문서 등 다양한 데이터를 하나의 공간에서 처리하는 'Gemini Embedding 2'를 공개했습니다. 이는 네이티브 멀티모달 방식으로,…
 - LangGraph 에이전트 개발 시 루프 문제를 시각적으로 해결해주는 LangGraphics가 출시되었습니다. 복잡한 설정 없이 컴파일된 그래프를 watch()로 감싸면 에이전트 …
-- GitHub Trending 1위는 AI 에이전트 컨텍스트 DB인 volcengine/OpenViking입니다. 에이전트의 기억, 자료, 스킬을 파일 시스템처럼 관리하여 문맥 관리…
 
 ## Agent Insight
 > 추후 Phase 3-B에서 LLM으로 채워짐
@@ -20,10 +20,11 @@
 
 [[Concepts/AI|AI]] | [[Concepts/github.com|github.com]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/LangGraph|LangGraph]]
 
-## 출처 노트 (10개, 최근순)
+## 출처 노트 (11개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260422_feelfree_ai_Google-Researc_cf3a20]] | `@feelfree_ai` · 26-04-22 | Google Research의 TurboQuant 알고리즘을 RAG에 적용한 'pyturboquant'가 출시되었습니다. 이 덕분에 기존 31GB의 인덱스 공간이 단 4GB로 줄어들며, 실시간 인덱싱과 프라이버시 보호가 가능해졌습니다. LangChain은 이를 이미 지원 중이며, 효율적인 메모리 사용하는 RAG 구축에 필수적인 라이브러리로 평가됩니다. |
 | [[u260412_ai_crazyman_AI-agent와-RAG를_b6d543]] | `@ai_crazyman` · 26-04-12 | AI agent와 RAG를 활용하면서 발생할 수 있는 데이터 문제에 대한 고찰이 소개되었다. 데이터 포인트를 책갈피처럼 관리하여 효율적인 검색 구조를 활용하는 방법이 제안되었다. Vectorless라는 새로운 접근법으로 기존 RAG의 한계를 보완하는 아이디어가 논의되었다. |
 | [[u260407_choi.openai_안드레-카파시가-LLM을-_d47e84]] | `@choi.openai` · 26-04-07 | 안드레 카파시가 LLM을 활용하여 개인 지식 베이스를 구축하는 방법을 소개했습니다. 사용자가 제공한 원시 데이터로 LLM이 자동으로 위키를 생성하며, 문서를 요약하고 오류를 검증합니다. AI가 개인 지식 관리를 대신하게 되면서 새로운 시대가 도래하고 있습니다. |
 | [[u260330_lian.lab71_Claude-Code를-활_b2de2e]] | `@lian.lab71` · 26-03-30 | Claude Code를 활용한 코드 설계 팁으로, AI가 회사 문맥을 이해하도록 문서 구조를 만들고, 설계 스킬을 사전에 설정하는 방법을 소개한다. 회사 목표, 배경, 제약 조건 등을 담은 문서를 Claude가 먼저 읽게 하고, 리서치 쿼리 분석 및 문서 랭킹과 같은 스킬을 정의하여 AI가 설계 방향을 잘 잡도록 돕는다. RAG 방식을 응용하여 Claude Code의 자연어 처리 능력을 극대화하는 것이 핵심이다. |

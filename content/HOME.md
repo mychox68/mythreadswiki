@@ -1,5 +1,5 @@
 # 지식 베이스 홈
-> 마지막 갱신: 2026-04-15 21:18 | 전체 노트: 595개
+> 마지막 갱신: 2026-04-22 22:52 | 전체 노트: 653개
 
 ---
 
@@ -7,22 +7,22 @@
 
 | 카테고리 | 노트 수 | 인덱스 |
 |----------|---------|--------|
-| AI 코딩 | 229개 | [[AI_Coding/_INDEX]] |
-| AI 참고 | 222개 | [[AI_Ref/_INDEX]] |
-| 일반 참고 | 67개 | [[General_Ref/_INDEX]] |
-| 비즈니스 | 41개 | [[Business/_INDEX]] |
-| 일상 | 25개 | [[Daily/_INDEX]] |
+| AI 참고 | 253개 | [[AI_Ref/_INDEX]] |
+| AI 코딩 | 250개 | [[AI_Coding/_INDEX]] |
+| 일반 참고 | 68개 | [[General_Ref/_INDEX]] |
+| 비즈니스 | 43개 | [[Business/_INDEX]] |
+| 일상 | 28개 | [[Daily/_INDEX]] |
 | 분류 미정 | 11개 | [[Uncategorized/_INDEX]] |
 
 ---
 
 ## 상위 토픽
 
-[[Topics/AI\|AI]] `184` | [[Topics/Claude-Code\|Claude-Code]] `173` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `110`  
-[[Topics/AI-코딩\|AI-코딩]] `107` | [[Topics/AI-에이전트\|AI-에이전트]] `79` | [[Topics/오픈소스\|오픈소스]] `75` | [[Topics/Claude\|Claude]] `54`  
-[[Topics/프롬프트\|프롬프트]] `46` | [[Topics/Codex\|Codex]] `41` | [[Topics/생산성\|생산성]] `41` | [[Topics/Anthropic\|Anthropic]] `37`  
-[[Topics/코딩\|코딩]] `32` | [[Topics/마케팅\|마케팅]] `29` | [[Topics/GitHub\|GitHub]] `25` | [[Topics/개발\|개발]] `25`  
-[[Topics/프로그래밍\|프로그래밍]] `24` | [[Topics/LLM\|LLM]] `23` | [[Topics/Cursor\|Cursor]] `19` | [[Topics/보안\|보안]] `18`  
+[[Topics/AI\|AI]] `202` | [[Topics/Claude-Code\|Claude-Code]] `178` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `118`  
+[[Topics/AI-코딩\|AI-코딩]] `107` | [[Topics/AI-에이전트\|AI-에이전트]] `81` | [[Topics/오픈소스\|오픈소스]] `80` | [[Topics/Claude\|Claude]] `60`  
+[[Topics/프롬프트\|프롬프트]] `50` | [[Topics/Codex\|Codex]] `45` | [[Topics/생산성\|생산성]] `42` | [[Topics/Anthropic\|Anthropic]] `40`  
+[[Topics/코딩\|코딩]] `37` | [[Topics/마케팅\|마케팅]] `29` | [[Topics/프로그래밍\|프로그래밍]] `28` | [[Topics/개발\|개발]] `27`  
+[[Topics/GitHub\|GitHub]] `25` | [[Topics/LLM\|LLM]] `24` | [[Topics/보안\|보안]] `24` | [[Topics/Cursor\|Cursor]] `19`  
 
 ---
 
@@ -30,16 +30,16 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
-| [[u260415_unclejobs.ai_DESIGN.md는-AI-_015973]] | `@unclejobs.ai` · 26-04-15 | DESIGN.md는 AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공하며, 다양한 커뮤니티 디자인 시스템을 검색하고 설치할 수 있는 웹사이트입니다. 사용자는 실제 … |
-| [[u260415_choi.openai_Nous-Research가_0f72e0]] | `@choi.openai` · 26-04-15 | Nous Research가 Hermes Agent의 대규모 업데이트(v0.9.0)를 발표했습니다. 새로운 기능으로는 로컬 웹 대시보드 추가와 다양한 모바일 플랫폼의 네이티브 지원이… |
-| [[u260415_choi.openai_앤트로픽이-데스크톱용-Cl_f6b50d]] | `@choi.openai` · 26-04-15 | 앤트로픽이 데스크톱용 'Claude Code'를 개편하여 여러 클로드 세션을 동시에 사용할 수 있게 되었습니다. 새로운 기능으로 통합 터미널, 파일 편집, HTML과 PDF 미리보… |
-| [[u260415_choi.openai_앤트로픽이-Claude-C_a999ba]] | `@choi.openai` · 26-04-15 | 앤트로픽이 Claude Code에 '루틴' 기능을 추가하여 자동화를 지원합니다. 이를 통해 사용자는 지정된 시간이나 이벤트에 따라 클로드가 백그라운드에서 작업을 수행하도록 설정할 … |
-| [[u260415_dev_roach_log_Hermes에서-멀티-에이_590324]] | `@dev_roach_log` · 26-04-15 | Hermes에서 멀티 에이전트를 구축하는 방법을 카드뉴스 형식으로 설명합니다. 각 프로필은 독립적인 환경을 제공하여 완전히 격리된 에이전트를 운영할 수 있습니다. 설정은 간단하고,… |
-| [[u260415_unclejobs.ai_Microsoft의-오픈소_56519c]] | `@unclejobs.ai` · 26-04-15 | Microsoft의 오픈소스 프로젝트 MarkItDown은 문서를 Markdown으로 변환하며 LLM이 이해하기 쉬운 구조를 유지합니다. 이 도구는 여러 파일 포맷을 지원하고, L… |
-| [[u260415_jetson_jh_Hermes-에이전트를-사_d84bc5]] | `@jetson_jh` · 26-04-15 | Hermes 에이전트를 사용하는 사용자들이 OAuth 관련 질문을 하고 있습니다. Claude Code를 로컬 머신에서 ACP로 사용할 수 있는 방법에 대한 패치도 공유되었습니다.… |
-| [[u260415_builder__j_CloudFlare가-인수_05e714]] | `@builder__j` · 26-04-15 | CloudFlare가 인수한 Astro를 기반으로 PHP 없는 서버리스 오픈소스 CMS EmDash를 개발했습니다. WordPress의 구조적 문제를 해결하고, TypeScript… |
-| [[u260415_atelic.io_Claude-Code의-컨_6525b1]] | `@atelic.io` · 26-04-15 | Claude Code의 컨텍스트 사용률, 세션 비용 및 요금제 잔여량을 실시간으로 보여주는 상태바 플러그인을 소개합니다. 설치가 간단하고, 사용자 맞춤형 레이아웃 구성이 가능합니다… |
-| [[u260415_ai_ethan_sns_퍼플렉시티를-활용해-1인-_bde056]] | `@ai_ethan_sns` · 26-04-15 | 퍼플렉시티를 활용해 1인 창업자가 의사결정을 더 효율적으로 할 수 있는 방법을 공유합니다. 시장의 통점을 파악하고, 수익 모델을 설계하며, 바이럴 전략을 세우는 구체적인 프롬프트가… |
+| [[u260422_feelfree_ai_Google-Researc_cf3a20]] | `@feelfree_ai` · 26-04-22 | Google Research의 TurboQuant 알고리즘을 RAG에 적용한 'pyturboquant'가 출시되었습니다. 이 덕분에 기존 31GB의 인덱스 공간이 단 4GB로 줄어… |
+| [[u260422_choi.openai_구글이-크롬-브라우저에-A_fe11a3]] | `@choi.openai` · 26-04-22 | 구글이 크롬 브라우저에 AI 비서 기능인 'Gemini in Chrome'을 도입했습니다. 이 업데이트는 여러 탭에서 정보를 통합하고, 웹 페이지를 요약하며, 사용자가 필요로 하는… |
+| [[u260422_atelic.io_Claude-Code와-C_a24cb0]] | `@atelic.io` · 26-04-22 | Claude Code와 Codex를 최적화하기 위한 다양한 설정을 공유하고, 자동 삽입 텍스트, 토큰 비용 감소 방법 등을 설명한다. 특히, 환경 설정과 커넥터 사용의 효율성을 강… |
+| [[u260422_uppinote20_맥의-용량이-줄어들어-mo_c19b75]] | `@uppinote20` · 26-04-22 | 맥의 용량이 줄어들어 mole을 설치해 정리해보기로 했다. 여러 청소 작업 후 남은 용량이 58GB에서 196GB로 증가했다. 앞으로 매달 mole로 정리하는 것이 필요할 것 같다… |
+| [[u260422_daon_k_일본에서는-다양한-디자인-_ef85b6]] | `@daon_k` · 26-04-22 | 일본에서는 다양한 디자인 시스템을 정리한 오픈소스 프로젝트가 있지만, 한국에는 비슷한 것이 없어서 아쉬웠다. 그래서 OMD라는 이름으로 국내 디자인 레퍼런스를 추가했다. 다음 포스… |
+| [[u260422_jwon.ig_클로드-코드-프로젝트-템플_7cffc0]] | `@jwon.ig` · 26-04-22 | 클로드 코드 프로젝트 템플릿이 유출되었고, 사용자들이 이를 분석하여 정리했다. 이 템플릿은 AI를 단순한 도구가 아닌 인프라로 활용할 수 있게 해준다. 반복 작업이나 실수를 학습하… |
+| [[u260422_feelfree_ai_Neurons라는-오픈소스_b1a8c4]] | `@feelfree_ai` · 26-04-22 | Neurons라는 오픈소스 프로젝트가 로컬 LLM 추론 엔진을 C++로 직접 구현했습니다. 이 프로젝트는 트랜스포머 아키텍처와 KV 캐시, Apple Metal GPU 최적화가 포… |
+| [[u260422_unclejobs.ai_클로드가-업데이트되어-코워_02ec80]] | `@unclejobs.ai` · 26-04-22 | 클로드가 업데이트되어 코워크에 라이브 아티팩트 기능이 추가되었습니다. 이를 통해 구글 드라이브와 지메일 등의 실시간 분석 및 대시보드 생성을 지원합니다. 새로운 기능이 많은 사용자… |
+| [[u260422_ody_daddy_에르메스가-설치된-미니PC_cbe4fb]] | `@ody_daddy` · 26-04-22 | 에르메스가 설치된 미니PC에서 디스크 공간 부족 문제를 경험했다. 문제의 원인을 파악하면서 에르메스와 PaperClip이 많은 공간을 차지하고 있다는 사실을 알게 되었다. 다른 사… |
+| [[u260422_choi.openai_AI의-video-use-_447702]] | `@choi.openai` · 26-04-22 | AI의 'video-use' 팀이 영상 편집을 전자동화하는 오픈소스를 공개했습니다. 사용자는 원본 영상 파일을 폴더에 넣고 음성을 텍스트로 변환한 후, AI에게 편집을 지시할 수 … |
 
 ---
 

@@ -1,8 +1,9 @@
 # Skills
-> 노트 7개 | 마지막 갱신: 2026-04-15 21:18
+> 노트 8개 | 마지막 갱신: 2026-04-22 22:52
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260422_masterkeyai_구글이-크롬-브라우저에-S_4824a0]] | `@masterkeyai` · 26-04-22 | 구글이 크롬 브라우저에 'Skills' 기능을 추가했습니다. 이 기능은 AI 프롬프트를 저장하고 간편하게 재실행할 수 있도록 해 줍니다. 사용자는 프롬프트를 그룹화하고 관리하며, 무료로 사용할 수 있는 장점이 있습니다. |
 | [[u260330_daon_k_Claude-Code의-O_cdd445]] | `@daon_k` · 26-03-30 | Claude Code의 Opus 4.6과 Remotion 조합으로 영상 제작 퀄리티가 향상되었다. 자연어 묘사로 React 코드를 생성하고 Remotion을 통해 MP4로 렌더링하는 방식이다. 특히 반복되는 구조의 영상 제작에 강점을 보이며, Skills 기능 확장으로 3D, 자막 등 다양한 요소들을 다룰 수 있다. |
 | [[u260327_aisolutiondev_Claude-Code-Sk_410d93]] | `@aisolutiondev` · 26-03-27 | Claude Code Skills가 대폭 증가(+598%)하여 실무 직결 스킬이 추가되었다. awesome-claude-skills, alirezarezvani/claude-skills 레포가 생태계를 주도하고 있으며, `npx skills add` 명령어로 간단하게 설치할 수 있다. |
 | [[u260327_choi.openai_앤트로픽-해커톤-우승자의-_9b3f38]] | `@choi.openai` · 26-03-27 | 앤트로픽 해커톤 우승자의 Claude Code 실전 설정 가이드가 공개되었습니다. Skills, Hooks, MCP 조합으로 생산성을 극대화하는 엔지니어링을 다루며, 65,000개 이상의 Claude Code 스킬을 정리한 Skils 사이트도 소개합니다. AI 활용이 직무 평가에 중요해지는 시대에 Skills 이해를 돕는 가이드북을 Manus를 통해 제작하여 공유합니다. |
