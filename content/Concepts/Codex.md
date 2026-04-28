@@ -1,9 +1,9 @@
 # Codex
-> 관련 노트: 45개 | 마지막 갱신: 2026-04-22 22:52
+> 관련 노트: 49개 | 마지막 갱신: 2026-04-28 09:01
 
 ## 개요
 
-주요 키워드: **Codex** · **Claude** · **AI** · **코드** · **코딩** · **Code** · **Codex를** · **다양한**
+주요 키워드: **Codex** · **Claude** · **AI** · **Codex를** · **코드** · **코딩** · **다양한** · **Code**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,16 @@
 
 ## 관련 개념
 
-[[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/github.com|github.com]] | [[Concepts/AI-에이전트|AI 에이전트]] | [[Concepts/AI|AI]]
+[[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/github.com|github.com]] | [[Concepts/AI|AI]] | [[Concepts/AI-에이전트|AI 에이전트]]
 
 ## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260428_leesangin_n_Codex-Harness는_204d5e]] | `@leesangin_n` · 26-04-28 | Codex Harness는 Codex를 장기 프로젝트에서 안정적으로 사용하기 위한 운영 템플릿입니다. 이 시스템은 계획, 검증, 리뷰, 기록 과정을 통해 Codex의 작업 방식을 개선합니다. v2와 v3 strict pack 두 가지 버전으로 나뉘어 제공됩니다. |
+| [[u260428_ai_developer_gen_Codex-sangpye-_d8946e]] | `@ai_developer_genie` · 26-04-28 | Codex-sangpye-skill을 이용해 제품 상세 페이지 이미지를 자동으로 생성하는 스킬을 개발했습니다. Codex OAuth를 사용하여 OpenAI API 키 없이도 ChatGPT 세션을 활용할 수 있습니다. 이 기법을 통해 수동 제작의 번거로움을 줄일 수 있습니다. |
+| [[u260428_lucas_flatwhite_GPT-Images-v2의_c4b738]] | `@lucas_flatwhite` · 26-04-28 | GPT Images v2의 출시로 새로운 프론트엔드 개발 워크플로우가 소개된다. 이미지를 먼저 생성하고 Codex가 이를 분석하여 웹사이트를 구현하는 방식이다. 다양한 AI 에이전트에서 작동하며, 디자인 품질이 중요한 프로젝트에 유용하다. |
+| [[u260428_roach_log_Hermes에서-Codex_0bbd15]] | `@roach_log` · 26-04-28 | Hermes에서 Codex를 이용한 이미지 생성 방법이 소개되었습니다. 간단한 커맨드 입력으로 설정을 마칠 수 있습니다. 이를 통해 코딩과 이미지 생성을 동시에 활용할 수 있어 워크플로우가 개선될 것입니다. |
 | [[u260422_atelic.io_Claude-Code와-C_a24cb0]] | `@atelic.io` · 26-04-22 | Claude Code와 Codex를 최적화하기 위한 다양한 설정을 공유하고, 자동 삽입 텍스트, 토큰 비용 감소 방법 등을 설명한다. 특히, 환경 설정과 커넥터 사용의 효율성을 강조하고 있다. 이러한 조정을 통해 프로젝트 성능을 향상시키고 비용 관리에 유리한 전략을 제시한다. |
 | [[u260422_choi.openai_오픈AI의-Codex가-C_a69e72]] | `@choi.openai` · 26-04-22 | 오픈AI의 Codex가 'Chronicle' 기능을 도입하여 작업 화면을 분석하고 기억합니다. 이 기능은 개발자가 과거 작업을 쉽게 이어갈 수 있도록 돕습니다. 이제 맥락 단절 문제를 해결하여 작업 효율성이 높아질 것으로 기대됩니다. |
 | [[u260422_choi.openai_개발자-Nicolas-Zu_7f7448]] | `@choi.openai` · 26-04-22 | 개발자 Nicolas Zullo가 AI로 만든 좀비 게임 'Codex'가 실시간으로 수정되는 모습이 화제를 모았습니다. 사용자는 별도의 새로고침 없이 UI 요소를 클릭하여 게임 내용을 즉시 수정할 수 있습니다. 오픈AI의 그렉 브록만은 이 프로젝트를 통해 dAI의 가능성을 재조명했습니다. |
@@ -50,7 +54,3 @@
 | [[u260327_jkey_emma.zip_Codex를-사용하여-회원_e89e78]] | `@jkey_emma.zip` · 26-03-27 | Codex를 사용하여 회원가입/로그인 페이지 디자인을 구현한 후기 공유. Codex는 기본적인 디자인을 잘 생성하며, 특히 영어로 PRD 문서를 작성하고 큰 가이드를 제시하면 컨셉에 맞는 결과물을 얻을 수 있음. Codex는 코딩 능력은 뛰어나지만 기획력이 부족하며, Claude는 기획 능력이 뛰어나 Codex와 상호 보완적인 관계임. |
 | [[u260327_jwonii42_AI-코딩-툴은-강력하지만_eac54e]] | `@jwonii42` · 26-03-27 | AI 코딩 툴은 강력하지만 UX/가시성이 부족하여 OptimalVelocity를 개발함. OptimalVelocity는 AI 코딩 워크플로우를 시각적으로 관리하고 제어하는 GUI 도구임. 세션 분석, 에이전트 관리, 스킬 통계, 플러그인 영향 예측, LLM 변환 등의 기능을 제공하여 AI 코딩 초보자의 진입 장벽을 낮추는 것을 목표로 함. |
 | [[u260327_keke_appa_개발-편의성을-높이는-옥토_825f7b]] | `@keke_appa` · 26-03-27 | 개발 편의성을 높이는 '옥토터미널' 0.1.23 버전이 출시되었습니다.  기존 개발툴의 스킬/MCP 추가 어려움을 해소하고, 클릭 한 번으로 주요 스킬 추가 및 Codex/Claude 연동을 지원합니다. 맥 인증서 추가되었으며, 한국 개발자들을 위해 무료로 배포됩니다. |
-| [[u260327_kjconsulting_tea_OpenAI가-Codex-_08f7e2]] | `@kjconsulting_team` · 26-03-27 | OpenAI가 Codex 에이전트용 Skills Catalog를 GitHub에 공개했습니다. 이는 코딩 에이전트가 재사용 가능한 검증된 스킬들을 모아둔 오픈소스 저장소입니다. AI 에이전트의 '스킬 생태계' 표준화를 향한 OpenAI의 첫 공식 움직임으로 보입니다. |
-| [[u260327_lian.lab71_KAIST-출신-스타트업-_1b3e2d]] | `@lian.lab71` · 26-03-27 | KAIST 출신 스타트업 개발자가 Claude Code를 사용하는 실전 스킬 조합을 소개합니다. Andrej Karpathy Skills, Ralph Wiggum Loop 등 유용한 스킬과 Frontend 작업 팁, 모델 간 토론 방법 등을 공유합니다. Codex와 Claude Code의 활용법 비교와 더불어 실제 개발 경험을 바탕으로 한 팁을 제공합니다. |
-| [[u260327_october.ai_GPT-5.4-Codex-_4982e9]] | `@october.ai` · 26-03-27 | GPT-5.4 Codex 사용자를 위한 context window 설정 정보 공유. 기본 설정은 258k이지만, 실제 1M까지 사용 가능. 단, 1M 사용 시 토큰 소모량이 증가할 수 있으며, 일부 사용자는 체감 정확도 하락을 경험. |
-| [[u260327_softdaddy_o_AI-에이전트들이-채팅방에_c45be9]] | `@softdaddy_o` · 26-03-27 | AI 에이전트들이 채팅방에서 서로 대화하며 협업하는 프로젝트가 r/vibecoding에서 화제다. Claude Code, Codex, Gemini CLI를 채팅방에 넣어 @멘션으로 소통하며 컨텍스트 복붙 없이 협업 효율을 높인다. MCP 서버 기반이며 오픈소스로 공개되어 누구나 사용 가능하다. |

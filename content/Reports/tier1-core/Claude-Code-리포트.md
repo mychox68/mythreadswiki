@@ -2,53 +2,53 @@
 report_id: claude-code
 topic: Claude Code
 tier: tier1-core
-note_count: 146
-last_updated: "2026-04-22 22:54"
+note_count: 149
+last_updated: "2026-04-28 08:57"
 description: "Claude Code CLI·데스크톱앱·멀티세션·hooks·skills 전반 동향"
 ---
 
 # Claude Code 트렌드 리포트
 
-> 노트 146개 기반 | 마지막 갱신: 2026-04-22 22:54
+> 노트 149개 기반 | 마지막 갱신: 2026-04-28 08:57
 
-# Claude Code 동향 리포트
+# Claude Code 리포트
 
 ## 개요
-Claude Code는 최신 AI 코딩 도구로, 개발자들이 효율적으로 코드를 작성하고 관리할 수 있도록 돕는 다양한 기능을 제공합니다. 이 도구는 멀티세션, 자동화, 통합 터미널 등 여러 혁신적인 기능을 통해 개발 환경을 개선하고 있습니다.
+Claude Code는 최신 AI 기술을 활용하여 코드 작성 및 관리의 효율성을 높이는 도구입니다. 특히, 자동화 기능과 멀티세션 지원을 통해 개발자들이 복잡한 작업을 보다 간편하게 수행할 수 있도록 돕고 있습니다.
 
 ## 핵심 내용
-
 | 기능/개념         | 설명                                                         |
-|------------------|------------------------------------------------------------|
-| **claude-mem**   | 코딩 세션의 모든 활동을 자동으로 저장하고 장기 기억으로 관리 |
-| **토큰 최적화**  | 불필요한 문장을 제거하여 응답 속도 및 토큰 사용량 감소    |
-| **멀티세션**     | 여러 클로드 세션을 동시에 실행 가능                         |
-| **자동화 기능**  | 루틴 기능을 통해 지정된 시간이나 이벤트에 따라 작업 수행  |
-| **통합 터미널**  | 코드 작성 및 프로그램 실행을 위한 통합 환경 제공          |
-| **상태바 플러그인** | 실시간으로 컨텍스트 사용률 및 세션 비용 표시               |
-| **Playground 플러그인** | 대화형 HTML 생성 및 다양한 시각화 제공                  |
+|-------------------|--------------------------------------------------------------|
+| `/ultrareview`    | 다수의 버그 탐지 에이전트를 클라우드에서 동시에 실행하여 코드 리뷰를 자동화. |
+| CLAUDE.md 파일    | LLM 코딩 실수를 개선하기 위한 원칙을 정리한 파일.            |
+| 세션 관리 기능    | Session recap, 세션 이름 붙이기, AI 자동 제목 생성 등 다양한 기능 추가. |
+| 'claude-mem'      | 코딩 세션의 모든 활동을 자동으로 저장하고 장기 기억으로 관리. |
+| 통합 터미널       | 여러 클로드 세션을 동시에 사용할 수 있는 기능.               |
+| 자동화 루틴       | 지정된 시간이나 이벤트에 따라 클로드가 작업을 수행하도록 설정. |
+| Playground 플러그인| 다양한 시각화를 제공하며, 대화형 HTML 생성 가능.            |
 
 ## 최신 동향
-
-- **2026-04-22**: Claude Code와 Codex 최적화 설정 공유 및 자동 삽입 텍스트, 토큰 비용 감소 방법 설명 ([원문](https://www.threads.com/@atelic.io/post/DXVW2t8j31V))
-- **2026-04-22**: 'claude-mem' 기능 업데이트, 코딩 세션 자동 저장 ([원문](https://www.threads.com/@kjconsulting_team/post/DXKrKCTE5Kk))
-- **2026-04-15**: 여러 클로드 세션을 동시에 사용할 수 있는 데스크톱 개편 및 통합 터미널 추가 ([원문](https://www.threads.com/@choi.openai/post/DXIdP4yj3gb))
-- **2026-04-15**: 루틴 기능 추가로 자동화 지원 ([원문](https://www.threads.com/@choi.openai/post/DXHpbxVjyBE))
-- **2026-04-03**: Codex를 사용할 수 있는 플러그인 공개 ([원문](https://www.threads.com/@choi.openai/post/DWhpzLCFMXS))
+- **2026-04-28**: 앤트로픽이 Claude Code에 `/ultrareview` 기능을 추가하여 코드 리뷰 자동화 강조. Pro 및 Max 구독자에게 무료 제공.
+- **2026-04-28**: CLAUDE.md 파일이 LLM 코딩 실수 개선을 위한 원칙을 정리.
+- **2026-04-22**: 세션 관리 기능 개선, 사용자에게 자동 요약 제공.
+- **2026-04-15**: 데스크톱용 Claude Code 개편, 통합 터미널 및 파일 편집 기능 추가.
+- **2026-04-12**: 쇼피파이가 Claude Code와 Cursor를 연동한 'Shopify AI Toolkit' 공개.
 
 ## 주요 인사이트
-- 사용자들은 Claude Code의 멀티세션 기능과 통합 터미널을 통해 작업 효율성을 크게 향상시킬 수 있다고 언급하고 있습니다.
-- 자동화 기능을 통해 코드 리뷰 및 버그 수정이 자동으로 진행되어 개발자들의 부담을 줄여줍니다.
-- 다양한 설정과 팁을 공유하는 커뮤니티가 활성화되어 있어, 사용자들은 서로의 경험을 통해 더 나은 활용법을 배우고 있습니다.
+- 사용자들은 Claude Code의 자동화 기능과 멀티세션 지원에 대해 긍정적인 반응을 보이고 있으며, 효율적인 코드 리뷰 및 버그 수정에 대한 기대감을 나타내고 있습니다.
+- CLAUDE.md 파일을 통해 AI의 행동 규칙을 명시적으로 지정함으로써 일관된 결과를 이끌어낼 수 있다는 의견이 주목받고 있습니다.
+- 다양한 설정을 통해 프로젝트 성능을 향상시키고 비용 관리에 유리한 전략이 공유되고 있습니다.
 
 ## 관련 도구/링크
-- [Claude Code GitHub](https://github.com/claudeai/claude-code-best-practice)
-- [Claude Code 공식 문서](https://www.threads.com/@claudeai/post/DXH3h6aEb4w)
+- [GitHub - claude-code-best-practice](https://www.threads.com/@choi.openai/post/DXEB5v5ASo0)
+- [Claude Code 공식 문서](https://www.threads.com/@choi.openai/post/DXHpbxVjyBE)
 
 ## 출처 노트 목록
-
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260428_choi.openai_앤트로픽이-Claude-C_310353.md` | @choi.openai | 2026-04-28 | Claude Code, 코드 리뷰, 자동화, 버그 탐지 |
+| `u260428_sinbum_ai_CLAUDE.md-파일이-_d32ee3.md` | @sinbum_ai | 2026-04-28 | LLM, Claude Code, Cursor, 프롬프트 |
+| `u260428_unclejobs.ai_Claude-Code의-최_45eb6a.md` | @unclejobs.ai | 2026-04-28 | Claude Code, 세션 관리, 업데이트, AI 기능 |
 | `u260422_atelic.io_Claude-Code와-C_a24cb0.md` | @atelic.io | 2026-04-22 | Claude Code, Codex, 프로그래밍, 토큰 최적화 |
 | `u260422_kjconsulting_tea_Claude-Code의-새_bf60c8.md` | @kjconsulting_team | 2026-04-22 | Claude Code, AI 도구, 코딩, 효율성 |
 | `u260422_ai.guru.kim_코덱스는-불필요한-문장을-_95b35e.md` | @ai.guru.kim | 2026-04-22 | 코덱스, 불필요한 문장, 출력 토큰, 응답 속도 |
@@ -76,6 +76,3 @@ Claude Code는 최신 AI 코딩 도구로, 개발자들이 효율적으로 코�
 | `u260407_unclejobs.ai_Santiago-Ferre_9f026b.md` | @unclejobs.ai | 2026-04-07 | Claude Code, 구직, AI, 자동화 |
 | `u260407_lian.lab71_유출된-claude-cod_a59ca4.md` | @lian.lab71 | 2026-04-07 | claude code, 시각화, 프롬프트, AI 분석 |
 | `u260403_and__yc_Claude-Code의-숨_4dc50d.md` | @and__yc | 2026-04-03 | Claude Code, 코드 작성, 자동화, 세션 관리 |
-| `u260403_choi.openai_앤트로픽이-Claude-C_ae722e.md` | @choi.openai | 2026-04-03 | Claude Code, 프로그래밍, 자동화, 소프트웨어 개발 |
-| `u260403_choi.openai_오픈AI가-앤트로픽의-Cl_491b56.md` | @choi.openai | 2026-04-03 | AI, Codex, Claude Code, 프로그래밍 |
-| `u260403_boris_cherny_Claude-Code의-숨_a59786.md` | @boris_cherny | 2026-04-03 | Claude Code, 자동화, 모바일 개발, 프로그래밍 팁 |

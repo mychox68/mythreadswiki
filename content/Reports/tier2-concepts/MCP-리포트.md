@@ -2,47 +2,46 @@
 report_id: mcp
 topic: MCP
 tier: tier2-concepts
-note_count: 21
-last_updated: "2026-04-15 23:03"
+note_count: 22
+last_updated: "2026-04-28 09:06"
 description: "MCP 서버·연동 패턴·생태계"
 ---
 
 # MCP 트렌드 리포트
 
-> 노트 21개 기반 | 마지막 갱신: 2026-04-15 23:03
+> 노트 22개 기반 | 마지막 갱신: 2026-04-28 09:06
 
 # MCP 리포트
 
 ## 개요
-MCP(Multi-Channel Protocol)는 다양한 서버와 연동하여 데이터 및 작업을 효율적으로 처리하는 기술로, 최근 AI 및 자동화 분야에서 그 중요성이 더욱 부각되고 있습니다. 이 기술은 개발자들이 복잡한 작업을 간소화하고, 사용자 경험을 향상시키는 데 기여하고 있습니다.
+MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하여 사용자 경험을 향상시키는 중요한 기술입니다. 특히, 200개 이상의 MCP 서버를 지원함으로써 다양한 서비스와의 연결을 간소화하고, AI 에이전트의 활용도를 높이는 데 기여하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념          | 설명                                                                 |
-|-------------------|----------------------------------------------------------------------|
-| MCP 서버           | 다양한 서버와 연동하여 작업을 수행하는 플랫폼                       |
-| 프로그래매틱 SEO   | 자동화된 검색 엔진 최적화 기법                                      |
-| Memory 서버       | 사용자 경험을 향상시키는 서버                                       |
-| Docker MCP        | 에이전트 컨텍스트를 효율적으로 관리하는 도구                         |
-| 자동화 도구       | iOS 앱스토어 제출 자동화, 브라우저 자동화 등 다양한 자동화 기능 제공 |
+| 기능/개념 | 설명 |
+|------------|------|
+| **MCP 서버** | AI 에이전트와 외부 시스템 간의 통합을 지원하는 서버. |
+| **통합 표준화** | 다양한 서비스와의 연결을 표준화하여 사용자 경험을 향상. |
+| **200개 이상 지원** | 200개 이상의 MCP 서버를 통해 다양한 기능 제공. |
+| **자동화 도구** | Claude Code를 활용한 자동화 툴 및 워크플로우 구축 가능. |
+| **커뮤니케이션 채널** | Telegram, Discord 등 다양한 채널에서의 제어 가능. |
 
 ## 최신 동향
-- **2026-04-03**: Greg Isenberg이 바이브 마케팅의 중요성을 강조하며 MCP 서버와 프로그래매틱 SEO를 활용한 유통 전략을 제시했습니다. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DWi1GYPCfUs)
-- **2026-03-30**: Claude Code 사용자에게 필수적인 MCP 서버 7가지가 소개되었습니다. [🔗 원문](https://www.threads.com/@vibe.code.kr/post/DWa4eECFDyU)
-- **2026-03-27**: 여러 MCP 서버와 관련된 다양한 기능 및 자동화 도구가 소개되었습니다. [🔗 원문](https://www.threads.com/@keke_appa/post/DWaf_sFEnme)
+- **2026-04-28**: Anthropic이 MCP를 공개하여 AI 에이전트의 외부 시스템 통합을 표준화함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
+- **2026-04-03**: Greg Isenberg이 MCP 서버와 관련된 바이브 마케팅 전략을 논의함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DWi1GYPCfUs)
+- **2026-03-27**: 여러 MCP 서버 및 도구에 대한 정보가 공유됨, 예를 들어, Docker MCP를 통한 에이전트 컨텍스트 관리 방법 등이 소개됨. [🔗 원문](https://www.threads.com/@leehc_09/post/DUzpm3wkSDG)
 
 ## 주요 인사이트
-- **바이브 마케팅**: 유통 전략이 코드보다 더 중요해지고 있다는 의견이 커뮤니티에서 화제가 되고 있습니다.
-- **자동화 개발 팁**: MCP 서버를 활용한 자동화 개발의 중요성과 테스트 강제화에 대한 논의가 활발합니다.
-- **AI 에이전트 협업**: AI 에이전트들이 채팅방에서 협업하는 프로젝트가 주목받고 있으며, 이는 MCP 서버 기반으로 이루어집니다.
+- **자동화 개발 팁**: 클로드 코드를 활용한 자동화 개발 시, MCP 서버 구축 및 CDP 웹소켓 활용이 중요하다는 의견이 제시됨. [🔗 원문](https://www.threads.com/@keke_appa/post/DWaf_sFEnme)
+- **생산성 향상**: Claude Code의 다양한 MCP를 활용하여 생산성을 높일 수 있는 방법이 공유됨. [🔗 원문](https://www.threads.com/@freainer/post/DUALirekrKe)
 
 ## 관련 도구/링크
-- [Claude Code](https://www.threads.com/@keke_appa/post/DWaf_sFEnme)
-- [Playwright](https://www.threads.com/@openclaw_ko/post/DVlzudPkWOw)
-- [Figma](https://www.threads.com/@homebodify/post/DU-6p3miE5u)
+- [Claude Code GitHub](https://github.com/ClaudeCode)
+- [MCP 공식 문서](https://www.mcp-docs.com)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260428_unclejobs.ai_Anthropic이-MCP_846d22.md` | @unclejobs.ai | 2026-04-28 | AI, MCP, 통합, Anthropic |
 | `u260403_unclejobs.ai_Greg-Isenberg이_1b4ea4.md` | @unclejobs.ai | 2026-04-03 | 바이브 마케팅, 유통 전략, 고객 확보, MCP 서버 |
 | `u260330_vibe.code.kr_Claude-Code-사용_43c296.md` | @vibe.code.kr | 2026-03-30 | Claude Code, MCP 서버, Filesystem, GitHub |
 | `u260330_keke_appa_클로드-코드를-활용한-바이_781e34.md` | @keke_appa | 2026-03-30 | 클로드코드, 바이브코딩, 자동화, MCP 서버 |

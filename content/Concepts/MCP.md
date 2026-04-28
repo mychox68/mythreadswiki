@@ -1,5 +1,5 @@
 # MCP
-> 관련 노트: 14개 | 마지막 갱신: 2026-04-22 22:52
+> 관련 노트: 15개 | 마지막 갱신: 2026-04-28 09:01
 
 ## 개요
 
@@ -18,12 +18,13 @@
 
 ## 관련 개념
 
-[[Concepts/Claude-Code|Claude Code]] | [[Concepts/github.com|github.com]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude|Claude]] | [[Concepts/Anthropic|Anthropic]]
+[[Concepts/Claude-Code|Claude Code]] | [[Concepts/github.com|github.com]] | [[Concepts/Anthropic|Anthropic]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude|Claude]]
 
-## 출처 노트 (14개, 최근순)
+## 출처 노트 (15개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260428_unclejobs.ai_Anthropic이-MCP_846d22]] | `@unclejobs.ai` · 26-04-28 | Anthropic이 MCP(Model Context Protocol)를 공개하며 AI 에이전트의 외부 시스템 통합을 표준화했습니다. MCP는 에이전트와 서비스 간의 연결을 단순화하고, 200개 이상의 MCP 서버를 지원합니다. 제시된 설계 원칙을 통해 엔드 유저 경험도 향상될 것으로 기대됩니다. |
 | [[u260327_ai___touch_Claude-Code-사용_809c44]] | `@ai___touch` · 26-03-27 | Claude Code 사용 중 Codex, Gemini와 함께 사용하고 싶다는 아이디어에서 MCP를 직접 구현했습니다. MCP를 통해 모델 간 토론이 가능하며, 백그라운드 작업 ID 관리를 통해 비동기 요청 문제를 해결했습니다. Oh-my-claudecode를 참고하여 MCP를 개발하고 실전적인 접근 방식을 적용했습니다. |
 | [[u260327_boris_cherny_Anthropic에서-Cl_971306]] | `@boris_cherny` · 26-03-27 | Anthropic에서 Claude Code를 Telegram과 Discord에서 제어할 수 있는 Channels 기능을 연구 프리뷰로 공개했습니다. 이를 통해 휴대폰에서 직접 Claude Code 세션을 제어하고, 작업을 비동기적으로 핸드오프하고 확인할 수 있습니다.  MCP 확장점을 통해 다양한 커뮤니케이션 채널로 확대될 예정이며, 코딩 워크플로우를 혁신할 것으로 기대됩니다. |
 | [[u260327_devdesign.kr_Claude-Code-사용_d51ad9]] | `@devdesign.kr` · 26-03-27 | Claude Code 사용 시 Obsidian과 연동하는 방법을 소개합니다. MCP를 사용하는 대신, Obsidian 설정을 통해 Claude Code가 로컬 마크다운 파일에 직접 접근하도록 하여 토큰 낭비를 줄일 수 있습니다. 옵시디언 볼트 경로를 Claude 설정에 추가하고, 볼트 구조를 Claude Code에 알려주면 효율적인 노트 관리가 가능합니다. |
