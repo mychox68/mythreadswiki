@@ -1,9 +1,9 @@
 # Supabase
-> 관련 노트: 13개 | 마지막 갱신: 2026-04-28 09:01
+> 관련 노트: 14개 | 마지막 갱신: 2026-05-05 20:00
 
 ## 개요
 
-주요 키워드: **보안** · **Supabase** · **활용하여** · **RLS** · **무료** · **소개합니다** · **바이브** · **백엔드**
+주요 키워드: **보안** · **Supabase** · **활용하여** · **RLS** · **무료** · **Vercel** · **소개합니다** · **바이브**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,13 @@
 
 ## 관련 개념
 
-[[Concepts/Vercel|Vercel]] | [[Concepts/보안|보안]] | [[Concepts/RLS|RLS]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/자동화|자동화]]
+[[Concepts/Vercel|Vercel]] | [[Concepts/보안|보안]] | [[Concepts/AI|AI]] | [[Concepts/RLS|RLS]] | [[Concepts/Claude-Code|Claude Code]]
 
-## 출처 노트 (13개, 최근순)
+## 출처 노트 (14개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260505_motionsense_ceo_Supabase와-Verc_82b4a9]] | `@motionsense_ceo` · 26-05-05 | Supabase와 Vercel 배포 시 지역 설정이 중요하다. 한국 서버가 아니면 웹페이지 로딩 속도가 느려질 수 있다. AI의 정확성을 100% 믿지 말아야 한다. |
 | [[u260422_siya_dl_Supabase와-Verc_bb4d5d]] | `@siya_dl` · 26-04-22 | Supabase와 Vercel을 사용할 때 비용 문제를 해결하기 위해 Neon과 Cloudflare를 고려할 것을 추천합니다. 인증 및 결제를 위한 다양한 도구와 방법도 제시되며, 개발자에게는 사용이 간편한 옵션들이 강조됩니다. 국내 서비스 결제는 토스페이먼츠가 더 적합하다는 의견도 있습니다. |
 | [[u260408_yc_melan_Supabase의-RLS는_86ace0]] | `@yc_melan` · 26-04-08 | Supabase의 RLS는 백엔드 지식이 부족한 개발자에 의해 잘못 사용될 수 있는 보안 위험 요소이다. 보안 문제는 RLS 자체가 아닌 백엔드 무지가 주된 원인으로 지적된다. RLS는 deny-by-default 구조로, 적절히 설정하면 오히려 더 안전한 보안 체계를 제공할 수 있다. |
 | [[u260407_sapsaldog_Supabase를-이용하여_90cadc]] | `@sapsaldog` · 26-04-07 | Supabase를 이용하여 네이버 로그인을 간편하게 구현할 수 있는 방법을 소개합니다. OIDC 표준을 따르지 않는 네이버 API를 변환하는 커스텀 프로바이더와 엣지 기능을 활용하여 로그인 처리 속도를 개선하였습니다. 오픈소스로 자료를 제공하니 많은 활용 바랍니다. |

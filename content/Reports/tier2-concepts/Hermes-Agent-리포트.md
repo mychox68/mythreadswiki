@@ -2,48 +2,49 @@
 report_id: hermes
 topic: Hermes Agent
 tier: tier2-concepts
-note_count: 11
-last_updated: "2026-04-28 09:00"
+note_count: 12
+last_updated: "2026-05-05 20:08"
 description: "Hermes Agent 버전업·멀티에이전트 운영"
 ---
 
 # Hermes Agent 트렌드 리포트
 
-> 노트 11개 기반 | 마지막 갱신: 2026-04-28 09:00
+> 노트 12개 기반 | 마지막 갱신: 2026-05-05 20:08
 
 # Hermes Agent 리포트
 
 ## 개요
-Hermes Agent는 AI 에이전트 프레임워크로, 사용자와 함께 진화하며 다양한 기능을 제공합니다. 최근 업데이트와 멀티 에이전트 운영 기능의 추가로 인해, 개발자와 사용자 모두에게 더욱 유용한 도구로 자리 잡고 있습니다.
+Hermes Agent는 AI 에이전트의 발전을 이끄는 중요한 기술로, 이미지 생성 및 멀티 에이전트 운영을 통해 다양한 워크플로우를 지원합니다. 이 시스템은 사용자와 함께 진화하며, 효율적인 작업 관리를 가능하게 합니다.
 
 ## 핵심 내용
-| 기능/개념 | 설명 |
-|------------|------|
-| Codex를 이용한 이미지 생성 | 간단한 커맨드 입력으로 이미지 생성 가능 |
-| 멀티 에이전트 운영 | 각 프로필이 독립적인 환경을 제공하여 격리된 에이전트 운영 |
-| 로컬 웹 대시보드 | 사용자 친화적인 대시보드 추가 |
-| Fast Mode | 응답 속도 개선 기능 |
-| OAuth 통합 | Claude Code를 로컬 머신에서 ACP로 사용 가능 |
-| 플러그인 시스템 | API 키 관리 및 보안 강화 기능 제공 |
+| 기능/개념/특징          | 설명                                                                                     |
+|-----------------------|----------------------------------------------------------------------------------------|
+| 이미지 생성 파이프라인  | ComfyUI와의 결합으로 복잡한 이미지 생성 워크플로우를 관리할 수 있음.                          |
+| Codex 통합            | 간단한 커맨드 입력으로 이미지 생성 설정 가능, 코딩과 이미지 생성을 동시에 활용.                  |
+| 멀티 에이전트 운영     | 각 프로필이 독립적인 환경을 제공하여 격리된 에이전트 운영 가능.                                 |
+| Fast Mode             | 응답 속도 개선으로 사용자 경험 향상.                                                      |
+| 로컬 웹 대시보드      | 사용자 친화적인 대시보드 제공으로 관리 용이성 증가.                                        |
+| OAuth 통합            | Claude Code를 로컬 머신에서 사용할 수 있는 방법 제공.                                     |
 
 ## 최신 동향
-- **2026-04-28**: Hermes에서 Codex를 이용한 이미지 생성 방법 소개 [🔗 원문](https://www.threads.com/@roach_log/post/DXeUct-AUyS)
-- **2026-04-22**: 미니PC에서 디스크 공간 부족 문제 발생, 에르메스와 PaperClip이 많은 공간 차지 [🔗 원문](https://www.threads.com/@ody_daddy/post/DXLFnLEn4Kr)
-- **2026-04-15**: Nous Research가 Hermes Agent의 대규모 업데이트(v0.9.0) 발표, 로컬 웹 대시보드 및 Fast Mode 추가 [🔗 원문](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
-- **2026-04-12**: 에르메스 에이전트의 공식 UI 출시 예정 [🔗 원문](https://www.threads.com/@l_dabi/post/DW9LCwWkuCv)
+- **2026-05-05**: Hermes Agent와 ComfyUI의 결합으로 이미지 생성 파이프라인 관리 가능. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXwXNQiidv5)
+- **2026-04-28**: Codex를 이용한 이미지 생성 방법 소개. [🔗 원문](https://www.threads.com/@roach_log/post/DXeUct-AUyS)
+- **2026-04-15**: Hermes Agent v0.9.0 대규모 업데이트 발표, 로컬 웹 대시보드 및 Fast Mode 추가. [🔗 원문](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
+- **2026-04-08**: Hermes Agent v0.7.0 업데이트, 새로운 플러그인 시스템 및 보안 강화 기능 추가. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DW1Z88jk-_E)
 
 ## 주요 인사이트
-- 사용자들은 Hermes Agent의 멀티 에이전트 기능을 통해 효율적으로 다양한 작업을 관리할 수 있다는 점에 주목하고 있습니다.
-- Codex Oauth의 사용 경험이 긍정적이며, Yolo 모드와 Reasoning 단계 조절 기능이 범용성을 높인다는 의견이 많습니다.
-- 에르메스와 오픈클로의 비교를 통해 초보자도 쉽게 사용할 수 있는 웹UI 버전의 필요성이 강조되고 있습니다.
+- 사용자들은 Hermes Agent의 Codex Oauth 사용에 대해 긍정적인 경험을 공유하며, Yolo 모드와 Reasoning 단계 조절 기능의 범용성을 높이 평가하고 있습니다.
+- 멀티 에이전트 구축 방법에 대한 카드뉴스 형식의 설명이 사용자들 사이에서 유용하게 활용되고 있습니다.
+- 미니PC에서의 디스크 공간 문제를 경험한 사용자들이 에르메스의 공간 차지 문제를 공유하며, 다른 사용자들에게 확인을 권장하고 있습니다.
 
 ## 관련 도구/링크
-- [Hermes Agent GitHub](https://github.com/NousResearch/hermes-agent)
-- [Hermes Agent 공식 문서](https://www.nousresearch.com/hermes-agent)
+- [GitHub - Hermes Agent](https://www.threads.com/@unclejobs.ai/post/DXwXNQiidv5)
+- [Nous Research 공식 문서](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260505_unclejobs.ai_AI-에이전트가-이미지-생_ed615b.md` | @unclejobs.ai | 2026-05-05 | AI, ComfyUI, Hermes Agent, 이미지 생성 |
 | `u260428_roach_log_Hermes에서-Codex_0bbd15.md` | @roach_log | 2026-04-28 | Hermes, Codex, 이미지 생성, 워크플로우 |
 | `u260422_ody_daddy_에르메스가-설치된-미니PC_cbe4fb.md` | @ody_daddy | 2026-04-22 | 에르메스, 미니PC, 디스크 공간, PaperClip |
 | `u260415_choi.openai_Nous-Research가_0f72e0.md` | @choi.openai | 2026-04-15 | Hermes Agent, AI 업데이트, Nous Research, Fast Mode |

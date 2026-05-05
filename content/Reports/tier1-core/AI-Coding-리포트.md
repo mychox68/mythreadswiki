@@ -2,51 +2,56 @@
 report_id: ai-coding
 topic: AI 코딩
 tier: tier1-core
-note_count: 110
-last_updated: "2026-04-15 23:01"
+note_count: 113
+last_updated: "2026-05-05 20:05"
 description: "Vibe Coding·에이전트 코딩 흐름"
 ---
 
 # AI 코딩 트렌드 리포트
 
-> 노트 110개 기반 | 마지막 갱신: 2026-04-15 23:01
+> 노트 113개 기반 | 마지막 갱신: 2026-05-05 20:05
 
-# AI 코딩 리포트
+# AI 코딩 — Vibe Coding·에이전트 코딩 흐름 리포트
 
 ## 개요
-AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 비개발자도 쉽게 코딩할 수 있는 환경을 제공하는 중요한 기술입니다. 최근 다양한 AI 에이전트와 프레임워크가 등장하면서 코딩의 접근성과 생산성이 크게 향상되고 있습니다.
+AI 코딩은 소프트웨어 개발의 효율성을 극대화하는 데 중요한 역할을 하고 있습니다. 다양한 AI 도구와 에이전트가 결합되어 개발자들이 보다 빠르고 정확하게 코드를 작성할 수 있도록 돕고 있으며, 이는 현대 소프트웨어 개발의 필수 요소로 자리잡고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **디자인 시스템** | DESIGN.md를 통해 AI 에이전트를 위한 디자인 시스템을 제공, UI 구현을 용이하게 함. |
-| **AI 코딩 에이전트** | Oh My Codex(OMX)와 같은 다양한 AI 코딩 에이전트가 요구사항 인터뷰부터 프로젝트 상태 유지까지 지원. |
+| **code-review-graph** | 코드 수정 시 영향을 받는 파일만을 받아들이고, 변경 영향 범위를 시각화하여 리뷰 및 리팩터링 시 토큰 비용 절감. 23개 언어 지원. |
+| **OpenCode와 DeepSeek V4** | AI 코딩과 디자인을 함께 수행할 수 있는 효율적인 조합 제공. Pencil 도구를 통해 디자인과 코딩 통합 가능. |
+| **OpenChamber** | OpenCode의 GUI로, QR 코드로 작업을 이어갈 수 있어 이동 중에도 코딩 가능. MIT 라이선스 오픈소스. |
+| **DESIGN.md** | AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공. UI 구현을 쉽게 할 수 있도록 지원. |
+| **4대 AI 코딩 에이전트 프레임워크** | 다양한 기능과 최적화를 통해 코딩 효율성을 높임. 사용자가 필요에 따라 조합 가능. |
 | **VibeProxy** | GPT-5.4를 Claude Code에서 사용하기 위한 설치 방법 제공. |
-| **스펙 작성 중요성** | 요구사항의 품질이 결과에 미치는 영향 강조, 철저한 스펙 작성 필요. |
-| **UI 자동화** | 디자이너 없이도 AI를 통해 고품질 UI를 생성할 수 있는 방법 공유. |
-| **MCP 서버** | Claude Code 사용자를 위한 필수 MCP 서버 소개, 사용자 경험 향상. |
-| **Hook 기능** | Claude Code의 훅 기능을 통해 특정 코드 실행을 강제할 수 있는 방법 설명. |
-| **하네스 구조** | 생성자와 평가자 에이전트를 분리하여 AI의 코딩 능력 향상. |
+| **MCP 서버** | Claude Code 사용자를 위한 필수 서버 소개. 사용자 경험 향상. |
+| **AGENTS.md 관리** | 코딩 에이전트 성능에 영향을 미치는 파일 관리 방법 소개. |
 
 ## 최신 동향
-- **2026-04-15**: DESIGN.md가 AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공.
-- **2026-04-12**: 4대 AI 코딩 에이전트 프레임워크 소개 및 특징 설명.
-- **2026-03-30**: Claude Code의 훅 기능에 'if' 조건 추가, 자동 포맷팅 및 위험한 명령어 차단 기능 강화.
+- **2026-05-05**: code-review-graph가 출시되어 코드 리뷰 및 리팩터링 시 토큰 비용 절감 기능을 제공.
+- **2026-05-05**: OpenCode와 DeepSeek V4의 요금제가 소개됨.
+- **2026-04-15**: DESIGN.md가 AI 에이전트를 위한 디자인 시스템으로 기능을 확장함.
+- **2026-03-30**: Claude Code의 훅(Hook) 기능이 업데이트되어 조건부 실행이 가능해짐.
 
 ## 주요 인사이트
-- **비개발자 접근성**: 비개발자도 AI를 활용해 코딩할 수 있는 플로우 제시, DDD, BDD 개념 이해 강조.
-- **효율적인 스펙 관리**: AGENTS.md 파일 관리가 코딩 에이전트 성능에 영향을 미친다는 연구 결과.
-- **디자인 자동화**: AI 코딩 도구에 디자인 뇌를 이식하여 UI/UX 디자인을 자동화하는 방법 소개.
+- **효율적인 코딩 환경 구성**: 초보자는 초기 설정이 복잡할 수 있지만, 적절한 도구 선택과 조합을 통해 효과적인 코딩 환경을 구성할 수 있다는 의견이 많음.
+- **비개발자의 접근성**: AI를 활용한 코딩 플로우가 비개발자에게도 유용하다는 의견이 있으며, DDD, BDD 개념 이해가 중요하다는 점이 강조됨.
+- **디자인 자동화**: 디자이너 없이도 고품질 UI를 구현할 수 있는 방법이 공유되며, AI의 디자인 능력이 주목받고 있음.
 
 ## 관련 도구/링크
+- [code-review-graph](https://www.threads.com/@think.5x/post/DX2wjwIk-Ok)
+- [OpenCode](https://www.threads.com/@unclejobs.ai/post/DX5kgMXiRee)
+- [OpenChamber](https://www.threads.com/@unclejobs.ai/post/DXsvjH_ia-q)
 - [DESIGN.md](https://www.threads.com/@unclejobs.ai/post/DXE2kCziSGC)
-- [Oh My Codex(OMX)](https://www.threads.com/@bizmentor_kr/post/DWvqWd6k9_r)
-- [VibeProxy](https://www.threads.com/@aychan3927/post/DW7wRVUD82s)
-- [Claude Code](https://www.threads.com/@devdesign.kr/post/DWgFthJkuQ1)
+- [Claude Code](https://www.threads.com/@bizmentor_kr/post/DWvqWd6k9_r)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260505_think.5x_code-review-gr_1bbe4d.md` | @think.5x | 2026-05-05 | Claude Code, 토큰 절감, 오픈소스, 코드 리뷰 |
+| `u260505_unclejobs.ai_OpenCode와-Deep_9f2b90.md` | @unclejobs.ai | 2026-05-05 | OpenCode, DeepSeek V4, AI 코딩, Pencil |
+| `u260505_unclejobs.ai_OpenChamber는-O_53e869.md` | @unclejobs.ai | 2026-05-05 | OpenChamber, AI 코딩, OpenCode, 오픈소스 |
 | `u260415_unclejobs.ai_DESIGN.md는-AI-_015973.md` | @unclejobs.ai | 2026-04-15 | DESIGN.md, 디자인 시스템, AI 코딩, 마크다운 |
 | `u260412_bohe76_4대-AI-코딩-에이전트-_ad60e1.md` | @bohe76 | 2026-04-12 | AI 코딩, 프레임워크, 코드 최적화, 효율성 |
 | `u260412_aychan3927_GPT-5.4를-Claud_c5644e.md` | @aychan3927 | 2026-04-12 | GPT-5.4, Claude Code, VibeProxy, AI 코딩 |
@@ -74,6 +79,3 @@ AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 비개발�
 | `u260327_onpremisehuman_HWP-파일을-HWPX로-_b370c7.md` | @onpremisehuman | 2026-03-27 | HWP, HWPX, 클로드 코드, AI 코딩 |
 | `u260327_eee.jiro_MCP를-제거했지만-Ser_1610cb.md` | @eee.jiro | 2026-03-27 | AI 코딩, Serena, optimalvelocity.io, 토큰 관리 |
 | `u260327_choi.openai_앤트로픽-해커톤-우승자의-_fd7514.md` | @choi.openai | 2026-03-27 | Claude Code, Anthropic, Skills, AI 코딩 |
-| `u260327_ai.voltkim_GitHub의-Spec-K_ff226e.md` | @ai.voltkim | 2026-03-27 | AI 코딩, Spec-Driven Development, GitHub, Spec Kit |
-| `u260327_automation_clair_Gstack과-Claude_4412cf.md` | @automation_claire | 2026-03-27 | Gstack, Claude Code, 생산성 향상, AI 코딩 |
-| `u260327_choi.openai_Claude-Code를-효_e698a0.md` | @choi.openai | 2026-03-27 | Claude Code, AI 코딩, 하네스 구조, 앤트로픽 |

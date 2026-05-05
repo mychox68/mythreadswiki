@@ -2,51 +2,52 @@
 report_id: ai-agent
 topic: AI 에이전트
 tier: tier1-core
-note_count: 75
-last_updated: "2026-04-28 09:01"
+note_count: 76
+last_updated: "2026-05-05 20:02"
 description: "AI 에이전트 개념·구조·멀티에이전트 트렌드"
 ---
 
 # AI 에이전트 트렌드 리포트
 
-> 노트 75개 기반 | 마지막 갱신: 2026-04-28 09:01
+> 노트 76개 기반 | 마지막 갱신: 2026-05-05 20:02
 
 # AI 에이전트 리포트
 
 ## 개요
-AI 에이전트는 다양한 작업을 자동화하고 효율성을 높이는 데 중요한 역할을 하고 있습니다. 최근 AI 기술의 발전과 함께 AI 에이전트의 구조와 기능이 혁신적으로 변화하고 있으며, 이는 기업의 운영 방식에 큰 영향을 미치고 있습니다.
+AI 에이전트는 다양한 산업에서 고객의 요구를 인식하고 직접 서비스를 실행하는 생태계를 구축하고 있습니다. 이는 비즈니스 운영 방식의 혁신을 가져오고 있으며, 개발자 채용 및 역할 변화에 큰 영향을 미치고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징 | 설명 |
-|----------------|------|
-| **MCP (Model Context Protocol)** | AI 에이전트와 외부 시스템 간의 통합을 표준화하여 사용자 경험을 향상. |
+| 기능/개념 | 설명 |
+|------------|------|
+| **MCP (Model Context Protocol)** | AI 에이전트와 외부 시스템 간의 통합을 표준화하여 사용자 경험을 향상시킴. |
 | **cmux** | macOS 전용 터미널로, 여러 AI 에이전트를 동시에 운영 가능. |
-| **Managed Agents** | Anthropic의 새로운 구조로, 시스템 안정성과 보안을 강화. |
-| **agent-skills** | 코딩 프로세스를 구조화하여 코드 품질을 높이는 스킬팩. |
-| **하네스 구조** | 생성자와 평가자 에이전트를 분리하여 AI의 코딩 및 디자인 능력을 향상. |
-| **AGENTS.md** | 다양한 AI 코딩 에이전트를 위한 공통 설명서로, 명확한 지시 제공. |
+| **Managed Agents** | AI 에이전트의 구조를 혁신적으로 변화시켜 시스템 안정성과 보안을 강화함. |
+| **하네스 구조** | 생성자와 평가자 에이전트를 분리하여 AI의 코딩 및 디자인 능력을 향상시킴. |
+| **AGENTS.md** | 다양한 AI 코딩 에이전트를 위한 공통 설명서로, 프로젝트 빌드 방법과 규칙을 포함. |
 
 ## 최신 동향
-- **2026-04-28**: Anthropic이 MCP(Model Context Protocol)를 공개하여 AI 에이전트의 외부 시스템 통합을 표준화함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
-- **2026-04-22**: Garrytan이 OpenClaw와 Postgres를 활용하여 24시간 가동 가능한 서브 에이전트를 개발함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXYgN6KCTU7)
-- **2026-04-12**: Anthropic이 Claude Managed Agents를 발표하며 사용자들이 에이전트를 쉽게 만들 수 있도록 함. [🔗 원문](https://www.threads.com/@victor9yun/post/DW5dR2-kgr9)
-- **2026-04-08**: Nous Research가 Hermes Agent v0.7.0 업데이트를 진행하여 보안과 성능을 강화함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DW1Z88jk-_E)
+- **2026-05-05**: 무신사의 CTO가 AI 에이전트의 패션 비즈니스 도입에 대해 발표.
+- **2026-04-28**: Anthropic이 MCP를 공개하여 AI 에이전트의 외부 시스템 통합을 표준화.
+- **2026-04-12**: Anthropic이 Claude Managed Agents를 발표, 사용자들이 에이전트를 쉽게 만들 수 있도록 지원.
+- **2026-04-08**: Nous Research가 Hermes Agent v0.7.0 업데이트를 진행, 새로운 기능 추가.
+- **2026-04-03**: 여러 AI 에이전트를 통합 관리하는 acpx 툴이 소개됨.
 
 ## 주요 인사이트
-- **AI 에이전트를 통한 자동화**: 여러 사용자가 AI 에이전트를 활용하여 조직의 다양한 부서를 자동화하는 사례가 증가하고 있으며, 이는 인건비 절감과 효율성 향상에 기여하고 있음.
-- **플러그인 활용**: Claude Code 사용자를 위한 필수 플러그인들이 소개되며, 이들 플러그인은 작업 효율성을 높이는 데 도움을 주고 있음.
-- **AI 에이전트의 역할 분담**: AI 에이전트가 헤지펀드와 같은 복잡한 작업을 수행하는 사례가 늘어나고 있으며, 이는 AI의 활용 가능성을 더욱 확장하고 있음.
+- **AI 에이전트를 통한 자동화**: Claude Code를 활용하여 회사 조직을 자동화하고 운영하는 사례가 공유됨.
+- **플러그인 활용**: 클로드 코드 사용자를 위한 필수 플러그인 소개와 효율적인 사용법에 대한 의견 교환.
+- **AI 에이전트의 미래**: AI 에이전트가 역할을 분담하여 주식 매매를 시뮬레이션하는 프로젝트가 주목받고 있음.
 
 ## 관련 도구/링크
-- [MCP 공개](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
 - [cmux](https://www.threads.com/@conanssam/post/DXle84WmNJa)
-- [Managed Agents 발표](https://www.threads.com/@victor9yun/post/DW5dR2-kgr9)
-- [Hermes Agent v0.7.0 업데이트](https://www.threads.com/@unclejobs.ai/post/DW1Z88jk-_E)
+- [MCP](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
 - [AGENTS.md](https://www.threads.com/@unclejobs.ai/post/DWxygRqCVHF)
+- [Claude Code](https://www.threads.com/@digit2sight/post/DWiB5AZkoFA)
+- [gws](https://www.threads.com/@iam_mychan/post/DVkUktyEg81)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260505_choi.openai_무신사의-CTO는-패션-비_6d22aa.md` | @choi.openai | 2026-05-05 | AI, 패션, 비즈니스 변화, 개발자 채용 |
 | `u260428_unclejobs.ai_Anthropic이-MCP_846d22.md` | @unclejobs.ai | 2026-04-28 | AI, MCP, 통합, Anthropic |
 | `u260428_conanssam_cmux는-macOS-전용_9fc9c1.md` | @conanssam | 2026-04-28 | cmux, AI 에이전트, macOS, 프로그램 |
 | `u260428_cowboy76_AI-에이전트를-이용한-다_3b38ee.md` | @cowboy76 | 2026-04-28 | AI 에이전트, 개발, 디자인, 로블록스 |
@@ -76,4 +77,3 @@ AI 에이전트는 다양한 작업을 자동화하고 효율성을 높이는 �
 | `u260327_zhugehyuk_20세-대학생이-10일-만_17619d.md` | @zhugehyuk | 2026-03-27 | MiroFish, AI 에이전트, 시뮬레이션, LLM |
 | `u260327_yeopo92_AI가-자연어-요청에-따라_dd7d6f.md` | @yeopo92 | 2026-03-27 | AI, n8n, 워크플로우, 자동화 |
 | `u260327_unclejobs.ai_AI-에이전트가-헤지펀드처_3bb497.md` | @unclejobs.ai | 2026-03-27 | AI 에이전트, 헤지펀드, TradingAgents, 오픈소스 |
-| `u260327_sigoroc_이번-주는-AI-자동화에-_31a9e3.md` | @sigoroc | 2026-03-27 | AI 자동화, 안티그래비티, 옵시디언, AI 이미지 생성 |

@@ -1,5 +1,5 @@
 # 지식 베이스 홈
-> 마지막 갱신: 2026-04-28 09:01 | 전체 노트: 703개
+> 마지막 갱신: 2026-05-05 20:00 | 전체 노트: 756개
 
 ---
 
@@ -7,22 +7,22 @@
 
 | 카테고리 | 노트 수 | 인덱스 |
 |----------|---------|--------|
-| AI 참고 | 288개 | [[AI_Ref/_INDEX]] |
-| AI 코딩 | 258개 | [[AI_Coding/_INDEX]] |
-| 일반 참고 | 68개 | [[General_Ref/_INDEX]] |
-| 비즈니스 | 48개 | [[Business/_INDEX]] |
-| 일상 | 29개 | [[Daily/_INDEX]] |
+| AI 참고 | 314개 | [[AI_Ref/_INDEX]] |
+| AI 코딩 | 279개 | [[AI_Coding/_INDEX]] |
+| 일반 참고 | 69개 | [[General_Ref/_INDEX]] |
+| 비즈니스 | 50개 | [[Business/_INDEX]] |
+| 일상 | 32개 | [[Daily/_INDEX]] |
 | 분류 미정 | 12개 | [[Uncategorized/_INDEX]] |
 
 ---
 
 ## 상위 토픽
 
-[[Topics/AI\|AI]] `225` | [[Topics/Claude-Code\|Claude-Code]] `181` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `123`  
-[[Topics/AI-코딩\|AI-코딩]] `107` | [[Topics/오픈소스\|오픈소스]] `88` | [[Topics/AI-에이전트\|AI-에이전트]] `84` | [[Topics/Claude\|Claude]] `62`  
-[[Topics/프롬프트\|프롬프트]] `57` | [[Topics/Codex\|Codex]] `49` | [[Topics/Anthropic\|Anthropic]] `42` | [[Topics/생산성\|생산성]] `42`  
-[[Topics/코딩\|코딩]] `38` | [[Topics/마케팅\|마케팅]] `31` | [[Topics/개발\|개발]] `29` | [[Topics/프로그래밍\|프로그래밍]] `29`  
-[[Topics/GitHub\|GitHub]] `26` | [[Topics/LLM\|LLM]] `25` | [[Topics/보안\|보안]] `24` | [[Topics/디자인\|디자인]] `21`  
+[[Topics/AI\|AI]] `242` | [[Topics/Claude-Code\|Claude-Code]] `189` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `124`  
+[[Topics/AI-코딩\|AI-코딩]] `110` | [[Topics/오픈소스\|오픈소스]] `98` | [[Topics/AI-에이전트\|AI-에이전트]] `85` | [[Topics/Claude\|Claude]] `64`  
+[[Topics/Codex\|Codex]] `58` | [[Topics/프롬프트\|프롬프트]] `58` | [[Topics/생산성\|생산성]] `43` | [[Topics/Anthropic\|Anthropic]] `42`  
+[[Topics/코딩\|코딩]] `40` | [[Topics/프로그래밍\|프로그래밍]] `38` | [[Topics/마케팅\|마케팅]] `32` | [[Topics/개발\|개발]] `30`  
+[[Topics/GitHub\|GitHub]] `27` | [[Topics/LLM\|LLM]] `25` | [[Topics/디자인\|디자인]] `25` | [[Topics/보안\|보안]] `25`  
 
 ---
 
@@ -30,16 +30,16 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
-| [[u260428_kim.channy_사용자가-아기의-다양한-표_d6bbb4]] | `@_kim.channy_` · 26-04-28 | 사용자가 아기의 다양한 표정을 활용한 카카오톡 이모티콘을 만들기 위한 프롬프트를 공유합니다. 댓글에서는 다른 사용자들이 이모티콘을 만들고 결과를 자랑하는 내용이 이어집니다. 챗GP… |
-| [[u260428_choi.openai_최근-GPT의-이미지-활용_2046a3]] | `@choi.openai` · 26-04-28 | 최근 GPT의 이미지 활용 가능성이 주목받고 있습니다. 다양한 프롬프트를 통해 개인화된 보고서를 이미지로 생성할 수 있는 방법을 소개합니다. 유행할 것으로 예상되는 이러한 프롬프트… |
-| [[u260428_dev_one_l_노트북LM을-사용할-때-효_b4cc0a]] | `@dev_one_l` · 26-04-28 | 노트북LM을 사용할 때, 효과적인 프롬프트 질문을 통해 더 나은 결과를 이끌어낼 수 있는 방법을 소개합니다. 5가지 제안된 프롬프트는 AI의 이해를 돕고, 깊이 있는 분석을 유도합… |
-| [[u260428_kge_lab_새로운-문서-검색-도구-애_3be075]] | `@kge_lab` · 26-04-28 | 새로운 문서 검색 도구 '애니씽'이 출시되었습니다. 이 도구는 파일명을 몰라도 문서 내용을 기반으로 검색이 가능하여 업무 효율성을 높일 것으로 기대됩니다. 광진구청 류주임의 기여로… |
-| [[u260428_unclejobs.ai_Anthropic이-MCP_846d22]] | `@unclejobs.ai` · 26-04-28 | Anthropic이 MCP(Model Context Protocol)를 공개하며 AI 에이전트의 외부 시스템 통합을 표준화했습니다. MCP는 에이전트와 서비스 간의 연결을 단순화하… |
-| [[u260428_choi.openai_OpenAI가-Worksp_0bfad9]] | `@choi.openai` · 26-04-28 | OpenAI가 'Workspace Agents'를 발표하며 에이전트 중심의 생태계를 구축하고 있습니다. 이 에이전트들은 조직의 워크플로우에서 협업하며 다양한 툴에 접근할 수 있습니… |
-| [[u260428_lucas_flatwhite_GPT-Images-v2의_c4b738]] | `@lucas_flatwhite` · 26-04-28 | GPT Images v2의 출시로 새로운 프론트엔드 개발 워크플로우가 소개된다. 이미지를 먼저 생성하고 Codex가 이를 분석하여 웹사이트를 구현하는 방식이다. 다양한 AI 에이전… |
-| [[u260428_choi.openai_중국-개발자-화슈가-Cla_966051]] | `@choi.openai` · 26-04-28 | 중국 개발자 화슈가 'Claude Design'을 역설계한 'Huashu Design'을 GitHub에 무료로 공개했습니다. 이 도구는 AI 에이전트를 통해 클릭 한 번으로 고급 … |
-| [[u260428_omar.boksil_한글-파일을-편집할-수-있_13b107]] | `@omar.boksil` · 26-04-28 | 한글 파일을 편집할 수 있는 오픈소스 소프트웨어가 개발되었다. 해당 프로젝트는 golbin.github.io/hop에서 확인할 수 있다. 이를 통해 개발자들이 한글 파일을 보다 쉽… |
-| [[u260428_choi.openai_엔비디아가-한국어-페르소나_9df47d]] | `@choi.openai` · 26-04-28 | 엔비디아가 한국어 페르소나 데이터셋을 공개하여 한국 사회의 인구 분포를 정밀하게 재현했습니다. 이 데이터셋은 AI 모델의 편향을 줄이고 응답의 다양성을 높이는 데 기여할 것입니다.… |
+| [[u260505_vyblor_Claude-Code를-이_412832]] | `@vyblor` · 26-05-05 | Claude Code를 이용해 AI 이미지와 영상 모델을 동시에 운용할 수 있게 되었다. 이를 통해 콘텐츠 자동화의 진입장벽이 낮아지고 있다. Chase AI는 이 툴로 GitHu… |
+| [[u260505_metalailab_10가지-AI-자동화-방법_e060b1]] | `@metalailab` · 26-05-05 | 10가지 AI 자동화 방법을 통해 시간을 절약할 수 있다. 각 방법은 설정 후 빠르게 ROI를 회수할 수 있으며, 하나씩 시작하는 것이 효과적이다. 이 자동화 도구들은 업무 효율성… |
+| [[u260505_choi.openai_YouMind라는-웹사이트_671770]] | `@choi.openai` · 26-05-05 | YouMind라는 웹사이트가 X에서 인기 있는 AI 프롬프트를 실시간으로 추적하는 기능을 시작했습니다. 과거의 정해진 프롬프트 모음과는 달리, 사용자들이 실시간으로 검증한 프롬프트… |
+| [[u260505_unclejobs.ai_Codex의-goal-기능_fb3806]] | `@unclejobs.ai` · 26-05-05 | Codex의 '/goal' 기능을 활성화하는 방법을 설명합니다. Codex를 버전 0.128.0으로 업그레이드한 후, config.toml 파일에 설정을 추가하고 다시 시작해야 합… |
+| [[u260505_vyblor_Graphify의-그래프-_2d3e93]] | `@vyblor` · 26-05-05 | Graphify의 그래프 인덱싱을 사용하면 Claude Code 파일 읽기 시 필요한 토큰을 71.5배 줄일 수 있습니다. 특히 큰 레포에서 그 효과가 더욱 두드러지며, 컨텍스트의… |
+| [[u260505_unclejobs.ai_Lazyweb-MCP는-A_e56def]] | `@unclejobs.ai` · 26-05-05 | Lazyweb MCP는 AI가 257,000개의 실제 앱/웹 화면을 분석하여 사용자 친화적인 디자인을 생성할 수 있도록 돕는 도구입니다. 이 도구는 AI에게 '디자인 리서치' 스킬… |
+| [[u260505_jwon.ig_Codex의-goal-기능_1d3d5c]] | `@jwon.ig` · 26-05-05 | Codex의 `/goal` 기능을 활용하여 AI와의 상호작용을 통해 다양한 작업을 자동화하는 방법을 소개합니다. 버그 수정, 코드 분석, 사용자 QA, 테스트 전략 수립 등 총 1… |
+| [[u260505_motionsense_ceo_Supabase와-Verc_82b4a9]] | `@motionsense_ceo` · 26-05-05 | Supabase와 Vercel 배포 시 지역 설정이 중요하다. 한국 서버가 아니면 웹페이지 로딩 속도가 느려질 수 있다. AI의 정확성을 100% 믿지 말아야 한다. |
+| [[u260505_bibl_youtube_유튜브-채널-성공을-위한-_44c633]] | `@bibl_youtube` · 26-05-05 | 유튜브 채널 성공을 위한 21단계 가이드를 제공하며, 레드오션에서 주제를 찾고, 구독 및 업로드 전략을 통해 성장하는 방법을 설명합니다. TMK STUDIO에서 이 과정을 대신해 … |
+| [[u260505_choi.openai_이번-주-AI-업계에서-4_88b445]] | `@choi.openai` · 26-05-05 | 이번 주 AI 업계에서 42개의 주요 업데이트가 발표되었으며, 오픈AI의 Codex 및 Claude와 같은 다양한 AI 도구가 자율성을 강화하고 업무 환경에 깊숙이 통합되고 있습니… |
 
 ---
 

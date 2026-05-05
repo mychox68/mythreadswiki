@@ -1,9 +1,9 @@
 # Vercel
-> 관련 노트: 13개 | 마지막 갱신: 2026-04-28 09:01
+> 관련 노트: 14개 | 마지막 갱신: 2026-05-05 20:00
 
 ## 개요
 
-주요 키워드: **Vercel** · **AI** · **무료** · **소개합니다** · **개발** · **배포** · **보안** · **코딩**
+주요 키워드: **Vercel** · **배포** · **AI** · **무료** · **소개합니다** · **개발** · **보안** · **코딩**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,13 @@
 
 ## 관련 개념
 
-[[Concepts/Supabase|Supabase]] | [[Concepts/자동화|자동화]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/개발|개발]] | [[Concepts/AI-코딩|AI 코딩]]
+[[Concepts/Supabase|Supabase]] | [[Concepts/자동화|자동화]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI|AI]] | [[Concepts/개발|개발]]
 
-## 출처 노트 (13개, 최근순)
+## 출처 노트 (14개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260505_motionsense_ceo_Supabase와-Verc_82b4a9]] | `@motionsense_ceo` · 26-05-05 | Supabase와 Vercel 배포 시 지역 설정이 중요하다. 한국 서버가 아니면 웹페이지 로딩 속도가 느려질 수 있다. AI의 정확성을 100% 믿지 말아야 한다. |
 | [[u260422_ai.first.ceo.kim_Vercel에서-보안-사고_cfcfbd]] | `@ai.first.ceo.kim` · 26-04-22 | Vercel에서 보안 사고가 발생하여 개발자들과 기업들이 우려하고 있습니다. 보안 문제를 예방하기 위해 CLAUDE.md에서 시크릿 하드코딩 금지 및 AES-256 사용 등을 권장합니다. 이를 통해 3중 보안 체계를 구축할 수 있습니다. |
 | [[u260422_cmlee.korea_바이브코딩에서-여러-기능을_521803]] | `@cmlee.korea` · 26-04-22 | 바이브코딩에서 여러 기능을 통합적으로 구현하기 위해 사용된 개발 스펙을 정리했습니다. 서버리스 구조를 채택하여 배포의 단순성, 확장성 및 운영 효율성을 강조했습니다. 주요 사용 기술로는 Next.js, TypeScript, Vercel 등이 포함됩니다. |
 | [[u260422_1.ta.ai_Playwright-MCP_f34e34]] | `@1.ta.ai` · 26-04-22 | Playwright MCP는 토큰 소모가 크지만, agent browser는 같은 작업을 훨씬 더 적은 토큰으로 수행할 수 있다. 그러나 여러 탭 열기, 고급 API 요청 기능 등은 지원되지 않는다. 적절한 상황에 따라 두 도구를 선택해 사용해야 한다. |

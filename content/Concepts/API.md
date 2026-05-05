@@ -1,9 +1,9 @@
 # API
-> 관련 노트: 12개 | 마지막 갱신: 2026-04-28 09:01
+> 관련 노트: 13개 | 마지막 갱신: 2026-05-05 20:00
 
 ## 개요
 
-주요 키워드: **API** · **있다** · **AI** · **Claude** · **핵심** · **Workspace** · **자동화** · **인증**
+주요 키워드: **API** · **Claude** · **있다** · **AI** · **핵심** · **Workspace** · **자동화** · **인증**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,13 @@
 
 ## 관련 개념
 
-[[Concepts/AI|AI]] | [[Concepts/자동화|자동화]] | [[Concepts/개발|개발]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/Anthropic|Anthropic]]
+[[Concepts/AI|AI]] | [[Concepts/자동화|자동화]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/개발|개발]] | [[Concepts/Anthropic|Anthropic]]
 
-## 출처 노트 (12개, 최근순)
+## 출처 노트 (13개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260505_the.claudeist_Claude-Code의-P_e50a17]] | `@the.claudeist` · 26-05-05 | Claude Code의 Pro 제한을 피하는 방법에 대한 4가지 팁을 소개합니다. 하이브리드 라우팅과 보조 사수(코워커) 셋업을 통해 비용 효율성을 극대화합니다. 반복 작업은 보조 모델에게 맡겨 메인 모델의 자원을 아끼는 전략이 중요합니다. |
 | [[u260428_ai_developer_gen_Codex-sangpye-_d8946e]] | `@ai_developer_genie` · 26-04-28 | Codex-sangpye-skill을 이용해 제품 상세 페이지 이미지를 자동으로 생성하는 스킬을 개발했습니다. Codex OAuth를 사용하여 OpenAI API 키 없이도 ChatGPT 세션을 활용할 수 있습니다. 이 기법을 통해 수동 제작의 번거로움을 줄일 수 있습니다. |
 | [[u260408_chris_gomdori_국가법령정보-MCP-3.0_cafc4f]] | `@chris_gomdori` · 26-04-08 | 국가법령정보 MCP 3.0이 업데이트되어 같은 무료 플랜으로 두 배로 사용할 수 있게 되었습니다. 많은 사용자들이 이 기능에 대해 긍정적인 반응을 보이고 있으며, 추가적인 API 요청도 활발히 이루어지고 있습니다. 사용자들 사이의 소통과 피드백이 중요한 업데이트가 되고 있습니다. |
 | [[u260407_midnight__log_한-보안연구소의-조사에-따_1baf24]] | `@midnight__log` · 26-04-07 | 한 보안연구소의 조사에 따르면, 스캔한 앱의 절반이 해킹 가능성이 있다. 가장 흔한 보안 실수로는 RLS 설정 오류, Rate Limit 미설정, API 키의 부적절한 저장이 있다. 출시 전에 이 세 가지를 점검하면 사고를 예방할 수 있다. |
