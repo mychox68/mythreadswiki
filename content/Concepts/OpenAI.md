@@ -1,17 +1,17 @@
 # OpenAI
-> 관련 노트: 14개 | 마지막 갱신: 2026-05-05 20:00
+> 관련 노트: 16개 | 마지막 갱신: 2026-05-11 20:27
 
 ## 개요
 
-주요 키워드: **AI** · **OpenAI가** · **활용하여** · **OpenAI** · **작업을** · **새로운** · **에이전트** · **공개했습니다**
+주요 키워드: **AI** · **OpenAI가** · **새로운** · **에이전트** · **GPT** · **활용하여** · **OpenAI** · **작업을**
 
 ## 핵심 인사이트
 
 - OpenAI가 Workspace Agents를 발표하여 팀 단위의 업무를 효율적으로 처리할 수 있는 새로운 AI 에이전트를 도입했다. 이 에이전트는 Slack과 통합되어 팀의 대화…
 - Cursor API를 OpenAI/Anthropic 형식으로 변환해주는 프록시 cursor2api가 등장했다. Cursor 백엔드를 활용하면서 기존 OpenAI/Anthropic …
+- OpenAI가 새로운 실시간 음성 모델 3개(GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper)를 발표했습니다. 이 모델…
 - OpenAI가 GPT-5.4를 활용하여 웹사이트를 디자인하는 노하우를 공개했습니다. AI 모델은 학습 데이터의 일반적인 패턴을 따르므로, 구체적인 프롬프트를 사용하여 원하는 디자인…
 - 하네스 엔지니어링(Harness Engineering)은 OpenAI 엔지니어들이 AI 에이전트를 효율적으로 활용하여 프로그래밍을 대체하는 방법론이다. 이를 통해 생산성을 높이고,…
-- OpenAI가 에이전트 빌딩을 위한 새로운 기초를 공개하며, 수시간 동안 안정적으로 워크플로우를 이어가는 10가지 팁을 공유했습니다. Skills와 Shell을 활용하여 복잡한 작…
 
 ## Agent Insight
 > 추후 Phase 3-B에서 LLM으로 채워짐
@@ -20,10 +20,12 @@
 
 [[Concepts/AI|AI]] | [[Concepts/Codex|Codex]] | [[Concepts/AI-에이전트|AI 에이전트]] | [[Concepts/github.com|github.com]] | [[Concepts/오픈소스|오픈소스]]
 
-## 출처 노트 (14개, 최근순)
+## 출처 노트 (16개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af]] | `@ddongddangddi` · 26-05-11 | 최근 대시보드의 LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하였다. 이로 인해 API 호출 비용이 무료가 되며, 개인 ChatGPT Plus 구독으로 인증할 수 있다. OpenAI가 제공하는 새로운 인증 방법으로 사용이 편리해졌다. |
+| [[u260511_unclejobs.ai_OpenAI가-새로운-실시_29b3aa]] | `@unclejobs.ai` · 26-05-11 | OpenAI가 새로운 실시간 음성 모델 3개(GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper)를 발표했습니다. 이 모델들은 각각 음성 에이전트, 실시간 통역, 실시간 받아쓰기 기능을 수행합니다. 음성 앱이 이제 단순한 STT와 TTS의 조합이 아니라, 더욱 인터랙티브한 사용자 경험을 제공하게 되었습니다. |
 | [[u260505_choi.openai_오픈AI가-Codex에-새_ddd5ef]] | `@choi.openai` · 26-05-05 | 오픈AI가 Codex에 새로운 펫 기능을 추가했습니다. 이 기능은 개발자가 작업 중에도 AI의 상태를 실시간으로 보여주며, 귀여운 애니메이션 펫을 통해 사용자와의 친밀함을 높입니다. 사용자는 기본 펫을 선택하거나 맞춤형 펫을 생성할 수 있습니다. |
 | [[u260428_choi.openai_OpenAI가-Worksp_0bfad9]] | `@choi.openai` · 26-04-28 | OpenAI가 'Workspace Agents'를 발표하며 에이전트 중심의 생태계를 구축하고 있습니다. 이 에이전트들은 조직의 워크플로우에서 협업하며 다양한 툴에 접근할 수 있습니다. 팀원들은 메신저와 ChatGPT를 통해 이 에이전트를 함께 사용할 수 있습니다. |
 | [[u260428_choi.openai_오픈AI가-개인정보-보호를_2ee5f3]] | `@choi.openai` · 26-04-28 | 오픈AI가 개인정보 보호를 위한 무료 오픈소스 모델 'Privacy Filter'를 발표했습니다. 이 모델은 개인 식별 정보를 자동으로 찾아 제거하며, 내부망에서도 빠르게 작동합니다. 이는 데이터 보안 문제를 해결하고 기업의 AI 도입을 촉진할 전략으로 평가됩니다. |

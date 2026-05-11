@@ -2,54 +2,61 @@
 report_id: opensource-ai
 topic: 오픈소스 AI
 tier: tier1-core
-note_count: 98
-last_updated: "2026-05-05 20:04"
+note_count: 101
+last_updated: "2026-05-07 23:04"
 description: "오픈소스 에이전트·모델 생태계 동향"
 ---
 
 # 오픈소스 AI 트렌드 리포트
 
-> 노트 98개 기반 | 마지막 갱신: 2026-05-05 20:04
+> 노트 101개 기반 | 마지막 갱신: 2026-05-07 23:04
 
 # 오픈소스 AI 리포트
 
 ## 개요
-오픈소스 AI는 다양한 분야에서 혁신을 촉진하고 있으며, 개발자와 기업이 AI 기술을 보다 쉽게 접근하고 활용할 수 있도록 돕고 있습니다. 이러한 오픈소스 프로젝트들은 협업과 커뮤니티의 힘을 통해 빠르게 발전하고 있으며, 새로운 도구와 솔루션을 지속적으로 제공하고 있습니다.
+오픈소스 AI는 다양한 분야에서 혁신을 이끌고 있으며, 개발자와 기업에게 새로운 기회를 제공합니다. 특히, 커뮤니티 기반의 협업과 공유가 이루어짐에 따라, 기술 발전 속도가 빨라지고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징 | 설명 |
-|----------------|------|
-| DBeaver | 다양한 데이터베이스 지원, AI 자동완성 기능 추가 (Apache 2.0 라이선스) |
-| Lazyweb | 25만 개 이상의 디자인 데이터 제공, AI 모델과 연결 가능 |
-| Obsidian 동기화 플러그인 | 종단 간 암호화로 실시간 데이터 동기화 |
-| VoxCPM | 30개 언어 지원 TTS 모델, 로컬에서 무료 사용 가능 |
-| OpenScreen | 고급 화면 녹화 기능 제공, 윈도우와 맥 지원 |
-| HyperFrames | AI 기반 HTML로 MP4 영상 생성, 상업적 사용 가능 |
-| Chomex | 클릭 한 번으로 프롬프트 생성, Codex 활용 |
-| code-review-graph | 코드 수정 시 영향 범위 시각화, 8.2배 토큰 절감 |
-| shadcn/ui | 컴포넌트를 소스 파일로 직접 추가 가능 |
-| OpenChamber | AI 코딩 GUI, QR 코드로 작업 이어가기 가능 |
-| Huashu Design | AI 에이전트를 통한 고급 디자인 생성 도구 |
-| Privacy Filter | 개인 식별 정보 자동 제거, 데이터 보안 강화 |
-| Multica | AI 에이전트를 통한 반복 업무 처리 플랫폼 |
-| DeepTutor | AI 튜터, 소크라테스식 질문으로 사고력 향상 |
+| 도구/프로젝트        | 기능 및 특징                                                                                         |
+|---------------------|---------------------------------------------------------------------------------------------------|
+| Mole                | 맥의 저장 공간을 효율적으로 정리해주는 도구, 청소 속도 및 대상 확장, VPN 보호 기능 추가.                |
+| TradingAgents       | 9명의 AI를 조직화하여 매매 의사결정을 내리는 오픈소스 프레임워크.                                    |
+| Vexa                | 회의 자동 녹취 API, 실시간 전사 가능, 셀프 호스팅 지원.                                             |
+| DBeaver             | 다양한 데이터베이스 지원, AI 기능 추가로 컬럼명 제안.                                               |
+| Lazyweb             | 25만 개 이상의 디자인 데이터 제공, AI 모델과 연결 가능.                                             |
+| Obsidian Sync       | 종단 간 암호화로 실시간 데이터 동기화.                                                              |
+| VoxCPM              | 로컬에서 무료로 사용할 수 있는 TTS 모델, 30개 언어 자동 감지.                                      |
+| OpenScreen          | 고급 화면 녹화 기능 제공, 자동 시각 효과 적용.                                                      |
+| HyperFrames         | AI 기반 HTML 렌더링 엔진, MP4 영상 생성.                                                            |
+| Chomex              | 프롬프트 생성 도구, Codex 활용.                                                                     |
+| code-review-graph   | 코드 수정 시 영향을 받는 파일만 수용, 토큰 비용 절감.                                               |
+| shadcn/ui           | 컴포넌트를 소스 파일로 직접 추가 가능, 수정 가능.                                                  |
+| OpenChamber         | AI 코딩을 쉽게 이용할 수 있는 GUI, QR 코드로 작업 이어가기.                                        |
+| Huashu Design       | AI 에이전트를 통해 고급 디자인 생성.                                                                |
+| Multica             | AI 에이전트를 채용하여 반복 업무 처리.                                                              |
+| Privacy Filter      | 개인 식별 정보를 자동으로 찾아 제거하는 오픈소스 모델.                                             |
+| Magika              | AI를 사용해 파일의 진짜 정체를 판별하는 도구.                                                      |
+| DeepTutor           | 학습자의 수준을 진단하고 소크라테스식 질문으로 사고력 키우기.                                      |
 
 ## 최신 동향
-- **2026-05-05**: DBeaver, Lazyweb, Obsidian 동기화 플러그인, VoxCPM, OpenScreen, HyperFrames, Chomex, code-review-graph, shadcn/ui, OpenChamber 등 다양한 오픈소스 AI 도구와 기능이 발표됨.
-- **2026-04-28**: Huashu Design, Privacy Filter, Multica, AI의 video-use 팀의 영상 편집 자동화 도구 등 새로운 프로젝트가 공개됨.
-- **2026-04-22**: Google의 Magika, Neurons, 다양한 디자인 시스템 관련 프로젝트가 소개됨.
-- **2026-04-15**: Microsoft의 MarkItDown, CloudFlare 기반의 EmDash 등 오픈소스 프로젝트가 발표됨.
-- **2026-04-12**: DeepTutor, GBrain, ReClip 등 교육 및 미디어 관련 오픈소스 도구가 출시됨.
+- **2026-05-07**: Mole 업데이트, 청소 속도 및 대상을 확장, VPN 보호 기능 추가.
+- **2026-05-05**: DBeaver, AI 기능 추가; Lazyweb 무료 공개; Vexa 주목받음.
+- **2026-04-28**: OpenAI, Privacy Filter 발표; Claude Design 대안 등장.
+- **2026-04-22**: Google, Magika 공개; AI 영상 편집 자동화 오픈소스 공개.
+- **2026-04-15**: Microsoft, MarkItDown 발표; Waza 프로젝트 소개.
 
 ## 주요 인사이트
-- **AI 도구의 발전**: Anthropic의 Claude Design 출시 후 72시간 내에 4개의 오픈소스 대안이 등장하여 AI 도구 시장의 패턴 변화가 감지됨.
-- **커뮤니티의 힘**: 오픈소스 프로젝트들은 커뮤니티의 협업을 통해 빠르게 개선되고 있으며, 사용자 피드백이 중요한 역할을 하고 있음.
-- **AI와 디자인**: 디자인 분야에서의 오픈소스 도구 사용이 증가하고 있으며, 한국에서도 관련 프로젝트가 활발히 진행되고 있음.
+- 오픈소스 AI 도구들이 빠르게 발전하고 있으며, 커뮤니티의 피드백을 통해 개선되고 있습니다.
+- AI 도구의 오픈소스화가 기업의 AI 도입을 촉진하고 있으며, 데이터 보안 문제 해결에도 기여하고 있습니다.
+- 디자인 및 개발 분야에서의 오픈소스 프로젝트가 증가하고 있으며, 한국에서도 관련 프로젝트가 필요하다는 의견이 제기되고 있습니다.
 
 ## 관련 도구/링크
+- [Mole](https://www.threads.com/@unclejobs.ai/post/DX-pB3NCTmA)
+- [TradingAgents](https://www.threads.com/@eddiemoon0720/post/DX8ePWok27c)
+- [Vexa](https://www.threads.com/@yeopo92/post/DX8jjyKDykt)
 - [DBeaver](https://www.threads.com/@teum_soul/post/DX5kcDXFUzE)
 - [Lazyweb](https://www.threads.com/@choi.openai/post/DX6PyawgkpL)
-- [Obsidian 동기화 플러그인](https://www.threads.com/@h29145/post/DX3xRxqiZ0s)
+- [Obsidian Sync](https://www.threads.com/@h29145/post/DX3xRxqiZ0s)
 - [VoxCPM](https://www.threads.com/@think.5x/post/DX6MSJrE7si)
 - [OpenScreen](https://www.threads.com/@choi.openai/post/DX5Htn-DqhU)
 - [HyperFrames](https://www.threads.com/@ohbeopseok/post/DXuytFzE5B3)
@@ -58,15 +65,17 @@ description: "오픈소스 에이전트·모델 생태계 동향"
 - [shadcn/ui](https://www.threads.com/@teum_soul/post/DX1Q9hXlN_-)
 - [OpenChamber](https://www.threads.com/@unclejobs.ai/post/DXsvjH_ia-q)
 - [Huashu Design](https://www.threads.com/@choi.openai/post/DXeTAltgs1D)
-- [Privacy Filter](https://www.threads.com/@choi.openai/post/DXdEDrzjAl_)
 - [Multica](https://www.threads.com/@bravomylife153/post/DXdfALfDZMX)
+- [Privacy Filter](https://www.threads.com/@choi.openai/post/DXdEDrzjAl_)
+- [Magika](https://www.threads.com/@sweet_bkan/post/DXMDtoCkRrl)
 - [DeepTutor](https://www.threads.com/@bizmentor_kr/post/DW7V6EGEyW3)
-- [GBrain](https://www.threads.com/@choi.openai/post/DW-3MzwCUnD)
-- [ReClip](https://www.threads.com/@unclejobs.ai/post/DW9P9hNCXOY)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260507_unclejobs.ai_Mole은-맥의-저장-공간_d35608.md` | @unclejobs.ai | 2026-05-07 | Mole, 오픈소스, AI 도구, 맥 최적화 |
+| `u260507_eddiemoon0720_오픈-소스-프레임워크-Tr_cbdb68.md` | @eddiemoon0720 | 2026-05-07 | TradingAgents, AI, 매매, 오픈소스 |
+| `u260507_yeopo92_Vexa는-구글-밋-Tea_ad985d.md` | @yeopo92 | 2026-05-07 | Vexa, 회의 녹취, 오픈소스, AI 에이전트 |
 | `u260505_teum_soul_DBeaver는-다양한-데_72cd40.md` | @teum_soul | 2026-05-05 | DBeaver, 데이터베이스, 오픈소스, AI 자동완성 |
 | `u260505_choi.openai_디자인-레퍼런스-툴-Laz_1bc2f6.md` | @choi.openai | 2026-05-05 | Lazyweb, 디자인, AI 모델, 오픈소스 |
 | `u260505_h29145_오픈소스-Obsidian-_bdb25f.md` | @h29145 | 2026-05-05 | Obsidian, 동기화, 오픈소스, 암호화 |
@@ -94,6 +103,3 @@ description: "오픈소스 에이전트·모델 생태계 동향"
 | `u260415_builder__j_CloudFlare가-인수_05e714.md` | @builder__j | 2026-04-15 | EmDash, CloudFlare, WordPress, TypeScript |
 | `u260415_unclejobs.ai_Waza라는-오픈소스-프로_e7d9f1.md` | @unclejobs.ai | 2026-04-15 | Waza, Claude Code, AI 스킬, 오픈소스 |
 | `u260412_bizmentor_kr_HKUDS-연구팀의-오픈소_52d29e.md` | @bizmentor_kr | 2026-04-12 | AI 튜터, DeepTutor, 교육, 오픈소스 |
-| `u260412_choi.openai_YC-CEO-Gary-Ta_946f2e.md` | @choi.openai | 2026-04-12 | GBrain, AI 메모리, 오픈소스, Garry Tan |
-| `u260412_unclejobs.ai_ReClip은-1-000개_e6c087.md` | @unclejobs.ai | 2026-04-12 | 영상 다운로드, 오픈소스, ReClip, 미디어 다운로더 |
-| `u260412_feelfree_ai_오픈소스-AI-웹사이트-복_fc33f7.md` | @feelfree_ai | 2026-04-12 | Next.js, AI 에이전트, 코드 복제, 프론트엔드 |

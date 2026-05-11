@@ -1,5 +1,5 @@
 # Claude
-> 관련 노트: 64개 | 마지막 갱신: 2026-05-05 20:00
+> 관련 노트: 69개 | 마지막 갱신: 2026-05-11 20:27
 
 ## 개요
 
@@ -18,12 +18,17 @@
 
 ## 관련 개념
 
-[[Concepts/AI|AI]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/자동화|자동화]] | [[Concepts/Anthropic|Anthropic]] | [[Concepts/Claude-Code|Claude Code]]
+[[Concepts/AI|AI]] | [[Concepts/Anthropic|Anthropic]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/자동화|자동화]] | [[Concepts/Claude-Code|Claude Code]]
 
 ## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260511_unclejobs.ai_Anthropic은-Cod_069b4d]] | `@unclejobs.ai` · 26-05-11 | Anthropic은 Code with Claude 컨퍼런스에서 Claude Managed Agents의 네 가지 기능을 동시에 발표했습니다. 'Dreaming'은 에이전트가 세션 사이에 학습할 수 있는 기능으로, 과거 세션의 메모리를 활용해 패턴을 추출합니다. 이 외에도 'Outcomes' 기능을 통해 에이전트가 스스로 평가하고 개선할 수 있는 구조가 마련되었습니다. |
+| [[u260511_unclejobs.ai_바이브코더들을-위한-음악-_501fb4]] | `@unclejobs.ai` · 26-05-11 | 바이브코더들을 위한 음악 업데이트가 소개되었습니다. 클로드 fm을 통해 음악을 즐길 수 있으며 감성을 강조하는 내용입니다. 댓글에서 감성과 일상에 대한 유머도 보입니다. |
+| [[u260507_gptersorg_옵시디언과-클로드를-활용한_b088d9]] | `@gptersorg` · 26-05-07 | 옵시디언과 클로드를 활용한 스킬 패키지가 출시되었습니다. 이를 통해 옵시디언 사용자는 다양한 마크다운 기능과 데이터베이스 활용법을 익힐 수 있습니다. CEO Steph Ango가 직접 만든 이 스킬들은 GitHub에서 확인할 수 있습니다. |
+| [[u260507_choi.openai_앤트로픽이-Claude-플_8d1103]] | `@choi.openai` · 26-05-07 | 앤트로픽이 Claude 플랫폼에 '키리스 인증' 기능을 도입했습니다. 이를 통해 API 키 관리 없이 클라우드 권한으로 간편하게 접근할 수 있게 되었습니다. 기업들은 키 교체와 관리 부담이 줄어들 것으로 기대됩니다. |
+| [[u260507_choi.openai_앤트로픽이-금융권을-위한-_8e200c]] | `@choi.openai` · 26-05-07 | 앤트로픽이 금융권을 위한 특화 에이전트 템플릿을 공개했습니다. 이 템플릿은 전문 데이터와 연동되어 기업 가치 평가와 피칭 자료 작성에 활용될 수 있습니다. 이를 통해 금융 업무의 효율성이 크게 향상될 것으로 기대됩니다. |
 | [[u260505_claude_master_클로드와-코덱스-터미널을-_d0cf2e]] | `@claude_master_` · 26-05-05 | 클로드와 코덱스 터미널을 함께 사용할 때의 조합에 대한 팁을 제공합니다. '--full-auto'와 '--permission-mode auto' 옵션을 사용하는 것이 재앙을 피할 수 있는 최적의 방법입니다. 권한을 제한하면서도 편의성을 높일 수 있는 방법에 대해 설명합니다. |
 | [[u260505_choi.openai_이번-주-AI-업계에서-4_88b445]] | `@choi.openai` · 26-05-05 | 이번 주 AI 업계에서 42개의 주요 업데이트가 발표되었으며, 오픈AI의 Codex 및 Claude와 같은 다양한 AI 도구가 자율성을 강화하고 업무 환경에 깊숙이 통합되고 있습니다. 다양한 산업에서 AI의 활용이 증가하고 있으며, 사용자와 개발자에게 새로운 작업 방식과 기능이 제공되고 있습니다. |
 | [[u260428_slamslam_클로드의-서브스크립션-사용_5efa08]] | `@slamslam__` · 26-04-28 | 클로드의 서브스크립션 사용에 있어 다양한 제약과 비용에 대한 논의가 이루어졌다. 특히 Enterprise API를 통해서 보다 유연하고 확장 가능한 사용이 가능하다는 점이 강조되었다. 향후 AI 서버 구축으로 이러한 비용 문제를 해결하려는 시도가 증가할 것으로 보인다. |
@@ -49,8 +54,3 @@
 | [[u260327_aisolutiondev_Claude-Code-Sk_410d93]] | `@aisolutiondev` · 26-03-27 | Claude Code Skills가 대폭 증가(+598%)하여 실무 직결 스킬이 추가되었다. awesome-claude-skills, alirezarezvani/claude-skills 레포가 생태계를 주도하고 있으며, `npx skills add` 명령어로 간단하게 설치할 수 있다. |
 | [[u260327_ai_crazyman_클로드-Claude-의-새_86b276]] | `@ai_crazyman` · 26-03-27 | 클로드(Claude)의 새로운 기능인 Auto-dream이 공개되었습니다. Auto-dream은 기존 Automemory 기능을 개선하여, 대화 내용을 주기적으로 확인하고 핵심 정보만 남겨 용량을 줄이고 효율적인 메모리 관리를 제공합니다. 사용법은 간단하며, 옵시디언(Obsidian) 연동 없이도 장기적인 컨텍스트 유지가 가능합니다. |
 | [[u260327_ai_younggle_man_앤트로픽의-Claude-C_93dcae]] | `@ai_younggle_man` · 26-03-27 | 앤트로픽의 Claude Code에 반복 작업을 예약하는 `/loop` 기능이 추가되어, 사용자가 지정한 시간에 자동으로 작업을 수행하고 결과를 제공합니다. 개발자가 아니어도 프롬프트와 주기를 설정하여 업무 자동화를 쉽게 구현할 수 있습니다. 다양한 업무 예시(업무 브리핑, 경쟁사 리서치, 이메일 점검, 업무 요약)를 통해 AI를 24시간 자동화 직원처럼 활용 가능합니다. |
-| [[u260327_choi.openai_AI-에이전트-활용-시-문_e4d1db]] | `@choi.openai` · 26-03-27 | AI 에이전트 활용 시 문맥 비대증을 피하고, 명확한 지시 및 종료 조건을 설정하며, 계약 단위로 새로운 세션을 생성하는 것이 중요합니다. 에이전트에게 필요한 정보만 제공하고 역할을 분리하여 효율성을 높여야 합니다. 규칙과 스킬을 정의하고 주기적으로 정리하여 에이전트 성능을 최적화해야 합니다. |
-| [[u260327_choi.openai_Claude-Code-Re_5f7d95]] | `@choi.openai` · 26-03-27 | Claude Code Review의 대안으로 ChatGPT Codex를 소개합니다. ChatGPT 구독자는 GitHub에서 바로 연동하여 코드 리뷰 기능을 무료로 사용할 수 있습니다. Codex는 보안 및 성능 우선순위 설정으로 핵심 피드백에 집중할 수 있도록 지원하며, OpenAI는 구독 생태계 안에서 개발자 워크플로우 선점을 목표합니다. |
-| [[u260327_choi.openai_Claude-Code-개발_3dbc30]] | `@choi.openai` · 26-03-27 | Claude Code 개발자가 내부적으로 사용하는 코딩 워크플로우 'CLAUDE.md'가 소개되었습니다. 작업 계획 수립, 하위 에이전트 전략, 자체 개선 루프 등을 포함하며, 코딩 중 수정된 내용은 규칙으로 저장됩니다. Claude를 사용하는 개발자는 이 파일을 통해 반복 작업을 줄이고 효율을 높일 수 있습니다. |
-| [[u260327_cursormatfia_Claude-Code의-f_8ac88c]] | `@cursormatfia` · 26-03-27 | Claude Code의 /fork 기능은 대화 컨텍스트를 복제하여 유지하는 기능이다. 이를 통해 검증된 컨텍스트를 보존하고, 다양한 방향으로 기획/리서치/전략 수립, 테스트/QA를 병렬적으로 수행할 수 있다. Sub-agent와 달리 기존 세션의 컨텍스트를 공유하며, 높은 이해도를 바탕으로 정확한 작업이 필요한 경우에 유용하다. |
-| [[u260327_geumverse_ai_Claude-Certifi_172c18]] | `@geumverse_ai` · 26-03-27 | Claude Certified Architect 인증 시험 대비를 위한 핵심 정보 요약. Anthropic 파트너가 아니어도 프로덕션급 앱을 만들 수 있는 지식 습득 가능. 5가지 도메인(Agentic Architecture, Tool Design & MCP, Claude Code 설정, Prompt & Structured Output, Context Management)별 핵심 내용 및 학습 순서 제시. |

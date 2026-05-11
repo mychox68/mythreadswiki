@@ -2,45 +2,50 @@
 report_id: mcp
 topic: MCP
 tier: tier2-concepts
-note_count: 22
-last_updated: "2026-04-28 09:54"
+note_count: 24
+last_updated: "2026-05-11 20:32"
 description: "MCP 서버·연동 패턴·생태계"
 ---
 
 # MCP 트렌드 리포트
 
-> 노트 22개 기반 | 마지막 갱신: 2026-04-28 09:54
+> 노트 24개 기반 | 마지막 갱신: 2026-05-11 20:32
 
 # MCP 리포트
 
 ## 개요
-MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하여, 다양한 서비스와의 연결을 단순화하는 중요한 기술입니다. 이 프로토콜은 200개 이상의 MCP 서버를 지원하며, 사용자 경험을 향상시키고 AI의 활용도를 높이는 데 기여하고 있습니다.
+MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하여, 다양한 서비스와의 연결을 용이하게 합니다. 이는 AI 기술의 발전과 함께 에이전트의 효율성을 높이고, 사용자 경험을 향상시키는 데 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
 | 기능/개념 | 설명 |
 |-----------|------|
-| **MCP 서버** | AI 에이전트와 외부 시스템 간의 통합을 지원하는 서버. |
-| **연동 패턴** | 다양한 서비스와의 연결을 위한 표준화된 방식. |
-| **사용자 경험 향상** | 제시된 설계 원칙을 통해 엔드 유저의 사용 편의성을 높임. |
-| **무료 도구** | MCP 서버를 활용한 다양한 무료 도구와 리소스 제공. |
+| **MCP 서버** | 200개 이상의 MCP 서버를 지원하여 다양한 서비스와의 통합을 가능하게 함. |
+| **lazy load** | 필요할 때만 도구를 로드하여 초기 토큰 사용량을 절감하고 대화의 지속 시간을 늘림. |
+| **n8n-MCP** | AI가 생성한 Slack 메시지를 실시간으로 검증하여 정확한 JSON을 제공. |
+| **Claude Code** | 다양한 자동화 작업을 지원하며, 사용자 경험을 향상시키는 기능을 제공. |
+| **Docker MCP** | 에이전트 컨텍스트를 효율적으로 관리하여 토큰 절약 및 성능 유지. |
 
 ## 최신 동향
-- **2026-04-28**: Anthropic이 MCP를 공개하며 AI 에이전트의 외부 시스템 통합을 표준화함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
-- **2026-04-03**: Greg Isenberg이 MCP 서버와 바이브 마케팅의 중요성을 강조함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DWi1GYPCfUs)
-- **2026-03-27**: 여러 MCP 서버와 관련된 다양한 기능과 활용 사례가 소개됨. [🔗 원문](https://www.threads.com/@ibwj/post/DWQGtG0Edb5)
+- **2026-05-11**: Claude Code의 환경변수 설정 변경으로 초기 토큰 사용량 절감 ([@vyblor](https://www.threads.com/@vyblor/post/DYE0DsGmtVY))
+- **2026-05-07**: n8n-MCP의 실시간 JSON 검증 기능 소개 ([@conanssam](https://www.threads.com/@conanssam/post/DX8NsMEEpFJ))
+- **2026-04-28**: Anthropic이 MCP 공개, AI 에이전트의 외부 시스템 통합 표준화 ([@unclejobs.ai](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd))
+- **2026-03-27**: 다양한 MCP 서버 및 자동화 도구에 대한 정보 공유 (여러 게시물)
 
 ## 주요 인사이트
-- **자동화 개발 팁**: 클로드 코드를 활용한 바이브코딩 자동화 개발에 대한 팁이 공유됨. MCP 서버 구축 및 테스트 강제화의 중요성이 강조됨. [🔗 원문](https://www.threads.com/@keke_appa/post/DWaf_sFEnme)
-- **AI 에이전트 협업**: AI 에이전트들이 채팅방에서 서로 대화하며 협업하는 프로젝트가 화제가 되고 있음. [🔗 원문](https://www.threads.com/@softdaddy_o/post/DVTMGmFEpcm)
+- **AI의 역할 변화**: AI가 단순한 코드 생성에서 도구 이해 및 안전한 실행으로 변화하고 있다는 의견이 많음.
+- **바이브 마케팅의 중요성**: 유통 전략이 코드보다 더 중요하다는 인식이 확산되고 있음.
+- **자동화 도구의 필요성**: iOS 앱스토어 제출 자동화 도구와 같은 실용적인 솔루션이 주목받고 있음.
 
 ## 관련 도구/링크
-- [MCP 서버 관련 GitHub](https://www.threads.com/@vibe.code.kr/post/DWa4eECFDyU)
-- [Claude Code 치트 시트](https://www.threads.com/@ibwj/post/DWQGtG0Edb5)
-- [Figma MCP 대안 Penpot](https://www.threads.com/@homebodify/post/DU-6p3miE5u)
+- [Claude Code](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
+- [n8n-MCP](https://www.threads.com/@conanssam/post/DX8NsMEEpFJ)
+- [MCP 서버 목록](https://www.threads.com/@vibe.code.kr/post/DWa4eECFDyU)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260511_vyblor_Claude-Code의-환_24298c.md` | @vyblor | 2026-05-11 | Claude Code, 토큰 절약, lazy load, MCP |
+| `u260507_conanssam_n8n-MCP는-AI가-생_b4d6cf.md` | @conanssam | 2026-05-07 | n8n, Slack, AI, 워크플로우 |
 | `u260428_unclejobs.ai_Anthropic이-MCP_846d22.md` | @unclejobs.ai | 2026-04-28 | AI, MCP, 통합, Anthropic |
 | `u260403_unclejobs.ai_Greg-Isenberg이_1b4ea4.md` | @unclejobs.ai | 2026-04-03 | 바이브 마케팅, 유통 전략, 고객 확보, MCP 서버 |
 | `u260330_vibe.code.kr_Claude-Code-사용_43c296.md` | @vibe.code.kr | 2026-03-30 | Claude Code, MCP 서버, Filesystem, GitHub |

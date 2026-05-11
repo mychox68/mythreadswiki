@@ -1,9 +1,9 @@
 # GitHub
-> 관련 노트: 27개 | 마지막 갱신: 2026-05-05 20:00
+> 관련 노트: 30개 | 마지막 갱신: 2026-05-11 20:27
 
 ## 개요
 
-주요 키워드: **GitHub** · **AI** · **Claude** · **코딩** · **소개합니다** · **오픈소스** · **있다** · **Code**
+주요 키워드: **GitHub** · **AI** · **있다** · **Claude** · **소개합니다** · **오픈소스** · **코딩** · **Code**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,15 @@
 
 ## 관련 개념
 
-[[Concepts/github.com|github.com]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/오픈소스|오픈소스]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI|AI]]
+[[Concepts/github.com|github.com]] | [[Concepts/오픈소스|오픈소스]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI|AI]]
 
-## 출처 노트 (27개, 최근순)
+## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260507_aipreneur_j_Claude가-사용되는-A_b806ed]] | `@aipreneur_j` · 26-05-07 | Claude가 사용되는 AI 글쓰기 툴을 소개합니다. GitHub에 있는 '휴우머나이저' 스킬을 통해 AI의 글쓰기 패턴을 제거할 수 있습니다. 사용자들 사이에서 유용하다는 반응이 많습니다. |
+| [[u260507_unclejobs.ai_Open-Design이라는_956003]] | `@unclejobs.ai` · 26-05-07 | Open Design이라는 도구가 클로드 디자인의 한계를 극복하며 디자인 작업을 보다 효율적으로 만들어 준다. 이 도구는 사용자 질문지와 6개의 컨텍스트 파일을 통해 AI의 결과물 품질을 높이고, 여러 모델과 함께 사용할 수 있다. GitHub에 공개되어 누구나 접근 가능하며, 상업적 용도로도 활용할 수 있다. |
+| [[u260507_yeopo92_Vexa는-구글-밋-Tea_ad985d]] | `@yeopo92` · 26-05-07 | Vexa는 구글 밋, Teams, Zoom 회의의 자동 녹취 API로 GitHub에서 주목받고 있습니다. 이 오픈소스 솔루션은 회의에 자동으로 참가해 실시간으로 내용을 전사할 수 있는 기능을 제공합니다. 셀프 호스팅이 가능해 다양한 AI 에이전트와 직접 연결할 수 있습니다. |
 | [[u260505_vyblor_Claude-Code를-이_412832]] | `@vyblor` · 26-05-05 | Claude Code를 이용해 AI 이미지와 영상 모델을 동시에 운용할 수 있게 되었다. 이를 통해 콘텐츠 자동화의 진입장벽이 낮아지고 있다. Chase AI는 이 툴로 GitHub trending 콘텐츠를 자동화하여 구독자를 늘리고 있다. |
 | [[u260428_choi.openai_오픈클로-개발자가-claw_32da40]] | `@choi.openai` · 26-04-28 | 오픈클로 개발자가 'clawsweeper'라는 봇을 공개하여 오픈소스 이슈 및 PR을 정리합니다. 이 봇은 50개의 Codex AI를 병렬로 사용해 하루 만에 4,000개의 불필요한 이슈를 정리했습니다. AI가 오픈소스 관리 노동을 자동화하는 시대가 다가오고 있습니다. |
 | [[u260407_softdaddy_o_GitHub-Trendin_66ffac]] | `@softdaddy_o` · 26-04-07 | GitHub Trending에 올라온 'build-your-own-x' 레포는 다양한 기술을 직접 구현하며 배우는 튜토리얼 모음입니다. 사용자는 직접 코드를 구현하면서 동작 원리를 이해하고, 기초 프로그래밍을 배우는 기회를 갖게 됩니다. AI가 코드를 짜주는 시대에서도 프로그래밍의 기초는 여전히 중요합니다. |

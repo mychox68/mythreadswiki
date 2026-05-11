@@ -1,5 +1,5 @@
 # MCP
-> 관련 노트: 15개 | 마지막 갱신: 2026-05-05 20:00
+> 관련 노트: 17개 | 마지막 갱신: 2026-05-11 20:27
 
 ## 개요
 
@@ -20,10 +20,12 @@
 
 [[Concepts/Claude-Code|Claude Code]] | [[Concepts/github.com|github.com]] | [[Concepts/Anthropic|Anthropic]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude|Claude]]
 
-## 출처 노트 (15개, 최근순)
+## 출처 노트 (17개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260511_vyblor_Claude-Code의-환_24298c]] | `@vyblor` · 26-05-11 | Claude Code의 환경변수 설정 변경으로 초기 토큰 사용량을 크게 줄일 수 있다. lazy load 방식으로 필요할 때만 도구를 로드하여 효율을 높인다. 이는 대화의 지속 시간에 긍정적인 영향을 미치며, 특히 MCP 툴 사용자가 큰 혜택을 볼 수 있다. |
+| [[u260507_conanssam_n8n-MCP는-AI가-생_b4d6cf]] | `@conanssam` · 26-05-07 | n8n-MCP는 AI가 생성한 Slack 메시지 보내기 프롬프트의 설정값을 실시간으로 검증하여 정확한 JSON을 제공하는 도구이다. 이 도구는 코드의 누락된 파라미터를 해결하고 효율적인 워크플로우 작성을 지원한다. AI의 역할이 단순한 코드 생성에서 도구 이해와 안전한 실행으로 변화하고 있다. |
 | [[u260428_unclejobs.ai_Anthropic이-MCP_846d22]] | `@unclejobs.ai` · 26-04-28 | Anthropic이 MCP(Model Context Protocol)를 공개하며 AI 에이전트의 외부 시스템 통합을 표준화했습니다. MCP는 에이전트와 서비스 간의 연결을 단순화하고, 200개 이상의 MCP 서버를 지원합니다. 제시된 설계 원칙을 통해 엔드 유저 경험도 향상될 것으로 기대됩니다. |
 | [[u260327_ai___touch_Claude-Code-사용_809c44]] | `@ai___touch` · 26-03-27 | Claude Code 사용 중 Codex, Gemini와 함께 사용하고 싶다는 아이디어에서 MCP를 직접 구현했습니다. MCP를 통해 모델 간 토론이 가능하며, 백그라운드 작업 ID 관리를 통해 비동기 요청 문제를 해결했습니다. Oh-my-claudecode를 참고하여 MCP를 개발하고 실전적인 접근 방식을 적용했습니다. |
 | [[u260327_boris_cherny_Anthropic에서-Cl_971306]] | `@boris_cherny` · 26-03-27 | Anthropic에서 Claude Code를 Telegram과 Discord에서 제어할 수 있는 Channels 기능을 연구 프리뷰로 공개했습니다. 이를 통해 휴대폰에서 직접 Claude Code 세션을 제어하고, 작업을 비동기적으로 핸드오프하고 확인할 수 있습니다.  MCP 확장점을 통해 다양한 커뮤니케이션 채널로 확대될 예정이며, 코딩 워크플로우를 혁신할 것으로 기대됩니다. |

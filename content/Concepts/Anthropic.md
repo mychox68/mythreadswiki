@@ -1,9 +1,9 @@
 # Anthropic
-> 관련 노트: 42개 | 마지막 갱신: 2026-05-05 20:00
+> 관련 노트: 44개 | 마지막 갱신: 2026-05-11 20:27
 
 ## 개요
 
-주요 키워드: **Claude** · **AI** · **Code** · **작업을** · **있으며** · **있다** · **MCP** · **기능을**
+주요 키워드: **Claude** · **AI** · **Code** · **기능을** · **작업을** · **있으며** · **있다** · **MCP**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,14 @@
 
 ## 관련 개념
 
-[[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude|Claude]] | [[Concepts/AI|AI]] | [[Concepts/AI-에이전트|AI 에이전트]]
+[[Concepts/Claude-Code|Claude Code]] | [[Concepts/Claude|Claude]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/AI|AI]] | [[Concepts/AI-에이전트|AI 에이전트]]
 
 ## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260511_unclejobs.ai_Anthropic은-Cod_069b4d]] | `@unclejobs.ai` · 26-05-11 | Anthropic은 Code with Claude 컨퍼런스에서 Claude Managed Agents의 네 가지 기능을 동시에 발표했습니다. 'Dreaming'은 에이전트가 세션 사이에 학습할 수 있는 기능으로, 과거 세션의 메모리를 활용해 패턴을 추출합니다. 이 외에도 'Outcomes' 기능을 통해 에이전트가 스스로 평가하고 개선할 수 있는 구조가 마련되었습니다. |
+| [[u260507_choi.openai_앤트로픽이-금융권을-위한-_8e200c]] | `@choi.openai` · 26-05-07 | 앤트로픽이 금융권을 위한 특화 에이전트 템플릿을 공개했습니다. 이 템플릿은 전문 데이터와 연동되어 기업 가치 평가와 피칭 자료 작성에 활용될 수 있습니다. 이를 통해 금융 업무의 효율성이 크게 향상될 것으로 기대됩니다. |
 | [[u260428_unclejobs.ai_Anthropic이-MCP_846d22]] | `@unclejobs.ai` · 26-04-28 | Anthropic이 MCP(Model Context Protocol)를 공개하며 AI 에이전트의 외부 시스템 통합을 표준화했습니다. MCP는 에이전트와 서비스 간의 연결을 단순화하고, 200개 이상의 MCP 서버를 지원합니다. 제시된 설계 원칙을 통해 엔드 유저 경험도 향상될 것으로 기대됩니다. |
 | [[u260428_choi.openai_앤트로픽이-Claude-M_2d610c]] | `@choi.openai` · 26-04-28 | 앤트로픽이 Claude Managed Agents에 Memory 기능을 퍼블릭 베타로 출시했습니다. 이 기능은 이전의 대화와 작업 방식을 기억하여 다음 작업에 활용할 수 있습니다. 메모리는 텍스트 파일 형태로 저장되어 개발자가 수정할 수 있으며, 10명의 에이전트가 팀 규정을 공유할 수 있습니다. |
 | [[u260422_choi.openai_앤트로픽이-Claudia-_4c17c0]] | `@choi.openai` · 26-04-22 | 앤트로픽이 Claudia AI 모델 'Claude Code'를 업데이트하여 여러 세션 병렬 실행, 통합 터미널 기능 등을 추가했습니다. 이는 개발자들이 동시에 여러 작업을 쉽게 관리할 수 있도록 돕습니다. 또한 다양한 AI 도구들의 지능화 및 자동화 기능이 더욱 향상되었습니다. |
@@ -52,5 +54,3 @@
 | [[u260327_softdaddy_o_Claude-Code-스킬_777595]] | `@softdaddy_o` · 26-03-27 | Claude Code 스킬이 업데이트되어 skill-creator 스킬이 출시되었다. 이 스킬은 모델의 능력을 향상시키고 사용자 워크플로우를 자동화하는 데 도움을 준다. YouTube 주간 리포트 스킬을 20분 만에 만들었으며, 피드백과 평가를 통해 정확도를 높일 수 있다. |
 | [[u260327_unclejobs.ai_Anthropic의-Cla_e25ec9]] | `@unclejobs.ai` · 26-03-27 | Anthropic의 Claude Architect 자격증 시험 대비 가이드가 공개되었으며, 일반인은 응시 불가능합니다. 개발자 hoeem이 시험 가이드의 5가지 영역, 출제 범위, 프롬프트까지 모두 공개했습니다. 이 가이드를 통해 Claude를 더 잘 활용하고 실제 프로덕트를 만드는 데 도움이 되는 기술을 습득할 수 있습니다. |
 | [[u260327_unclejobs.ai_Google이-AI-스킬-_b82313]] | `@unclejobs.ai` · 26-03-27 | Google이 AI 스킬 설계에 대한 5가지 디자인 패턴(Tool Wrapper, Generator, Reviewer, Inversion, Pipeline)을 공개했습니다. 각 패턴은 특정 목적(라이브러리 지식 적용, 일관된 출력, 코드 점검, AI의 질문 유도, 순차적 워크플로우)에 맞춰 AI 에이전트의 행동을 구조화합니다. 복잡한 지시를 하나의 프롬프트에 넣는 대신, 워크플로우를 쪼개고 적절한 패턴을 적용하여 신뢰할 수 있는 AI 에이전트를 구축하는 것이 핵심입니다. |
-| [[u260327_working.ref_Claude-Code를-사_c5032a]] | `@working.ref` · 26-03-27 | Claude Code를 사용하면서 스킬 활용에 대한 확신이 없던 작성자가 Anthropic의 Claude Code 팀 엔지니어가 공개한 실전 교훈을 접하고, 스킬의 성패는 코드 작성 전에 결정된다는 점을 깨달았다. |
-| [[u260327_yeopo92_Cursor-API를-Op_76e787]] | `@yeopo92` · 26-03-27 | Cursor API를 OpenAI/Anthropic 형식으로 변환해주는 프록시 cursor2api가 등장했다. Cursor 백엔드를 활용하면서 기존 OpenAI/Anthropic SDK 코드를 수정 없이 재활용 가능하다. Claude Code 도구 지원 및 이미지 처리 기능도 포함되어 Cursor 구독 개발자에게 유용하며 API 비용 절감 효과를 기대할 수 있다. |

@@ -2,49 +2,54 @@
 report_id: claude-code
 topic: Claude Code
 tier: tier1-core
-note_count: 156
-last_updated: "2026-05-05 20:01"
+note_count: 158
+last_updated: "2026-05-11 20:28"
 description: "Claude Code CLI·데스크톱앱·멀티세션·hooks·skills 전반 동향"
 ---
 
 # Claude Code 트렌드 리포트
 
-> 노트 156개 기반 | 마지막 갱신: 2026-05-05 20:01
+> 노트 158개 기반 | 마지막 갱신: 2026-05-11 20:28
 
-# Claude Code 동향 리포트
+# Claude Code 리포트
 
 ## 개요
-Claude Code는 AI 모델을 활용한 프로그래밍 도구로, 최근 다양한 기능이 추가되며 개발자들 사이에서 주목받고 있습니다. 이 도구는 코드 작성 및 리뷰, 자동화 작업을 지원하여 개발 효율성을 높이고 있습니다.
+Claude Code는 AI 기반의 프로그래밍 도구로, 코드 작성 및 관리의 효율성을 높이는 데 중요한 역할을 하고 있습니다. 최근의 업데이트와 기능 개선은 개발자들이 더 나은 작업 환경을 구축할 수 있도록 지원하고 있으며, 이는 AI 기술의 발전과 함께 더욱 주목받고 있습니다.
 
 ## 핵심 내용
+
 | 기능/개념           | 설명                                                         |
 |---------------------|--------------------------------------------------------------|
-| 멀티세션            | 여러 클로드 세션을 동시에 실행 가능                         |
-| 통합 터미널        | 파일 편집 및 HTML/PDF 미리보기 기능 추가                   |
-| 자동화 기능        | 루틴 기능을 통해 지정된 시간에 자동으로 작업 수행          |
-| 상태바 플러그인    | 세션 비용 및 요금제 잔여량을 실시간으로 표시               |
-| Graphify            | 파일 읽기 시 필요한 토큰을 71.5배 줄이는 기능             |
-| CCS                 | 다양한 AI 모델을 통합하여 사용하는 어댑터                  |
-| code-review-graph   | 코드 수정 시 영향을 받는 파일만 받아들이고 시각화          |
-| claude-mem          | 코딩 세션의 모든 활동을 자동으로 저장하고 관리              |
+| 질문법              | 가능한 가설을 세우고 환경 변수를 확인하여 업무 효율성을 높임. |
+| lazy load           | 필요할 때만 도구를 로드하여 초기 토큰 사용량 절감.           |
+| 멀티세션            | 여러 세션을 동시에 실행할 수 있는 기능 추가.                  |
+| hooks               | 코드 리뷰 및 리팩터링 시 영향을 받는 파일만을 받아들임.      |
+| skills              | 다양한 AI 모델을 통합하여 사용하는 어댑터 CCS 도입.          |
+| 자동화              | 루틴 기능을 통해 자동으로 작업을 수행하도록 설정 가능.       |
 
 ## 최신 동향
-- **2026-05-05**: Claude Code를 이용해 AI 이미지와 영상 모델을 동시에 운용할 수 있게 되었음. Chase AI는 이 툴로 GitHub trending 콘텐츠를 자동화하여 구독자를 늘리고 있음. [🔗 원문](https://www.threads.com/@vyblor/post/DXvP_q8kcsu)
-- **2026-04-28**: 앤트로픽이 '/ultrareview' 기능을 추가하여 다수의 버그 탐지 에이전트를 클라우드에서 동시에 실행해 코드를 리뷰함. [🔗 원문](https://www.threads.com/@choi.openai/post/DXcve0aE6GN)
-- **2026-04-15**: Claude Code의 데스크톱 버전이 개편되어 여러 세션을 동시에 사용할 수 있게 되었음. [🔗 원문](https://www.threads.com/@choi.openai/post/DXIdP4yj3gb)
+
+- **2026-05-11**: 질문법과 가설적 접근을 통한 업무 효율성 향상에 대한 논의가 활발함. [원문](https://www.threads.com/@the.claudeist/post/DYGKL9NkzKj)
+- **2026-05-11**: 환경변수 설정 변경으로 초기 토큰 사용량 절감. [원문](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
+- **2026-05-05**: AI 이미지와 영상 모델을 동시에 운용 가능해짐. [원문](https://www.threads.com/@vyblor/post/DXvP_q8kcsu)
+- **2026-04-28**: '/ultrareview' 기능 추가로 코드 리뷰 자동화. [원문](https://www.threads.com/@choi.openai/post/DXcve0aE6GN)
+- **2026-04-22**: 'claude-mem' 기능으로 코딩 세션의 모든 활동 자동 저장. [원문](https://www.threads.com/@kjconsulting_team/post/DXKrKCTE5Kk)
 
 ## 주요 인사이트
-- **비용 효율성**: 사용자들은 하이브리드 라우팅과 보조 사수를 통해 Claude Code의 프로 제한을 피하는 방법을 공유하고 있음. [🔗 원문](https://www.threads.com/@the.claudeist/post/DX3_obND_1y)
-- **자동화의 필요성**: 코드 리뷰와 버그 수정을 자동으로 진행하는 루틴 기능이 도입되어 효율성이 크게 향상됨. [🔗 원문](https://www.threads.com/@choi.openai/post/DXHpbxVjyBE)
+- 사용자들은 Claude Code의 멀티세션 기능과 통합 터미널 기능에 긍정적인 반응을 보이고 있으며, 여러 작업을 동시에 수행할 때의 불편함이 해소되었다고 언급하고 있습니다.
+- 환경 설정과 커넥터 사용의 효율성을 강조하며, 이를 통해 프로젝트 성능을 향상시키는 방법이 논의되고 있습니다.
 
 ## 관련 도구/링크
-- [Claude Code GitHub Repository](https://www.threads.com/@choi.openai/post/DXEB5v5ASo0)
+- [Claude Code GitHub 프로젝트](https://www.threads.com/@choi.openai/post/DXEB5v5ASo0)
 - [Graphify](https://www.threads.com/@vyblor/post/DX5-onhEb61)
 - [Waza 프로젝트](https://www.threads.com/@unclejobs.ai/post/DXDW9AfE_cz)
 
 ## 출처 노트 목록
+
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260511_the.claudeist_Claude-Code를-활_880cff.md` | @the.claudeist | 2026-05-11 | Claude Code, 질문법, 가설적 접근, 업무 효율 |
+| `u260511_vyblor_Claude-Code의-환_24298c.md` | @vyblor | 2026-05-11 | Claude Code, 토큰 절약, lazy load, MCP |
 | `u260505_vyblor_Claude-Code를-이_412832.md` | @vyblor | 2026-05-05 | Claude Code, AI 모델, 콘텐츠 자동화, Chase AI |
 | `u260505_vyblor_Graphify의-그래프-_2d3e93.md` | @vyblor | 2026-05-05 | Graphify, Claude Code, 토큰 줄이기, 개발 도구 |
 | `u260505_unclejobs.ai_CCS-Claude-Cod_76ec9d.md` | @unclejobs.ai | 2026-05-05 | Claude Code, GPT-5.4, CCS, AI 모델 통합 |
@@ -73,5 +78,3 @@ Claude Code는 AI 모델을 활용한 프로그래밍 도구로, 최근 다양�
 | `u260412_ck_06_01_Claude-Code에서-_ec9c3b.md` | @ck_06_01_ | 2026-04-12 | Claude Code, LLM 코딩, 안전한 AI, 프롬프트 엔지니어링 |
 | `u260412_choi.openai_쇼피파이가-Claude-C_dbfe6c.md` | @choi.openai | 2026-04-12 | Shopify, AI Toolkit, Claude Code, Cursor |
 | `u260409_ju_tiger_lee_claude-code를-활_e1604f.md` | @_ju_tiger_lee_ | 2026-04-09 | claude code, 코드 리뷰, 보안 검토, 프로그래밍 |
-| `u260409_unclejobs.ai_Claude-Code에-새_cadfc6.md` | @unclejobs.ai | 2026-04-09 | Claude Code, CI, 자동 수정, 프로그래밍 |
-| `u260408_choi.openai_코딩-입문자는-Claude_48fd5c.md` | @choi.openai | 2026-04-08 | AI코딩, Codex, Claude Code, 프로그래밍 |

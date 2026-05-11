@@ -1,8 +1,9 @@
 # LLM
-> 노트 25개 | 마지막 갱신: 2026-05-05 20:00
+> 노트 26개 | 마지막 갱신: 2026-05-11 20:27
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af]] | `@ddongddangddi` · 26-05-11 | 최근 대시보드의 LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하였다. 이로 인해 API 호출 비용이 무료가 되며, 개인 ChatGPT Plus 구독으로 인증할 수 있다. OpenAI가 제공하는 새로운 인증 방법으로 사용이 편리해졌다. |
 | [[u260428_sinbum_ai_CLAUDE.md-파일이-_d32ee3]] | `@sinbum_ai` · 26-04-28 | CLAUDE.md 파일이 LLM 코딩 실수 개선을 위해 만들어졌다. 주요 원칙은 가정을 없애고, 간소화하며, 필요한 부분만 수정하고, 목표 중심으로 실행하는 것이다. 이 파일을 통해 Claude Code와 Cursor의 행동이 최적화된다. |
 | [[u260422_feelfree_ai_Neurons라는-오픈소스_b1a8c4]] | `@feelfree_ai` · 26-04-22 | Neurons라는 오픈소스 프로젝트가 로컬 LLM 추론 엔진을 C++로 직접 구현했습니다. 이 프로젝트는 트랜스포머 아키텍처와 KV 캐시, Apple Metal GPU 최적화가 포함되어 있습니다. 간편한 Mac 앱과 OpenAI 호환 API로 실사용이 용이합니다. |
 | [[u260415_unclejobs.ai_Microsoft의-오픈소_56519c]] | `@unclejobs.ai` · 26-04-15 | Microsoft의 오픈소스 프로젝트 MarkItDown은 문서를 Markdown으로 변환하며 LLM이 이해하기 쉬운 구조를 유지합니다. 이 도구는 여러 파일 포맷을 지원하고, LLM 파이프라인 내에서 효율적인 전처리 계층으로 기능합니다. 10만 스타를 기록한 이 프로젝트는 LLM 시대의 문서 변환의 중요성을 강조합니다. |
