@@ -2,40 +2,39 @@
 report_id: codex
 topic: Codex
 tier: tier1-core
-note_count: 58
-last_updated: "2026-05-05 20:06"
+note_count: 62
+last_updated: "2026-05-17 16:29"
 description: "OpenAI Codex 동향 및 활용 사례"
 ---
 
 # Codex 트렌드 리포트
 
-> 노트 58개 기반 | 마지막 갱신: 2026-05-05 20:06
+> 노트 62개 기반 | 마지막 갱신: 2026-05-17 16:29
 
-# Codex — OpenAI Codex 동향 및 활용 사례
+# Codex 동향 및 활용 사례 리포트
 
 ## 개요
-OpenAI Codex는 프로그래밍 및 코드 생성을 지원하는 AI 도구로, 개발자와 사용자에게 효율적인 작업 환경을 제공합니다. 최근 Codex의 다양한 기능과 업데이트는 AI 기술의 발전과 함께 프로그래밍 작업의 자동화 및 효율성을 높이는 데 중요한 역할을 하고 있습니다.
+OpenAI의 Codex는 프로그래밍과 AI의 융합을 통해 개발자들에게 혁신적인 도구를 제공합니다. Codex의 발전은 코딩 작업의 효율성을 높이고, 다양한 산업에서 AI의 활용을 촉진하는 중요한 요소로 자리잡고 있습니다.
 
 ## 핵심 내용
-| 기능/개념          | 설명                                                         |
-|-------------------|------------------------------------------------------------|
-| `/goal` 기능      | 사용자가 설정한 목표에 따라 Codex가 자율적으로 코드를 작성하고 수정하는 기능. |
-| Chormex           | Codex를 기반으로 한 Chrome 확장으로, 다양한 작업을 자동화하는 도구. |
-| Chronicle 기능    | Codex가 과거 작업을 기억하고 분석하여 작업 효율성을 높이는 기능. |
-| 펫 기능           | AI의 상태를 실시간으로 보여주는 귀여운 애니메이션 펫 추가. |
-| 자동화 스킬      | Codex를 활용하여 제품 상세 페이지 이미지 생성 등 다양한 자동화 작업 가능. |
+| 기능/개념 | 설명 |
+|------------|------|
+| 모바일 앱 | Codex의 모바일 앱 기능으로 언제 어디서나 코드를 제어 가능 |
+| '/goal' 기능 | 목표 설정 후 Codex가 자율적으로 코드를 작성하고 리뷰 |
+| Chronicle 기능 | 과거 작업을 기억하고 이어갈 수 있도록 지원 |
+| 자동화 도구 | Crack-CLI, Codex-sangpye-skill 등 다양한 자동화 도구 제공 |
+| 게임 개발 | Codex와 Gemini를 활용한 새로운 게임 개발 방식 |
+| Euphony 도구 | 챗봇 대화 데이터와 Codex 세션 로그 분석 도구 |
 
 ## 최신 동향
-- **2026-05-05**: Codex의 `/goal` 기능 활성화 방법 및 활용 사례 소개.
-- **2026-05-05**: Codex 기반 Chrome 확장 Chormex의 0.1.3 버전 업데이트.
-- **2026-05-05**: Codex에 새로운 펫 기능 추가.
-- **2026-05-05**: Codex CLI에 `/goal` 기능 추가.
-- **2026-05-05**: AI 업계에서 Codex 및 다른 AI 도구의 자율성 강화 소식.
+- **2026-05-17**: Codex와 Claude의 메모리 시스템 비교에 대한 논의가 활발히 이루어짐. [원문](https://www.threads.com/@dayum_gud/post/DYRJEMKD4Cq)
+- **2026-05-17**: Codex의 모바일 앱 기능이 출시되어 사용자들이 다양한 시나리오를 제안하고 있음. [원문](https://www.threads.com/@unclejobs.ai/post/DYWh5cyCXIW)
+- **2026-05-05**: Codex의 '/goal' 기능이 활성화되었으며, 사용자들이 이를 통해 다양한 작업을 자동화하는 방법을 공유함. [원문](https://www.threads.com/@jwon.ig/post/DX6eCe_kWoK)
+- **2026-04-22**: Codex의 Chronicle 기능이 도입되어 작업 효율성이 높아질 것으로 기대됨. [원문](https://www.threads.com/@choi.openai/post/DXYgpPoDQBa)
 
 ## 주요 인사이트
-- 사용자들은 Codex의 `/goal` 기능을 통해 명확한 목표 설정이 중요하다고 강조하며, 이를 통해 작업의 자동화가 가능하다고 언급했습니다.
-- Codex와 ChatGPT를 혼합 사용하여 작업 효율을 높이는 방법이 화제가 되고 있으며, 여러 브라우저에서 접근 가능하다는 장점이 강조되었습니다.
-- Codex를 활용한 게임 개발 사례가 소개되며, AI의 게임 개발 활용 가능성이 주목받고 있습니다.
+- Codex를 사용하면서 반복적인 질문과 불필요한 물음이 잦아 스트레스를 받는 사용자들이 많음. 이를 해결하기 위해 OmO와 OmX 같은 오픈소스를 활용하는 방법이 논의됨. [원문](https://www.threads.com/@unclejobs.ai/post/DWxpgveCa1U)
+- Codex와 ChatGPT를 혼합 사용하여 작업 효율을 높이는 방법이 소개됨. [원문](https://www.threads.com/@koreaaiacademy/post/DX6UpE3CVii)
 
 ## 관련 도구/링크
 - [Codex GitHub](https://github.com/openai/codex)
@@ -44,6 +43,10 @@ OpenAI Codex는 프로그래밍 및 코드 생성을 지원하는 AI 도구로, 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260517_dayum_gud_Codex와-Claude의_28757f.md` | @dayum_gud | 2026-05-17 | Codex, Claude, 메모리 시스템, 비교 자료 |
+| `u260517_unclejobs.ai_코덱스의-모바일-앱-기능이_bde92f.md` | @unclejobs.ai | 2026-05-17 | Codex, 모바일 앱, API, 인프라 |
+| `u260517_yechan.ai_Codex를-사용하면서-느_53b010.md` | @yechan.ai | 2026-05-17 | Codex, CLI, 프로그래밍, 개발 도구 |
+| `u260517_bamtolai_Codex와-Gemini를_6784a5.md` | @bamtolai | 2026-05-17 | Codex, Gemini, 게임개발, 자동화 |
 | `u260505_unclejobs.ai_Codex의-goal-기능_fb3806.md` | @unclejobs.ai | 2026-05-05 | Codex, goal 기능, 프로그래밍, AI 툴 |
 | `u260505_jwon.ig_Codex의-goal-기능_1d3d5c.md` | @jwon.ig | 2026-05-05 | Codex, AI 기능, 코드 자동화, 프로그래밍 |
 | `u260505_choi.openai_이번-주-AI-업계에서-4_88b445.md` | @choi.openai | 2026-05-05 | AI 업데이트, Codex, Claude, 트렌드 |
@@ -70,7 +73,3 @@ OpenAI Codex는 프로그래밍 및 코드 생성을 지원하는 AI 도구로, 
 | `u260407_builder__j_Codex-Best-Pra_043750.md` | @builder__j | 2026-04-07 | Codex, 프롬프트, AGENTS.md, 스킬 |
 | `u260407_choi.openai_Codex-앱-서버가-오픈_adce20.md` | @choi.openai | 2026-04-07 | Codex, 오픈소스, 개인화, 코딩 |
 | `u260403_choi.openai_오픈AI가-앤트로픽의-Cl_491b56.md` | @choi.openai | 2026-04-03 | AI, Codex, Claude Code, 프로그래밍 |
-| `u260330_choi.openai_Codex를-단순-코드-생_6a5127.md` | @choi.openai | 2026-03-30 | Codex, 오픈AI, workflow, AGENTS.md |
-| `u260327_choi.openai_전-세계-Claude-활용_3dc4a2.md` | @choi.openai | 2026-03-27 | Claude, AI 가이드북, AI 트렌드, OpenClaw |
-| `u260327_choi.openai_Claude-가이드북을-업_0399bb.md` | @choi.openai | 2026-03-27 | Claude, AI, 가이드북, AI 트렌드 |
-| `u260327_shin_jae_sik_오픈클로-사용-비용이-높아_345551.md` | @shin_jae_sik | 2026-03-27 | 오픈클로, AI 비용, Mem0, Codex |

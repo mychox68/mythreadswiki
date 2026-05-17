@@ -2,47 +2,46 @@
 report_id: gemini
 topic: Gemini
 tier: tier2-concepts
-note_count: 23
-last_updated: "2026-05-05 20:09"
+note_count: 24
+last_updated: "2026-05-17 16:29"
 description: "Google Gemini 계열 동향"
 ---
 
 # Gemini 트렌드 리포트
 
-> 노트 23개 기반 | 마지막 갱신: 2026-05-05 20:09
+> 노트 24개 기반 | 마지막 갱신: 2026-05-17 16:29
 
 # Gemini 동향 리포트
 
 ## 개요
-Google Gemini는 최신 AI 기술을 활용하여 다양한 작업을 자동화하고 효율성을 높이는 데 중요한 역할을 하고 있습니다. 특히, Gemini의 기능은 사용자 경험을 개선하고, 다양한 파일 형식을 지원함으로써 업무의 생산성을 크게 향상시킬 것으로 기대됩니다.
+Gemini는 구글의 최신 AI 기술로, 다양한 파일 형식의 생성, 브라우저 통합, 자동화된 작업 흐름 등 여러 기능을 제공합니다. 이 기술은 특히 게임 개발 및 협업 환경에서의 효율성을 높이는 데 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징           | 설명                                                                                     |
+| 기능/개념/특징          | 설명                                                                                     |
 |-----------------------|----------------------------------------------------------------------------------------|
-| 파일 생성 및 다운로드   | 다양한 파일 형식(PDF, .docx 등)을 생성하고 다운로드할 수 있는 기능 제공.                     |
-| AI 비서 기능           | 'Gemini in Chrome'을 통해 웹 페이지 요약 및 정보 통합 기능 제공.                             |
-| 보안 점검              | AI Studio에서 API 키 노출 사건 발생, 보안 점검 필요성 강조.                                   |
-| 자동화 도구            | NotebookLM과의 통합으로 회의록 작성 자동화 및 자료 기반 콘텐츠 생성 가능.                     |
-| 이미지 다운로드        | 'Gemini Voyager' 크롬 확장 프로그램을 통해 워터마크 없는 이미지 다운로드 가능.                  |
-| 멀티모델 에이전트 팀 구축 | 여러 AI 모델을 조합하여 각 모델의 강점을 활용하는 멀티모델 구조 개발.                          |
+| 파일 생성 및 다운로드   | PDF, .docx 등 다양한 파일 형식을 생성하고 다운로드할 수 있는 기능 제공.                      |
+| AI 비서 기능           | 크롬 브라우저에 통합되어 정보 요약 및 여러 작업을 지원하는 AI 비서 기능.                      |
+| 자동화된 워크플로우     | Codex와 Gemini를 활용하여 게임 개발 및 다른 작업에서 에이전트 간 협업을 강조.                   |
+| 보안 점검 및 API 관리   | AI Studio에서 API 키 노출 사건이 발생, 보안 점검 필요성 강조.                                   |
+| 멀티모델 에이전트 팀 구축 | 여러 AI 모델을 조합하여 각 모델의 강점을 활용하는 멀티모델 구조 제안.                           |
 
 ## 최신 동향
-- **2026-05-05**: 구글이 Gemini 앱에서 다양한 파일 형식(PDF, .docx 등)을 생성하고 다운로드할 수 있는 기능을 출시했습니다. [🔗 원문](https://www.threads.com/@choi.openai/post/DX4LEAVD042)
-- **2026-04-22**: 구글이 크롬 브라우저에 AI 비서 기능인 'Gemini in Chrome'을 도입했습니다. [🔗 원문](https://www.threads.com/@choi.openai/post/DXXpVodE8Y6)
-- **2026-04-15**: AI Studio에서 만든 앱의 보안 허점으로 인해 API 키가 노출되었습니다. [🔗 원문](https://www.threads.com/@minorabanggu/post/DXDlSFQmB63)
+- **2026-05-05**: 구글이 Gemini 앱에서 다양한 파일 형식 생성 및 다운로드 기능 출시. [원문](https://www.threads.com/@choi.openai/post/DX4LEAVD042)
+- **2026-04-22**: 크롬 브라우저에 AI 비서 기능 'Gemini in Chrome' 도입. [원문](https://www.threads.com/@choi.openai/post/DXXpVodE8Y6)
+- **2026-04-15**: AI Studio에서 API 키 노출 사건 발생, 보안 점검 필요성 강조. [원문](https://www.threads.com/@minorabanggu/post/DXDlSFQmB63)
 
 ## 주요 인사이트
-- 사용자들은 Gemini의 다양한 기능을 활용하여 회의록 작성 및 자료 정리에 대한 효율성을 높이고 있습니다. 특히, NotebookLM과의 통합을 통해 자동화된 회의록 작성 방법이 화제입니다.
-- Gemini API에 최적화된 개발 베스트 프랙티스가 공유되며, 개발자들 사이에서 Gemini API 활용에 대한 관심이 높아지고 있습니다.
+- 사용자들은 Gemini와 Codex를 활용한 자동화된 워크플로우에 대한 경험을 공유하며, 협업의 중요성을 강조하고 있습니다.
+- 댓글에서는 다양한 AI 도구와의 연동 및 활용법에 대한 의견 교환이 활발히 이루어지고 있습니다.
 
 ## 관련 도구/링크
-- [Gemini Voyager](https://www.threads.com/@thestack_ai/post/DVcvA74DwVH): 워터마크 없이 이미지 다운로드 가능
-- [OpenClaw 사용 가이드](https://www.threads.com/@choi.openai/post/DWWJUXyiPIR): 업무 자동화 방법
-- [Gemini API 스킬](https://www.threads.com/@aicoffeechat/post/DUtm8I2kwQ3): 개발 베스트 프랙티스
+- [Gemini Voyager](https://www.threads.com/@thestack_ai/post/DVcvA74DwVH): 워터마크 없이 이미지 다운로드 가능.
+- [GitHub](https://github.com): Gemini API에 최적화된 개발 베스트 프랙티스 관련 자료.
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260517_bamtolai_Codex와-Gemini를_6784a5.md` | @bamtolai | 2026-05-17 | Codex, Gemini, 게임개발, 자동화 |
 | `u260505_choi.openai_구글이-Gemini-앱에서_b1e812.md` | @choi.openai | 2026-05-05 | 구글, Gemini, 파일 생성, AI 기술 |
 | `u260422_choi.openai_구글이-크롬-브라우저에-A_fe11a3.md` | @choi.openai | 2026-04-22 | 구글, 크롬, Gemini, AI 비서 |
 | `u260415_minorabanggu_AI-Studio에서-만든_e7d995.md` | @minorabanggu | 2026-04-15 | AI Studio, Cloud Run, 보안, API 키 |

@@ -2,50 +2,50 @@
 report_id: hermes
 topic: Hermes Agent
 tier: tier2-concepts
-note_count: 14
-last_updated: "2026-05-07 23:07"
+note_count: 16
+last_updated: "2026-05-17 16:29"
 description: "Hermes Agent 버전업·멀티에이전트 운영"
 ---
 
 # Hermes Agent 트렌드 리포트
 
-> 노트 14개 기반 | 마지막 갱신: 2026-05-07 23:07
+> 노트 16개 기반 | 마지막 갱신: 2026-05-17 16:29
 
 # Hermes Agent 리포트
 
 ## 개요
-Hermes Agent는 AI 에이전트의 진화와 멀티 에이전트 운영을 통해 사용자에게 더 나은 작업 환경을 제공하는 혁신적인 기술입니다. 최근의 업데이트와 기능 추가는 다양한 산업에서의 활용 가능성을 높이고 있으며, AI 기술의 발전에 중요한 역할을 하고 있습니다.
+Hermes Agent는 최근 AI 기술의 발전과 함께 주목받고 있는 멀티 에이전트 운영 시스템입니다. 다양한 기능과 사용자 친화적인 인터페이스를 통해, 사용자들이 효율적으로 작업을 수행할 수 있도록 지원하며, 이는 AI 에이전트의 활용도를 높이는 데 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징                  | 설명                                                                 |
-|----------------------------------|----------------------------------------------------------------------|
-| 이미지 및 영상 생성             | 에르메스는 이미지 생성뿐만 아니라 영상 생성 기능도 지원합니다.    |
-| 멀티 모델 에이전트 조합         | ClaudeCode와 Hermes, Omx 조합을 통한 다양한 워크플로우 지원.      |
-| ComfyUI와의 통합                | 이미지 생성 파이프라인을 관리할 수 있는 도구로 발전.               |
-| Codex를 이용한 이미지 생성      | 간단한 커맨드로 이미지 생성 설정 가능.                              |
-| 로컬 웹 대시보드                | 사용자 친화적인 대시보드 추가로 관리 용이성 향상.                  |
-| Fast Mode                        | 응답 속도 개선 기능 추가.                                          |
-| 멀티 에이전트 구축              | 독립적인 환경에서 에이전트를 운영할 수 있는 기능 제공.              |
+| 기능/개념/특징 | 설명 |
+|----------------|------|
+| **멀티 에이전트 운영** | 각 프로필이 독립적인 환경을 제공하여 격리된 에이전트를 운영할 수 있음. |
+| **웹 UI** | 가독성이 뛰어나며 그룹채팅 기능을 지원. 한글 문제는 Hermes Cli로 해결 가능. |
+| **이미지 및 영상 생성** | Codex와의 통합을 통해 이미지 생성 및 영상 생성 기능 추가. |
+| **로컬 웹 대시보드** | 사용자 친화적인 대시보드를 통해 다양한 기능을 쉽게 접근 가능. |
+| **Fast Mode** | 응답 속도를 개선하여 사용자 경험을 향상. |
+| **보안 강화** | 공급망 공격 이슈에 대한 경고 및 보안 기능 추가. |
 
 ## 최신 동향
-- **2026-05-07**: 에르메스의 영상 생성 기능 추가 발표. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DX-cjrdkyH1)
-- **2026-05-07**: 멀티 모델 에이전트 조합에 대한 논의 활발. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DX-zioxCRra)
-- **2026-05-05**: ComfyUI와 Hermes Agent의 결합으로 복잡한 워크플로우 관리 가능. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXwXNQiidv5)
-- **2026-04-15**: Hermes Agent의 대규모 업데이트(v0.9.0) 발표. [🔗 원문](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
-- **2026-04-08**: Hermes Agent v0.7.0 업데이트, 새로운 플러그인 시스템 및 보안 강화. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DW1Z88jk-_E)
+- **2026-05-17**: 특정 Python 패키지 'mistralai==2.4.6'에서 공급망 공격 이슈 발생 경고. [원문](https://www.threads.com/@roach_log/post/DYOzcIsjmqL)
+- **2026-05-17**: Hermes 웹 UI의 가독성 및 그룹채팅 기능 소개. [원문](https://www.threads.com/@ai.trend.ray/post/DYXQJYVkZfn)
+- **2026-05-07**: 이미지 및 영상 생성 기능 추가 발표. [원문](https://www.threads.com/@unclejobs.ai/post/DX-cjrdkyH1)
+- **2026-04-15**: Hermes Agent v0.9.0 대규모 업데이트 발표, Fast Mode 및 로컬 웹 대시보드 추가. [원문](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
 
 ## 주요 인사이트
-- 사용자들은 Hermes Agent와 Codex Oauth의 조합으로 높은 범용성을 경험하고 있으며, Yolo 모드와 Reasoning 단계 조절 기능이 긍정적으로 평가되고 있습니다.
-- 멀티 에이전트 구축 방법에 대한 카드뉴스가 공유되어, 효율적인 관리와 설정의 용이성이 강조되고 있습니다.
-- 디스크 공간 부족 문제와 관련하여, Hermes와 PaperClip이 많은 공간을 차지한다는 사용자 경험이 공유되었습니다.
+- 사용자들은 Hermes Agent의 멀티 에이전트 기능을 통해 다양한 모델을 조합하여 보다 매끄러운 작업 환경을 구축하고 있습니다.
+- Hermes 웹 UI의 한글 문제는 Hermes Cli를 통해 해결할 수 있다는 팁이 공유되었습니다.
+- 디스크 공간 부족 문제에 대한 경험이 공유되며, 미니PC에서 Hermes의 설치 및 운영에 대한 조언이 제공되었습니다.
 
 ## 관련 도구/링크
-- [Hermes Agent GitHub](https://www.threads.com/@unclejobs.ai/post/DX-cjrdkyH1)
-- [Nous Research 공식 문서](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
+- [Hermes Agent GitHub](https://www.threads.com/@unclejobs.ai/post/DXwXNQiidv5)
+- [Hermes 공식 문서](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260517_roach_log_Hermes-사용자는-특정_f85fb6.md` | @roach_log | 2026-05-17 | Hermes, Mistral, Python, 보안 |
+| `u260517_ai.trend.ray_헤르메스-웹-UI는-가독성_924747.md` | @ai.trend.ray | 2026-05-17 | Hermes, 웹 UI, 그룹채팅, 한글 문제 |
 | `u260507_unclejobs.ai_에르메스와-관련된-새로운-_a3402e.md` | @unclejobs.ai | 2026-05-07 | 에르메스, 하이퍼프레임, 영상 생성, AI 기술 |
 | `u260507_unclejobs.ai_최근-멀티-모델-에이전트-_de3d70.md` | @unclejobs.ai | 2026-05-07 | ClaudeCode, Hermes, Omx, 멀티 모델 |
 | `u260505_unclejobs.ai_AI-에이전트가-이미지-생_ed615b.md` | @unclejobs.ai | 2026-05-05 | AI, ComfyUI, Hermes Agent, 이미지 생성 |

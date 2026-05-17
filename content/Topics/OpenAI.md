@@ -1,8 +1,9 @@
 # OpenAI
-> 노트 16개 | 마지막 갱신: 2026-05-11 20:27
+> 노트 17개 | 마지막 갱신: 2026-05-17 16:26
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260517_choi.openai_OpenAI가-OpenAI_a58469]] | `@choi.openai` · 26-05-17 | OpenAI가 OpenAI Deployment Company를 출범하여 기업의 운영 방식을 AI 중심으로 재설계하는 서비스를 시작했습니다. 대형 컨설팅 회사들과 협력해 FDE를 통해 AI 도입을 지원하고 있으며, 앤트로픽 또한 유사한 전략을 채택하고 있습니다. 이는 AI 회사들이 조직 구조를 변화시키는 새로운 시대의 시작을 알리고 있습니다. |
 | [[u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af]] | `@ddongddangddi` · 26-05-11 | 최근 대시보드의 LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하였다. 이로 인해 API 호출 비용이 무료가 되며, 개인 ChatGPT Plus 구독으로 인증할 수 있다. OpenAI가 제공하는 새로운 인증 방법으로 사용이 편리해졌다. |
 | [[u260511_unclejobs.ai_OpenAI가-새로운-실시_29b3aa]] | `@unclejobs.ai` · 26-05-11 | OpenAI가 새로운 실시간 음성 모델 3개(GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper)를 발표했습니다. 이 모델들은 각각 음성 에이전트, 실시간 통역, 실시간 받아쓰기 기능을 수행합니다. 음성 앱이 이제 단순한 STT와 TTS의 조합이 아니라, 더욱 인터랙티브한 사용자 경험을 제공하게 되었습니다. |
 | [[u260505_choi.openai_오픈AI가-Codex에-새_ddd5ef]] | `@choi.openai` · 26-05-05 | 오픈AI가 Codex에 새로운 펫 기능을 추가했습니다. 이 기능은 개발자가 작업 중에도 AI의 상태를 실시간으로 보여주며, 귀여운 애니메이션 펫을 통해 사용자와의 친밀함을 높입니다. 사용자는 기본 펫을 선택하거나 맞춤형 펫을 생성할 수 있습니다. |

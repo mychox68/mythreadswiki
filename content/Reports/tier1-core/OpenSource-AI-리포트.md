@@ -2,77 +2,63 @@
 report_id: opensource-ai
 topic: 오픈소스 AI
 tier: tier1-core
-note_count: 101
-last_updated: "2026-05-07 23:04"
+note_count: 107
+last_updated: "2026-05-17 16:28"
 description: "오픈소스 에이전트·모델 생태계 동향"
 ---
 
 # 오픈소스 AI 트렌드 리포트
 
-> 노트 101개 기반 | 마지막 갱신: 2026-05-07 23:04
+> 노트 107개 기반 | 마지막 갱신: 2026-05-17 16:28
 
 # 오픈소스 AI 리포트
 
 ## 개요
-오픈소스 AI는 다양한 분야에서 혁신을 이끌고 있으며, 개발자와 기업에게 새로운 기회를 제공합니다. 특히, 커뮤니티 기반의 협업과 공유가 이루어짐에 따라, 기술 발전 속도가 빨라지고 있습니다.
+오픈소스 AI는 개발자와 기업이 혁신적인 AI 솔루션을 보다 쉽게 접근하고 활용할 수 있도록 돕는 중요한 기술입니다. 이러한 생태계는 다양한 도구와 플랫폼을 통해 AI의 활용 가능성을 확장하고 있으며, 특히 콘텐츠 생성, 데이터 처리, 음성 인식 등 여러 분야에서 활발히 발전하고 있습니다.
 
 ## 핵심 내용
-| 도구/프로젝트        | 기능 및 특징                                                                                         |
-|---------------------|---------------------------------------------------------------------------------------------------|
-| Mole                | 맥의 저장 공간을 효율적으로 정리해주는 도구, 청소 속도 및 대상 확장, VPN 보호 기능 추가.                |
-| TradingAgents       | 9명의 AI를 조직화하여 매매 의사결정을 내리는 오픈소스 프레임워크.                                    |
-| Vexa                | 회의 자동 녹취 API, 실시간 전사 가능, 셀프 호스팅 지원.                                             |
-| DBeaver             | 다양한 데이터베이스 지원, AI 기능 추가로 컬럼명 제안.                                               |
-| Lazyweb             | 25만 개 이상의 디자인 데이터 제공, AI 모델과 연결 가능.                                             |
-| Obsidian Sync       | 종단 간 암호화로 실시간 데이터 동기화.                                                              |
-| VoxCPM              | 로컬에서 무료로 사용할 수 있는 TTS 모델, 30개 언어 자동 감지.                                      |
-| OpenScreen          | 고급 화면 녹화 기능 제공, 자동 시각 효과 적용.                                                      |
-| HyperFrames         | AI 기반 HTML 렌더링 엔진, MP4 영상 생성.                                                            |
-| Chomex              | 프롬프트 생성 도구, Codex 활용.                                                                     |
-| code-review-graph   | 코드 수정 시 영향을 받는 파일만 수용, 토큰 비용 절감.                                               |
-| shadcn/ui           | 컴포넌트를 소스 파일로 직접 추가 가능, 수정 가능.                                                  |
-| OpenChamber         | AI 코딩을 쉽게 이용할 수 있는 GUI, QR 코드로 작업 이어가기.                                        |
-| Huashu Design       | AI 에이전트를 통해 고급 디자인 생성.                                                                |
-| Multica             | AI 에이전트를 채용하여 반복 업무 처리.                                                              |
-| Privacy Filter      | 개인 식별 정보를 자동으로 찾아 제거하는 오픈소스 모델.                                             |
-| Magika              | AI를 사용해 파일의 진짜 정체를 판별하는 도구.                                                      |
-| DeepTutor           | 학습자의 수준을 진단하고 소크라테스식 질문으로 사고력 키우기.                                      |
+| 기능/개념/특징 | 설명 |
+|----------------|------|
+| **콘텐츠 생성 시스템** | 무료 오픈소스 코드를 통해 사용자가 상업적 목적으로 콘텐츠를 생성할 수 있는 시스템 제공. |
+| **OpenCut** | CapCut의 오픈소스 대안으로, 비디오 편집 기능을 제공. |
+| **Docling** | 다양한 문서 형식을 LLM이 읽을 수 있는 포맷으로 변환하는 도구. |
+| **Codex 사용** | 프로그래밍 도구로서의 Codex 활용과 관련된 문제점 및 해결책 공유. |
+| **OmniVoice Studio** | 음성 클로닝과 비디오 더빙을 지원하는 오픈소스 도구. |
+| **Mole** | 맥의 저장 공간을 효율적으로 정리해주는 도구. |
+| **TradingAgents** | AI를 활용한 매매 의사결정 시스템. |
+| **Vexa** | 회의 자동 녹취 API로, 실시간으로 내용을 전사하는 기능 제공. |
+| **DBeaver** | 데이터베이스 지원 오픈소스 툴로 AI 기능 추가. |
+| **Lazyweb** | 디자인 레퍼런스 툴로 AI 모델과 연결 가능. |
+| **Privacy Filter** | 개인정보 보호를 위한 오픈소스 모델. |
 
 ## 최신 동향
-- **2026-05-07**: Mole 업데이트, 청소 속도 및 대상을 확장, VPN 보호 기능 추가.
-- **2026-05-05**: DBeaver, AI 기능 추가; Lazyweb 무료 공개; Vexa 주목받음.
-- **2026-04-28**: OpenAI, Privacy Filter 발표; Claude Design 대안 등장.
-- **2026-04-22**: Google, Magika 공개; AI 영상 편집 자동화 오픈소스 공개.
-- **2026-04-15**: Microsoft, MarkItDown 발표; Waza 프로젝트 소개.
+- **2026-05-17**: 여러 오픈소스 프로젝트가 소개됨. 무료 오픈소스 코드를 통한 콘텐츠 생성 시스템과 OpenCut 비디오 편집 도구가 주목받음.
+- **2026-05-07**: Mole의 업데이트로 청소 속도와 대상을 확장하고 VPN 보호 기능 추가.
+- **2026-05-05**: DBeaver에 AI 자동완성 기능 추가, OpenScreen이 고급 화면 녹화 기능으로 주목받음.
+- **2026-04-28**: OpenAI의 Privacy Filter 발표, AI 도구 시장에서의 변화가 감지됨.
 
 ## 주요 인사이트
-- 오픈소스 AI 도구들이 빠르게 발전하고 있으며, 커뮤니티의 피드백을 통해 개선되고 있습니다.
-- AI 도구의 오픈소스화가 기업의 AI 도입을 촉진하고 있으며, 데이터 보안 문제 해결에도 기여하고 있습니다.
-- 디자인 및 개발 분야에서의 오픈소스 프로젝트가 증가하고 있으며, 한국에서도 관련 프로젝트가 필요하다는 의견이 제기되고 있습니다.
+- 오픈소스 AI 도구들은 상업적 사용을 가능하게 하여 개발자와 기업의 접근성을 높이고 있음.
+- 커뮤니티가 신속하게 대안을 제공하는 구조가 형성되고 있으며, 이는 AI 도구의 발전 속도를 가속화하고 있음.
+- 다양한 분야에서 오픈소스 프로젝트가 활발히 진행되고 있으며, 특히 디자인과 데이터 처리 분야에서 두드러진 성과를 보이고 있음.
 
 ## 관련 도구/링크
-- [Mole](https://www.threads.com/@unclejobs.ai/post/DX-pB3NCTmA)
-- [TradingAgents](https://www.threads.com/@eddiemoon0720/post/DX8ePWok27c)
+- [Docling](https://www.threads.com/@kyungpyo_lee/post/DYZbqDjkzZk)
+- [OpenCut](https://www.threads.com/@ddongddangddi/post/DYS8n6YkxqK)
 - [Vexa](https://www.threads.com/@yeopo92/post/DX8jjyKDykt)
+- [OmniVoice Studio](https://www.threads.com/@naviscalling_ha/post/DYXWbh0kwr3)
 - [DBeaver](https://www.threads.com/@teum_soul/post/DX5kcDXFUzE)
-- [Lazyweb](https://www.threads.com/@choi.openai/post/DX6PyawgkpL)
-- [Obsidian Sync](https://www.threads.com/@h29145/post/DX3xRxqiZ0s)
-- [VoxCPM](https://www.threads.com/@think.5x/post/DX6MSJrE7si)
-- [OpenScreen](https://www.threads.com/@choi.openai/post/DX5Htn-DqhU)
-- [HyperFrames](https://www.threads.com/@ohbeopseok/post/DXuytFzE5B3)
-- [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-)
-- [code-review-graph](https://www.threads.com/@think.5x/post/DX2wjwIk-Ok)
-- [shadcn/ui](https://www.threads.com/@teum_soul/post/DX1Q9hXlN_-)
-- [OpenChamber](https://www.threads.com/@unclejobs.ai/post/DXsvjH_ia-q)
-- [Huashu Design](https://www.threads.com/@choi.openai/post/DXeTAltgs1D)
-- [Multica](https://www.threads.com/@bravomylife153/post/DXdfALfDZMX)
 - [Privacy Filter](https://www.threads.com/@choi.openai/post/DXdEDrzjAl_)
-- [Magika](https://www.threads.com/@sweet_bkan/post/DXMDtoCkRrl)
-- [DeepTutor](https://www.threads.com/@bizmentor_kr/post/DW7V6EGEyW3)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260517_nayeo1974_무료-오픈소스-코드를-통해_a5d876.md` | @nayeo1974 | 2026-05-17 | 오픈소스, 콘텐츠 생성, GitHub |
+| `u260517_ddongddangddi_OpenCut은-오픈소스로_f8d7f6.md` | @ddongddangddi | 2026-05-17 | OpenCut, CapCut, 오픈소스, 비디오 편집 |
+| `u260517_kyungpyo_lee_Docling은-다양한-문_3d0ca4.md` | @kyungpyo_lee | 2026-05-17 | Docling, PDF 파서, AI 자동화, 오픈소스 |
+| `u260517_yechan.ai_Codex를-사용하면서-느_53b010.md` | @yechan.ai | 2026-05-17 | Codex, CLI, 프로그래밍, 개발 도구 |
+| `u260517_keke_appa_클로드코드와-코덱스-토큰-_b7b3eb.md` | @keke_appa | 2026-05-17 | 클로드코드, 코덱스, RTK, 러스트 |
+| `u260517_naviscalling_ha_OmniVoice-Stud_561ebb.md` | @naviscalling_ha | 2026-05-17 | OmniVoice Studio, 음성 클로닝, 비디오 더빙, 오픈소스 |
 | `u260507_unclejobs.ai_Mole은-맥의-저장-공간_d35608.md` | @unclejobs.ai | 2026-05-07 | Mole, 오픈소스, AI 도구, 맥 최적화 |
 | `u260507_eddiemoon0720_오픈-소스-프레임워크-Tr_cbdb68.md` | @eddiemoon0720 | 2026-05-07 | TradingAgents, AI, 매매, 오픈소스 |
 | `u260507_yeopo92_Vexa는-구글-밋-Tea_ad985d.md` | @yeopo92 | 2026-05-07 | Vexa, 회의 녹취, 오픈소스, AI 에이전트 |
@@ -97,9 +83,3 @@ description: "오픈소스 에이전트·모델 생태계 동향"
 | `u260422_daon_k_일본에서는-다양한-디자인-_ef85b6.md` | @daon_k | 2026-04-22 | 디자인, 오픈소스, AI, 레퍼런스 |
 | `u260422_feelfree_ai_Neurons라는-오픈소스_b1a8c4.md` | @feelfree_ai | 2026-04-22 | LLM, 오픈소스, C++, 트랜스포머 |
 | `u260422_choi.openai_AI의-video-use-_447702.md` | @choi.openai | 2026-04-22 | AI, 영상 편집, 오픈소스 |
-| `u260422_daon_k_일본의-오픈소스-디자인-시_331d4e.md` | @daon_k | 2026-04-22 | 디자인 시스템, 오픈소스, AI, 한국 디자인 |
-| `u260422_sweet_bkan_Google이-오픈소스로-_136815.md` | @sweet_bkan | 2026-04-22 | Google, Magika, AI, 보안 |
-| `u260415_unclejobs.ai_Microsoft의-오픈소_56519c.md` | @unclejobs.ai | 2026-04-15 | MarkItDown, Markdown, LLM, 문서 변환 |
-| `u260415_builder__j_CloudFlare가-인수_05e714.md` | @builder__j | 2026-04-15 | EmDash, CloudFlare, WordPress, TypeScript |
-| `u260415_unclejobs.ai_Waza라는-오픈소스-프로_e7d9f1.md` | @unclejobs.ai | 2026-04-15 | Waza, Claude Code, AI 스킬, 오픈소스 |
-| `u260412_bizmentor_kr_HKUDS-연구팀의-오픈소_52d29e.md` | @bizmentor_kr | 2026-04-12 | AI 튜터, DeepTutor, 교육, 오픈소스 |

@@ -2,53 +2,51 @@
 report_id: prompt-eng
 topic: 프롬프트 엔지니어링
 tier: tier3-emerging
-note_count: 68
-last_updated: "2026-05-05 20:10"
+note_count: 72
+last_updated: "2026-05-17 16:31"
 description: "프롬프트 패턴·기법·최신 사례"
 ---
 
 # 프롬프트 엔지니어링 트렌드 리포트
 
-> 노트 68개 기반 | 마지막 갱신: 2026-05-05 20:10
+> 노트 72개 기반 | 마지막 갱신: 2026-05-17 16:31
 
 # 프롬프트 엔지니어링 리포트
 
 ## 개요
-프롬프트 엔지니어링은 AI 모델의 성능을 극대화하기 위한 핵심 기술로, 사용자와 AI 간의 상호작용을 최적화하는 방법론입니다. 이 기술은 다양한 분야에서 활용되며, 특히 이미지 생성, 이모티콘 제작, 법률 문제 해결 등에서 그 중요성이 더욱 부각되고 있습니다.
+프롬프트 엔지니어링은 AI 모델과의 상호작용을 최적화하기 위한 기술로, 사용자 요구에 맞는 결과를 도출하는 데 필수적입니다. 최근 AI 기술의 발전과 함께 프롬프트 엔지니어링의 중요성이 더욱 부각되고 있으며, 다양한 패턴과 기법이 개발되고 있습니다.
 
 ## 핵심 내용
 | 기능/개념 | 설명 |
 |-----------|------|
-| **프롬프트 생성 도구** | Chomex와 같은 오픈소스 도구를 통해 클릭 한 번으로 프롬프트를 생성 가능. |
-| **AI 이모티콘 제작** | 사용자가 아기의 표정을 활용한 이모티콘을 만들 수 있도록 프롬프트 공유. |
-| **이미지 활용** | GPT를 통해 개인화된 보고서를 이미지로 생성하는 방법 소개. |
-| **질문력 향상** | 효과적인 프롬프트 질문을 통해 AI의 이해도를 높이고 깊이 있는 분석 유도. |
-| **협상가 모드** | ChatGPT의 협상가 모드를 활용하여 연봉 협상 등 다양한 상황에 대응. |
-| **Codex Harness** | Codex의 장기 프로젝트 안정적 사용을 위한 운영 템플릿 제공. |
-| **Self-Evolution** | AI가 스스로 프롬프트와 코드를 개선하는 방법 제시. |
-| **애니메이션 제작** | 프롬프트를 통해 손그림 애니메이션 제작을 위한 규칙과 팁 공유. |
-| **모바일 앱 개발** | Claude가 모바일 앱 구축을 지원하는 프롬프트 제공. |
+| Ralph Loop | 목표 설정과 달성을 자동화하는 패턴으로, `/goal` 명령어를 사용하여 반복 작업을 효율적으로 관리 |
+| Prompt Maker | 프롬프트를 관리하고 아이디어를 저장하는 무료 프로그램 |
+| Chomex | 오픈소스 프롬프트 생성 도구로, 다양한 기능을 제공 |
+| CLAUDE.md | AI의 행동 규칙을 명시적으로 지정하여 일관된 결과를 도출 |
+| Codex Harness | Codex를 장기 프로젝트에서 안정적으로 사용하기 위한 운영 템플릿 |
 
 ## 최신 동향
-- **2026-05-05**: Chomex, 오픈소스 프롬프트 생성 도구 출시. [🔗 원문](https://www.threads.com/@choi.openai/post/DXtljgcDPa-)
-- **2026-04-28**: Codex Harness와 Self-Evolution 기법 발표. [🔗 원문](https://www.threads.com/@leesangin_n/post/DXhY1g8k8r4) [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXdVpVrCcB7)
-- **2026-04-22**: 클로드 코드 프로젝트 템플릿 유출 및 분석. [🔗 원문](https://www.threads.com/@jwon.ig/post/DXVj7woEWf-)
-- **2026-04-12**: MIT 교수의 발표 프레임워크를 클로드 프롬프트로 정리. [🔗 원문](https://www.threads.com/@ai.trend.kr/post/DW59YYGD8ln)
+- **2026-05-17**: 코덱스의 새로운 기능인 랄프루프에 대한 논의가 진행됨. 사용자는 지속적인 컨텍스트 연결의 중요성을 강조.
+- **2026-05-05**: Chomex가 오픈소스로 제공되며, 클릭 한 번으로 프롬프트를 생성할 수 있는 기능이 소개됨.
+- **2026-04-28**: Nous Research가 발표한 Hermes Agent Self-Evolution이 AI가 스스로 프롬프트와 코드를 개선하는 방법을 제시함.
 
 ## 주요 인사이트
-- **프롬프트의 질이 결과의 질을 결정**: 질문의 질이 AI의 결과물에 직접적인 영향을 미친다는 의견이 많음.
-- **AI 도구 활용의 중요성**: 다양한 프롬프트를 통해 AI 도구의 활용 가능성을 극대화할 수 있다는 점이 강조됨.
-- **커뮤니티의 협력**: 사용자들 간의 프롬프트 공유 및 피드백을 통해 더 나은 결과를 도출하는 사례가 많음.
+- AI 영상 제작자들 사이에서 'scenic.sh' 사이트가 주목받고 있으며, 바이럴 영상 프롬프트 공유가 활발함.
+- ChatGPT의 '협상가 모드'를 활용한 연봉 협상 및 거절 대처법에 대한 논의가 이루어짐.
+- 노트북LM을 사용할 때 효과적인 프롬프트 질문이 결과의 질을 결정짓는다는 의견이 제시됨.
 
 ## 관련 도구/링크
-- [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-)
-- [Codex Harness](https://www.threads.com/@leesangin_n/post/DXhY1g8k8r4)
-- [Nous Research의 Hermes Agent Self-Evolution](https://www.threads.com/@unclejobs.ai/post/DXdVpVrCcB7)
-- [ChatGPT 협상가 모드](https://www.threads.com/@yourgpt3650/post/DXeZaRFFRYf)
+- [scenic.sh](https://www.scenic.sh): AI 영상 프롬프트 공유 플랫폼
+- [Prompt Maker](https://www.promptmaker.com): 프롬프트 관리 도구
+- [Chomex GitHub](https://github.com/chomex): 오픈소스 프롬프트 생성 도구
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260517_unclejobs.ai_코덱스의-새로운-기능인-랄_e1c8a0.md` | @unclejobs.ai | 2026-05-17 | 코덱스, AI, 프롬프트, 문서화 |
+| `u260517_unclejobs.ai_Ralph-Loop-패턴을_dc8ee5.md` | @unclejobs.ai | 2026-05-17 | Ralph Loop, AI 에이전트, 프롬프트 엔지니어링, 코딩 |
+| `u260517_mywhiteboutique_AI-영상-제작자들-사이에_75661b.md` | @mywhiteboutique | 2026-05-17 | AI 영상, 프롬프트, scenic.sh, 영상 제작 |
+| `u260517_hellohyun.jang_무료로-제공되는-Promp_ace27d.md` | @hellohyun.jang | 2026-05-17 | 프롬프트, 툴 소개, AI |
 | `u260505_choi.openai_Chomex는-오픈소스로-_ee6e92.md` | @choi.openai | 2026-05-05 | Chomex, Codex, 프롬프트, 오픈소스 |
 | `u260428_kim.channy_사용자가-아기의-다양한-표_d6bbb4.md` | @_kim.channy_ | 2026-04-28 | 이모티콘, AI, 프롬프트, 카카오톡 |
 | `u260428_choi.openai_최근-GPT의-이미지-활용_2046a3.md` | @choi.openai | 2026-04-28 | GPT, 이미지 생성, 프롬프트, 개인화 |
@@ -75,7 +73,3 @@ description: "프롬프트 패턴·기법·최신 사례"
 | `u260327_bigno_ai_SOUL.md-파일을-통해_7b7ded.md` | @bigno_ai | 2026-03-27 | AI, Agentic Workflow, SOUL.md, 프롬프트 |
 | `260325_promptdosa_AI-관련-다양한-정보-공_bc6fe5.md` | @promptdosa | 2026-03-27 | AI, 프롬프트, GPT, 구글AI |
 | `u260327_prompt.daily_웹-SaaS-개발-시-보안_c9cb96.md` | @prompt.daily_ | 2026-03-27 | AI, 코딩, 프롬프트, 보안 |
-| `u260327_kim1000myeong_3개월-독학으로-웹사이트를_8afa0a.md` | @kim1000myeong | 2026-03-27 | 프롬프트, 웹디자인, 인터랙티브 웹 디자인, 웹 개발 |
-| `u260327_jayeona79_WordPress-에이전시_a895a9.md` | @jayeona79 | 2026-03-27 | AI, Pencil.dev, 디자인, 자동화 |
-| `u260327_choi.openai_앤트로픽-해커톤-우승자의-_fd7514.md` | @choi.openai | 2026-03-27 | Claude Code, Anthropic, Skills, AI 코딩 |
-| `u260327_aicoffeechat_OpenAI가-GPT-5._3e83e8.md` | @aicoffeechat | 2026-03-27 | AI, GPT-5.4, 프론트엔드 디자인, 프롬프트 엔지니어링 |
