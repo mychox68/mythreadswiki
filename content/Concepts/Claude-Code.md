@@ -1,5 +1,5 @@
 # Claude Code
-> 관련 노트: 193개 | 마지막 갱신: 2026-05-17 16:26
+> 관련 노트: 195개 | 마지막 갱신: 2026-05-19 08:26
 
 ## 개요
 
@@ -24,6 +24,8 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260519_ai.liberal.arts_Claude-Code-도입_dbe0e3]] | `@ai.liberal.arts` · 26-05-19 | Claude Code 도입 시 기밀 유출을 방지하기 위한 가드레일 5가지가 소개됩니다. 상시 점검을 통한 사고 예방의 중요성이 강조되며, 국내 환경에 맞춘 대응 방법도 추가됩니다. 초기에 이러한 조치를 취하는 것이 사고를 90% 줄일 수 있다고 주장합니다. |
+| [[u260519_world.best.cat_하네스를-사용하여-Clau_7376dd]] | `@world.best.cat` · 26-05-19 | 하네스를 사용하여 Claude Code와 Codex에서의 성능을 개선하기 위한 접근법을 공유합니다. 실무에서 하네스 구조를 간소화하여 효과를 극대화하는 방법을 설명합니다. GitHub 레포에서 미니멀 하네스를 커스터마이징할 수 있도록 자료를 제공합니다. |
 | [[u260517_gonnector_Claude-Code의-최_df1132]] | `@gonnector` · 26-05-17 | Claude Code의 최신 버전에서 멀티 에이전트 관리 기능과 /goal 기능이 추가되었습니다. 멀티 에이전트 기능은 AI 에이전트 도구의 진화를 보여주며, 여러 세션을 보다 효율적으로 관리할 수 있는 혁신적인 방법을 제공합니다. 향후 협업 및 커뮤니케이션 방식의 개선이 기대됩니다. |
 | [[u260517_keke_appa_클로드코드와-코덱스-토큰-_b7b3eb]] | `@keke_appa` · 26-05-17 | 클로드코드와 코덱스 토큰 사용 시 성능 절감 효과가 확인되었다. RTK 도구와 관련하여 새로운 접근 방법이 논의되었으며, 러스트를 이용한 로컬 설정의 유용성에 대한 의견이 공유되었다. 오픈소스 프로젝트에 대한 PR 작성과 버그 수정에 대한 논의도 포함되어 있다. |
 | [[u260517_unclejobs.ai_Claude-Code의-실_f3361c]] | `@unclejobs.ai` · 26-05-17 | Claude Code의 실수율을 줄이기 위해 Forrest Chang의 4개 규칙이 효과적이라는 내용이 담긴 글이다. 규칙을 통해 실수율이 41%에서 11%로 감소하며, 더 나아가 3%까지 떨어졌다는 분석도 제시된다. 글의 메인 메시지는 간단하고 검증 가능한 명령어의 중요성에 대한 것이다. |
@@ -52,5 +54,3 @@
 | [[u260415_choi.openai_최근-claude-code_2497ed]] | `@choi.openai` · 26-04-15 | 최근 'claude-code-best-practice' 프로젝트가 깃허브에서 높은 관심을 받고 있다. 이 프로젝트는 84개 이상 실전 팁과 설정 템플릿을 제공하며, 인기 워크플로우를 비교할 수 있는 자료도 포함되어 있다. 최적화된 개발 환경을 구축할 수 있도록 MIT 라이선스 아래 공개되었다. |
 | [[u260415_claudeai_Claude-Code-ha_d67a9c]] | `@claudeai` · 26-04-15 | Claude Code has been redesigned for desktop with features like running multiple sessions, an integrated terminal, and file editing. Users can customize their workspace with a drag-and-drop layout. Feedback mentions the need for improvements in existing models and requests for Linux support. |
 | [[u260415_dalgom.bami_디자인-시스템-구축에-있어_ae4edf]] | `@dalgom.bami` · 26-04-15 | 디자인 시스템 구축에 있어 AI의 도움을 활용하는 방법을 소개합니다. 특히, Pencil과 Claude Code를 결합하여 빠르게 프로토타입을 만들 수 있는 과정을 설명합니다. AI를 통해 미적 감각이 부족한 개발자도 효율적으로 디자인 시스템을 구축할 수 있습니다. |
-| [[u260415_jetson_jh_Hermes-에이전트를-사_d84bc5]] | `@jetson_jh` · 26-04-15 | Hermes 에이전트를 사용하는 사용자들이 OAuth 관련 질문을 하고 있습니다. Claude Code를 로컬 머신에서 ACP로 사용할 수 있는 방법에 대한 패치도 공유되었습니다. 사용법은 댓글에 남길 예정입니다. |
-| [[u260415_kk_fe_1_클로드-코드에서-사용되는-_9793e9]] | `@kk_fe_1` · 26-04-15 | 클로드 코드에서 사용되는 토큰의 비율을 확인할 수 있는 방법이 소개됩니다. 대화, 코딩, 탐색 및 디버깅을 포함한 다양한 사용 패턴이 언급되었습니다. 사용자들은 토큰 사용을 최적화하기 위해 이 기능을 활용할 것을 권장합니다. |
