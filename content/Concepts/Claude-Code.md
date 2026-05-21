@@ -1,9 +1,9 @@
 # Claude Code
-> 관련 노트: 195개 | 마지막 갱신: 2026-05-19 08:26
+> 관련 노트: 196개 | 마지막 갱신: 2026-05-21 09:21
 
 ## 개요
 
-주요 키워드: **Claude** · **AI** · **Code** · **코드** · **소개합니다** · **클로드** · **다양한** · **개발**
+주요 키워드: **Claude** · **Code** · **AI** · **코드** · **소개합니다** · **클로드** · **다양한** · **방법을**
 
 ## 핵심 인사이트
 
@@ -24,6 +24,7 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260521_allenjj4911_TMUX를-사용하여-복수의_6704bf]] | `@allenjj4911` · 26-05-21 | TMUX를 사용하여 복수의 AI를 동시에 운영할 수 있는 방법을 소개합니다. 터미널에서 세션을 유지하고 독립적인 Claude Code 실행이 가능해집니다. detach 기능을 통해 터미널을 닫아도 AI가 계속 작업을 지속합니다. |
 | [[u260519_ai.liberal.arts_Claude-Code-도입_dbe0e3]] | `@ai.liberal.arts` · 26-05-19 | Claude Code 도입 시 기밀 유출을 방지하기 위한 가드레일 5가지가 소개됩니다. 상시 점검을 통한 사고 예방의 중요성이 강조되며, 국내 환경에 맞춘 대응 방법도 추가됩니다. 초기에 이러한 조치를 취하는 것이 사고를 90% 줄일 수 있다고 주장합니다. |
 | [[u260519_world.best.cat_하네스를-사용하여-Clau_7376dd]] | `@world.best.cat` · 26-05-19 | 하네스를 사용하여 Claude Code와 Codex에서의 성능을 개선하기 위한 접근법을 공유합니다. 실무에서 하네스 구조를 간소화하여 효과를 극대화하는 방법을 설명합니다. GitHub 레포에서 미니멀 하네스를 커스터마이징할 수 있도록 자료를 제공합니다. |
 | [[u260517_gonnector_Claude-Code의-최_df1132]] | `@gonnector` · 26-05-17 | Claude Code의 최신 버전에서 멀티 에이전트 관리 기능과 /goal 기능이 추가되었습니다. 멀티 에이전트 기능은 AI 에이전트 도구의 진화를 보여주며, 여러 세션을 보다 효율적으로 관리할 수 있는 혁신적인 방법을 제공합니다. 향후 협업 및 커뮤니케이션 방식의 개선이 기대됩니다. |
@@ -53,4 +54,3 @@
 | [[u260415_choi.openai_앤트로픽이-데스크톱용-Cl_f6b50d]] | `@choi.openai` · 26-04-15 | 앤트로픽이 데스크톱용 'Claude Code'를 개편하여 여러 클로드 세션을 동시에 사용할 수 있게 되었습니다. 새로운 기능으로 통합 터미널, 파일 편집, HTML과 PDF 미리보기가 추가되었고, 사용자 맞춤형 배치가 가능합니다. 이는 여러 작업을 동시에 수행할 때의 불편을 해소하는 데 기여할 것으로 보입니다. |
 | [[u260415_choi.openai_최근-claude-code_2497ed]] | `@choi.openai` · 26-04-15 | 최근 'claude-code-best-practice' 프로젝트가 깃허브에서 높은 관심을 받고 있다. 이 프로젝트는 84개 이상 실전 팁과 설정 템플릿을 제공하며, 인기 워크플로우를 비교할 수 있는 자료도 포함되어 있다. 최적화된 개발 환경을 구축할 수 있도록 MIT 라이선스 아래 공개되었다. |
 | [[u260415_claudeai_Claude-Code-ha_d67a9c]] | `@claudeai` · 26-04-15 | Claude Code has been redesigned for desktop with features like running multiple sessions, an integrated terminal, and file editing. Users can customize their workspace with a drag-and-drop layout. Feedback mentions the need for improvements in existing models and requests for Linux support. |
-| [[u260415_dalgom.bami_디자인-시스템-구축에-있어_ae4edf]] | `@dalgom.bami` · 26-04-15 | 디자인 시스템 구축에 있어 AI의 도움을 활용하는 방법을 소개합니다. 특히, Pencil과 Claude Code를 결합하여 빠르게 프로토타입을 만들 수 있는 과정을 설명합니다. AI를 통해 미적 감각이 부족한 개발자도 효율적으로 디자인 시스템을 구축할 수 있습니다. |
