@@ -1,9 +1,9 @@
 # Claude Code
-> 관련 노트: 196개 | 마지막 갱신: 2026-05-21 09:21
+> 관련 노트: 200개 | 마지막 갱신: 2026-05-27 21:59
 
 ## 개요
 
-주요 키워드: **Claude** · **Code** · **AI** · **코드** · **소개합니다** · **클로드** · **다양한** · **방법을**
+주요 키워드: **Claude** · **AI** · **Code** · **코드** · **소개합니다** · **클로드** · **다양한** · **방법을**
 
 ## 핵심 인사이트
 
@@ -24,6 +24,10 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260527_ai.liberal.arts_Claude-Code에는-_481708]] | `@ai.liberal.arts` · 26-05-27 | Claude Code에는 'Workflow'라는 숨겨진 기능이 있습니다. 이 기능은 AI가 수행했던 작업을 코드로 저장하여 반복할 수 있게 도와줍니다. 6가지 패턴과 사용법 또한 정리되어 있습니다. |
+| [[u260527_choi.openai_앤트로픽의-Claude-C_f8c5a1]] | `@choi.openai` · 26-05-27 | 앤트로픽의 Claude Code는 대규모 코드베이스에서 AI 코딩의 효율성을 높이는 다양한 전략을 제공합니다. 특히, CLAUDE.md 파일을 통해 프로젝트 규칙을 정리하고, 훅과 스킬의 활용으로 AI의 성능을 극대화해야 합니다. 또한, 조직적 관리를 통해 AI 설정값을 주기적으로 재검토하는 것이 중요합니다. |
+| [[u260527_stefancho_dev_작성자는-grill-wit_740fd0]] | `@stefancho_dev` · 26-05-27 | 작성자는 '/grill-with-docs' 스킬을 활용하여 아키텍처 결정 기록과 용어 정리를 효율적으로 만들어낸다고 언급합니다. 이 툴을 통해 작업의 명확성이 증가했다고 합니다. 또한, 클로드 코드 스킬인 '/grill-me'와 '/grill-with-docs'를 매일 사용하고 있다고 소개합니다. |
+| [[u260527_unclejobs.ai_클로드-코드를-활용한-글쓰_e79e86]] | `@unclejobs.ai` · 26-05-27 | 클로드 코드를 활용한 글쓰기 자동화 시스템을 구축했습니다. 이 시스템은 단계별 역할 분담과 톤 및 구조 설정을 포함합니다. 유튜브를 통해 그 과정을 공유할 예정입니다. |
 | [[u260521_allenjj4911_TMUX를-사용하여-복수의_6704bf]] | `@allenjj4911` · 26-05-21 | TMUX를 사용하여 복수의 AI를 동시에 운영할 수 있는 방법을 소개합니다. 터미널에서 세션을 유지하고 독립적인 Claude Code 실행이 가능해집니다. detach 기능을 통해 터미널을 닫아도 AI가 계속 작업을 지속합니다. |
 | [[u260519_ai.liberal.arts_Claude-Code-도입_dbe0e3]] | `@ai.liberal.arts` · 26-05-19 | Claude Code 도입 시 기밀 유출을 방지하기 위한 가드레일 5가지가 소개됩니다. 상시 점검을 통한 사고 예방의 중요성이 강조되며, 국내 환경에 맞춘 대응 방법도 추가됩니다. 초기에 이러한 조치를 취하는 것이 사고를 90% 줄일 수 있다고 주장합니다. |
 | [[u260519_world.best.cat_하네스를-사용하여-Clau_7376dd]] | `@world.best.cat` · 26-05-19 | 하네스를 사용하여 Claude Code와 Codex에서의 성능을 개선하기 위한 접근법을 공유합니다. 실무에서 하네스 구조를 간소화하여 효과를 극대화하는 방법을 설명합니다. GitHub 레포에서 미니멀 하네스를 커스터마이징할 수 있도록 자료를 제공합니다. |
@@ -50,7 +54,3 @@
 | [[u260422_lucas_flatwhite_Claude-Code에-대_d22b4b]] | `@lucas_flatwhite` · 26-04-22 | Claude Code에 대한 발표 내용이 전사 세미나에서 공유되었습니다. 발표는 다양한 주제와 실제 사례를 포함하여 총 89장의 슬라이드로 구성되어 있었습니다. 이와 같은 유익한 공유가 증가하고 있습니다. |
 | [[u260422_ai.guru.kim_코덱스는-불필요한-문장을-_95b35e]] | `@ai.guru.kim` · 26-04-22 | 코덱스는 불필요한 문장을 제거하여 응답을 간결하게 만들어줍니다. 출력 토큰을 65% 줄이며, 응답 속도를 향상시킵니다. 클로드 코드나 코덱스에 설치할 수 있으며, 사용을 추천합니다. |
 | [[u260415_atelic.io_Claude-Code의-컨_6525b1]] | `@atelic.io` · 26-04-15 | Claude Code의 컨텍스트 사용률, 세션 비용 및 요금제 잔여량을 실시간으로 보여주는 상태바 플러그인을 소개합니다. 설치가 간단하고, 사용자 맞춤형 레이아웃 구성이 가능합니다. 기본 기능 외에도 다양한 추가 기능을 제공해 작업의 효율성을 높여줍니다. |
-| [[u260415_choi.openai_앤트로픽이-Claude-C_a999ba]] | `@choi.openai` · 26-04-15 | 앤트로픽이 Claude Code에 '루틴' 기능을 추가하여 자동화를 지원합니다. 이를 통해 사용자는 지정된 시간이나 이벤트에 따라 클로드가 백그라운드에서 작업을 수행하도록 설정할 수 있습니다. 코드 리뷰와 버그 수정도 자동으로 진행되어 효율성이 크게 향상됩니다. |
-| [[u260415_choi.openai_앤트로픽이-데스크톱용-Cl_f6b50d]] | `@choi.openai` · 26-04-15 | 앤트로픽이 데스크톱용 'Claude Code'를 개편하여 여러 클로드 세션을 동시에 사용할 수 있게 되었습니다. 새로운 기능으로 통합 터미널, 파일 편집, HTML과 PDF 미리보기가 추가되었고, 사용자 맞춤형 배치가 가능합니다. 이는 여러 작업을 동시에 수행할 때의 불편을 해소하는 데 기여할 것으로 보입니다. |
-| [[u260415_choi.openai_최근-claude-code_2497ed]] | `@choi.openai` · 26-04-15 | 최근 'claude-code-best-practice' 프로젝트가 깃허브에서 높은 관심을 받고 있다. 이 프로젝트는 84개 이상 실전 팁과 설정 템플릿을 제공하며, 인기 워크플로우를 비교할 수 있는 자료도 포함되어 있다. 최적화된 개발 환경을 구축할 수 있도록 MIT 라이선스 아래 공개되었다. |
-| [[u260415_claudeai_Claude-Code-ha_d67a9c]] | `@claudeai` · 26-04-15 | Claude Code has been redesigned for desktop with features like running multiple sessions, an integrated terminal, and file editing. Users can customize their workspace with a drag-and-drop layout. Feedback mentions the need for improvements in existing models and requests for Linux support. |

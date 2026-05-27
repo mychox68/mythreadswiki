@@ -1,9 +1,9 @@
 # LLM
-> 관련 노트: 26개 | 마지막 갱신: 2026-05-21 09:21
+> 관련 노트: 27개 | 마지막 갱신: 2026-05-27 21:59
 
 ## 개요
 
-주요 키워드: **있다** · **LLM** · **AI** · **오픈소스** · **개인** · **AGENTS** · **md** · **문서**
+주요 키워드: **있다** · **LLM** · **AI** · **오픈소스** · **개인** · **Claude** · **AGENTS** · **md**
 
 ## 핵심 인사이트
 
@@ -18,12 +18,13 @@
 
 ## 관련 개념
 
-[[Concepts/github.com|github.com]] | [[Concepts/AI|AI]] | [[Concepts/AI-에이전트|AI 에이전트]] | [[Concepts/오픈소스|오픈소스]] | [[Concepts/AI-코딩|AI 코딩]]
+[[Concepts/github.com|github.com]] | [[Concepts/AI|AI]] | [[Concepts/AI-에이전트|AI 에이전트]] | [[Concepts/오픈소스|오픈소스]] | [[Concepts/Claude-Code|Claude Code]]
 
-## 출처 노트 (26개, 최근순)
+## 출처 노트 (27개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260527_ai.liberal.arts_Claude-Code에는-_481708]] | `@ai.liberal.arts` · 26-05-27 | Claude Code에는 'Workflow'라는 숨겨진 기능이 있습니다. 이 기능은 AI가 수행했던 작업을 코드로 저장하여 반복할 수 있게 도와줍니다. 6가지 패턴과 사용법 또한 정리되어 있습니다. |
 | [[u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af]] | `@ddongddangddi` · 26-05-11 | 최근 대시보드의 LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하였다. 이로 인해 API 호출 비용이 무료가 되며, 개인 ChatGPT Plus 구독으로 인증할 수 있다. OpenAI가 제공하는 새로운 인증 방법으로 사용이 편리해졌다. |
 | [[u260428_sinbum_ai_CLAUDE.md-파일이-_d32ee3]] | `@sinbum_ai` · 26-04-28 | CLAUDE.md 파일이 LLM 코딩 실수 개선을 위해 만들어졌다. 주요 원칙은 가정을 없애고, 간소화하며, 필요한 부분만 수정하고, 목표 중심으로 실행하는 것이다. 이 파일을 통해 Claude Code와 Cursor의 행동이 최적화된다. |
 | [[u260422_feelfree_ai_Neurons라는-오픈소스_b1a8c4]] | `@feelfree_ai` · 26-04-22 | Neurons라는 오픈소스 프로젝트가 로컬 LLM 추론 엔진을 C++로 직접 구현했습니다. 이 프로젝트는 트랜스포머 아키텍처와 KV 캐시, Apple Metal GPU 최적화가 포함되어 있습니다. 간편한 Mac 앱과 OpenAI 호환 API로 실사용이 용이합니다. |

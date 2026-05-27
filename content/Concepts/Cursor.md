@@ -1,5 +1,5 @@
 # Cursor
-> 관련 노트: 20개 | 마지막 갱신: 2026-05-21 09:21
+> 관련 노트: 21개 | 마지막 갱신: 2026-05-27 21:59
 
 ## 개요
 
@@ -20,10 +20,11 @@
 
 [[Concepts/Claude-Code|Claude Code]] | [[Concepts/github.com|github.com]] | [[Concepts/AI|AI]] | [[Concepts/AI-에이전트|AI 에이전트]] | [[Concepts/Claude|Claude]]
 
-## 출처 노트 (20개, 최근순)
+## 출처 노트 (21개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260527_unclejobs.ai_AI-모델의-가격이-극적으_2f3d4d]] | `@unclejobs.ai` · 26-05-27 | AI 모델의 가격이 극적으로 감소하고 있으며, 성능과 가격 간의 연관성이 줄어들고 있다. DeepSeek V4 Pro는 경쟁 모델에 비해 저렴한 가격으로 제공되지만, 기술적 혁신을 통해 비용을 절감했다. 가격 결정력이 약해진 현재, 비싼 모델의 성능에 대한 의문이 제기된다. |
 | [[u260428_sinbum_ai_CLAUDE.md-파일이-_d32ee3]] | `@sinbum_ai` · 26-04-28 | CLAUDE.md 파일이 LLM 코딩 실수 개선을 위해 만들어졌다. 주요 원칙은 가정을 없애고, 간소화하며, 필요한 부분만 수정하고, 목표 중심으로 실행하는 것이다. 이 파일을 통해 Claude Code와 Cursor의 행동이 최적화된다. |
 | [[u260412_choi.openai_쇼피파이가-Claude-C_dbfe6c]] | `@choi.openai` · 26-04-12 | 쇼피파이가 Claude Code와 Cursor 등 AI 에이전트와 연동되는 'Shopify AI Toolkit'을 공개했다. 이 툴킷을 통해 상품 등록과 주문, 재고 관리 등을 쉽게 할 수 있게 되었다. 하지만 자율성을 가진 AI의 우려와 통제 문제도 제기되고 있다. |
 | [[u260407_prompt.daily_AI-디자인-도구인-Cur_8eea96]] | `@prompt.daily_` · 26-04-07 | AI 디자인 도구인 Cursor의 MagicPath가 출시되었습니다. 사용자는 이미지나 웹 페이지 링크를 붙여 디자인을 새롭게 할 수 있으며, Figma와의 호환도 지원합니다. 대시보드 생성 시 빠른 작업 속도가 특징으로, 무료 사용이 가능합니다. |

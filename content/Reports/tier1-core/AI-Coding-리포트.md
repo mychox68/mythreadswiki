@@ -2,52 +2,54 @@
 report_id: ai-coding
 topic: AI 코딩
 tier: tier1-core
-note_count: 113
-last_updated: "2026-05-17 16:28"
+note_count: 114
+last_updated: "2026-05-27 22:06"
 description: "Vibe Coding·에이전트 코딩 흐름"
 ---
 
 # AI 코딩 트렌드 리포트
 
-> 노트 113개 기반 | 마지막 갱신: 2026-05-17 16:28
+> 노트 114개 기반 | 마지막 갱신: 2026-05-27 22:06
 
 # AI 코딩 — Vibe Coding·에이전트 코딩 흐름 리포트
 
 ## 개요
-AI 코딩은 소프트웨어 개발 과정에서 인공지능 기술을 활용하여 효율성을 극대화하는 방법론으로, 최근 다양한 도구와 프레임워크가 등장하고 있습니다. 이러한 기술들은 개발자와 비개발자 모두에게 코딩의 접근성을 높이고, 생산성을 향상시키는 데 중요한 역할을 하고 있습니다.
+AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 비개발자도 쉽게 코딩할 수 있는 환경을 제공하는 중요한 기술입니다. 최근 AI 코딩 도구와 에이전트의 발전은 개발자와 비개발자 모두에게 새로운 가능성을 열어주고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **code-review-graph** | 코드 수정 시 영향을 받는 파일만을 받아들이고, 변경 영향 범위를 시각화하여 리뷰 및 리팩터링 시 토큰 비용을 절감. 23개 이상의 언어 지원. |
-| **OpenCode와 DeepSeek V4 Pro** | AI 코딩과 디자인을 함께 수행할 수 있는 효율적인 조합 제공. 가성비 좋은 구독 모델. |
-| **OpenChamber** | OpenCode의 GUI로, 일반 사용자가 AI 코딩을 쉽게 이용할 수 있도록 지원. QR 코드로 작업을 이어갈 수 있음. |
-| **DESIGN.md** | AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공. 다양한 커뮤니티 디자인 시스템 검색 및 설치 가능. |
-| **Claude Code** | AI 코딩 에이전트로, 피드백 축적 및 진화 과정이 자동화되어 있음. |
-| **MCP 서버** | Claude Code 사용자를 위한 필수 서버로, 다양한 기능과 장점을 제공. |
-| **acpx** | 여러 코딩 에이전트를 통합 관리하는 툴로, 효율적인 협업을 가능하게 함. |
-| **비개발자 코딩 플로우** | AI를 활용해 코딩하는 방법을 제시하며, DDD, BDD 개념 이해 강조. |
+| Claude Code | 대규모 코드베이스에서 AI 코딩의 효율성을 높이는 다양한 전략을 제공 |
+| code-review-graph | 코드 수정 시 영향을 받는 파일을 시각화하여 토큰 비용 절감 |
+| OpenCode & DeepSeek V4 Pro | AI 코딩과 디자인을 통합하여 효율적인 작업 가능 |
+| OpenChamber | 일반 사용자가 AI 코딩을 쉽게 이용할 수 있도록 돕는 GUI |
+| DESIGN.md | AI 에이전트를 위한 디자인 시스템을 제공 |
+| AI 코딩 에이전트 Oh My Codex(OMX) | 요구사항 인터뷰부터 프로젝트 상태 유지까지 지원 |
+| VibeProxy | Claude Code에서 GPT-5.4를 사용하기 위한 설치 방법 제공 |
+| AGENTS.md | 코딩 에이전트 성능에 영향을 미치는 파일 관리 방법 |
+| 훅(Hook) 기능 | 특정 코드 실행을 강제하는 기능으로, 정밀한 제어 가능 |
 
 ## 최신 동향
-- **2026-05-05**: code-review-graph가 8.2배의 토큰 절감 가능성을 제시하며, MIT 오픈소스로 배포됨. [🔗 원문](https://www.threads.com/@think.5x/post/DX2wjwIk-Ok)
-- **2026-05-05**: OpenCode와 DeepSeek V4 Pro의 요금제가 소개됨. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DX5kgMXiRee)
-- **2026-04-15**: DESIGN.md가 AI 에이전트를 위한 디자인 시스템을 제공함. [🔗 원문](https://www.threads.com/@unclejobs.ai/post/DXE2kCziSGC)
+- **2026-05-27**: 앤트로픽의 Claude Code가 대규모 코드베이스에서 AI 코딩의 효율성을 높이는 다양한 전략을 발표했습니다. [원문](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
+- **2026-05-05**: code-review-graph가 코드 수정 시 토큰 비용을 평균 8.2배 절감할 수 있다고 발표했습니다. [원문](https://www.threads.com/@think.5x/post/DX2wjwIk-Ok)
+- **2026-04-15**: DESIGN.md가 AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공한다고 발표했습니다. [원문](https://www.threads.com/@unclejobs.ai/post/DXE2kCziSGC)
 
 ## 주요 인사이트
-- **효율적인 도구 조합**: OpenCode와 DeepSeek V4 Pro의 조합이 AI 코딩과 디자인의 통합을 가능하게 하여, 사용자들이 더 나은 결과를 얻을 수 있도록 돕고 있습니다.
-- **비개발자 접근성**: 비개발자도 AI를 활용하여 코딩할 수 있는 방법이 제시되어, AI 코딩의 접근성이 높아지고 있습니다.
-- **피드백 시스템**: Claude Code의 피드백 축적 시스템이 사용자 경험을 개선하는 데 중요한 역할을 하고 있습니다.
+- **비개발자도 AI 활용**: 비개발자가 AI를 활용해 코딩하는 플로우를 제시하며, DDD, BDD 개념 이해의 중요성을 강조했습니다. [원문](https://www.threads.com/@ethancl/post/DWb0wr8D3qp)
+- **효율적인 협업**: acpx 툴을 통해 여러 코딩 에이전트를 통합 관리하여 협업 효율성을 높일 수 있습니다. [원문](https://www.threads.com/@unclejobs.ai/post/DWdCpTRiRFW)
+- **디자인 자동화**: AI 코딩 도구에 디자인 뇌를 이식하여 UI/UX 디자인을 자동화하는 방법이 소개되었습니다. [원문](https://www.threads.com/@working.ref/post/DU-t8FKEi6B)
 
 ## 관련 도구/링크
+- [Claude Code](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
 - [code-review-graph](https://www.threads.com/@think.5x/post/DX2wjwIk-Ok)
 - [OpenCode](https://www.threads.com/@unclejobs.ai/post/DX5kgMXiRee)
 - [OpenChamber](https://www.threads.com/@unclejobs.ai/post/DXsvjH_ia-q)
 - [DESIGN.md](https://www.threads.com/@unclejobs.ai/post/DXE2kCziSGC)
-- [Claude Code](https://www.threads.com/@bizmentor_kr/post/DWvqWd6k9_r)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260527_choi.openai_앤트로픽의-Claude-C_f8c5a1.md` | @choi.openai | 2026-05-27 | Claude Code, AI 코딩, 프로그래밍, 모델 성능 |
 | `u260505_think.5x_code-review-gr_1bbe4d.md` | @think.5x | 2026-05-05 | Claude Code, 토큰 절감, 오픈소스, 코드 리뷰 |
 | `u260505_unclejobs.ai_OpenCode와-Deep_9f2b90.md` | @unclejobs.ai | 2026-05-05 | OpenCode, DeepSeek V4, AI 코딩, Pencil |
 | `u260505_unclejobs.ai_OpenChamber는-O_53e869.md` | @unclejobs.ai | 2026-05-05 | OpenChamber, AI 코딩, OpenCode, 오픈소스 |
@@ -77,4 +79,3 @@ AI 코딩은 소프트웨어 개발 과정에서 인공지능 기술을 활용�
 | `u260327_qjc.ai_웹-디자이너를-위한-30개_61805c.md` | @qjc.ai | 2026-03-27 | 웹디자인, 레퍼런스, UI/UX, 디자인 시스템 |
 | `u260327_onpremisehuman_HWP-파일을-HWPX로-_b370c7.md` | @onpremisehuman | 2026-03-27 | HWP, HWPX, 클로드 코드, AI 코딩 |
 | `u260327_eee.jiro_MCP를-제거했지만-Ser_1610cb.md` | @eee.jiro | 2026-03-27 | AI 코딩, Serena, optimalvelocity.io, 토큰 관리 |
-| `u260327_choi.openai_앤트로픽-해커톤-우승자의-_fd7514.md` | @choi.openai | 2026-03-27 | Claude Code, Anthropic, Skills, AI 코딩 |

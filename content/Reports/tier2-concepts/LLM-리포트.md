@@ -2,56 +2,62 @@
 report_id: llm
 topic: LLM 모델 동향
 tier: tier2-concepts
-note_count: 37
-last_updated: "2026-05-11 20:31"
+note_count: 38
+last_updated: "2026-05-27 22:08"
 description: "LLM 모델 비교·버전업·성능 트렌드"
 ---
 
 # LLM 모델 동향 트렌드 리포트
 
-> 노트 37개 기반 | 마지막 갱신: 2026-05-11 20:31
+> 노트 38개 기반 | 마지막 갱신: 2026-05-27 22:08
 
 # LLM 모델 동향 리포트
 
 ## 개요
-LLM(대형 언어 모델)은 인공지능 기술의 발전을 이끄는 핵심 요소로, 다양한 산업에서 활용되고 있습니다. 이 리포트는 LLM 모델의 최신 동향과 기능, 그리고 커뮤니티에서의 논의 내용을 정리하여, 기술 발전의 방향성과 활용 가능성을 제시합니다.
+LLM(대형 언어 모델)은 인공지능 분야에서 혁신의 중심에 있으며, 다양한 산업에서 활용되고 있습니다. 이 리포트는 LLM 모델의 최신 동향과 기능, 그리고 관련 도구들을 살펴보아, 개발자와 연구자들이 이 기술을 효과적으로 활용할 수 있도록 돕기 위해 작성되었습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **Codex SDK** | DeepSeek API에서 Codex SDK로 변경하여 API 호출 비용이 무료로 제공됨. |
-| **Claude Code Switch (CCS)** | 다양한 AI 모델을 통합하여 사용하는 어댑터로, GPT-5.4의 성능 향상. |
-| **이미지 활용** | GPT를 통해 개인화된 보고서를 이미지로 생성하는 기능. |
-| **CLAUDE.md** | LLM 코딩 실수 개선을 위한 원칙과 행동 최적화. |
-| **Neurons 프로젝트** | 로컬 LLM 추론 엔진을 C++로 구현하여 OpenAI 호환 API 제공. |
-| **디자인 시스템** | GPT를 활용한 다중 페이지 디자인 시스템 생성 방법. |
-| **MarkItDown** | 문서를 Markdown으로 변환하는 오픈소스 프로젝트. |
-| **VibeProxy** | GPT-5.4를 Claude Code에서 사용하기 위한 설치 방법. |
-| **LLM 위키** | AI를 지식 관리자로 활용하여 개인 위키 생성. |
-| **AGENTS.md 관리** | 코딩 에이전트 성능에 영향을 미치는 파일 관리 원칙. |
+| Claude Code의 Workflow | AI가 수행한 작업을 코드로 저장하여 반복 가능 |
+| DeepSeek API에서 Codex SDK로 변경 | API 호출 비용 무료화 및 ChatGPT Plus 인증 가능 |
+| CCS(Claude Code Switch) | 다양한 AI 모델 통합을 위한 어댑터 |
+| GPT의 이미지 활용 | 개인화된 보고서 이미지 생성 가능 |
+| CLAUDE.md 파일 | LLM 코딩 실수 개선을 위한 원칙 정리 |
+| Neurons 프로젝트 | 로컬 LLM 추론 엔진 구현 |
+| GPT를 활용한 디자인 시스템 | 다중 페이지 디자인 시스템 생성 방법 |
+| MarkItDown | 문서를 Markdown으로 변환하는 오픈소스 도구 |
+| VibeProxy 설치 | Claude Code에서 GPT-5.4 사용 가능 |
+| GPT-5.4의 프론트엔드 스킬 | 웹페이지 디자인 및 슬라이드 작성 도구 |
+| 개인 지식 베이스 구축 | LLM을 활용한 자동화된 지식 관리 |
+| AGENTS.md 파일 관리 | 코딩 에이전트 성능에 영향 미침 |
+| OpenVizAI | 데이터셋과 프롬프트 입력으로 차트 자동 선택 |
+| TradingAgents | AI 에이전트가 주식 매매 시뮬레이션 |
+| Qlib | AI 퀀트 투자 오픈소스 플랫폼 |
 
 ## 최신 동향
-- **2026-05-11**: LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하여 API 비용 무료화.
-- **2026-05-05**: CCS(Claude Code Switch) 성능 향상 및 약관 준수 강조.
-- **2026-04-28**: GPT의 이미지 활용 가능성 및 개인화된 보고서 생성 방법 소개.
-- **2026-04-22**: Neurons 프로젝트 발표, 로컬 LLM 추론 엔진 구현.
-- **2026-03-27**: 다양한 AI 관련 프로젝트 및 도구 소개, AGENTS.md 관리의 중요성 강조.
+- **2026-05-27**: Claude Code의 'Workflow' 기능 소개. [원문](https://www.threads.com/@ai.liberal.arts/post/DYzoIOgCSGw)
+- **2026-05-11**: LLM 백엔드가 DeepSeek API에서 Codex SDK로 변경. [원문](https://www.threads.com/@ddongddangddi/post/DYFceHHmF91)
+- **2026-05-05**: CCS(Claude Code Switch) 발표, GPT-5.4 성능 향상. [원문](https://www.threads.com/@unclejobs.ai/post/DW8rs69iTYG)
+- **2026-04-28**: GPT의 이미지 활용 가능성 주목. [원문](https://www.threads.com/@choi.openai/post/DXfXyQOCJDk)
+- **2026-04-22**: Neurons 프로젝트, 로컬 LLM 추론 엔진 구현. [원문](https://www.threads.com/@feelfree_ai/post/DXbOFbDAdze)
+- **2026-03-27**: 다양한 AI 관련 프로젝트 및 도구 소개. [원문](https://www.threads.com/@promptdosa/post/DUsXTDNEnGf)
 
 ## 주요 인사이트
-- **안드레 카파시의 LLM 위키**: AI가 개인 지식 관리를 대신하게 되며, 새로운 지식 관리 패러다임이 도래하고 있습니다.
-- **AGENTS.md 관리**: 코딩 에이전트의 성능에 영향을 미치는 요소로, 최소한의 요구사항과 도구 사용법 기록의 중요성이 강조됩니다.
-- **AI 캐릭터 챗봇**: 국내 AI 챗봇 시장에서 캐릭터 챗봇의 사용 시간이 ChatGPT를 앞지르고 있으며, 윤리 문제 해결이 필요합니다.
+- **안드레 카파시의 LLM 위키 아이디어**: AI를 지식의 지속적 관리자로 활용하여 개인 위키를 생성할 수 있도록 돕는 개념이 화제. [원문](https://www.threads.com/@choi.openai/post/DWvW8IvicHN)
+- **AI 에이전트의 역할 분담**: TradingAgents 프로젝트에서 AI가 다양한 역할을 분담하여 주식 매매 시뮬레이션을 수행. [원문](https://www.threads.com/@unclejobs.ai/post/DWL2ljWCdBd)
 
 ## 관련 도구/링크
+- [Claude Code](https://www.threads.com/@ai.liberal.arts/post/DYzoIOgCSGw)
 - [Codex SDK](https://www.threads.com/@ddongddangddi/post/DYFceHHmF91)
-- [CCS(Claude Code Switch)](https://www.threads.com/@unclejobs.ai/post/DW8rs69iTYG)
-- [MarkItDown](https://www.threads.com/@unclejobs.ai/post/DXF5bLIk03R)
 - [Neurons 프로젝트](https://www.threads.com/@feelfree_ai/post/DXbOFbDAdze)
-- [AGENTS.md 관리](https://www.threads.com/@dev_roach_log/post/DU8cy3_D2Mq)
+- [MarkItDown](https://www.threads.com/@unclejobs.ai/post/DXF5bLIk03R)
+- [OpenVizAI](https://www.threads.com/@iam_mychan/post/DV1UFjeElEp)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260527_ai.liberal.arts_Claude-Code에는-_481708.md` | @ai.liberal.arts | 2026-05-27 | ClaudeCode, AIEngineering, 개발자, LLM |
 | `u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af.md` | @ddongddangddi | 2026-05-11 | Codex SDK, ChatGPT Plus, API 비용, OpenAI |
 | `u260505_unclejobs.ai_CCS-Claude-Cod_76ec9d.md` | @unclejobs.ai | 2026-05-05 | Claude Code, GPT-5.4, CCS, AI 모델 통합 |
 | `u260428_choi.openai_최근-GPT의-이미지-활용_2046a3.md` | @choi.openai | 2026-04-28 | GPT, 이미지 생성, 프롬프트, 개인화 |
@@ -81,4 +87,3 @@ LLM(대형 언어 모델)은 인공지능 기술의 발전을 이끄는 핵심 �
 | `u260327_choi.openai_macOS용-오픈소스-회의_631ee4.md` | @choi.openai | 2026-03-27 | AI, 오픈소스, 회의, 개인비서 |
 | `u260327_bizmentor_kr_PDF-데이터-추출-라이브_c2a189.md` | @bizmentor_kr | 2026-03-27 | PDF, 데이터 추출, opendataloader-pdf, GitHub Trending |
 | `u260327_asin_cartel_바이브코딩-시대에-설계-문_c51124.md` | @asin_cartel | 2026-03-27 | AI, 코딩, 설계 문서, PRD |
-| `u260327_roac.h7839_AGENTS.md-파일-관_e259ca.md` | @roac.h7839 | 2026-03-27 | AGENTS.md, 코딩 에이전트, LLM, 할루시네이션 |
