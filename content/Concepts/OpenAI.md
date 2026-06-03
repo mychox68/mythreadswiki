@@ -1,9 +1,9 @@
 # OpenAI
-> 관련 노트: 17개 | 마지막 갱신: 2026-05-31 00:55
+> 관련 노트: 19개 | 마지막 갱신: 2026-06-03 21:24
 
 ## 개요
 
-주요 키워드: **AI** · **OpenAI가** · **새로운** · **OpenAI** · **에이전트** · **GPT** · **활용하여** · **작업을**
+주요 키워드: **AI** · **OpenAI가** · **새로운** · **OpenAI** · **오픈AI가** · **에이전트** · **GPT** · **Codex**
 
 ## 핵심 인사이트
 
@@ -20,10 +20,12 @@
 
 [[Concepts/AI|AI]] | [[Concepts/Codex|Codex]] | [[Concepts/AI-에이전트|AI 에이전트]] | [[Concepts/github.com|github.com]] | [[Concepts/오픈소스|오픈소스]]
 
-## 출처 노트 (17개, 최근순)
+## 출처 노트 (19개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260603_choi.openai_오픈AI가-Codex-Py_24f793]] | `@choi.openai` · 26-06-03 | 오픈AI가 Codex Python SDK를 공개하였습니다. 이제 개발자들은 Python 애플리케이션에 Codex를 내장하여 복잡한 프로토콜 없이 다양한 기능을 구현할 수 있게 되었습니다. 오픈AI는 AI 운영체제로의 확장과 함께 개발자들이 생태계 위에서 제품을 만들도록 지원하고 있는 것으로 보입니다. |
+| [[u260603_choi.openai_오픈AI가-Codex의-대_4ff7b1]] | `@choi.openai` · 26-06-03 | 오픈AI가 Codex의 대규모 업데이트를 발표하며 스타트업 생존에 영향을 미칠 것으로 보인다. 'Sites' 기능으로 비개발자도 손쉽게 웹앱을 생성할 수 있어 기존 노코드 도구들과의 경쟁이 치열해질 전망이다. 오픈AI의 목표는 사내 모든 툴과 워크플로우를 자사 플랫폼 내에서 처리할 수 있는 종합 업무 포털 구축으로 확장되고 있다. |
 | [[u260517_choi.openai_OpenAI가-OpenAI_a58469]] | `@choi.openai` · 26-05-17 | OpenAI가 OpenAI Deployment Company를 출범하여 기업의 운영 방식을 AI 중심으로 재설계하는 서비스를 시작했습니다. 대형 컨설팅 회사들과 협력해 FDE를 통해 AI 도입을 지원하고 있으며, 앤트로픽 또한 유사한 전략을 채택하고 있습니다. 이는 AI 회사들이 조직 구조를 변화시키는 새로운 시대의 시작을 알리고 있습니다. |
 | [[u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af]] | `@ddongddangddi` · 26-05-11 | 최근 대시보드의 LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하였다. 이로 인해 API 호출 비용이 무료가 되며, 개인 ChatGPT Plus 구독으로 인증할 수 있다. OpenAI가 제공하는 새로운 인증 방법으로 사용이 편리해졌다. |
 | [[u260511_unclejobs.ai_OpenAI가-새로운-실시_29b3aa]] | `@unclejobs.ai` · 26-05-11 | OpenAI가 새로운 실시간 음성 모델 3개(GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper)를 발표했습니다. 이 모델들은 각각 음성 에이전트, 실시간 통역, 실시간 받아쓰기 기능을 수행합니다. 음성 앱이 이제 단순한 STT와 TTS의 조합이 아니라, 더욱 인터랙티브한 사용자 경험을 제공하게 되었습니다. |
