@@ -2,48 +2,53 @@
 report_id: hermes
 topic: Hermes Agent
 tier: tier2-concepts
-note_count: 16
-last_updated: "2026-05-17 16:29"
+note_count: 17
+last_updated: "2026-06-12 02:18"
 description: "Hermes Agent 버전업·멀티에이전트 운영"
 ---
 
 # Hermes Agent 트렌드 리포트
 
-> 노트 16개 기반 | 마지막 갱신: 2026-05-17 16:29
+> 노트 17개 기반 | 마지막 갱신: 2026-06-12 02:18
 
 # Hermes Agent 리포트
 
 ## 개요
-Hermes Agent는 최근 AI 기술의 발전과 함께 주목받고 있는 멀티 에이전트 운영 시스템입니다. 다양한 기능과 사용자 친화적인 인터페이스를 통해, 사용자들이 효율적으로 작업을 수행할 수 있도록 지원하며, 이는 AI 에이전트의 활용도를 높이는 데 중요한 역할을 하고 있습니다.
+Hermes Agent는 AI 에이전트 프레임워크로, 사용자와 함께 진화하며 다양한 기능을 제공하는 플랫폼입니다. 최근의 업데이트와 멀티에이전트 운영 기능은 사용자에게 더 나은 작업 환경을 제공하고, AI 기술의 발전을 가속화하는 데 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징 | 설명 |
-|----------------|------|
-| **멀티 에이전트 운영** | 각 프로필이 독립적인 환경을 제공하여 격리된 에이전트를 운영할 수 있음. |
-| **웹 UI** | 가독성이 뛰어나며 그룹채팅 기능을 지원. 한글 문제는 Hermes Cli로 해결 가능. |
-| **이미지 및 영상 생성** | Codex와의 통합을 통해 이미지 생성 및 영상 생성 기능 추가. |
-| **로컬 웹 대시보드** | 사용자 친화적인 대시보드를 통해 다양한 기능을 쉽게 접근 가능. |
-| **Fast Mode** | 응답 속도를 개선하여 사용자 경험을 향상. |
-| **보안 강화** | 공급망 공격 이슈에 대한 경고 및 보안 기능 추가. |
+| 기능/개념 | 설명 |
+|-----------|------|
+| **Wave 터미널 통합** | OpenAI 호환 API 서버처럼 활용 가능, 작업 효율 증가 |
+| **보안 이슈** | 특정 Python 패키지에서 공급망 공격 이슈 발생 |
+| **웹 UI** | 가독성이 뛰어나며 그룹채팅 기능 지원, 한글 문제 존재 |
+| **영상 생성** | 이미지 생성뿐만 아니라 영상 생성 기능 추가 |
+| **멀티 모델 에이전트** | ClaudeCode, Hermes, Omx 조합으로 다양한 모델 활용 가능 |
+| **워크플로우 관리** | ComfyUI와 결합하여 복잡한 이미지 생성 파이프라인 관리 |
+| **Codex 통합** | 간단한 커맨드로 이미지 생성 가능 |
+| **디스크 공간 문제** | 미니PC에서 디스크 공간 부족 문제 발생 |
+| **대시보드 및 모바일 지원** | 로컬 웹 대시보드 및 다양한 모바일 플랫폼 지원 |
+| **Fast Mode** | 응답 속도 개선 기능 포함 |
 
 ## 최신 동향
-- **2026-05-17**: 특정 Python 패키지 'mistralai==2.4.6'에서 공급망 공격 이슈 발생 경고. [원문](https://www.threads.com/@roach_log/post/DYOzcIsjmqL)
-- **2026-05-17**: Hermes 웹 UI의 가독성 및 그룹채팅 기능 소개. [원문](https://www.threads.com/@ai.trend.ray/post/DYXQJYVkZfn)
-- **2026-05-07**: 이미지 및 영상 생성 기능 추가 발표. [원문](https://www.threads.com/@unclejobs.ai/post/DX-cjrdkyH1)
-- **2026-04-15**: Hermes Agent v0.9.0 대규모 업데이트 발표, Fast Mode 및 로컬 웹 대시보드 추가. [원문](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
+- **2026-06-12**: Wave 터미널과 Hermes Agent 프록시를 이용한 작업 효율 증가 방법 공유. [원문](https://www.threads.com/@ai_younggle_man/post/DZU1H0EE9LA)
+- **2026-05-17**: 특정 Python 패키지에서 공급망 공격 이슈 발생. [원문](https://www.threads.com/@roach_log/post/DYOzcIsjmqL)
+- **2026-05-07**: 영상 생성 기능 추가 및 멀티 모델 에이전트 조합 논의. [원문](https://www.threads.com/@unclejobs.ai/post/DX-cjrdkyH1)
+- **2026-04-15**: Hermes Agent의 대규모 업데이트(v0.9.0) 발표, Fast Mode 및 로컬 웹 대시보드 추가. [원문](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
 
 ## 주요 인사이트
-- 사용자들은 Hermes Agent의 멀티 에이전트 기능을 통해 다양한 모델을 조합하여 보다 매끄러운 작업 환경을 구축하고 있습니다.
-- Hermes 웹 UI의 한글 문제는 Hermes Cli를 통해 해결할 수 있다는 팁이 공유되었습니다.
-- 디스크 공간 부족 문제에 대한 경험이 공유되며, 미니PC에서 Hermes의 설치 및 운영에 대한 조언이 제공되었습니다.
+- 사용자들은 Hermes Agent의 멀티 에이전트 기능을 통해 독립적인 환경에서 다양한 작업을 수행할 수 있다는 점에 주목하고 있습니다.
+- 보안 문제에 대한 경각심이 높아지면서, Hermes 사용자는 특정 패키지의 점검을 권장하고 있습니다.
+- 웹 UI의 가독성과 그룹채팅 기능이 긍정적으로 평가되고 있으나, 한글 표시 문제는 개선이 필요하다는 의견이 있습니다.
 
 ## 관련 도구/링크
-- [Hermes Agent GitHub](https://www.threads.com/@unclejobs.ai/post/DXwXNQiidv5)
-- [Hermes 공식 문서](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
+- [Hermes Agent GitHub](https://www.threads.com/@ai_younggle_man/post/DZU1H0EE9LA)
+- [Nous Research 공식 문서](https://www.threads.com/@choi.openai/post/DXFnLTGD1lO)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260612_ai_younggle_man_Wave-터미널과-Herm_b59c22.md` | @ai_younggle_man | 2026-06-12 | Wave 터미널, Hermes Agent, SuperGrok Heavy, Claude Code |
 | `u260517_roach_log_Hermes-사용자는-특정_f85fb6.md` | @roach_log | 2026-05-17 | Hermes, Mistral, Python, 보안 |
 | `u260517_ai.trend.ray_헤르메스-웹-UI는-가독성_924747.md` | @ai.trend.ray | 2026-05-17 | Hermes, 웹 UI, 그룹채팅, 한글 문제 |
 | `u260507_unclejobs.ai_에르메스와-관련된-새로운-_a3402e.md` | @unclejobs.ai | 2026-05-07 | 에르메스, 하이퍼프레임, 영상 생성, AI 기술 |

@@ -2,49 +2,50 @@
 report_id: prompt-eng
 topic: 프롬프트 엔지니어링
 tier: tier3-emerging
-note_count: 73
-last_updated: "2026-06-03 21:26"
+note_count: 75
+last_updated: "2026-06-12 02:19"
 description: "프롬프트 패턴·기법·최신 사례"
 ---
 
 # 프롬프트 엔지니어링 트렌드 리포트
 
-> 노트 73개 기반 | 마지막 갱신: 2026-06-03 21:26
+> 노트 75개 기반 | 마지막 갱신: 2026-06-12 02:19
 
 # 프롬프트 엔지니어링 리포트
 
 ## 개요
-프롬프트 엔지니어링은 AI 모델과의 상호작용에서 효과적인 결과를 이끌어내기 위한 기술로, AI의 활용도를 극대화하는 데 중요한 역할을 합니다. 특히, 다양한 프롬프트 패턴과 기법은 AI의 성능을 개선하고, 사용자 경험을 향상시키는 데 기여합니다.
+프롬프트 엔지니어링은 AI와의 상호작용을 최적화하고, 원하는 결과를 도출하기 위한 기술입니다. 최근 AI 기술의 발전과 함께 프롬프트의 중요성이 더욱 부각되고 있으며, 효율적인 프롬프트 작성은 AI 활용의 핵심 요소로 자리잡고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징 | 설명 |
+| 핵심 개념/기능 | 설명 |
 |----------------|------|
-| Ralph Loop 패턴 | 목표 설정과 피드백 루프를 통해 코딩 에이전트의 자동화 가능 |
-| 프롬프트 관리 도구 | 'Prompt Maker'와 같은 도구를 통해 프롬프트 아이디어를 저장하고 관리 |
-| AI 영상 제작 | 'scenic.sh'와 같은 플랫폼에서 바이럴 영상 프롬프트 공유 |
-| Codex와 Claude | 다양한 AI 도구에서 프롬프트를 활용하여 효율적인 작업 수행 |
-| 이모티콘 제작 | AI를 활용하여 다양한 감정과 스타일의 이모티콘 생성 |
+| 루프 엔지니어링 | 반복적인 작업을 관리하는 시스템 설계, 인간의 검증 필요 |
+| Ralph Loop 패턴 | 목표 설정 및 달성을 자동화하는 방식, 효율적인 피드백 루프 |
+| 프롬프트 작성 기술 | AI와의 상호작용을 개선하는 다양한 기법과 팁 제공 |
+| Codex Harness | Codex를 장기 프로젝트에서 안정적으로 사용하기 위한 운영 템플릿 |
+| Chomex | 오픈소스 프롬프트 생성 도구, 다양한 기능 제공 |
+| Prompt Maker | 프롬프트 관리 및 아이디어 저장을 위한 무료 프로그램 |
 
 ## 최신 동향
-- **2026-06-03**: @youngchangjo가 금융 터미널 개발에 대한 프롬프트를 공유하며 프로젝트 품질 기준을 논의함.
-- **2026-05-17**: @unclejobs.ai가 코덱스의 새로운 기능인 Ralph Loop에 대해 설명하며 지속적인 컨텍스트 연결의 중요성을 강조함.
-- **2026-05-17**: @mywhiteboutique가 AI 영상 제작자들 사이에서 'scenic.sh' 사이트의 중요성을 언급함.
-- **2026-04-28**: @dev_one_l이 노트북LM 사용 시 효과적인 프롬프트 질문을 제안함.
-- **2026-04-22**: @yourgpt3650이 ChatGPT의 협상가 모드를 활용한 다양한 협상 방법을 소개함.
+- **2026-06-12**: 루프 엔지니어링이 주목받으며, 프롬프트를 던지는 시스템 설계로 패러다임 변화가 이루어짐. [원문](https://www.threads.com/@unclejobs.ai/post/DZV1mwXE6ys)
+- **2026-05-17**: Ralph Loop 패턴을 통한 자동화 및 목표 설정의 중요성이 강조됨. [원문](https://www.threads.com/@unclejobs.ai/post/DYQ_uzCiXar)
+- **2026-04-28**: Codex Harness와 CLAUDE.md 파일을 통한 AI의 행동 규칙 설정 방법 소개. [원문](https://www.threads.com/@leesangin_n/post/DXhY1g8k8r4)
 
 ## 주요 인사이트
-- **프롬프트의 질**: 질문의 질이 결과의 질을 결정짓는다는 점이 강조됨.
-- **AI 도구의 활용**: 다양한 AI 도구를 활용하여 이모티콘 제작 및 법률 문제 해결 등의 사례가 공유됨.
-- **협업과 공유**: 사용자들이 프롬프트를 공유하고, 서로의 결과물을 자랑하는 문화가 형성됨.
+- AI 영상 제작자들 사이에서 'scenic.sh' 사이트가 바이럴 영상 프롬프트 공유의 장으로 주목받고 있음.
+- ChatGPT의 '협상가 모드'를 활용하여 연봉 협상 및 거절 대처법을 제시하는 방법이 화제가 되고 있음.
+- 프롬프트 질문의 질이 결과의 질을 결정짓는다는 점이 강조됨.
 
 ## 관련 도구/링크
 - [Prompt Maker](https://www.threads.com/@hellohyun.jang/post/DYRfWaPnxnq) - 프롬프트 관리 도구
 - [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-) - 오픈소스 프롬프트 생성 도구
-- [scenic.sh](https://www.threads.com/@mywhiteboutique/post/DYQ1WTPDUdz) - 바이럴 영상 프롬프트 공유 플랫폼
+- [scenic.sh](https://www.threads.com/@mywhiteboutique/post/DYQ1WTPDUdz) - 바이럴 영상 프롬프트 공유 사이트
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260612_unclejobs.ai_루프-엔지니어링이-새롭게-_8f1a0f.md` | @unclejobs.ai | 2026-06-12 | 루프 엔지니어링, 프롬프트, 자동화, AI |
+| `u260612_siluv_00_프롬프트-작성-기술에-대한_dde76b.md` | @siluv_00 | 2026-06-12 | 프롬프트, AI 기술, 방법론, 실전 팁 |
 | `u260603_youngchangjo_작성자가-공개한-프롬프트를_2efd09.md` | @youngchangjo | 2026-06-03 | 프롬프트, 금융 터미널, 미국 주식, AI 개발 |
 | `u260517_unclejobs.ai_코덱스의-새로운-기능인-랄_e1c8a0.md` | @unclejobs.ai | 2026-05-17 | 코덱스, AI, 프롬프트, 문서화 |
 | `u260517_unclejobs.ai_Ralph-Loop-패턴을_dc8ee5.md` | @unclejobs.ai | 2026-05-17 | Ralph Loop, AI 에이전트, 프롬프트 엔지니어링, 코딩 |
@@ -73,5 +74,3 @@ description: "프롬프트 패턴·기법·최신 사례"
 | `u260403_lucas_flatwhite_Claude-Code는-모_c55dff.md` | @lucas_flatwhite | 2026-04-03 | Claude Code, 프롬프트, API 호출, 프롬프트 캐싱 |
 | `u260327_hunyfocus_AI-이미지-생성-시-얼굴_bcf4c1.md` | @hunyfocus | 2026-03-27 | AI, 이미지 생성, 프롬프트, 얼굴 고정 |
 | `u260327_human__bro_ChatGPT를-활용하여-_baf42b.md` | @human__bro | 2026-03-27 | ChatGPT, 법률, 프롬프트, AI |
-| `u260327_bigno_ai_SOUL.md-파일을-통해_7b7ded.md` | @bigno_ai | 2026-03-27 | AI, Agentic Workflow, SOUL.md, 프롬프트 |
-| `260325_promptdosa_AI-관련-다양한-정보-공_bc6fe5.md` | @promptdosa | 2026-03-27 | AI, 프롬프트, GPT, 구글AI |
