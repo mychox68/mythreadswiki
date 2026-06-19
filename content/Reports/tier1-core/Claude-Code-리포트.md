@@ -2,47 +2,54 @@
 report_id: claude-code
 topic: Claude Code
 tier: tier1-core
-note_count: 165
-last_updated: "2026-06-12 02:16"
+note_count: 166
+last_updated: "2026-06-19 11:16"
 description: "Claude Code CLI·데스크톱앱·멀티세션·hooks·skills 전반 동향"
 ---
 
 # Claude Code 트렌드 리포트
 
-> 노트 165개 기반 | 마지막 갱신: 2026-06-12 02:16
+> 노트 166개 기반 | 마지막 갱신: 2026-06-19 11:16
 
-# Claude Code 동향 리포트
+# Claude Code 리포트
 
 ## 개요
-Claude Code는 AI 코딩의 효율성을 높이고 다양한 기능을 통해 개발자들이 보다 쉽게 작업할 수 있도록 돕는 도구입니다. 이 기술은 특히 대규모 코드베이스에서의 활용도가 높아지고 있으며, 최신 업데이트와 커뮤니티의 피드백을 통해 지속적으로 발전하고 있습니다.
+Claude Code는 AI 코딩의 효율성을 높이고, 대규모 코드베이스에서의 작업을 지원하는 혁신적인 도구입니다. 이 기술은 개발자들이 코드 작성 및 관리의 복잡성을 줄이고, 생산성을 극대화할 수 있도록 돕는 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념          | 설명                                                         |
-|-------------------|------------------------------------------------------------|
-| 멀티 에이전트 관리 | 여러 AI 에이전트를 동시에 운영할 수 있는 기능 제공        |
-| hooks 및 skills    | AI의 성능을 극대화하기 위한 다양한 전략과 설정 제공       |
-| CLAUDE.md 파일    | 프로젝트 규칙을 정리하고 LLM 코딩 실수를 개선하는 파일    |
-| 자동화 기능        | 지정된 시간이나 이벤트에 따라 클로드가 자동으로 작업 수행  |
-| 상태바 플러그인    | 세션 비용 및 요금제 잔여량을 실시간으로 보여주는 기능      |
+| 기능/개념       | 설명                                                         |
+|-----------------|--------------------------------------------------------------|
+| codebase-memory-mcp | 토큰 사용량을 99.2% 줄이고 158개 언어 지원, 제로 의존성 설치 가능 |
+| 멀티 에이전트 관리 | 여러 세션을 동시에 운영할 수 있는 기능 추가                    |
+| CLAUDE.md 파일  | 프로젝트 규칙 정리 및 AI 성능 극대화                          |
+| TMUX 사용       | 복수의 AI를 동시에 운영 가능                                   |
+| 하네스 구조     | 성능 개선을 위한 간소화 방법 제공                             |
+| 가드레일        | 기밀 유출 방지를 위한 5가지 조치 소개                         |
+| lazy load 방식   | 필요할 때만 도구를 로드하여 토큰 사용량 절감                  |
+| 자동화 기능     | 루틴 기능 추가로 백그라운드 작업 수행 가능                    |
 
 ## 최신 동향
-- **2026-06-12**: Wave 터미널과 Hermes Agent 프록시를 이용한 OpenAI 호환 API 서버 활용법 공유 [원문](https://www.threads.com/@ai_younggle_man/post/DZU1H0EE9LA)
-- **2026-05-27**: Claude Code의 다양한 전략과 CLAUDE.md 파일의 중요성 강조 [원문](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
-- **2026-05-17**: 멀티 에이전트 관리 기능과 /goal 기능 추가 [원문](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
-- **2026-05-05**: 새로운 기능으로 모바일 앱과 Remote Control 추가 [원문](https://www.threads.com/@choi.openai/post/DXr7DZyCN8E)
+- **2026-06-19**: codebase-memory-mcp 소개, 토큰 사용량 99.2% 절감 ([@think.5x](https://www.threads.com/@think.5x/post/DZthuSlE_YV))
+- **2026-06-12**: Wave 터미널과 Hermes Agent 활용법 공유 ([@ai_younggle_man](https://www.threads.com/@ai_younggle_man/post/DZU1H0EE9LA))
+- **2026-05-27**: CLAUDE.md 파일을 통한 AI 코딩 전략 소개 ([@choi.openai](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq))
+- **2026-05-21**: TMUX를 사용한 복수 AI 운영 방법 ([@allenjj4911](https://www.threads.com/@allenjj4911/post/DYidmLLAQCP))
+- **2026-05-17**: 멀티 에이전트 관리 기능 추가 ([@gonnector](https://www.threads.com/@gonnector/post/DYNmn8xEylp))
 
 ## 주요 인사이트
-- **질문법의 중요성**: 업무 완결성을 높이기 위해 가능한 가설을 세우고 환경 변수를 확인하는 것이 중요하다는 의견이 많음.
-- **실수율 감소**: 간단하고 검증 가능한 명령어 사용이 실수율을 크게 줄일 수 있다는 분석이 공유됨.
-- **기밀 유출 방지**: Claude Code 도입 시 기밀 유출을 방지하기 위한 가드레일 설정의 중요성이 강조됨.
+- **질문법의 중요성**: 업무 효율성을 높이기 위해 가능한 가설을 세우고 환경 변수를 확인하는 것이 중요하다는 의견이 많았습니다. ([@the.claudeist](https://www.threads.com/@the.claudeist/post/DYGKL9NkzKj))
+- **실수율 감소**: Forrest Chang의 4개 규칙을 통해 실수율을 41%에서 11%로 줄일 수 있다는 분석이 주목받고 있습니다. ([@unclejobs.ai](https://www.threads.com/@unclejobs.ai/post/DYXO8a8CW8B))
 
 ## 관련 도구/링크
-- [GitHub - claude-code-best-practice](https://www.threads.com/@choi.openai/post/DXEB5v5ASo0)
-- [Claude Code 공식 문서](https://www.threads.com/@choi.openai/post/DXUBuo-j5Db)
+- [codebase-memory-mcp](https://www.threads.com/@think.5x/post/DZthuSlE_YV)
+- [Wave 터미널](https://www.threads.com/@ai_younggle_man/post/DZU1H0EE9LA)
+- [CLAUDE.md 파일](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
+- [TMUX](https://www.threads.com/@allenjj4911/post/DYidmLLAQCP)
+- [하네스 구조](https://www.threads.com/@world.best.cat/post/DYd5bo6mhwW)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260619_think.5x_Claude-Code의-코_8177c7.md` | @think.5x | 2026-06-19 | Claude Code, 코드베이스, 토큰 절감, 인덱싱 |
 | `u260612_ai_younggle_man_Wave-터미널과-Herm_b59c22.md` | @ai_younggle_man | 2026-06-12 | Wave 터미널, Hermes Agent, SuperGrok Heavy, Claude Code |
 | `u260527_choi.openai_앤트로픽의-Claude-C_f8c5a1.md` | @choi.openai | 2026-05-27 | Claude Code, AI 코딩, 프로그래밍, 모델 성능 |
 | `u260521_allenjj4911_TMUX를-사용하여-복수의_6704bf.md` | @allenjj4911 | 2026-05-21 | TMUX, AI개발, Claude Code, 개발자팁 |
@@ -72,4 +79,3 @@ Claude Code는 AI 코딩의 효율성을 높이고 다양한 기능을 통해 �
 | `u260415_jetson_jh_Hermes-에이전트를-사_d84bc5.md` | @jetson_jh | 2026-04-15 | Hermes, Claude Code, OAuth, ACAP |
 | `u260415_atelic.io_Claude-Code의-컨_6525b1.md` | @atelic.io | 2026-04-15 | Claude Code, 상태바, 렌더링, 플러그인 |
 | `u260415_dalgom.bami_디자인-시스템-구축에-있어_ae4edf.md` | @dalgom.bami | 2026-04-15 | AI, 디자인 시스템, Pencil, Claude Code |
-| `u260415_choi.openai_최근-claude-code_2497ed.md` | @choi.openai | 2026-04-15 | Claude Code, 깃허브, 프로그래밍, 워크플로우 |
