@@ -1,5 +1,5 @@
 # Playwright
-> 관련 노트: 9개 | 마지막 갱신: 2026-06-19 11:15
+> 관련 노트: 9개 | 마지막 갱신: 2026-07-13 09:06
 
 ## 개요
 
@@ -14,7 +14,11 @@
 - Playwright를 활용하여 브라우저 자동화 작업을 수행하는 방법을 소개합니다. Codex CLI를 통해 Playwright MCP 스킬을 설치하거나, 직접 설치하여 오픈클루에서…
 
 ## Agent Insight
-> 추후 Phase 3-B에서 LLM으로 채워짐
+- 이 노트에 모인 출처들의 공통 주제는 "Playwright의 대체재 등장"이다 — Chrome DevTools MCP(성능·네트워크 추적), Lightpanda(속도·메모리 효율 헤드리스 브라우저), agent browser(토큰 효율), GPT-5.4의 좌표 기반 컨트롤(Selenium/Playwright 대체 가능성)까지, 여러 각도에서 Playwright의 입지를 잠식하는 도구들이 동시에 언급된다.
+- 반복되는 트레이드오프는 "범용성 vs 효율"이다: Playwright는 다양한 브라우저·재사용성에서 강점(cpa_chan27)이 있지만 MCP로 쓸 때 토큰 소모가 크고(1.ta.ai), agent browser나 Lightpanda 같은 경량 대안은 토큰·속도는 이기지만 다중 탭·고급 API 같은 기능이 빠진다 — 결국 "기능 완전성"과 "실행 비용" 사이의 선택 문제로 수렴한다.
+- Chrome Claude Code(lian.lab71)와 Playwright의 구분—"웹사이트 위 작업 위임 vs 개발용"—은 같은 브라우저 자동화라도 사용자층(비개발자의 작업 위임 vs 개발자의 테스트/스크립트)에 따라 도구 선택이 갈린다는 것을 보여준다.
+- Lightpanda의 AGPL-3.0 라이선스(kanguuulle)처럼, 성능상 매력적인 대안일수록 상업적 사용 제약이라는 숨은 비용이 따라붙는 패턴이 반복될 가능성이 있다.
+- 실행 시사점: 개발/테스트 자동화에는 Playwright를 기본값으로 유지하되, 단순 반복 모니터링이나 대량 크롤링처럼 토큰·속도가 병목인 작업에는 agent browser나 Lightpanda(라이선스 확인 후)로 분기하는 하이브리드 전략이 4월 시점 커뮤니티 컨센서스에 가깝다.
 
 ## 관련 개념
 
@@ -31,5 +35,5 @@
 | [[u260327_lian.lab71_Chrome-Claude-_04bc29]] | `@lian.lab71` · 26-03-27 | Chrome Claude Code는 브라우저를 자동화하는 AI 도구로, 브라우저를 직접 조작하여 사이트 클릭, 폼 입력, 데이터 수집, 테스트 및 디버깅 등의 작업을 수행합니다. 개발자는 CLI에서, 비개발자는 웹에서 바로 사용 가능하며, 반복 작업 자동화 및 웹사이트 테스트에 유용합니다. Playwright와 비교하여, Claude Code는 웹사이트 위 작업 위임에, Playwright는 개발용으로 적합합니다. |
 | [[u260327_openclaw_ko_Playwright를-활용_012c83]] | `@openclaw_ko` · 26-03-27 | Playwright를 활용하여 브라우저 자동화 작업을 수행하는 방법을 소개합니다. Codex CLI를 통해 Playwright MCP 스킬을 설치하거나, 직접 설치하여 오픈클루에서 제공하는 기능을 사용할 수 있습니다. Playwright는 웹사이트 제어, 스크린샷, 가격 모니터링 등 다양한 자동화 작업을 가능하게 합니다. |
 | [[u260327_shuntailor_Claude-Code-사용_b6c27d]] | `@shuntailor` · 26-03-27 | Claude Code 사용자를 위한 필수 MCP 서버 7가지에 대한 소개입니다. 파일 시스템, GitHub, Brave Search, Playwright, Memory, mcp-openapi, graphql-to-mcp 서버를 소개하고 각 서버의 기능과 장점을 설명합니다. 특히 Memory 서버는 반복적인 프로젝트 설명을 줄여 사용자 경험을 크게 향상시킨다고 강조합니다. |
-| [[u260327_kanguuulle_Lightpanda는-화면_7019b6]] | `@kanguuulle` · 26-03-27 | Lightpanda는 화면 없이 웹 크롤링에 특화된 브라우저로, Chrome 대비 빠른 속도와 적은 메모리 사용량을 제공한다. Playwright, Puppeteer와 호환되며 오픈 소스이지만, AGPL-3.0 라이센스로 상업적 사용에 제약이 있을 수 있다. 사용자들은 빠른 속도와 낮은 메모리 사용량에 긍정적인 반응을 보이며, 웹 스크래핑 및 데이터베이스 구축에 활용 가능성을 제시하고 있다. |
 | [[u260327_noisyhaus_GPT-5.4에서-좌표-기_b9fac7]] | `@noisyhaus` · 26-03-27 | GPT-5.4에서 좌표 기반 브라우저 컨트롤 기능이 새롭게 등장했다. 이는 기존 Selenium, Playwright와 같은 웹 브라우저 자동화 도구를 대체할 수 있으며, 봇 감지 우회 및 비정형 UI 컨트롤 등 다양한 활용 가능성을 제시한다. brightdata 같은 회사의 수요 감소를 예상하는 의견도 있다. |
+| [[u260327_kanguuulle_Lightpanda는-화면_7019b6]] | `@kanguuulle` · 26-03-27 | Lightpanda는 화면 없이 웹 크롤링에 특화된 브라우저로, Chrome 대비 빠른 속도와 적은 메모리 사용량을 제공한다. Playwright, Puppeteer와 호환되며 오픈 소스이지만, AGPL-3.0 라이센스로 상업적 사용에 제약이 있을 수 있다. 사용자들은 빠른 속도와 낮은 메모리 사용량에 긍정적인 반응을 보이며, 웹 스크래핑 및 데이터베이스 구축에 활용 가능성을 제시하고 있다. |

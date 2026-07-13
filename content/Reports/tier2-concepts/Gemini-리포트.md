@@ -3,40 +3,45 @@ report_id: gemini
 topic: Gemini
 tier: tier2-concepts
 note_count: 24
-last_updated: "2026-05-17 16:29"
+last_updated: "2026-07-05 21:42"
 description: "Google Gemini 계열 동향"
 ---
 
 # Gemini 트렌드 리포트
 
-> 노트 24개 기반 | 마지막 갱신: 2026-05-17 16:29
+> 노트 24개 기반 | 마지막 갱신: 2026-07-05 21:42
 
 # Gemini 동향 리포트
 
 ## 개요
-Gemini는 구글의 최신 AI 기술로, 다양한 파일 형식의 생성, 브라우저 통합, 자동화된 작업 흐름 등 여러 기능을 제공합니다. 이 기술은 특히 게임 개발 및 협업 환경에서의 효율성을 높이는 데 중요한 역할을 하고 있습니다.
+Google Gemini는 AI 기술의 발전과 함께 다양한 기능을 제공하며, 특히 자동화와 협업을 통한 효율성을 강조하고 있습니다. 이러한 기술은 게임 개발, 문서 생성, 웹 브라우저 통합 등 여러 분야에서 활용되고 있어, 현대의 디지털 환경에서 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징          | 설명                                                                                     |
-|-----------------------|----------------------------------------------------------------------------------------|
-| 파일 생성 및 다운로드   | PDF, .docx 등 다양한 파일 형식을 생성하고 다운로드할 수 있는 기능 제공.                      |
-| AI 비서 기능           | 크롬 브라우저에 통합되어 정보 요약 및 여러 작업을 지원하는 AI 비서 기능.                      |
-| 자동화된 워크플로우     | Codex와 Gemini를 활용하여 게임 개발 및 다른 작업에서 에이전트 간 협업을 강조.                   |
-| 보안 점검 및 API 관리   | AI Studio에서 API 키 노출 사건이 발생, 보안 점검 필요성 강조.                                   |
-| 멀티모델 에이전트 팀 구축 | 여러 AI 모델을 조합하여 각 모델의 강점을 활용하는 멀티모델 구조 제안.                           |
+| 기능/개념/특징 | 설명 |
+|----------------|-----|
+| **파일 생성** | 다양한 파일 형식(PDF, .docx 등)을 생성하고 다운로드 가능 |
+| **AI 비서 기능** | Chrome 브라우저에 통합되어 정보 요약 및 작업 지원 |
+| **자동화된 워크플로우** | Codex와 Gemini를 활용한 게임 개발 및 협업 강조 |
+| **보안 점검** | AI Studio 앱의 보안 허점 및 API 키 노출 문제 |
+| **회의록 자동화** | NotebookLM과 연계하여 회의 내용 요약 및 액션 아이템 추출 |
+| **이미지 다운로드** | Gemini Voyager 크롬 확장 프로그램을 통한 워터마크 없는 이미지 다운로드 |
+| **자동 수익 구조** | Gemini를 활용한 자동 수익 구조 생성 방법 공유 |
+| **AI 스킬 디자인 패턴** | Google이 공개한 AI 스킬 설계에 대한 5가지 디자인 패턴 |
 
 ## 최신 동향
-- **2026-05-05**: 구글이 Gemini 앱에서 다양한 파일 형식 생성 및 다운로드 기능 출시. [원문](https://www.threads.com/@choi.openai/post/DX4LEAVD042)
-- **2026-04-22**: 크롬 브라우저에 AI 비서 기능 'Gemini in Chrome' 도입. [원문](https://www.threads.com/@choi.openai/post/DXXpVodE8Y6)
-- **2026-04-15**: AI Studio에서 API 키 노출 사건 발생, 보안 점검 필요성 강조. [원문](https://www.threads.com/@minorabanggu/post/DXDlSFQmB63)
+- **2026-05-17**: Codex와 Gemini를 활용한 새로운 게임 개발 방식 소개 ([원문](https://www.threads.com/@bamtolai/post/DYYlKb3HUoc))
+- **2026-05-05**: Gemini 앱에서 다양한 파일 형식 생성 및 다운로드 기능 출시 ([원문](https://www.threads.com/@choi.openai/post/DX4LEAVD042))
+- **2026-04-22**: Chrome 브라우저에 AI 비서 기능 'Gemini in Chrome' 도입 ([원문](https://www.threads.com/@choi.openai/post/DXXpVodE8Y6))
+- **2026-04-15**: AI Studio 앱의 보안 허점으로 API 키 노출 ([원문](https://www.threads.com/@minorabanggu/post/DXDlSFQmB63))
 
 ## 주요 인사이트
-- 사용자들은 Gemini와 Codex를 활용한 자동화된 워크플로우에 대한 경험을 공유하며, 협업의 중요성을 강조하고 있습니다.
-- 댓글에서는 다양한 AI 도구와의 연동 및 활용법에 대한 의견 교환이 활발히 이루어지고 있습니다.
+- 사용자들은 Gemini와 Codex를 활용한 자동화된 워크플로우에 대한 경험을 공유하고 있으며, 특히 게임 개발에서의 협업 중요성을 강조하고 있습니다.
+- 회의록 작성 시 NotebookLM과 Gemini를 활용하여 효율성을 높이는 방법이 논의되고 있으며, 다양한 AI 도구와의 연계 사용법도 활발히 공유되고 있습니다.
+- Gemini Voyager와 같은 크롬 확장 프로그램이 사용자들에게 유용한 팁으로 언급되고 있습니다.
 
 ## 관련 도구/링크
-- [Gemini Voyager](https://www.threads.com/@thestack_ai/post/DVcvA74DwVH): 워터마크 없이 이미지 다운로드 가능.
-- [GitHub](https://github.com): Gemini API에 최적화된 개발 베스트 프랙티스 관련 자료.
+- [Gemini Voyager](https://www.threads.com/@thestack_ai/post/DVcvA74DwVH) - 크롬 확장 프로그램
+- [Gemini API GitHub](https://www.threads.com/@aicoffeechat/post/DUtm8I2kwQ3) - 개발 베스트 프랙티스
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |

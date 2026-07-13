@@ -3,51 +3,46 @@ report_id: llm
 topic: LLM 모델 동향
 tier: tier2-concepts
 note_count: 39
-last_updated: "2026-06-16 15:59"
+last_updated: "2026-07-01 15:44"
 description: "LLM 모델 비교·버전업·성능 트렌드"
 ---
 
 # LLM 모델 동향 트렌드 리포트
 
-> 노트 39개 기반 | 마지막 갱신: 2026-06-16 15:59
+> 노트 39개 기반 | 마지막 갱신: 2026-07-01 15:44
 
 # LLM 모델 동향 리포트
 
 ## 개요
-LLM(대규모 언어 모델)은 인공지능 기술의 핵심으로, 다양한 산업에서 활용되고 있습니다. 이 모델의 발전과 동향을 이해하는 것은 AI 기술의 미래를 예측하고, 효과적인 활용 방안을 모색하는 데 매우 중요합니다.
+LLM(대형 언어 모델)은 인공지능의 발전에 있어 중요한 역할을 하고 있으며, 다양한 산업에서 활용되고 있습니다. 최근 LLM 모델의 성능 향상, 버전 업데이트, 그리고 새로운 기능들이 지속적으로 발표되고 있어, 이 트렌드를 파악하는 것은 매우 중요합니다.
 
 ## 핵심 내용
-| 기능/개념/특징         | 설명                                                         |
-|----------------------|------------------------------------------------------------|
-| Edit Tool            | 기존 LLM 모델에 추가되어 성능을 향상시키는 도구. 코드 수정 성공률을 높임. |
-| Workflow             | Claude Code의 숨겨진 기능으로, AI가 수행한 작업을 코드로 저장하여 반복 가능. |
-| CCS                  | 다양한 AI 모델을 통합하여 사용하는 어댑터. 성능 향상과 안전한 사용 강조. |
-| 이미지 생성         | GPT의 이미지 활용 가능성이 증가하며, 개인화된 보고서 생성 방법 소개. |
-| CLAUDE.md           | LLM 코딩 실수 개선을 위한 원칙 정리. 목표 중심 실행 강조. |
-| Neurons              | 로컬 LLM 추론 엔진을 C++로 구현한 오픈소스 프로젝트. |
-| AGENTS.md            | 코딩 에이전트 성능에 영향을 미치는 파일 관리 원칙. |
-| TradingAgents        | AI 에이전트가 역할을 분담하여 주식 매매를 시뮬레이션하는 프로젝트. |
-| OpenVizAI            | AI가 자동으로 적절한 차트를 선택해주는 데이터 시각화 도구. |
-| MarkItDown           | 문서를 Markdown으로 변환하는 오픈소스 프로젝트. |
+| 기능/개념/특징 | 설명 |
+|----------------|------|
+| Edit Tool | 기존 LLM 모델에 추가되어 성능을 향상시키는 도구. 코드 수정 성공률을 높임. |
+| Workflow 기능 | Claude Code의 숨겨진 기능으로, AI가 수행한 작업을 코드로 저장하여 반복 가능. |
+| API 비용 무료화 | Codex SDK로 LLM 백엔드를 변경하여 API 호출 비용을 무료로 제공. |
+| CCS(Claude Code Switch) | 다양한 AI 모델을 통합하여 사용하는 어댑터. |
+| 이미지 활용 | GPT를 통해 개인화된 보고서를 이미지로 생성 가능. |
+| CLAUDE.md 파일 | LLM 코딩 실수 개선을 위한 원칙 정리. |
+| Neurons 프로젝트 | 로컬 LLM 추론 엔진을 C++로 구현한 오픈소스 프로젝트. |
+| 개인 지식 베이스 | LLM을 활용하여 개인 위키를 자동으로 생성하고 관리. |
 
 ## 최신 동향
-- **2026-06-12**: Can Bölük이 기존 LLM 모델에 edit tool을 추가하여 성능을 획기적으로 향상시킴. [원문](https://www.threads.com/@unclejobs.ai/post/DZY9bN1CbE-)
-- **2026-05-27**: Claude Code의 'Workflow' 기능 소개. [원문](https://www.threads.com/@ai.liberal.arts/post/DYzoIOgCSGw)
-- **2026-05-11**: LLM 백엔드를 DeepSeek API에서 Codex SDK로 변경하여 API 호출 비용 무료화. [원문](https://www.threads.com/@ddongddangddi/post/DYFceHHmF91)
-- **2026-04-28**: GPT의 이미지 활용 가능성에 대한 논의. [원문](https://www.threads.com/@choi.openai/post/DXfXyQOCJDk)
-- **2026-03-27**: GPT-5.4에서 좌표 기반 브라우저 컨트롤 기능 추가. [원문](https://www.threads.com/@noisyhaus/post/DVjGn0vkW9o)
+- **2026-06-12**: Can Bölük이 edit tool을 추가하여 LLM 성능을 향상시킴. [원문](https://www.threads.com/@unclejobs.ai/post/DZY9bN1CbE-)
+- **2026-05-27**: Claude Code의 Workflow 기능 소개. [원문](https://www.threads.com/@ai.liberal.arts/post/DYzoIOgCSGw)
+- **2026-05-11**: LLM 백엔드를 Codex SDK로 변경하여 API 비용 무료화. [원문](https://www.threads.com/@ddongddangddi/post/DYFceHHmF91)
+- **2026-04-28**: GPT의 이미지 활용 가능성 주목. [원문](https://www.threads.com/@choi.openai/post/DXfXyQOCJDk)
 
 ## 주요 인사이트
-- **AI 캐릭터 챗봇**: 국내 AI 챗봇 시장에서 캐릭터 챗봇의 사용 시간이 ChatGPT를 앞지르고 있으며, 제타(Zeta)가 압도적인 사용 시간을 기록하고 있음.
-- **AI 개인 지식 관리**: 안드레 카파시의 'LLM 위키' 아이디어가 큰 반향을 일으키며, AI를 지식의 지속적 관리자로 활용하는 방향으로 발전하고 있음.
-- **비용 절감 방안**: 오픈클로 사용 비용이 높아지면서 다양한 비용 절감 방법이 논의되고 있음.
+- **AI 캐릭터 챗봇**: 국내 AI 챗봇 시장에서 캐릭터 챗봇의 사용 시간이 ChatGPT를 앞지르고 있으며, 제타(Zeta)가 주목받고 있음.
+- **개인 지식 관리**: 안드레 카파시의 LLM 위키 아이디어가 개발자들 사이에서 큰 반향을 일으키고 있음.
+- **비용 절감 방안**: 오픈클로 사용 비용 문제에 대한 다양한 대안이 논의됨.
 
 ## 관련 도구/링크
-- [MarkItDown](https://www.threads.com/@unclejobs.ai/post/DXF5bLIk03R)
-- [OpenVizAI](https://www.threads.com/@iam_mychan/post/DV1UFjeElEp)
-- [TradingAgents](https://www.threads.com/@unclejobs.ai/post/DWL2ljWCdBd)
-- [Neurons](https://www.threads.com/@feelfree_ai/post/DXbOFbDAdze)
-- [CLAUDE.md](https://www.threads.com/@sinbum_ai/post/DXa9tTpk6_k)
+- [MarkItDown](https://www.threads.com/@unclejobs.ai/post/DXF5bLIk03R) - 문서 변환 도구
+- [OpenVizAI](https://www.threads.com/@iam_mychan/post/DV1UFjeElEp) - 데이터 시각화 도구
+- [Neurons](https://www.threads.com/@feelfree_ai/post/DXbOFbDAdze) - 로컬 LLM 추론 엔진
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |

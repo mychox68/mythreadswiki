@@ -2,59 +2,70 @@
 report_id: opensource-ai
 topic: 오픈소스 AI
 tier: tier1-core
-note_count: 114
-last_updated: "2026-06-16 15:58"
+note_count: 120
+last_updated: "2026-07-13 09:09"
 description: "오픈소스 에이전트·모델 생태계 동향"
 ---
 
 # 오픈소스 AI 트렌드 리포트
 
-> 노트 114개 기반 | 마지막 갱신: 2026-06-16 15:58
+> 노트 120개 기반 | 마지막 갱신: 2026-07-13 09:09
 
 # 오픈소스 AI 리포트
 
 ## 개요
-오픈소스 AI는 개발자와 기업이 AI 기술을 보다 쉽게 접근하고 활용할 수 있도록 하는 중요한 생태계입니다. 이러한 오픈소스 도구와 플랫폼은 혁신을 촉진하고, 비용을 절감하며, 사용자 맞춤형 솔루션을 제공하는 데 기여하고 있습니다.
+오픈소스 AI는 기술 혁신과 협업의 중요한 축을 형성하고 있으며, 다양한 도구와 모델이 개발되고 있습니다. 이러한 오픈소스 프로젝트들은 사용자들에게 유연성과 접근성을 제공하여 AI 기술의 발전을 가속화하고 있습니다.
 
 ## 핵심 내용
-| 도구/모델       | 기능 및 특징                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| Ponytail         | 코드 작성 전 필요성 검토, 코드량 80~94% 감소, 비용 47~77% 절감 (YAGNI 원칙 적용) |
-| 바이브코딩       | 영상편집 프로그램, 사용자 수정 가능                                         |
-| rhwp             | 한글 HWP 문서 뷰어, AI와 사람의 협업 강조                                   |
-| Docling          | 다양한 문서 형식을 LLM이 읽을 수 있는 포맷으로 변환, 뛰어난 성능 제공       |
-| OpenCut          | 오픈소스 CapCut 대안, 비디오 편집 기능 제공                                 |
-| OmniVoice Studio  | 음성 클로닝 및 비디오 더빙 지원, 오프라인 작동 가능                         |
-| TradingAgents     | AI를 조직화하여 매매 의사결정 지원                                         |
-| Vexa             | 회의 자동 녹취 API, 셀프 호스팅 가능                                        |
-| Multica          | AI 에이전트를 활용한 자동화 플랫폼                                          |
+| 도구/모델 | 기능 및 특징 |
+|-----------|--------------|
+| `claude-swap` | 계정 전환 및 사용량 모니터링, 자동 전환 기능 제공 |
+| 플래시타입(Flashtype) | AI 수정 제안 검토 가능, 마크다운 에디터 |
+| Kit | 인터넷 없이 사용 가능한 생산성 도구, 다양한 작업 지원 |
+| Headroom | 데이터 압축을 통한 API 토큰 사용량 절감 |
+| AI 마케팅 스킬셋 | 마케팅 자동화 지원, 무료 설치 가능 |
+| DESIGN.md | AI 디자인 시스템 이해 및 적용 지원 |
+| Ponytail | 코드 최적화 도구, 필요성 검토 후 코드 작성 |
+| rhwp | 한글 HWP 문서 뷰어, AI와 협업 강조 |
+| OpenCut | CapCut 대안 비디오 편집 도구 |
+| Docling | 다양한 문서 형식 변환, LLM 호환성 강화 |
+| OmniVoice Studio | 음성 클로닝 및 비디오 더빙 지원 |
+| Vexa | 회의 자동 녹취 API, 셀프 호스팅 가능 |
+| DBeaver | 데이터베이스 지원, AI 자동완성 기능 추가 |
 
 ## 최신 동향
-- **2026-06-16**: Ponytail 도구 소개 — 코드 최적화 및 비용 절감 기능 강조.
-- **2026-06-12**: 바이브코딩의 사용자 요청에 대한 긍정적인 반응.
-- **2026-05-31**: rhwp 한글 HWP 문서 뷰어 소개 — AI와 사람의 협업 강조.
-- **2026-05-27**: 오픈소스 AI 모델 Heretic의 안전성 문제 발생 — 3,500개 모델 다운로드.
-- **2026-05-19**: Docling과 OpenDataLoader PDF 파서의 성능 비교.
-- **2026-05-17**: OmniVoice Studio 및 Vexa의 기능 소개 — 음성 클로닝 및 회의 녹취.
+- **2026-07-13**: `claude-swap`, 플래시타입, Kit, Headroom, AI 마케팅 스킬셋, DESIGN.md 등 여러 오픈소스 도구가 소개됨.
+- **2026-06-16**: Ponytail 도구가 AI 코드 최적화 지원.
+- **2026-05-31**: rhwp가 HWP 문서 뷰어로서 AI와 협업 강조.
+- **2026-05-17**: OmniVoice Studio와 Vexa가 각각 음성 클로닝 및 회의 녹취 기능을 제공.
+- **2026-05-05**: 다양한 오픈소스 도구들이 발표되며, AI 기술의 발전을 지원.
 
 ## 주요 인사이트
-- **AI 안전성**: 오픈소스 AI 모델 Heretic의 안전장치 제거 사건으로 인해 AI 안전성에 대한 우려가 커짐.
-- **코드 최적화**: Ponytail과 같은 도구들이 개발자들에게 코드 작성 전 검토의 중요성을 강조.
-- **사용자 맞춤형 솔루션**: 바이브코딩과 같은 오픈소스 도구들이 사용자에게 수정 가능성을 제공하여 긍정적인 반응을 얻음.
+- 오픈소스 AI 도구들은 사용자의 요구에 맞춰 다양한 기능을 제공하며, 특히 마케팅, 디자인, 코드 최적화 등 여러 분야에서 활용되고 있습니다.
+- 사용자들은 오픈소스 도구의 유용성을 높이 평가하며, 커뮤니티 내에서 피드백과 개선 사항을 공유하고 있습니다.
 
 ## 관련 도구/링크
+- [claude-swap](https://www.threads.com/@namsangboy/post/Daq-iCugUeY)
+- [Flashtype](https://www.threads.com/@unclejobs.ai/post/DZy54R-CdNa)
+- [Kit](https://www.threads.com/@commme210/post/DasPfdjkbNu)
+- [Headroom](https://www.threads.com/@funcodingdavelee/post/DZy8rweEqbt)
+- [DESIGN.md](https://www.threads.com/@jh_aicafe/post/DZ_pE2eGc6v)
 - [Ponytail](https://www.threads.com/@unclejobs.ai/post/DZltCqEib6l)
-- [바이브코딩](https://www.threads.com/@anabellelee03/post/DZFF5INE17A)
-- [rhwp](https://www.threads.com/@unclejobs.ai/post/DY6Ji9dCRGa)
-- [Docling](https://www.threads.com/@itworks_onmyend/post/DYZyfO9gZEU)
 - [OpenCut](https://www.threads.com/@ddongddangddi/post/DYS8n6YkxqK)
+- [Docling](https://www.threads.com/@itworks_onmyend/post/DYZyfO9gZEU)
 - [OmniVoice Studio](https://www.threads.com/@naviscalling_ha/post/DYXWbh0kwr3)
 - [Vexa](https://www.threads.com/@yeopo92/post/DX8jjyKDykt)
-- [TradingAgents](https://www.threads.com/@eddiemoon0720/post/DX8ePWok27c)
+- [DBeaver](https://www.threads.com/@teum_soul/post/DX5kcDXFUzE)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260713_namsangboy_Claude-Code-계정_df60ae.md` | @namsangboy | 2026-07-13 | Claude Code, 오픈소스, 계정 전환, CLI 도구 |
+| `u260713_unclejobs.ai_플래시타입-Flashtyp_14a753.md` | @unclejobs.ai | 2026-07-13 | 플래시타입, AI, 마크다운, 오픈소스 |
+| `u260713_commme210_맥을-처음-사용하면서-여러_ec10b1.md` | @commme210 | 2026-07-13 | 맥, 생산성, 오픈소스, 인디개발 |
+| `u260713_funcodingdavelee_Netflix의-Headr_049fb2.md` | @funcodingdavelee | 2026-07-13 | Headroom, AI, 데이터 압축, 오픈소스 |
+| `u260713_ggnung_오픈소스-마케팅-스킬셋이-_d66025.md` | @ggnung | 2026-07-13 | AI 에이전트, 마케팅, 오픈소스, 자동화 |
+| `u260713_jh_aicafe_Google의-DESIGN_2832e9.md` | @jh_aicafe | 2026-07-13 | DESIGN.md, AI, 디자인 시스템, 구글 |
 | `u260616_unclejobs.ai_Ponytail은-AI-에_5a8b9a.md` | @unclejobs.ai | 2026-06-16 | Ponytail, AI, 코드 최적화, 오픈소스 |
 | `u260612_anabellelee03_사용자가-바이브코딩이라는-_c264e8.md` | @anabellelee03 | 2026-06-12 | 영상편집, 바이브코딩, 오픈소스, 캡컷 |
 | `u260531_unclejobs.ai_rhwp는-한글-HWP-문_b89c57.md` | @unclejobs.ai | 2026-05-31 | rhwp, HWP, AI, 하이퍼 워터폴 |
@@ -79,9 +90,3 @@ description: "오픈소스 에이전트·모델 생태계 동향"
 | `u260505_ohbeopseok_HyperFrames는-A_5d2421.md` | @ohbeopseok | 2026-05-05 | HyperFrames, AI, 영상 자동화, 렌더링 엔진 |
 | `u260505_choi.openai_Chomex는-오픈소스로-_ee6e92.md` | @choi.openai | 2026-05-05 | Chomex, Codex, 프롬프트, 오픈소스 |
 | `u260505_think.5x_code-review-gr_1bbe4d.md` | @think.5x | 2026-05-05 | Claude Code, 토큰 절감, 오픈소스, 코드 리뷰 |
-| `u260505_teum_soul_shadcn-ui를-사용하_4a15be.md` | @teum_soul | 2026-05-05 | shadcn/ui, 컴포넌트, 프로그래밍, 오픈소스 |
-| `u260505_unclejobs.ai_OpenChamber는-O_53e869.md` | @unclejobs.ai | 2026-05-05 | OpenChamber, AI 코딩, OpenCode, 오픈소스 |
-| `u260428_choi.openai_중국-개발자-화슈가-Cla_966051.md` | @choi.openai | 2026-04-28 | Huashu Design, Claude Design, AI 도구, 오픈소스 |
-| `u260428_omar.boksil_한글-파일을-편집할-수-있_13b107.md` | @omar.boksil | 2026-04-28 | 오픈소스, 한글 파일, 개발자 |
-| `u260428_bravomylife153_새로운-오픈소스-AI-개발_1c3c94.md` | @bravomylife153 | 2026-04-28 | Multica, AI 플랫폼, 오픈소스, 자동화 |
-| `u260428_choi.openai_오픈클로-개발자가-claw_32da40.md` | @choi.openai | 2026-04-28 | AI, 오픈소스, GitHub, 자동화 |

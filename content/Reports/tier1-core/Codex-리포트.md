@@ -2,50 +2,54 @@
 report_id: codex
 topic: Codex
 tier: tier1-core
-note_count: 65
-last_updated: "2026-06-16 15:59"
+note_count: 70
+last_updated: "2026-07-13 09:10"
 description: "OpenAI Codex 동향 및 활용 사례"
 ---
 
 # Codex 트렌드 리포트
 
-> 노트 65개 기반 | 마지막 갱신: 2026-06-16 15:59
+> 노트 70개 기반 | 마지막 갱신: 2026-07-13 09:10
 
 # Codex — OpenAI Codex 동향 및 활용 사례
 
 ## 개요
-OpenAI의 Codex는 인공지능을 활용하여 개발자와 비개발자 모두에게 코딩 작업을 간소화하는 도구입니다. 최근의 업데이트와 기능 확장은 다양한 산업에서의 활용 가능성을 높이며, 특히 스타트업 생태계에 큰 영향을 미칠 것으로 예상됩니다.
+OpenAI Codex는 AI 기반 프로그래밍 도구로, 개발자들이 코드를 작성하고 자동화하는 데 도움을 줍니다. 최근 Codex의 다양한 기능과 업데이트는 개발 환경을 혁신적으로 변화시키고 있으며, 이는 프로그래밍의 효율성을 크게 향상시키고 있습니다.
 
 ## 핵심 내용
-| 기능/개념         | 설명                                                         |
-|------------------|------------------------------------------------------------|
-| **Sites 기능**   | 비개발자도 손쉽게 웹앱을 생성할 수 있는 기능.               |
-| **Python SDK**   | Python 애플리케이션에 Codex를 내장하여 다양한 기능 구현 가능. |
-| **'/goal' 기능** | 목표 설정 시 Codex가 자율적으로 코드를 작성하고 수정.       |
-| **모바일 앱**     | 모바일 환경에서도 Codex를 제어할 수 있는 기능.              |
-| **Chronicle 기능**| 작업 화면을 분석하고 기억하여 과거 작업을 쉽게 이어갈 수 있도록 지원. |
-| **Euphony 도구** | 챗봇 대화 데이터와 Codex 세션 로그 분석 도구.              |
+| 기능/개념 | 설명 |
+|-----------|------|
+| Record & Replay | 사용자가 작업을 시연하면 AI가 이를 학습하여 반복 작업을 자동으로 수행 |
+| Python SDK | 개발자들이 Python 애플리케이션에 Codex를 내장하여 다양한 기능 구현 가능 |
+| Sites 기능 | 비개발자도 손쉽게 웹앱을 생성할 수 있도록 지원 |
+| '/goal' 기능 | 목표 설정 후 Codex가 자율적으로 코드를 작성하고 리뷰 |
+| 모바일 앱 기능 | 모바일 환경에서도 Codex를 제어할 수 있는 기능 제공 |
+| Euphony 도구 | 챗봇 대화 데이터와 Codex 세션 로그를 분석하는 시각화 도구 |
 
 ## 최신 동향
-- **2026-06-03**: OpenAI가 Codex의 대규모 업데이트를 발표, 비개발자도 웹앱 생성 가능.
-- **2026-06-03**: Codex Python SDK 공개, 개발자들이 다양한 기능을 쉽게 구현할 수 있게 됨.
-- **2026-05-05**: Codex의 '/goal' 기능 활성화 방법 및 다양한 활용법 소개.
-- **2026-05-05**: Codex 기반 Chrome 확장 Chormex의 0.1.3 버전 업데이트.
-- **2026-05-05**: Codex에 새로운 펫 기능 추가, 사용자와의 친밀함 증대.
+- **2026-07-13**: OpenAI가 GPT 5.6 출시와 관련하여 AMA를 진행, 새로운 모델에 대한 피드백 공유.
+- **2026-07-13**: Codex의 Record & Replay 기능이 공개되어 반복적인 업무 자동화 가능.
+- **2026-06-03**: Codex의 대규모 업데이트 발표, 비개발자도 웹앱 생성 가능.
+- **2026-05-05**: Codex의 '/goal' 기능 추가, AI와의 상호작용을 통한 자동화 가능성 증대.
 
 ## 주요 인사이트
-- Codex와 Claude의 메모리 시스템에 대한 비교와 사용자들의 궁금증이 활발히 논의되고 있음.
-- Codex의 모바일 앱 기능이 출시되면서 다양한 작업을 모바일로 처리하는 유용성이 강조됨.
-- 사용자들은 Codex를 활용한 자동화된 워크플로우와 게임 개발에 대한 경험을 공유하고 있음.
+- Codex와 Claude의 메모리 시스템에 대한 사용자들의 관심이 높아지고 있으며, 이 시스템의 활용에 대한 다양한 의견이 공유되고 있습니다.
+- AI 학원과 바이브 코딩 학원이 성행할 것이라는 예측이 있으며, 무료 자료를 통해 Codex 활용을 장려하는 경향이 보입니다.
+- 사용자들은 Codex의 다양한 기능을 통해 업무 효율성을 높이고 있으며, 특히 자동화된 워크플로우에 대한 관심이 증가하고 있습니다.
 
 ## 관련 도구/링크
-- [OpenAI Codex 공식 문서](https://www.openai.com/research/codex)
-- [Codex GitHub Repository](https://github.com/openai/codex)
-- [Chormex Chrome 확장](https://www.threads.com/@choi.openai/post/DX6FcQ5gc2Y)
+- [OpenAI Codex 공식 문서](https://www.openai.com/)
+- [Codex Python SDK](https://www.openai.com/)
+- [Chomex 프롬프트 생성 도구](https://www.openai.com/)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260713_choi.openai_오픈AI가-GPT-5.6-_16d869.md` | @choi.openai | 2026-07-13 | GPT-5.6, AMA, OpenAI, Codex |
+| `u260713_specal1849_클로드-코드와-Codex를_e8f211.md` | @specal1849 | 2026-07-13 | Claude Code, Codex, 이미지 생성, 프롬프트 |
+| `u260713_impact_engineer_AI-학원과-바이브-코딩-_7bf16b.md` | @impact_engineer | 2026-07-13 | AI, Codex, 교육, 프로그래밍 |
+| `u260713_unclejobs.ai_OpenAI의-코덱스-Co_5220cf.md` | @unclejobs.ai | 2026-07-13 | OpenAI, Codex, AI 학습, 작업 자동화 |
+| `u260713_choi.openai_오픈AI-Codex의-Re_fa1217.md` | @choi.openai | 2026-07-13 | Codex, Record & Replay, 업무 자동화, AI |
 | `u260603_choi.openai_오픈AI가-Codex의-대_4ff7b1.md` | @choi.openai | 2026-06-03 | OpenAI, Codex, 스타트업, 웹앱 |
 | `u260603_choi.openai_오픈AI가-Codex-Py_24f793.md` | @choi.openai | 2026-06-03 | Codex, Python SDK, OpenAI, 개발자 |
 | `u260519_world.best.cat_하네스를-사용하여-Clau_7376dd.md` | @world.best.cat | 2026-05-19 | Claude Code, Codex, 하네스, AI 개발 |
@@ -71,8 +75,3 @@ OpenAI의 Codex는 인공지능을 활용하여 개발자와 비개발자 모두
 | `u260422_choi.openai_개발자-Nicolas-Zu_7f7448.md` | @choi.openai | 2026-04-22 | AI, 게임, Codex, 실시간 수정 |
 | `u260422_choi.openai_오픈AI의-Codex가-C_a69e72.md` | @choi.openai | 2026-04-22 | OpenAI, Codex, Chronicle, 코딩 |
 | `u260412_thevynn_웹-디자인-프로젝트에서-피_3846c6.md` | @thevynn | 2026-04-12 | 웹 디자인, Codex, 디자인 시스템, 효율성 |
-| `u260412_jongjatdon_이-사용자는-omo-gpt_a04d86.md` | @jongjatdon | 2026-04-12 | OMO GPT, Hephaestus GPT, Codex, AI 툴 |
-| `u260412_hamshrew_GPT-5.4의-프론트엔드_24d31a.md` | @hamshrew | 2026-04-12 | GPT-5.4, 프론트엔드, Codex, 템플릿 |
-| `u260408_choi.openai_코딩-입문자는-Claude_48fd5c.md` | @choi.openai | 2026-04-08 | AI코딩, Codex, Claude Code, 프로그래밍 |
-| `u260408_unclejobs.ai_Codex를-사용할-때-반_72692a.md` | @unclejobs.ai | 2026-04-08 | Codex, OmO, OmX, AI |
-| `u260408_kyungju_benj_goal-driven-au_ececae.md` | @kyungju_benj | 2026-04-08 | 테트리스, 자동화, AI, Codex |

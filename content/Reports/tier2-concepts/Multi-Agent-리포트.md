@@ -3,45 +3,43 @@ report_id: multi-agent
 topic: 멀티 에이전트
 tier: tier2-concepts
 note_count: 13
-last_updated: "2026-05-27 22:08"
+last_updated: "2026-07-05 21:42"
 description: "acpx·Profile·오케스트레이션 패턴"
 ---
 
 # 멀티 에이전트 트렌드 리포트
 
-> 노트 13개 기반 | 마지막 갱신: 2026-05-27 22:08
+> 노트 13개 기반 | 마지막 갱신: 2026-07-05 21:42
 
 # 멀티 에이전트 리포트
 
 ## 개요
-멀티 에이전트 시스템은 다양한 AI 에이전트를 동시에 활용하여 작업의 효율성을 극대화하는 기술입니다. 이는 팀 협업 및 자동화의 새로운 패러다임을 제시하며, AI의 활용도를 높이는 데 중요한 역할을 합니다.
+멀티 에이전트 기술은 여러 AI 에이전트를 동시에 운영하고 관리할 수 있는 혁신적인 방법을 제공합니다. 이는 팀워크와 협업을 향상시키며, 다양한 작업을 보다 효율적으로 수행할 수 있도록 돕습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| 멀티 에이전트 구축 | 팀장과의 간단한 대화 가능 (크로드코드) |
-| 세션 관리 | 여러 세션을 효율적으로 관리하는 기능 추가 (Claude Code) |
-| 프로필 관리 | 독립적인 환경에서 에이전트 운영 (Hermes) |
-| 병렬 작업 | 클라우드에서 계획을 병렬로 생성 (Claude Code의 /ultraplan) |
-| ACP 프로토콜 | 다양한 에디터와 에이전트 간의 호환성 제공 (acpx) |
-| Agent Team 구성 | 여러 Claude Code를 팀으로 묶어 작업 분배 (Agent Team) |
+| 멀티 에이전트 구축 | 팀장과의 간단한 대화 가능 ([@allenjj4911](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)) |
+| 세션 관리 | 여러 세션을 효율적으로 관리하는 기능 추가 ([@gonnector](https://www.threads.com/@gonnector/post/DYNmn8xEylp)) |
+| 프로필 관리 | 독립적인 환경에서 에이전트 운영 가능 ([@dev_roach_log](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)) |
+| 클라우드 병렬 처리 | 계획을 클라우드에서 병렬로 생성 ([@biggerthanseoul.ai](https://www.threads.com/@biggerthanseoul.ai/post/DW1daLOGgLi)) |
+| ACP 프로토콜 | 다양한 에디터와 에이전트 간의 호환성 제공 ([@unclejobs.ai](https://www.threads.com/@unclejobs.ai/post/DWdCpTRiRFW)) |
+| 에이전트 팀 구성 | 여러 Claude Code를 팀으로 묶어 협업 ([@lian.lab71](https://www.threads.com/@lian.lab71/post/DVGX-zgj7rk)) |
 
 ## 최신 동향
-- **2026-05-27**: 멀티 에이전트 구축을 통해 팀장과의 대화 가능성을 제시하는 팁 공유. [원문](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)
-- **2026-05-17**: Claude Code의 최신 버전에서 멀티 에이전트 관리 기능과 /goal 기능 추가. [원문](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
-- **2026-04-15**: Hermes에서 멀티 에이전트 구축 방법 카드뉴스 형식으로 설명. [원문](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
-- **2026-04-08**: 클로드 코드의 새로운 기능인 /ultraplan 소개. [원문](https://www.threads.com/@biggerthanseoul.ai/post/DW1daLOGgLi)
+- **2026-05-27**: 멀티 에이전트 구축을 통해 팀장과의 간단한 대화 가능성에 대한 팁 공유 ([@allenjj4911](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)).
+- **2026-05-17**: Claude Code의 최신 버전에서 멀티 에이전트 관리 기능과 /goal 기능 추가 ([@gonnector](https://www.threads.com/@gonnector/post/DYNmn8xEylp)).
+- **2026-04-15**: Hermes에서 멀티 에이전트 구축 방법 카드뉴스 형식으로 설명 ([@dev_roach_log](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)).
 
 ## 주요 인사이트
-- **효율적인 협업**: 멀티 에이전트 시스템을 통해 팀원 간의 의사소통 및 작업 분배가 원활해질 것으로 기대됨.
-- **작업 관리 최적화**: 각 에이전트의 역할을 명확히 하여 문맥 비대증을 피하고, 효율성을 높이는 것이 중요하다는 의견이 많음.
-- **자동화 스킬 배포**: 에이전트 팀의 자동화 스킬 배포를 통해 작업 수행의 유연성을 높일 수 있음.
+- 에이전트 활용 시 문맥 비대증을 피하고, 명확한 지시 및 종료 조건 설정이 중요하다는 의견이 제기되었습니다. 이를 통해 에이전트의 성능을 최적화할 수 있습니다 ([@choi.openai](https://www.threads.com/@choi.openai/post/DVlRuy2jRpJ)).
+- 에이전트 팀은 여러 클로드 코드를 자동으로 열어 작업을 수행하며, 컨텍스트 확장 및 스킬 조합의 장점이 있지만 난이도가 높아 토큰 소모가 많을 수 있다는 점이 강조되었습니다 ([@tofukyung](https://www.threads.com/@tofukyung/post/DVDiqDdiT4k)).
 
 ## 관련 도구/링크
-- [GitHub - OpenAI Codex 서브 에이전트](https://www.threads.com/@choi.openai/post/DWCIvxQkrBW)
 - [Claude Code](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
 - [Hermes](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
 - [OpenClaw 가이드](https://www.threads.com/@zig_mini/post/DWXx6lHGAGU)
+- [GitHub 레포지토리](https://www.threads.com/@choi.openai/post/DWCIvxQkrBW)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |

@@ -2,48 +2,50 @@
 report_id: prompt-eng
 topic: 프롬프트 엔지니어링
 tier: tier3-emerging
-note_count: 75
-last_updated: "2026-06-12 02:19"
+note_count: 79
+last_updated: "2026-07-13 09:11"
 description: "프롬프트 패턴·기법·최신 사례"
 ---
 
 # 프롬프트 엔지니어링 트렌드 리포트
 
-> 노트 75개 기반 | 마지막 갱신: 2026-06-12 02:19
+> 노트 79개 기반 | 마지막 갱신: 2026-07-13 09:11
 
 # 프롬프트 엔지니어링 리포트
 
 ## 개요
-프롬프트 엔지니어링은 AI와의 상호작용을 최적화하고, 원하는 결과를 도출하기 위한 기술입니다. 최근 AI 기술의 발전과 함께 프롬프트의 중요성이 더욱 부각되고 있으며, 효율적인 프롬프트 작성은 AI 활용의 핵심 요소로 자리잡고 있습니다.
+프롬프트 엔지니어링은 AI 모델의 성능을 극대화하기 위한 중요한 기술로, 사용자와 AI 간의 상호작용을 최적화하는 방법론입니다. 이 기술은 다양한 분야에서 활용되며, 특히 이미지 생성, 자동화, 콘텐츠 제작 등에서 그 중요성이 더욱 부각되고 있습니다.
 
 ## 핵심 내용
-| 핵심 개념/기능 | 설명 |
-|----------------|------|
-| 루프 엔지니어링 | 반복적인 작업을 관리하는 시스템 설계, 인간의 검증 필요 |
-| Ralph Loop 패턴 | 목표 설정 및 달성을 자동화하는 방식, 효율적인 피드백 루프 |
-| 프롬프트 작성 기술 | AI와의 상호작용을 개선하는 다양한 기법과 팁 제공 |
-| Codex Harness | Codex를 장기 프로젝트에서 안정적으로 사용하기 위한 운영 템플릿 |
-| Chomex | 오픈소스 프롬프트 생성 도구, 다양한 기능 제공 |
-| Prompt Maker | 프롬프트 관리 및 아이디어 저장을 위한 무료 프로그램 |
+| 기능/개념 | 설명 |
+|-----------|------|
+| 사용자 정의 프롬프트 | 사용자 맞춤형 프롬프트를 통해 AI의 결과물 퀄리티를 향상시킴. |
+| 루프 엔지니어링 | AI가 스스로 작업을 수행하도록 설계된 시스템으로, 반복 작업을 관리. |
+| 프롬프트 라이브러리 | 다양한 프롬프트를 포함하여 사용자가 쉽게 접근할 수 있도록 제공. |
+| AI 도구 | Codex, Claude와 같은 AI 도구를 활용하여 다양한 작업을 자동화. |
+| 실전 팁 | 프롬프트 작성 기술을 개선하기 위한 다양한 접근 방식과 기법 제공. |
 
 ## 최신 동향
-- **2026-06-12**: 루프 엔지니어링이 주목받으며, 프롬프트를 던지는 시스템 설계로 패러다임 변화가 이루어짐. [원문](https://www.threads.com/@unclejobs.ai/post/DZV1mwXE6ys)
-- **2026-05-17**: Ralph Loop 패턴을 통한 자동화 및 목표 설정의 중요성이 강조됨. [원문](https://www.threads.com/@unclejobs.ai/post/DYQ_uzCiXar)
-- **2026-04-28**: Codex Harness와 CLAUDE.md 파일을 통한 AI의 행동 규칙 설정 방법 소개. [원문](https://www.threads.com/@leesangin_n/post/DXhY1g8k8r4)
+- **2026-07-13**: 클로드 코드와 Codex를 이용한 이미지 생성 방법 소개. 사용자 정의 프롬프트와 동적 라우팅 기능 강조. [원문](https://www.threads.com/@specal1849/post/DZ4pUCikRs_)
+- **2026-07-13**: 무료 사이트 prompts3.kr에서 한국어 프롬프트 4만 개 제공. [원문](https://www.threads.com/@prompts3.kr/post/DaLDOrTkgA6)
+- **2026-06-12**: 루프 엔지니어링의 중요성이 강조되며, 자동화된 시스템 설계의 필요성 언급. [원문](https://www.threads.com/@unclejobs.ai/post/DZV1mwXE6ys)
 
 ## 주요 인사이트
-- AI 영상 제작자들 사이에서 'scenic.sh' 사이트가 바이럴 영상 프롬프트 공유의 장으로 주목받고 있음.
-- ChatGPT의 '협상가 모드'를 활용하여 연봉 협상 및 거절 대처법을 제시하는 방법이 화제가 되고 있음.
-- 프롬프트 질문의 질이 결과의 질을 결정짓는다는 점이 강조됨.
+- **프롬프트 작성 기술**: AI와의 상호작용을 개선하기 위한 다양한 실전 팁이 공유되며, 질문의 질이 결과의 질을 결정짓는다는 점이 강조됨. [원문](https://www.threads.com/@dev_one_l/post/DXcF3tsmgYO)
+- **루프 설계**: 결승선과 멈출 조건이 루프 설계에서 중요하다는 의견이 제시됨. [원문](https://www.threads.com/@unclejobs.ai/post/DZv1iUcCcIi)
 
 ## 관련 도구/링크
-- [Prompt Maker](https://www.threads.com/@hellohyun.jang/post/DYRfWaPnxnq) - 프롬프트 관리 도구
-- [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-) - 오픈소스 프롬프트 생성 도구
-- [scenic.sh](https://www.threads.com/@mywhiteboutique/post/DYQ1WTPDUdz) - 바이럴 영상 프롬프트 공유 사이트
+- [prompts3.kr](https://www.prompts3.kr): 한국어 프롬프트 제공 사이트
+- [Codex](https://www.openai.com/research/codex): AI 도구로 다양한 기능 제공
+- [Claude](https://www.anthropic.com/claude): AI 모델로 사용자 맞춤형 프롬프트 지원
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260713_specal1849_클로드-코드와-Codex를_e8f211.md` | @specal1849 | 2026-07-13 | Claude Code, Codex, 이미지 생성, 프롬프트 |
+| `u260713_prompts3.kr_무료-사이트-prompts_df6921.md` | @prompts3.kr | 2026-07-13 | 프롬프트, 무료 사이트, AI 도구 |
+| `u260713_unclejobs.ai_Peter-Steinber_333ba5.md` | @unclejobs.ai | 2026-07-13 | 루프, 프롬프트, AI 에이전트, 비즈니스 프로세스 |
+| `u260713_unclejobs.ai_루프-엔지니어링은-AI가-_85b930.md` | @unclejobs.ai | 2026-07-13 | 루프 엔지니어링, AI, 프롬프트, 루프 라이브러리 |
 | `u260612_unclejobs.ai_루프-엔지니어링이-새롭게-_8f1a0f.md` | @unclejobs.ai | 2026-06-12 | 루프 엔지니어링, 프롬프트, 자동화, AI |
 | `u260612_siluv_00_프롬프트-작성-기술에-대한_dde76b.md` | @siluv_00 | 2026-06-12 | 프롬프트, AI 기술, 방법론, 실전 팁 |
 | `u260603_youngchangjo_작성자가-공개한-프롬프트를_2efd09.md` | @youngchangjo | 2026-06-03 | 프롬프트, 금융 터미널, 미국 주식, AI 개발 |
@@ -70,7 +72,3 @@ description: "프롬프트 패턴·기법·최신 사례"
 | `u260412_turtle_buff_Claude가-이제-모바일_ad48cf.md` | @turtle_buff | 2026-04-12 | Claude, 모바일 앱, 프롬프트, 개발 도구 |
 | `u260407_builder__j_Codex-Best-Pra_043750.md` | @builder__j | 2026-04-07 | Codex, 프롬프트, AGENTS.md, 스킬 |
 | `u260407_human__bro_Google-Noteboo_54a536.md` | @human__bro | 2026-04-07 | NotebookLM, 유튜브, 콘텐츠 제작, 프롬프트 |
-| `u260407_lian.lab71_유출된-claude-cod_a59ca4.md` | @lian.lab71 | 2026-04-07 | claude code, 시각화, 프롬프트, AI 분석 |
-| `u260403_lucas_flatwhite_Claude-Code는-모_c55dff.md` | @lucas_flatwhite | 2026-04-03 | Claude Code, 프롬프트, API 호출, 프롬프트 캐싱 |
-| `u260327_hunyfocus_AI-이미지-생성-시-얼굴_bcf4c1.md` | @hunyfocus | 2026-03-27 | AI, 이미지 생성, 프롬프트, 얼굴 고정 |
-| `u260327_human__bro_ChatGPT를-활용하여-_baf42b.md` | @human__bro | 2026-03-27 | ChatGPT, 법률, 프롬프트, AI |

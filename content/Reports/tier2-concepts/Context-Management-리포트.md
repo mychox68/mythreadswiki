@@ -3,43 +3,44 @@ report_id: context-mgmt
 topic: 컨텍스트 관리
 tier: tier2-concepts
 note_count: 15
-last_updated: "2026-05-27 22:09"
+last_updated: "2026-07-01 15:48"
 description: "토큰 절약·컨텍스트 압축·관리 전략"
 ---
 
 # 컨텍스트 관리 트렌드 리포트
 
-> 노트 15개 기반 | 마지막 갱신: 2026-05-27 22:09
+> 노트 15개 기반 | 마지막 갱신: 2026-07-01 15:48
 
 # 컨텍스트 관리 리포트
 
 ## 개요
-컨텍스트 관리는 AI의 효율성을 극대화하고 토큰 사용량을 절감하는 데 필수적인 전략입니다. 다양한 AI 도구와 기술이 발전함에 따라, 효과적인 컨텍스트 관리 방법을 이해하고 활용하는 것이 중요해졌습니다.
+컨텍스트 관리는 AI 시스템의 효율성을 극대화하고 토큰 사용량을 절감하는 데 중요한 역할을 합니다. 특히 다양한 AI 도구와 기술이 발전함에 따라, 효과적인 컨텍스트 관리 전략은 개발자와 사용자에게 필수적인 요소로 자리잡고 있습니다.
 
 ## 핵심 내용
 | 핵심 기능/개념/특징 | 설명 |
 |--------------------|------|
 | **토큰 절약** | Claude Code의 환경변수 설정 변경 및 lazy load 방식으로 초기 토큰 사용량을 줄일 수 있음. |
 | **컨텍스트 압축** | Claude Code의 /compact 명령어를 통해 토큰 절약 효과를 극대화할 수 있음. |
-| **세션 vs JWT** | 세션은 서버가 기억하며 로그아웃 시 삭제되지만, JWT는 로그아웃 후에도 유효함. |
-| **AGENTS.md 관리** | 최소한의 요구사항과 필요한 정보만 기록하여 LLM의 집중력을 유지해야 함. |
-| **Docker MCP** | 필요할 때만 MCP를 로드하고 작업 완료 후 언로드하여 컨텍스트 윈도우 관리 가능. |
+| **세션 vs JWT** | 세션은 서버가 기억하지만 JWT는 로그아웃 후에도 유효하며, 로그아웃 시 토큰 무효화가 필요함. |
+| **AGENTS.md 관리** | 잘못된 AGENTS.md 파일은 성능 저하를 초래하므로 최소한의 정보만 기록해야 함. |
+| **Docker MCP** | 에이전트 컨텍스트를 효율적으로 관리하고 필요할 때만 MCP를 로드하여 토큰 절약 가능. |
+| **rtk (Rust Token Killer)** | Claude Code의 CLI 명령어 출력을 필터링하여 토큰 사용량을 60~90%까지 절감함. |
 
 ## 최신 동향
-- **2026-05-27**: 디자이너는 AI가 따를 제약을 정의해야 하며, 마크다운과 YAML 토큰을 활용하는 방식이 효율적이라는 의견이 제시됨. [원문](https://www.threads.com/@builder_rogan/post/DYwoJtjEqNC)
-- **2026-05-11**: Claude Code의 환경변수 설정 변경으로 초기 토큰 사용량을 줄일 수 있다는 정보가 공유됨. [원문](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
-- **2026-03-27**: 다양한 AI 도구와의 연동 및 컨텍스트 관리 방법에 대한 여러 게시물이 올라옴.
+- **2026-05-27**: @builder_rogan, AI가 따를 제약을 정의해야 한다고 강조하며 마크다운과 YAML 토큰 활용을 제안. [원문](https://www.threads.com/@builder_rogan/post/DYwoJtjEqNC)
+- **2026-05-11**: @vyblor, Claude Code의 초기 토큰 사용량 감소를 위한 환경변수 설정 변경을 언급. [원문](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
+- **2026-03-27**: 여러 게시물에서 AGENTS.md 관리, Docker MCP 사용법, Claude Code의 /fork 기능 등 다양한 컨텍스트 관리 전략이 논의됨.
 
 ## 주요 인사이트
-- **효율적인 코딩**: Codex와 ChatGPT를 혼합 사용하여 작업 효율을 높일 수 있다는 의견이 많음.
-- **비용 절감 방안**: 오픈클로 사용 비용 절감 방법으로 Mem0, Codex 구독, GLM5 연결 등이 제시됨.
-- **컨텍스트 관리의 중요성**: AGENTS.md 파일 관리가 코딩 에이전트 성능에 큰 영향을 미친다는 점이 강조됨.
+- **효율적인 도구 사용**: Codex와 ChatGPT를 혼합 사용하여 코딩 작업의 정확성을 높일 수 있음. 
+- **토큰 관리의 중요성**: rtk 도구를 통해 토큰 소모를 줄이는 방법이 주목받고 있으며, 이는 다양한 AI 도구에서 적용 가능함.
+- **컨텍스트 유지**: 대화의 지속성을 위해 검증된 컨텍스트를 보존하는 것이 중요하다는 의견이 많음.
 
 ## 관련 도구/링크
 - [Claude Code](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
 - [Docker MCP](https://www.threads.com/@leehc_09/post/DUzpm3wkSDG)
-- [GitHub Copilot Pro](https://www.threads.com/@hscookie/post/DViWuemlI9W)
-- [Obsidian](https://www.threads.com/@devdesign.kr/post/DVQ_O78krrk)
+- [rtk (Rust Token Killer)](https://www.threads.com/@ai_developer_genie/post/DVnlycHkyOb)
+- [AGENTS.md 관리](https://www.threads.com/@roac.h7839/post/DU8cy3_D2Mq)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
