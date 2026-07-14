@@ -2,52 +2,52 @@
 report_id: claude-code
 topic: Claude Code
 tier: tier1-core
-note_count: 170
-last_updated: "2026-07-13 09:07"
+note_count: 171
+last_updated: "2026-07-14 16:33"
 description: "Claude Code CLI·데스크톱앱·멀티세션·hooks·skills 전반 동향"
 ---
 
 # Claude Code 트렌드 리포트
 
-> 노트 170개 기반 | 마지막 갱신: 2026-07-13 09:07
+> 노트 171개 기반 | 마지막 갱신: 2026-07-14 16:33
 
-# Claude Code 동향 리포트
+# Claude Code 리포트
 
 ## 개요
-Claude Code는 AI 코딩 도구로서, 개발자들이 효율적으로 코드를 작성하고 관리할 수 있도록 돕는 다양한 기능을 제공합니다. 최근의 발전은 멀티세션 관리와 자동화 기능을 통해 개발 환경을 혁신적으로 변화시키고 있습니다.
+Claude Code는 AI 개발과 프로그래밍의 효율성을 높이는 도구로, 최근 다양한 기능과 업데이트가 이루어지고 있습니다. 이러한 변화는 개발자들이 더 나은 협업과 코드 관리를 가능하게 하며, AI의 활용도를 극대화하는 데 중요한 역할을 하고 있습니다.
 
 ## 핵심 내용
-| 기능/개념 | 설명 |
-|-----------|------|
-| **claude-swap** | 계정 전환, 사용량 모니터링, 자동 전환 기능을 제공하는 오픈소스 도구 |
-| **Recall 플러그인** | 세션 기록을 저장하고 다음 세션에서 이어갈 수 있도록 지원 |
-| **codebase-memory-mcp** | 토큰 사용량을 99.2% 줄이고 158개 언어 지원 |
-| **TMUX** | 복수의 AI를 동시에 운영할 수 있는 기능 |
-| **/ultrareview** | 다수의 버그 탐지 에이전트를 클라우드에서 동시에 실행하여 코드 리뷰 |
-| **claude-mem** | 코딩 세션의 모든 활동을 자동으로 저장하고 장기 기억으로 관리 |
-| **Graphify** | 파일 읽기 시 필요한 토큰을 71.5배 줄이는 그래프 인덱싱 도구 |
+| 기능/개념          | 설명                                                                 |
+|-------------------|--------------------------------------------------------------------|
+| 협업 기능          | Artifacts를 통해 여러 사용자가 동시에 편집할 수 있는 기능 추가.      |
+| 계정 관리 도구     | `claude-swap`을 통해 계정 전환 및 사용량 모니터링 가능.               |
+| 이미지 생성        | 사용자 정의 프롬프트와 동적 라우팅 기능을 통한 대량 이미지 생성.       |
+| Recall 플러그인    | 세션 기록을 저장하고 이어서 작업할 수 있도록 지원.                     |
+| 코드베이스 탐색    | `codebase-memory-mcp`를 통해 토큰 사용량을 줄이고 여러 언어 지원.     |
+| 멀티 에이전트 관리  | 여러 AI 에이전트를 동시에 운영할 수 있는 기능 추가.                    |
+| 세션 관리 기능     | Session recap, 자동 요약, 예약 태스크 복원 등 다양한 기능 추가.        |
+| 환경변수 설정      | lazy load 방식으로 초기 토큰 사용량 절감.                             |
 
 ## 최신 동향
-- **2026-07-13**: `claude-swap` 도구 소개 (@namsangboy)
-- **2026-07-13**: 이미지 생성 방법 및 관련 스킬 소개 (@specal1849)
-- **2026-07-13**: 다양한 개발 스킬 소개 (@robertchoi0631)
-- **2026-05-17**: 멀티 에이전트 관리 기능 및 /goal 기능 추가 (@gonnector)
-- **2026-04-28**: '/ultrareview' 기능 추가 및 자동화 강조 (@choi.openai)
+- **2026-07-14**: Artifacts에 새로운 협업 기능 추가. [원문](https://www.threads.com/@choi.openai/post/Dav_vbbky8q)
+- **2026-07-13**: `claude-swap` 도구 소개. [원문](https://www.threads.com/@namsangboy/post/Daq-iCugUeY)
+- **2026-07-13**: 다양한 개발 스킬 소개. [원문](https://www.threads.com/@robertchoi0631/post/DZvsAHrktmt)
+- **2026-05-27**: CLAUDE.md 파일을 통한 AI 코딩 전략 공유. [원문](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
+- **2026-04-28**: '/ultrareview' 기능 추가로 코드 리뷰 자동화. [원문](https://www.threads.com/@choi.openai/post/DXcve0aE6GN)
 
 ## 주요 인사이트
-- **질문법의 중요성**: 질문법을 통해 업무 완결성을 높이는 전략이 중요하다는 의견이 많음 (@the.claudeist).
-- **실수율 감소**: 간단하고 검증 가능한 명령어 사용이 실수율을 줄이는 데 효과적이라는 분석 (@unclejobs.ai).
-- **비용 효율성**: 하이브리드 라우팅과 보조 사수 설정을 통해 비용 효율성을 극대화하는 팁이 공유됨 (@the.claudeist).
+- **협업의 중요성**: Artifacts의 협업 기능이 도입되면서 팀원 간의 효율적인 작업이 가능해졌다는 의견.
+- **효율적인 계정 관리**: `claude-swap`을 통해 여러 계정을 사용하는 개발자들에게 큰 도움이 될 것이라는 반응.
+- **질문법의 중요성**: 질문법을 통해 문제 해결 확률을 높일 수 있다는 의견이 주목받고 있음.
 
 ## 관련 도구/링크
-- [claude-swap](https://www.threads.com/@namsangboy/post/Daq-iCugUeY)
-- [Recall 플러그인](https://www.threads.com/@ohyoung.park/post/DZ3noBnk8d_)
-- [codebase-memory-mcp](https://www.threads.com/@think.5x/post/DZthuSlE_YV)
-- [Graphify](https://www.threads.com/@vyblor/post/DX5-onhEb61)
+- [claude-swap GitHub](https://github.com/namsangboy/claude-swap)
+- [Claude Code 공식 문서](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260714_choi.openai_Claude-Code의-A_4a10e5.md` | @choi.openai | 2026-07-14 | Claude Code, AI 협업, Slack, Artifacts |
 | `u260713_namsangboy_Claude-Code-계정_df60ae.md` | @namsangboy | 2026-07-13 | Claude Code, 오픈소스, 계정 전환, CLI 도구 |
 | `u260713_specal1849_클로드-코드와-Codex를_e8f211.md` | @specal1849 | 2026-07-13 | Claude Code, Codex, 이미지 생성, 프롬프트 |
 | `u260713_robertchoi0631_Claude-Code를-활_a9dfff.md` | @robertchoi0631 | 2026-07-13 | Claude Code, 개발 스킬, 프레임워크, AI 도구 |
@@ -77,4 +77,3 @@ Claude Code는 AI 코딩 도구로서, 개발자들이 효율적으로 코드를
 | `u260422_ai.guru.kim_코덱스는-불필요한-문장을-_95b35e.md` | @ai.guru.kim | 2026-04-22 | 코덱스, 불필요한 문장, 출력 토큰, 응답 속도 |
 | `u260422_lucas_flatwhite_Claude-Code에-대_d22b4b.md` | @lucas_flatwhite | 2026-04-22 | Claude Code, 세미나, 프레젠테이션, 워크플로우 |
 | `u260422_choi.openai_앤트로픽이-Claudia-_4c17c0.md` | @choi.openai | 2026-04-22 | Claude Code, 앤트로픽, AI 개발, 자동화 |
-| `u260415_choi.openai_앤트로픽이-데스크톱용-Cl_f6b50d.md` | @choi.openai | 2026-04-15 | Claude Code, 앤트로픽, AI 개발, 통합 터미널 |
