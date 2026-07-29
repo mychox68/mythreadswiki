@@ -2,49 +2,48 @@
 report_id: mcp
 topic: MCP
 tier: tier2-concepts
-note_count: 24
-last_updated: "2026-07-13 13:27"
+note_count: 26
+last_updated: "2026-07-29 17:26"
 description: "MCP 서버·연동 패턴·생태계"
 ---
 
 # MCP 트렌드 리포트
 
-> 노트 24개 기반 | 마지막 갱신: 2026-07-13 13:27
-
-# MCP 리포트
+> 노트 26개 기반 | 마지막 갱신: 2026-07-29 17:26
 
 ## 개요
-MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하는 중요한 기술입니다. 이 프로토콜은 다양한 서비스와의 연결을 단순화하고, 사용자 경험을 향상시키는 데 기여하고 있습니다. 특히, MCP는 AI의 활용도를 높이고, 효율적인 워크플로우를 지원하는 데 필수적인 요소로 자리잡고 있습니다.
+MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하여 효율적인 협업과 자동화를 지원하는 중요한 기술입니다. 최근 다양한 MCP 서버와 도구들이 소개되면서, AI 개발자와 사용자들에게 더 나은 경험을 제공하고 있습니다.
 
 ## 핵심 내용
 | 기능/개념 | 설명 |
 |-----------|------|
-| **MCP 서버** | AI 에이전트와 외부 시스템 간의 통합을 지원하는 서버. 200개 이상의 MCP 서버 지원. |
-| **Lazy Load** | 필요할 때만 도구를 로드하여 초기 토큰 사용량 절약. |
-| **n8n-MCP** | 실시간으로 Slack 메시지의 JSON 설정값을 검증하여 효율적인 워크플로우 지원. |
-| **Claude Code** | 다양한 자동화 및 통합 작업을 지원하는 AI 도구. |
-| **Docker MCP** | 에이전트 컨텍스트 관리 및 토큰 절약을 위한 Docker 기반 솔루션. |
+| **MCP 서버** | AI 에이전트와 외부 시스템 간의 연결을 단순화하고, 200개 이상의 서버를 지원 |
+| **Lazy Load** | 필요한 도구를 필요할 때만 로드하여 초기 토큰 사용량 절감 |
+| **협업 도구** | Excalidraw와 같은 드로잉 툴을 통해 사용자 간의 협업 개선 |
+| **자동화 툴** | iOS 앱스토어 제출 자동화, Slack 메시지 전송 프롬프트 등 다양한 자동화 기능 제공 |
+| **Docker MCP** | 에이전트 컨텍스트를 효율적으로 관리하고, 토큰 절약 가능 |
+| **브라우저 자동화** | Playwright와 같은 도구를 활용하여 웹사이트 제어 및 자동화 작업 수행 |
 
 ## 최신 동향
-- **2026-05-11**: Claude Code의 환경변수 설정 변경으로 초기 토큰 사용량 절약 가능성 제시. [원문](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
-- **2026-05-07**: n8n-MCP 도구가 AI가 생성한 Slack 메시지의 JSON 설정값을 실시간 검증. [원문](https://www.threads.com/@conanssam/post/DX8NsMEEpFJ)
-- **2026-04-28**: Anthropic이 MCP를 공개하며 AI 에이전트의 외부 시스템 통합 표준화. [원문](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
-- **2026-03-27**: 다양한 MCP 서버와 자동화 도구들이 소개되며, AI 코딩 및 협업의 효율성이 강조됨. 
+- **2026-07-29**: @why.anthropic이 초경량 멀티 에이전트 스텔스 브라우저 MCP를 소개. Chrome과 연결되어 탐지 회피 강화.
+- **2026-07-20**: @unclejobs.ai가 Threads에서 사용자 간 직접 메시지 전송 기능 추가 소식 전함.
+- **2026-04-28**: Anthropic이 MCP를 공개하여 AI 에이전트의 외부 시스템 통합을 표준화함.
 
 ## 주요 인사이트
-- **토큰 절약**: Claude Code 사용자는 lazy load 방식을 통해 초기 토큰 사용량을 줄일 수 있다는 의견이 많음.
-- **자동화의 중요성**: n8n-MCP와 같은 도구들이 AI의 역할을 단순한 코드 생성에서 도구 이해 및 안전한 실행으로 변화시키고 있다는 점이 주목받고 있음.
-- **협업 효율성**: AI 에이전트들이 채팅방에서 협업하며 효율성을 높이는 프로젝트가 화제가 되고 있음.
+- 사용자들은 MCP 서버를 통해 다양한 협업 도구와 자동화 기능을 활용하여 작업 효율성을 높이고 있습니다.
+- Excalidraw와 같은 도구의 사용이 증가하면서, 시각적 협업의 중요성이 강조되고 있습니다.
+- Docker MCP를 통한 컨텍스트 관리와 토큰 절약 방법이 많은 관심을 받고 있습니다.
 
 ## 관련 도구/링크
-- [Claude Code](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
-- [n8n-MCP](https://www.threads.com/@conanssam/post/DX8NsMEEpFJ)
-- [Anthropic MCP](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
-- [Docker MCP](https://www.threads.com/@leehc_09/post/DUzpm3wkSDG)
+- [MCP 서버 소개](https://www.threads.com/@vibe.code.kr/post/DWa4eECFDyU)
+- [Excalidraw](https://www.threads.com/@unclejobs.ai/post/DawxFSwCae9)
+- [Playwright](https://www.threads.com/@openclaw_ko/post/DVlzudPkWOw)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260729_why.anthropic_최고-성능의-초경량-멀티-_2d6e19.md` | @why.anthropic | 2026-07-29 | 브라우저 자동화, 멀티 에이전트, Rust, Chrome |
+| `u260720_unclejobs.ai_Threads에서-사용자-_8db9c7.md` | @unclejobs.ai | 2026-07-20 | Threads, Excalidraw, MCP, 협업 |
 | `u260511_vyblor_Claude-Code의-환_24298c.md` | @vyblor | 2026-05-11 | Claude Code, 토큰 절약, lazy load, MCP |
 | `u260507_conanssam_n8n-MCP는-AI가-생_b4d6cf.md` | @conanssam | 2026-05-07 | n8n, Slack, AI, 워크플로우 |
 | `u260428_unclejobs.ai_Anthropic이-MCP_846d22.md` | @unclejobs.ai | 2026-04-28 | AI, MCP, 통합, Anthropic |

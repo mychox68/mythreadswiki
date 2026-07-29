@@ -2,51 +2,55 @@
 report_id: ai-coding
 topic: AI 코딩
 tier: tier1-core
-note_count: 115
-last_updated: "2026-07-01 15:42"
+note_count: 116
+last_updated: "2026-07-29 17:25"
 description: "Vibe Coding·에이전트 코딩 흐름"
 ---
 
 # AI 코딩 트렌드 리포트
 
-> 노트 115개 기반 | 마지막 갱신: 2026-07-01 15:42
+> 노트 116개 기반 | 마지막 갱신: 2026-07-29 17:25
 
 # AI 코딩 — Vibe Coding·에이전트 코딩 흐름 리포트
 
 ## 개요
-AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 개발자의 역할을 변화시키는 중요한 기술입니다. 특히 Vibe Coding과 AI 코딩 에이전트는 개발 프로세스의 혁신을 가져오고 있으며, 이러한 변화는 앞으로의 개발 환경에 큰 영향을 미칠 것입니다.
+AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 비개발자도 코딩에 참여할 수 있도록 돕는 혁신적인 기술입니다. 특히 Vibe Coding과 에이전트 코딩 흐름은 개발자와 AI 간의 협업을 통해 새로운 가능성을 열어주고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **Vibe Coding** | 새로운 개발 방식으로, AI 코딩 에이전트를 통합하여 개발자의 역할을 변화시킴. |
-| **Context Engineering** | AI 코딩에서 문맥을 이해하고 활용하는 기술로, 코드 생성의 품질을 높임. |
-| **Claude Code** | 대규모 코드베이스에서 AI 코딩의 효율성을 높이는 다양한 전략을 제공. |
-| **MCP 서버** | Claude Code 사용자를 위한 필수 서버로, 파일 시스템, GitHub 등 다양한 기능을 제공. |
-| **AGENTS.md** | AI 코딩 에이전트의 성능을 관리하는 파일로, 최소한의 요구사항과 도구 사용법을 기록해야 함. |
-| **디자인 시스템** | AI가 UI를 생성할 수 있도록 마크다운 파일 형식으로 표준화된 시스템. |
+| **Grok Build** | xAI의 새로운 코딩 에이전트로, 마우스 클릭 지원 및 다양한 환경에서 활용 가능. |
+| **바이브 코딩** | 구글의 새로운 개발 방식으로, context engineering과 AI 코딩 에이전트 통합 방법을 다룸. |
+| **Claude Code** | 대규모 코드베이스에서 AI 코딩의 효율성을 높이는 다양한 전략 제공. |
+| **code-review-graph** | 코드 수정 시 영향을 받는 파일만을 받아들이고 변경 영향 범위를 시각화하여 토큰 비용 절감. |
+| **OpenChamber** | OpenCode의 GUI로, 일반 사용자가 AI 코딩을 쉽게 이용할 수 있도록 지원. |
+| **DESIGN.md** | AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공. |
+| **MCP 서버** | Claude Code 사용자를 위한 필수 서버로, 다양한 기능과 장점을 제공. |
+| **AGENTS.md** | 코딩 에이전트 성능에 영향을 미치는 파일 관리의 중요성 강조. |
 
 ## 최신 동향
-- **2026-06-16**: 구글이 바이브 코딩과 AI 코딩 에이전트 통합에 관한 51페이지 분량의 리포트를 공개.
-- **2026-05-27**: 앤트로픽의 Claude Code가 대규모 코드베이스에서의 효율성을 높이는 전략을 발표.
-- **2026-05-05**: code-review-graph가 코드 수정 시 토큰 비용을 절감하는 기능을 제공.
-- **2026-03-30**: Claude Code의 훅 기능이 업데이트되어 더욱 정밀한 제어가 가능해짐.
+- **2026-07-20**: xAI의 Grok Build가 새로운 작업 방식을 제공하며 오픈소스 라이센스를 따름.
+- **2026-06-16**: 구글이 바이브 코딩 관련 리포트를 공개.
+- **2026-05-27**: 앤트로픽의 Claude Code가 다양한 전략을 통해 AI 코딩의 효율성을 높임.
+- **2026-05-05**: OpenCode와 DeepSeek V4 Pro의 요금제 소개 및 Pencil 도구의 통합 작업 가능성 언급.
+- **2026-03-30**: Claude Code의 훅 기능이 추가되어 더욱 정밀한 제어 가능.
 
 ## 주요 인사이트
-- 개발 방식의 차이에 관계없이 요구사항의 품질이 결과에 미치는 영향이 크며, 사전 스펙 작성이 중요하다는 의견이 많음.
-- 비개발자도 AI를 활용하여 코딩할 수 있는 방법과 AI가 생성한 아키텍처에 대한 리뷰 필요성을 강조하는 목소리가 있음.
-- 다양한 AI 코딩 도구들이 디자인과 코딩을 통합하여 효율성을 높이는 방법에 대한 논의가 활발함.
+- **비개발자도 AI 활용 가능**: 비개발자가 AI를 활용해 코딩하는 플로우 및 DDD, BDD 개념 이해의 중요성 강조.
+- **효율적인 협업**: acpx 툴을 통해 여러 코딩 에이전트를 통합 관리하여 작업 효율성을 높일 수 있음.
+- **디자인 자동화**: AI 코딩 도구에 디자인 뇌를 이식하여 UI/UX 디자인을 자동화하는 방법 소개.
 
 ## 관련 도구/링크
+- [Grok Build](https://www.threads.com/@takepage_/post/Da-kIY1j0-y)
+- [바이브 코딩 리포트](https://www.threads.com/@choi.openai/post/DZn5SlMj7Y_)
 - [Claude Code](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
-- [OpenCode](https://www.threads.com/@unclejobs.ai/post/DX5kgMXiRee)
 - [OpenChamber](https://www.threads.com/@unclejobs.ai/post/DXsvjH_ia-q)
 - [DESIGN.md](https://www.threads.com/@unclejobs.ai/post/DXE2kCziSGC)
-- [AGENTS.md](https://www.threads.com/@choi.openai/post/DWaYjyhiH8M)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260720_takepage_xAI의-그록-빌드-Gro_40c798.md` | @takepage_ | 2026-07-20 | Grok Build, AI 코딩, xAI, 오픈소스 |
 | `u260616_choi.openai_구글이-새로운-개발-방식을_49870b.md` | @choi.openai | 2026-06-16 | 구글, 바이브 코딩, AI 코딩, 개발 방법 |
 | `u260527_choi.openai_앤트로픽의-Claude-C_f8c5a1.md` | @choi.openai | 2026-05-27 | Claude Code, AI 코딩, 프로그래밍, 모델 성능 |
 | `u260505_think.5x_code-review-gr_1bbe4d.md` | @think.5x | 2026-05-05 | Claude Code, 토큰 절감, 오픈소스, 코드 리뷰 |
@@ -76,4 +80,3 @@ AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 개발자�
 | `u260327_untruth.study_Claude를-활용하여-옵_c2b87d.md` | @untruth.study | 2026-03-27 | 옵시디언, Claude, AI, 노트 |
 | `u260327_unclejobs.ai_윈도우에서-Claude-C_6bfbb5.md` | @unclejobs.ai | 2026-03-27 | 윈도우 터미널, Claude Code, AI 코딩, WezTerm |
 | `u260327_qjc.ai_웹-디자이너를-위한-30개_61805c.md` | @qjc.ai | 2026-03-27 | 웹디자인, 레퍼런스, UI/UX, 디자인 시스템 |
-| `u260327_onpremisehuman_HWP-파일을-HWPX로-_b370c7.md` | @onpremisehuman | 2026-03-27 | HWP, HWPX, 클로드 코드, AI 코딩 |

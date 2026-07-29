@@ -1,5 +1,5 @@
 # 지식 베이스 홈
-> 마지막 갱신: 2026-07-20 13:48 | 전체 노트: 955개
+> 마지막 갱신: 2026-07-29 17:24 | 전체 노트: 976개
 
 ---
 
@@ -7,22 +7,22 @@
 
 | 카테고리 | 노트 수 | 인덱스 |
 |----------|---------|--------|
-| AI 참고 | 425개 | [[AI_Ref/_INDEX]] |
-| AI 코딩 | 346개 | [[AI_Coding/_INDEX]] |
-| 일반 참고 | 71개 | [[General_Ref/_INDEX]] |
-| 비즈니스 | 56개 | [[Business/_INDEX]] |
-| 일상 | 45개 | [[Daily/_INDEX]] |
-| 분류 미정 | 12개 | [[Uncategorized/_INDEX]] |
+| AI 참고 | 435개 | [[AI_Ref/_INDEX]] |
+| AI 코딩 | 352개 | [[AI_Coding/_INDEX]] |
+| 일반 참고 | 72개 | [[General_Ref/_INDEX]] |
+| 비즈니스 | 58개 | [[Business/_INDEX]] |
+| 일상 | 46개 | [[Daily/_INDEX]] |
+| 분류 미정 | 13개 | [[Uncategorized/_INDEX]] |
 
 ---
 
 ## 상위 토픽
 
-[[Topics/AI\|AI]] `292` | [[Topics/Claude-Code\|Claude-Code]] `211` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `147`  
-[[Topics/오픈소스\|오픈소스]] `125` | [[Topics/AI-코딩\|AI-코딩]] `113` | [[Topics/AI-에이전트\|AI-에이전트]] `109` | [[Topics/Claude\|Claude]] `76`  
-[[Topics/Codex\|Codex]] `70` | [[Topics/프롬프트\|프롬프트]] `68` | [[Topics/프로그래밍\|프로그래밍]] `60` | [[Topics/코딩\|코딩]] `53`  
+[[Topics/AI\|AI]] `300` | [[Topics/Claude-Code\|Claude-Code]] `213` | [[Topics/github.com\|github.com]] `147` | [[Topics/자동화\|자동화]] `147`  
+[[Topics/오픈소스\|오픈소스]] `129` | [[Topics/AI-코딩\|AI-코딩]] `113` | [[Topics/AI-에이전트\|AI-에이전트]] `109` | [[Topics/Claude\|Claude]] `77`  
+[[Topics/Codex\|Codex]] `71` | [[Topics/프롬프트\|프롬프트]] `69` | [[Topics/프로그래밍\|프로그래밍]] `61` | [[Topics/코딩\|코딩]] `54`  
 [[Topics/생산성\|생산성]] `50` | [[Topics/Anthropic\|Anthropic]] `46` | [[Topics/마케팅\|마케팅]] `36` | [[Topics/GitHub\|GitHub]] `34`  
-[[Topics/AI-도구\|AI-도구]] `33` | [[Topics/개발\|개발]] `33` | [[Topics/디자인\|디자인]] `29` | [[Topics/LLM\|LLM]] `28`  
+[[Topics/개발\|개발]] `34` | [[Topics/AI-도구\|AI-도구]] `33` | [[Topics/보안\|보안]] `31` | [[Topics/디자인\|디자인]] `30`  
 
 ---
 
@@ -30,16 +30,16 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
-| [[u260720_pyjinnode_Graphify-Labs의_037446]] | `@pyjinnode` · 26-07-20 | Graphify-Labs의 graphify는 코드를 DB 스키마, 인프라 등으로 묶어 하나의 지식 그래프로 만드는 툴이다. 프로젝트는 Python으로 구현되었으며, GraphRAG… |
-| [[u260720_glitter_ai_facto_디자인을-AI로-생성할-때_56e960]] | `@glitter_ai_factory` · 26-07-20 | 디자인을 AI로 생성할 때 참고할 수 있는 사이트 3개를 소개합니다. Stitch는 UI 초안을 제공하고, Mobbin은 앱 화면을 모아 놓은 사이트입니다. oh-my-design… |
-| [[u260720_yazzang_AI-초보자들이-쉽게-접근_2d04e3]] | `@_yazzang` · 26-07-20 | AI 초보자들이 쉽게 접근할 수 있도록 무료 AI 툴과 가이드가 소개됨. 사용자는 가이드에 따라 쉽게 AI를 활용할 수 있으며, 이후 경험치에 따라 고급 모델로 전환 가능. 커뮤니… |
-| [[u260720_takepage_xAI의-그록-빌드-Gro_40c798]] | `@takepage_` · 26-07-20 | xAI의 그록 빌드(Grok Build)는 기존 코딩 에이전트와 비교하여 마우스 클릭을 지원하는 등 새로운 작업 방식을 제공한다. 그러나 오픈소스 라이센스인 아파치 2.0을 따르면… |
-| [[u260720_unclejobs.ai_스레드에서-ERP에-대한-_af29d7]] | `@unclejobs.ai` · 26-07-20 | 스레드에서 ERP에 대한 논쟁이 일어났고, 오픈소스 ERP인 ERPNext가 언급되었습니다. ERP의 복잡성은 코드 양이 아니라 도메인 지식에 있다는 점이 강조되었습니다. 다양한 … |
-| [[u260720_bridgeworksai_앱-심사에서-반려되는-주요_8f8d92]] | `@bridgeworksai` · 26-07-20 | 앱 심사에서 반려되는 주요 이유는 로그인 기능 미비, 개인정보처리 방침 불일치, App Privacy 설문 부주의이다. 이 세 가지를 점검하면 반려율을 줄일 수 있다. 앱은 문제가… |
-| [[u260720_unclejobs.ai_Threads에서-사용자-_8db9c7]] | `@unclejobs.ai` · 26-07-20 | Threads에서 사용자 간 직접 메시지 전송 기능이 추가되었습니다. Excalidraw라는 무료 드로잉 툴이 많은 관심을 받고 있으며, MCP 기능으로 협업이 개선된다고 합니다.… |
-| [[u260408_chris_gomdori_국가법령정보-MCP-3.0_cafc4f]] | `@chris_gomdori` · 26-04-08 | 국가법령정보 MCP 3.0이 업데이트되어 같은 무료 플랜으로 두 배로 사용할 수 있게 되었습니다. 많은 사용자들이 이 기능에 대해 긍정적인 반응을 보이고 있으며, 추가적인 API … |
-| [[u260714_softdaddy_o_Matt-Pocock의-S_2d2cea]] | `@softdaddy_o` · 26-07-14 | Matt Pocock의 'Skills' v1.1은 AI 코딩 에이전트를 위한 오픈소스 스킬 묶음입니다. 이 스킬은 검증된 절차를 통해 매번 프롬프트를 수정하는 번거로움을 줄여줍니다… |
-| [[u260714_innovationo_최근-많은-이들이-바이브-_5d8676]] | `@innovationo` · 26-07-14 | 최근 많은 이들이 바이브 코딩으로 서비스를 개발하고 있지만, 운영의 어려움이 크다. 이에 따라 여러 AI 툴을 공개하며, 웹사이트 보안 점검, AI 리브랜딩, 로고 및 앱 아이콘 … |
+| [[u260729_think.5x_HKUDS가-Claude-_9d0d78]] | `@think.5x` · 26-07-29 | HKUDS가 Claude Code를 오픈소스로 재현하여 14,853 스타를 받았습니다. 다양한 카테고리의 툴셋과 모델 프로바이더 자유도를 제공하며 보안 기능도 갖추고 있습니다. 개… |
+| [[u260729_bunniesossdev_Kimi-K3와-GLM-5_88c9b7]] | `@bunniesossdev` · 26-07-29 | Kimi K3와 GLM-5.2-fast을 사용하여 슬라이드를 생성해본 경험을 공유합니다. 두 모델 중 GLM-5.2가 빠르고 효율적이어서 더 선호됩니다. SLIDES-GRAB 툴을… |
+| [[u260729_evaluate.club_AI-스킬을-활용하여-사업_d417ae]] | `@evaluate.club` · 26-07-29 | AI 스킬을 활용하여 사업계획서를 작성할 수 있는 방법을 소개합니다. 브레인스토밍, 경쟁사 분석, OKR 수립 등을 도와주는 스킬이 강조됩니다. 구체적인 사업 전략 수립 후 사업계… |
+| [[u260729_choi.openai_오픈AI가-Codex-Se_898a99]] | `@choi.openai` · 26-07-29 | 오픈AI가 Codex Security CLI를 오픈소스로 공개했습니다. Apache-2.0 라이선스에 따라 설치 가능하며, 코드 스캔 및 취약점 검증 기능을 제공합니다. 초기 공개… |
+| [[u260729_remaincareer_메타가-8년간-사용했던-디_aa41e9]] | `@remaincareer` · 26-07-29 | 메타가 8년간 사용했던 디자인 시스템 Astryx를 오픈소스으로 공개했습니다. 이 시스템은 1.3만 개의 앱에서 검증된 저작 도구로, 다양한 접근성과 커스터마이징 옵션을 제공합니다… |
+| [[u260729_why.anthropic_최고-성능의-초경량-멀티-_2d6e19]] | `@why.anthropic` · 26-07-29 | 최고 성능의 초경량 멀티 에이전트 스텔스 브라우저 MCP를 소개합니다. 이 브라우저는 에이전트를 여러 개 운영하면서도 메모리 사용을 최소화합니다. Chrome에 연결하는 구조로 설… |
+| [[u260729_bsd_funneldding_Threads에서-직접-메_c7f21b]] | `@bsd_funneldding` · 26-07-29 | Threads에서 직접 메시지를 보낼 수 있는 기능이 추가되었습니다. 사용자들은 보이스 클론을 활용하여 다양한 언어의 음성을 생성하고자 합니다. 오픈소스 프로젝트와 프라이빗 도구에… |
+| [[u260729_dddesign.io_AI-디자인에서-슬롭-현상_12859d]] | `@dddesign.io` · 26-07-29 | AI 디자인에서 '슬롭' 현상을 이해하고, 이를 개선하기 위한 스킬이 개발되었다. 디자인 과정에서 명확한 결정이 필요하며, 슬롭은 인간의 결정 부족에서 기인한다고 주장한다. 앞으로… |
+| [[u260729_kalsentic_사용자는-기존의-워드프레스_37f68a]] | `@kalsentic` · 26-07-29 | 사용자는 기존의 워드프레스를 대체하여 새로운 포트폴리오 웹사이트를 구축했습니다. AI와 Claude Code를 활용하여 CMS를 직접 구축하고, 다양한 기술 스택을 사용해 전체 구… |
+| [[u260729_won.wizard_Depth-Map을-활용하_ba1805]] | `@won.wizard` · 26-07-29 | Depth Map을 활용하여 AI 댄스 영상을 제작하는 방법을 설명합니다. 댄스 모션이 Depth Map으로 변환되어 정확한 댄스 동영상을 만들어낼 수 있습니다. Seedance2… |
 
 ---
 

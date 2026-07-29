@@ -2,48 +2,53 @@
 report_id: multi-agent
 topic: 멀티 에이전트
 tier: tier2-concepts
-note_count: 13
-last_updated: "2026-07-05 21:42"
+note_count: 14
+last_updated: "2026-07-29 17:27"
 description: "acpx·Profile·오케스트레이션 패턴"
 ---
 
 # 멀티 에이전트 트렌드 리포트
 
-> 노트 13개 기반 | 마지막 갱신: 2026-07-05 21:42
+> 노트 14개 기반 | 마지막 갱신: 2026-07-29 17:27
 
 # 멀티 에이전트 리포트
 
 ## 개요
-멀티 에이전트 기술은 여러 AI 에이전트를 동시에 운영하고 관리할 수 있는 혁신적인 방법을 제공합니다. 이는 팀워크와 협업을 향상시키며, 다양한 작업을 보다 효율적으로 수행할 수 있도록 돕습니다.
+멀티 에이전트 기술은 여러 AI 에이전트를 동시에 운영하여 작업 효율성을 극대화하는 방법론으로, 다양한 분야에서 협업과 자동화를 촉진합니다. 이 기술은 특히 AI 개발 및 자동화에 있어 중요한 역할을 하며, 효율적인 작업 환경을 제공하는 데 기여하고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| 멀티 에이전트 구축 | 팀장과의 간단한 대화 가능 ([@allenjj4911](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)) |
-| 세션 관리 | 여러 세션을 효율적으로 관리하는 기능 추가 ([@gonnector](https://www.threads.com/@gonnector/post/DYNmn8xEylp)) |
-| 프로필 관리 | 독립적인 환경에서 에이전트 운영 가능 ([@dev_roach_log](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)) |
-| 클라우드 병렬 처리 | 계획을 클라우드에서 병렬로 생성 ([@biggerthanseoul.ai](https://www.threads.com/@biggerthanseoul.ai/post/DW1daLOGgLi)) |
-| ACP 프로토콜 | 다양한 에디터와 에이전트 간의 호환성 제공 ([@unclejobs.ai](https://www.threads.com/@unclejobs.ai/post/DWdCpTRiRFW)) |
-| 에이전트 팀 구성 | 여러 Claude Code를 팀으로 묶어 협업 ([@lian.lab71](https://www.threads.com/@lian.lab71/post/DVGX-zgj7rk)) |
+| 초경량 멀티 에이전트 브라우저 MCP | 메모리 사용을 최소화하며 Chrome과 연결하여 탐지 회피를 강화한 브라우저. |
+| 멀티 에이전트 관리 기능 | Claude Code의 최신 버전에서 여러 세션을 효율적으로 관리할 수 있는 기능 추가. |
+| 독립적인 프로필 환경 | Hermes에서 각 프로필이 독립적인 환경을 제공하여 에이전트를 격리 운영할 수 있음. |
+| 클라우드 병렬 계획 생성 | 클로드 코드의 /ultraplan 기능을 통해 클라우드에서 계획을 병렬로 생성. |
+| ACP 프로토콜 | acpx를 통해 다양한 에이전트 간의 호환성을 높이고 작업 효율성을 향상. |
+| Agent Team 구성 | 여러 Claude Code를 팀으로 묶어 작업을 분배하고 협업 가능. |
 
 ## 최신 동향
-- **2026-05-27**: 멀티 에이전트 구축을 통해 팀장과의 간단한 대화 가능성에 대한 팁 공유 ([@allenjj4911](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)).
-- **2026-05-17**: Claude Code의 최신 버전에서 멀티 에이전트 관리 기능과 /goal 기능 추가 ([@gonnector](https://www.threads.com/@gonnector/post/DYNmn8xEylp)).
-- **2026-04-15**: Hermes에서 멀티 에이전트 구축 방법 카드뉴스 형식으로 설명 ([@dev_roach_log](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)).
+- **2026-07-29**: 최고 성능의 초경량 멀티 에이전트 스텔스 브라우저 MCP 소개. [원문](https://www.threads.com/@why.anthropic/post/Da5mE6KlHtj)
+- **2026-05-27**: 크로드코드 터미널에서 멀티 작업을 위한 팁 공유. [원문](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)
+- **2026-05-17**: Claude Code의 최신 버전에서 멀티 에이전트 관리 기능 추가. [원문](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
+- **2026-04-15**: Hermes에서 멀티 에이전트 구축 방법 카드뉴스로 설명. [원문](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
+- **2026-04-08**: 클로드 코드의 새로운 기능인 /ultraplan 소개. [원문](https://www.threads.com/@biggerthanseoul.ai/post/DW1daLOGgLi)
 
 ## 주요 인사이트
-- 에이전트 활용 시 문맥 비대증을 피하고, 명확한 지시 및 종료 조건 설정이 중요하다는 의견이 제기되었습니다. 이를 통해 에이전트의 성능을 최적화할 수 있습니다 ([@choi.openai](https://www.threads.com/@choi.openai/post/DVlRuy2jRpJ)).
-- 에이전트 팀은 여러 클로드 코드를 자동으로 열어 작업을 수행하며, 컨텍스트 확장 및 스킬 조합의 장점이 있지만 난이도가 높아 토큰 소모가 많을 수 있다는 점이 강조되었습니다 ([@tofukyung](https://www.threads.com/@tofukyung/post/DVDiqDdiT4k)).
+- **에이전트 팀의 중요성**: 여러 Claude Code를 팀으로 묶어 작업을 분배하고 협업할 수 있는 방법이 주목받고 있습니다.
+- **효율적인 세션 관리**: 멀티 에이전트 환경에서의 세션 관리와 역할 분담이 작업 효율성을 높이는 데 중요하다는 의견이 많습니다.
+- **문맥 비대증 방지**: 에이전트 활용 시 명확한 지시와 종료 조건 설정의 중요성이 강조되고 있습니다.
 
 ## 관련 도구/링크
-- [Claude Code](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
-- [Hermes](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
-- [OpenClaw 가이드](https://www.threads.com/@zig_mini/post/DWXx6lHGAGU)
-- [GitHub 레포지토리](https://www.threads.com/@choi.openai/post/DWCIvxQkrBW)
+- [MCP 브라우저](https://www.threads.com/@why.anthropic/post/Da5mE6KlHtj)
+- [크로드코드 터미널 팁](https://www.threads.com/@allenjj4911/post/DYzoW_UgQrY)
+- [Claude Code 멀티 에이전트 관리](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
+- [Hermes 멀티 에이전트 구축](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
+- [클로드 코드의 /ultraplan 기능](https://www.threads.com/@biggerthanseoul.ai/post/DW1daLOGgLi)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260729_why.anthropic_최고-성능의-초경량-멀티-_2d6e19.md` | @why.anthropic | 2026-07-29 | 브라우저 자동화, 멀티 에이전트, Rust, Chrome |
 | `u260527_allenjj4911_크로드코드-터미널에서-멀티_31e4a5.md` | @allenjj4911 | 2026-05-27 | 크로드코드, 멀티 에이전트, 자동화, AI 개발 |
 | `u260517_gonnector_Claude-Code의-최_df1132.md` | @gonnector | 2026-05-17 | Claude Code, 멀티 에이전트, AI 관리, 세션 관리 |
 | `u260415_dev_roach_log_Hermes에서-멀티-에이_590324.md` | @dev_roach_log | 2026-04-15 | Hermes, 멀티 에이전트, 프로필 관리, AI |

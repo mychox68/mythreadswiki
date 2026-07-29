@@ -2,49 +2,51 @@
 report_id: codex
 topic: Codex
 tier: tier1-core
-note_count: 70
-last_updated: "2026-07-13 09:10"
+note_count: 71
+last_updated: "2026-07-29 17:26"
 description: "OpenAI Codex 동향 및 활용 사례"
 ---
 
 # Codex 트렌드 리포트
 
-> 노트 70개 기반 | 마지막 갱신: 2026-07-13 09:10
+> 노트 71개 기반 | 마지막 갱신: 2026-07-29 17:26
 
 # Codex — OpenAI Codex 동향 및 활용 사례
 
 ## 개요
-OpenAI Codex는 AI 기반 프로그래밍 도구로, 개발자들이 코드를 작성하고 자동화하는 데 도움을 줍니다. 최근 Codex의 다양한 기능과 업데이트는 개발 환경을 혁신적으로 변화시키고 있으며, 이는 프로그래밍의 효율성을 크게 향상시키고 있습니다.
+OpenAI Codex는 프로그래밍 및 AI 도구의 혁신을 이끄는 핵심 기술로, 개발자와 비개발자 모두에게 다양한 가능성을 제공합니다. 이 기술은 업무 자동화, 이미지 생성, 게임 개발 등 여러 분야에서 활용되며, 최신 업데이트와 기능 개선이 지속적으로 이루어지고 있습니다.
 
 ## 핵심 내용
-| 기능/개념 | 설명 |
-|-----------|------|
-| Record & Replay | 사용자가 작업을 시연하면 AI가 이를 학습하여 반복 작업을 자동으로 수행 |
-| Python SDK | 개발자들이 Python 애플리케이션에 Codex를 내장하여 다양한 기능 구현 가능 |
-| Sites 기능 | 비개발자도 손쉽게 웹앱을 생성할 수 있도록 지원 |
-| '/goal' 기능 | 목표 설정 후 Codex가 자율적으로 코드를 작성하고 리뷰 |
-| 모바일 앱 기능 | 모바일 환경에서도 Codex를 제어할 수 있는 기능 제공 |
-| Euphony 도구 | 챗봇 대화 데이터와 Codex 세션 로그를 분석하는 시각화 도구 |
+| 기능/개념          | 설명                                                         |
+|-------------------|------------------------------------------------------------|
+| Record & Replay    | 사용자가 작업을 시연하면 AI가 이를 학습하여 반복 작업을 자동으로 수행 |
+| Python SDK         | 개발자가 Python 애플리케이션에 Codex를 내장하여 다양한 기능 구현 가능 |
+| Sites 기능         | 비개발자도 손쉽게 웹앱을 생성할 수 있도록 지원             |
+| '/goal' 기능      | 목표를 설정하면 Codex가 자율적으로 코드를 작성하고 수정      |
+| 모바일 앱 기능    | 모바일 환경에서도 Codex를 제어할 수 있는 기능 추가          |
+| Euphony 도구      | 챗봇 대화 데이터와 Codex 세션 로그 분석을 지원하는 오픈소스 도구 |
 
 ## 최신 동향
-- **2026-07-13**: OpenAI가 GPT 5.6 출시와 관련하여 AMA를 진행, 새로운 모델에 대한 피드백 공유.
-- **2026-07-13**: Codex의 Record & Replay 기능이 공개되어 반복적인 업무 자동화 가능.
-- **2026-06-03**: Codex의 대규모 업데이트 발표, 비개발자도 웹앱 생성 가능.
-- **2026-05-05**: Codex의 '/goal' 기능 추가, AI와의 상호작용을 통한 자동화 가능성 증대.
+- **2026-07-29**: Threads에서 직접 메시지를 보낼 수 있는 기능 추가. [원문](https://www.threads.com/@keke_appa/post/DbTH1i3kmgi)
+- **2026-07-13**: OpenAI가 GPT 5.6 출시와 관련하여 AMA 진행. [원문](https://www.threads.com/@choi.openai/post/DaoWxAck7Nk)
+- **2026-07-13**: Codex의 Record & Replay 기능 공개. [원문](https://www.threads.com/@choi.openai/post/DZvvt2NjpFw)
+- **2026-06-03**: Codex의 대규모 업데이트 발표, 'Sites' 기능 추가. [원문](https://www.threads.com/@choi.openai/post/DZGGtnbD0iv)
+- **2026-05-05**: Codex CLI에 새로운 '/goal' 기능 추가. [원문](https://www.threads.com/@choi.openai/post/DXy6Btzj1nM)
 
 ## 주요 인사이트
-- Codex와 Claude의 메모리 시스템에 대한 사용자들의 관심이 높아지고 있으며, 이 시스템의 활용에 대한 다양한 의견이 공유되고 있습니다.
-- AI 학원과 바이브 코딩 학원이 성행할 것이라는 예측이 있으며, 무료 자료를 통해 Codex 활용을 장려하는 경향이 보입니다.
-- 사용자들은 Codex의 다양한 기능을 통해 업무 효율성을 높이고 있으며, 특히 자동화된 워크플로우에 대한 관심이 증가하고 있습니다.
+- 사용자들은 Codex와 Claude의 메모리 시스템에 대한 비교 자료를 요청하며, 이 시스템의 용도에 대한 궁금증을 공유하고 있습니다.
+- AI 학원과 바이브 코딩 학원의 성행 예측과 함께, Codex를 활용한 무료 자료들이 소개되고 있습니다.
+- Codex와 ChatGPT를 혼합 사용하여 작업 효율을 높이는 방법이 논의되고 있습니다.
 
 ## 관련 도구/링크
-- [OpenAI Codex 공식 문서](https://www.openai.com/)
-- [Codex Python SDK](https://www.openai.com/)
-- [Chomex 프롬프트 생성 도구](https://www.openai.com/)
+- [OpenAI Codex 공식 문서](https://www.openai.com/research/codex)
+- [Codex Python SDK](https://www.threads.com/@choi.openai/post/DZEy3XqD5Tc)
+- [Euphony 도구](https://www.threads.com/@choi.openai/post/DXZytP4CZg7)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260729_keke_appa_Threads에서-직접-메_4776c9.md` | @keke_appa | 2026-07-29 | Threads, Three.js, Codex, Claude |
 | `u260713_choi.openai_오픈AI가-GPT-5.6-_16d869.md` | @choi.openai | 2026-07-13 | GPT-5.6, AMA, OpenAI, Codex |
 | `u260713_specal1849_클로드-코드와-Codex를_e8f211.md` | @specal1849 | 2026-07-13 | Claude Code, Codex, 이미지 생성, 프롬프트 |
 | `u260713_impact_engineer_AI-학원과-바이브-코딩-_7bf16b.md` | @impact_engineer | 2026-07-13 | AI, Codex, 교육, 프로그래밍 |
@@ -74,4 +76,3 @@ OpenAI Codex는 AI 기반 프로그래밍 도구로, 개발자들이 코드를 �
 | `u260422_choi.openai_오픈AI가-Euphony-_2e0ab4.md` | @choi.openai | 2026-04-22 | OpenAI, Euphony, AI 도구, Codex |
 | `u260422_choi.openai_개발자-Nicolas-Zu_7f7448.md` | @choi.openai | 2026-04-22 | AI, 게임, Codex, 실시간 수정 |
 | `u260422_choi.openai_오픈AI의-Codex가-C_a69e72.md` | @choi.openai | 2026-04-22 | OpenAI, Codex, Chronicle, 코딩 |
-| `u260412_thevynn_웹-디자인-프로젝트에서-피_3846c6.md` | @thevynn | 2026-04-12 | 웹 디자인, Codex, 디자인 시스템, 효율성 |
