@@ -1,5 +1,5 @@
 # GitHub
-> 관련 노트: 34개 | 마지막 갱신: 2026-07-29 17:24
+> 관련 노트: 35개 | 마지막 갱신: 2026-09-08 19:34
 
 ## 개요
 
@@ -11,7 +11,7 @@
 - Claude Code에 PM 역할을 수행하는 오픈소스 'PM Skills Marketplace'가 등장했습니다. 72시간 만에 GitHub 스타 1,300개를 넘어서며 뜨거운 반응…
 - GitHub의 Spec Kit을 활용한 Spec-Driven Development에 대한 내용입니다. AI 코딩 에이전트와 스펙 문서를 연결하여 개발 생산성을 향상시키는 구조를 소…
 - Claude Code 사용자를 위한 필수 MCP 서버 7가지에 대한 소개입니다. 파일 시스템, GitHub, Brave Search, Playwright, Memory, mcp-o…
-- 20세 대학생이 10일 만에 개발한 MiroFish라는 소프트웨어가 GitHub 글로벌 트렌딩 1위를 차지하며 주목받고 있다. 이 소프트웨어는 문서를 기반으로 수천 명의 디지털 인…
+- Various AI skills on GitHub show different applications in programming. Each skill helps improve cod…
 
 ## Agent Insight
 - GitHub 트렌딩 1위가 반복적으로 "AI가 읽거나 이해하기 좋게 변환하는" 도구(한컴 PDF 파서, claw-code, spec-kit, Understand-Anything)로 채워진다 — 코드 작성 자체보다 "코드베이스 이해와 안전한 변경"이 생산성의 새 병목이라는 05-27 노트의 진단과 정확히 맞물린다.
@@ -22,12 +22,13 @@
 
 ## 관련 개념
 
-[[Concepts/github.com|github.com]] | [[Concepts/오픈소스|오픈소스]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI|AI]]
+[[Concepts/github.com|github.com]] | [[Concepts/오픈소스|오픈소스]] | [[Concepts/AI|AI]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/Claude-Code|Claude Code]]
 
 ## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |
 | [[u260612_obangti_깃헙에서-트렌딩-1위를-기_086d71]] | `@obangti` · 26-06-12 | 깃헙에서 트렌딩 1위를 기록한 Understand-Anything은 코드베이스를 인터랙티브 지식 그래프로 변환하는 오픈소스 도구입니다. 이 도구는 파일, 함수, 클래스 단위로 코드를 분석하여 대시보드를 제공합니다. AI 코딩 도구의 필요성을 강조하며 대형 프로젝트의 전체 구조를 이해하는 데 도움을 줍니다. |
 | [[u260527_namsangboy_Understand-Any_4fac14]] | `@namsangboy` · 26-05-27 | Understand Anything은 코드베이스와 문서를 인터랙티브한 지식 그래프로 변환해 탐색과 질문이 가능한 툴입니다. AI 시대의 개발 생산성은 코드 작성 속도를 넘어 시스템 이해와 안전한 변경에 초점을 맞추고 있습니다. 새로운 팀에 합류하거나 레거시 분석 시 유용한 프로젝트입니다. |
 | [[u260517_think.5x_GitHub의-새-툴킷-s_5e7765]] | `@think.5x` · 26-05-17 | GitHub의 새 툴킷 spec-kit은 스펙 중심의 개발 방식을 제안하여 AI 코딩 에이전트의 품질 문제를 해결합니다. 이 툴킷은 CLI 하나로 스펙 작성, 검증, 코드 생성을 지원하며, 다양한 AI 에이전트와 통합됩니다. 현재 98,184 스타를 기록하고 있으며, 주간 증가 수치는 +1,159입니다. |
@@ -57,4 +58,3 @@
 | [[u260327_aisolutiondev_한컴에서-개발한-오픈소스-_113ead]] | `@aisolutiondev` · 26-03-27 | 한컴에서 개발한 오픈소스 '한컴 오픈데이터로더 PDF v2.0'이 GitHub 트렌딩 1위를 기록했다. 이 도구는 PDF를 AI가 읽을 수 있는 데이터로 변환하며, 상업적 사용도 무료이다. 사용자들은 긍정적인 반응과 함께 한컴 오피스 연동, hwp 파일 관련 개선 등의 의견을 제시하고 있다. |
 | [[u260327_grit_with_me_바이브코딩-입문자를-위한-_7333f3]] | `@grit_with_me` · 26-03-27 | 바이브코딩 입문자를 위한 디자인 고민 해결책으로, UI UX Pro Max Skill, Taste Skill, Supanova Design Skill 세 가지 오픈소스 도구를 소개합니다. UI UX Pro Max Skill은 디자인 시스템 자동 생성, Taste Skill은 AI 디자인 감각 향상, Supanova Design Skill은 한국어 서비스 최적화에 특화되어 있습니다. 각 도구의 특징과 활용법을 간략하게 설명하고, GitHub 링크를 제공하여 사용자가 직접 사용해 볼 수 있도록 안내합니다. |
 | [[u260327_unclejobs.ai_Claude-Code에-P_ae5fc7]] | `@unclejobs.ai` · 26-03-27 | Claude Code에 PM 역할을 수행하는 오픈소스 'PM Skills Marketplace'가 등장했습니다. 72시간 만에 GitHub 스타 1,300개를 넘어서며 뜨거운 반응을 얻고 있으며, PM의 제품 전략, 로드맵, 시장 조사, 개발팀 협업 등의 업무를 AI가 대신 수행합니다. Claude Code, Cursor 등 다양한 환경에서 사용 가능하며, PM 업무 전반을 커버하는 8개의 플러그인을 제공합니다. |
-| [[u260327_ai.voltkim_GitHub의-Spec-K_ff226e]] | `@ai.voltkim` · 26-03-27 | GitHub의 Spec Kit을 활용한 Spec-Driven Development에 대한 내용입니다. AI 코딩 에이전트와 스펙 문서를 연결하여 개발 생산성을 향상시키는 구조를 소개합니다. 이제 코딩 스킬보다 프로덕트 감각과 문서화 능력이 중요해지고 있으며, 다양한 아키텍처(Majestic Monolith, Island Architecture)에 대한 의견 교환도 이루어지고 있습니다. |

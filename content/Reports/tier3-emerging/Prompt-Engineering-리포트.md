@@ -2,49 +2,50 @@
 report_id: prompt-eng
 topic: 프롬프트 엔지니어링
 tier: tier3-emerging
-note_count: 80
-last_updated: "2026-07-29 17:28"
+note_count: 84
+last_updated: "2026-09-08 19:36"
 description: "프롬프트 패턴·기법·최신 사례"
 ---
 
 # 프롬프트 엔지니어링 트렌드 리포트
 
-> 노트 80개 기반 | 마지막 갱신: 2026-07-29 17:28
+> 노트 84개 기반 | 마지막 갱신: 2026-09-08 19:36
 
 # 프롬프트 엔지니어링 리포트
 
 ## 개요
-프롬프트 엔지니어링은 AI 모델의 성능을 극대화하기 위한 핵심 기술로, 사용자와 AI 간의 상호작용을 최적화하는 방법론입니다. 이 기술은 다양한 분야에서의 AI 활용도를 높이며, 특히 이미지 생성, 텍스트 작성, 데이터 분석 등에서 중요한 역할을 하고 있습니다.
+프롬프트 엔지니어링은 AI 모델과의 상호작용을 최적화하여 원하는 결과를 도출하는 기술입니다. 이는 AI의 활용도를 높이고, 다양한 분야에서 효율성을 극대화하는 데 중요한 역할을 합니다.
 
 ## 핵심 내용
-| 핵심 개념/기능 | 설명 |
+| 기능/개념/특징 | 설명 |
 |----------------|------|
-| 프롬프트 패턴 | 특정 작업을 수행하기 위해 AI에 제공하는 입력 형식 |
-| 루프 엔지니어링 | AI가 스스로 작업을 반복하고 개선하는 시스템 설계 |
-| Claude Code | AI의 작업을 문서화하고 관리하는 도구 |
-| Codex | 다양한 AI 작업을 지원하는 프로그래밍 도구 |
-| 프롬프트 저장소 | 사용자가 다양한 프롬프트를 공유하고 활용할 수 있는 플랫폼 |
+| 프롬프트 패턴 | 특정 요청을 통해 AI의 반응을 유도하는 방식 |
+| 요청 처리 방식 | 사용자 요청의 범위와 확인 지점을 명확히 제시하는 기법 |
+| 루프 엔지니어링 | AI가 스스로 작업을 수행하도록 설계하는 접근 방식 |
+| 프롬프트 라이브러리 | 다양한 프롬프트를 모아둔 저장소 |
+| AI 영상 제작 | 프롬프트를 활용하여 영상 제작의 효율성을 높이는 방법 |
 
 ## 최신 동향
-- **2026-07-29**: 3,600개 이상의 GPT Image 2 프롬프트 저장소 공개 ([원문](https://www.threads.com/@jjin_ai_hj/post/DbE5omjjwtT))
-- **2026-07-13**: 클로드 코드와 Codex를 이용한 이미지 생성 방법 소개 ([원문](https://www.threads.com/@specal1849/post/DZ4pUCikRs_))
-- **2026-06-12**: 루프 엔지니어링의 중요성과 AI 작업 관리 방식 변화 논의 ([원문](https://www.threads.com/@unclejobs.ai/post/DZV1mwXE6ys))
-- **2026-05-17**: Ralph Loop 패턴을 통한 목표 설정 자동화 소개 ([원문](https://www.threads.com/@unclejobs.ai/post/DYQ_uzCiXar))
+- **2026-09-08**: 사용자가 Threads에서 직접 메시지를 주고받을 수 있게 되었으며, AI 비디오 모델을 활용한 영상 제작 방법이 소개됨. [원문](https://www.threads.com/@d0yunha/post/DcY91MygHOw)
+- **2026-07-29**: 3,600개 이상의 GPT Image 2 프롬프트 저장소가 공개되어 다양한 디자인 작업에 활용 가능. [원문](https://www.threads.com/@jjin_ai_hj/post/DbE5omjjwtT)
+- **2026-07-13**: 루프 엔지니어링과 관련된 다양한 프롬프트 및 AI 에이전트 관리 방법이 논의됨. [원문](https://www.threads.com/@unclejobs.ai/post/DZc1iUcCcIi)
 
 ## 주요 인사이트
-- **프롬프트 작성 기술**: 다양한 실전 팁을 통해 AI와의 상호작용을 개선할 수 있는 방법들이 공유되고 있습니다. ([원문](https://www.threads.com/@siluv_00/post/DZZORYykrgz))
-- **루프 설계**: 루프를 설계할 때 결승선과 멈출 조건이 중요하다는 점이 강조되고 있습니다. ([원문](https://www.threads.com/@unclejobs.ai/post/DZvzrd3k8rV))
-- **협상가 모드**: ChatGPT의 협상가 모드를 활용하여 연봉 협상 및 대처법에 대한 팁이 공유되었습니다. ([원문](https://www.threads.com/@yourgpt3650/post/DXeZaRFFRYf))
+- **프롬프트 작성 기술**: AI의 잠재력을 최대한 활용하기 위한 다양한 접근 방식과 기법들이 공유되고 있으며, 이를 통해 AI와의 상호작용을 개선할 수 있음. [원문](https://www.threads.com/@siluv_00/post/DZZORYykrgz)
+- **협상가 모드 활용**: ChatGPT의 협상가 모드를 통해 연봉 협상 및 프리랜서 단가 협상 방법이 제시됨. [원문](https://www.threads.com/@yourgpt3650/post/DXeZaRFFRYf)
 
 ## 관련 도구/링크
-- [prompts3.kr](https://www.prompts3.kr): 한국어 프롬프트 저장소
-- [scenic.sh](https://www.scenic.sh): AI 영상 제작 프롬프트 공유 사이트
-- [Prompt Maker](https://www.threads.com/@hellohyun.jang/post/DYRfWaPnxnq): 프롬프트 관리 프로그램
-- [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-): 오픈소스 프롬프트 생성 도구
+- [GitHub](https://www.threads.com/@d0yunha/post/DcY91MygHOw)
+- [prompts3.kr](https://www.threads.com/@prompts3.kr/post/DaLDOrTkgA6)
+- [Prompt Maker](https://www.threads.com/@hellohyun.jang/post/DYRfWaPnxnq)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260908_d0yunha_사용자는-Threads에서_a78684.md` | @d0yunha | 2026-09-08 | Threads, 영상 제작, AI, 오픈 소스 |
+| `u260908_glitter_ai_facto_GSAP와-Three.js_af1217.md` | @glitter_ai_factory | 2026-09-08 | GSAP, Three.js, 모션그래픽, 프롬프트 |
+| `u260908_dante.labs.pro_Astra는-GPT-6의-_92c5e0.md` | @dante.labs.pro | 2026-09-08 | Astra, GPT-6, 요청 처리, AI |
+| `u260908_unclejobs.ai_Claude가-AES-암호_9f009a.md` | @unclejobs.ai | 2026-09-08 | Claude, AES, 프롬프트, 암호학 |
 | `u260729_jjin_ai_hj_무료로-제공되는-3-600_ae3918.md` | @jjin_ai_hj | 2026-07-29 | GPT Image 2, 프롬프트, 디자인, 이미지 생성 |
 | `u260713_specal1849_클로드-코드와-Codex를_e8f211.md` | @specal1849 | 2026-07-13 | Claude Code, Codex, 이미지 생성, 프롬프트 |
 | `u260713_prompts3.kr_무료-사이트-prompts_df6921.md` | @prompts3.kr | 2026-07-13 | 프롬프트, 무료 사이트, AI 도구 |
@@ -71,7 +72,3 @@ description: "프롬프트 패턴·기법·최신 사례"
 | `u260422_ai.corder_프롬프트로-손그림-애니메이_4eab55.md` | @ai.corder | 2026-04-22 | 프롬프트, 애니메이션, 비주얼 디자인, 감정 흐름 |
 | `u260422_specal1849_클로드-디자인은-인터랙티브_895d38.md` | @specal1849 | 2026-04-22 | Claude, AI 디자인, Three.js, 시각화 |
 | `u260415_specal1849_AI-실무자들을-위한-무료_177329.md` | @specal1849 | 2026-04-15 | AI 교육, PDF 자료, 프롬프트, 실무용 |
-| `u260412_ai.trend.kr_MIT-교수-Patrick_902d23.md` | @ai.trend.kr | 2026-04-12 | 발표, 클로드, MIT, 프롬프트 |
-| `u260412_ck_06_01_Claude-Code에서-_ec9c3b.md` | @ck_06_01_ | 2026-04-12 | Claude Code, LLM 코딩, 안전한 AI, 프롬프트 엔지니어링 |
-| `u260412_turtle_buff_Claude가-이제-모바일_ad48cf.md` | @turtle_buff | 2026-04-12 | Claude, 모바일 앱, 프롬프트, 개발 도구 |
-| `u260407_builder__j_Codex-Best-Pra_043750.md` | @builder__j | 2026-04-07 | Codex, 프롬프트, AGENTS.md, 스킬 |

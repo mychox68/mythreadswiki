@@ -3,41 +3,44 @@ report_id: mcp
 topic: MCP
 tier: tier2-concepts
 note_count: 26
-last_updated: "2026-07-29 17:26"
+last_updated: "2026-09-08 10:43"
 description: "MCP 서버·연동 패턴·생태계"
 ---
 
 # MCP 트렌드 리포트
 
-> 노트 26개 기반 | 마지막 갱신: 2026-07-29 17:26
+> 노트 26개 기반 | 마지막 갱신: 2026-09-08 10:43
+
+# MCP 리포트
 
 ## 개요
-MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하여 효율적인 협업과 자동화를 지원하는 중요한 기술입니다. 최근 다양한 MCP 서버와 도구들이 소개되면서, AI 개발자와 사용자들에게 더 나은 경험을 제공하고 있습니다.
+MCP(Model Context Protocol)는 AI 에이전트와 외부 시스템 간의 통합을 표준화하여 사용자 경험을 향상시키는 중요한 기술입니다. 최근 다양한 도구와 서버가 MCP를 활용하여 효율적인 작업 환경을 구축하고 있으며, 이는 AI 기술의 발전과 함께 더욱 주목받고 있습니다.
 
 ## 핵심 내용
 | 기능/개념 | 설명 |
 |-----------|------|
-| **MCP 서버** | AI 에이전트와 외부 시스템 간의 연결을 단순화하고, 200개 이상의 서버를 지원 |
-| **Lazy Load** | 필요한 도구를 필요할 때만 로드하여 초기 토큰 사용량 절감 |
-| **협업 도구** | Excalidraw와 같은 드로잉 툴을 통해 사용자 간의 협업 개선 |
-| **자동화 툴** | iOS 앱스토어 제출 자동화, Slack 메시지 전송 프롬프트 등 다양한 자동화 기능 제공 |
-| **Docker MCP** | 에이전트 컨텍스트를 효율적으로 관리하고, 토큰 절약 가능 |
-| **브라우저 자동화** | Playwright와 같은 도구를 활용하여 웹사이트 제어 및 자동화 작업 수행 |
+| **MCP 서버** | AI 에이전트와 서비스 간의 연결을 단순화하며, 200개 이상의 MCP 서버 지원. |
+| **멀티 에이전트** | 여러 에이전트를 운영하면서 메모리 사용을 최소화하는 초경량 브라우저 기능. |
+| **협업 도구** | Excalidraw와 같은 드로잉 툴을 통해 사용자 간의 협업을 개선. |
+| **lazy load 방식** | 필요할 때만 도구를 로드하여 초기 토큰 사용량을 줄이는 방식. |
+| **워크플로우 자동화** | n8n과 같은 도구를 통해 실시간으로 JSON 검증 및 효율적인 워크플로우 작성 지원. |
 
 ## 최신 동향
-- **2026-07-29**: @why.anthropic이 초경량 멀티 에이전트 스텔스 브라우저 MCP를 소개. Chrome과 연결되어 탐지 회피 강화.
-- **2026-07-20**: @unclejobs.ai가 Threads에서 사용자 간 직접 메시지 전송 기능 추가 소식 전함.
-- **2026-04-28**: Anthropic이 MCP를 공개하여 AI 에이전트의 외부 시스템 통합을 표준화함.
+- **2026-07-29**: 초경량 멀티 에이전트 스텔스 브라우저 MCP 소개. [원문](https://www.threads.com/@why.anthropic/post/Da5mE6KlHtj)
+- **2026-07-20**: Threads에서 사용자 간 직접 메시지 전송 기능 추가. [원문](https://www.threads.com/@unclejobs.ai/post/DawxFSwCae9)
+- **2026-05-11**: Claude Code의 환경변수 설정 변경으로 초기 토큰 사용량 절감. [원문](https://www.threads.com/@vyblor/post/DYE0DsGmtVY)
+- **2026-04-28**: Anthropic이 MCP 공개, AI 에이전트의 외부 시스템 통합 표준화. [원문](https://www.threads.com/@unclejobs.ai/post/DXdp24IiVkd)
 
 ## 주요 인사이트
-- 사용자들은 MCP 서버를 통해 다양한 협업 도구와 자동화 기능을 활용하여 작업 효율성을 높이고 있습니다.
-- Excalidraw와 같은 도구의 사용이 증가하면서, 시각적 협업의 중요성이 강조되고 있습니다.
-- Docker MCP를 통한 컨텍스트 관리와 토큰 절약 방법이 많은 관심을 받고 있습니다.
+- **협업 향상**: Excalidraw와 ClaudeCode를 활용한 드로잉 선호 의견이 많음.
+- **효율적인 워크플로우**: n8n-MCP 도구를 통해 AI가 생성한 Slack 메시지의 정확한 JSON 제공.
+- **MCP 서버 활용**: Claude Code 사용자를 위한 필수 MCP 서버 7가지 소개, 특히 Memory 서버의 중요성 강조.
 
 ## 관련 도구/링크
-- [MCP 서버 소개](https://www.threads.com/@vibe.code.kr/post/DWa4eECFDyU)
-- [Excalidraw](https://www.threads.com/@unclejobs.ai/post/DawxFSwCae9)
-- [Playwright](https://www.threads.com/@openclaw_ko/post/DVlzudPkWOw)
+- [MCP 서버 목록](https://www.threads.com/@vibe.code.kr/post/DWa4eECFDyU)
+- [n8n-MCP](https://www.threads.com/@conanssam/post/DX8NsMEEpFJ)
+- [Claude Code 치트 시트](https://www.threads.com/@ibwj/post/DWQGtG0Edb5)
+- [ChromeDevTools MCP](https://www.threads.com/@yeopo92/post/DUrVzQ9k98e)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |

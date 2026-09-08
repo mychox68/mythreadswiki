@@ -2,51 +2,55 @@
 report_id: llm
 topic: LLM 모델 동향
 tier: tier2-concepts
-note_count: 39
-last_updated: "2026-07-01 15:44"
+note_count: 41
+last_updated: "2026-09-08 19:36"
 description: "LLM 모델 비교·버전업·성능 트렌드"
 ---
 
 # LLM 모델 동향 트렌드 리포트
 
-> 노트 39개 기반 | 마지막 갱신: 2026-07-01 15:44
+> 노트 41개 기반 | 마지막 갱신: 2026-09-08 19:36
 
 # LLM 모델 동향 리포트
 
 ## 개요
-LLM(대형 언어 모델)은 인공지능의 발전에 있어 중요한 역할을 하고 있으며, 다양한 산업에서 활용되고 있습니다. 최근 LLM 모델의 성능 향상, 버전 업데이트, 그리고 새로운 기능들이 지속적으로 발표되고 있어, 이 트렌드를 파악하는 것은 매우 중요합니다.
+LLM(대형 언어 모델) 기술은 인공지능의 발전과 함께 비즈니스 및 데이터 처리 방식에 큰 변화를 가져오고 있습니다. 이 기술의 최신 동향을 파악하는 것은 기업들이 AI를 효과적으로 활용하고 경쟁력을 유지하는 데 필수적입니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| Edit Tool | 기존 LLM 모델에 추가되어 성능을 향상시키는 도구. 코드 수정 성공률을 높임. |
-| Workflow 기능 | Claude Code의 숨겨진 기능으로, AI가 수행한 작업을 코드로 저장하여 반복 가능. |
-| API 비용 무료화 | Codex SDK로 LLM 백엔드를 변경하여 API 호출 비용을 무료로 제공. |
-| CCS(Claude Code Switch) | 다양한 AI 모델을 통합하여 사용하는 어댑터. |
-| 이미지 활용 | GPT를 통해 개인화된 보고서를 이미지로 생성 가능. |
-| CLAUDE.md 파일 | LLM 코딩 실수 개선을 위한 원칙 정리. |
-| Neurons 프로젝트 | 로컬 LLM 추론 엔진을 C++로 구현한 오픈소스 프로젝트. |
-| 개인 지식 베이스 | LLM을 활용하여 개인 위키를 자동으로 생성하고 관리. |
+| **오픈 소스 스킬 개선 도구** | Microsoft의 도구로 Codex·Claude의 작업 기록을 활용하여 수정안을 생성하고 검증. |
+| **LLM과 SQL 결합** | 데이터 처리 방식의 변화, AI 기능을 채택한 플랫폼들(스노우플레이크, 빅쿼리 등). |
+| **Edit Tool** | 기존 LLM 모델 위에 추가되어 성능을 향상시키는 도구. |
+| **Claude Code의 Workflow 기능** | AI가 수행한 작업을 코드로 저장하여 반복 가능하게 함. |
+| **Codex SDK** | API 호출 비용을 무료로 제공하며, ChatGPT Plus 구독으로 인증 가능. |
+| **CCS(Claude Code Switch)** | 다양한 AI 모델을 통합하여 사용하는 어댑터. |
+| **GPT의 이미지 활용** | 개인화된 보고서를 이미지로 생성하는 방법 소개. |
+| **Neurons 프로젝트** | 로컬 LLM 추론 엔진을 C++로 구현한 오픈소스 프로젝트. |
+| **AGENTS.md 관리** | 코딩 에이전트 성능에 영향을 미치는 파일 관리의 중요성. |
+| **TradingAgents** | AI 에이전트가 역할을 분담하여 주식 매매를 시뮬레이션하는 오픈소스 프로젝트. |
 
 ## 최신 동향
-- **2026-06-12**: Can Bölük이 edit tool을 추가하여 LLM 성능을 향상시킴. [원문](https://www.threads.com/@unclejobs.ai/post/DZY9bN1CbE-)
+- **2026-09-08**: Microsoft의 오픈 소스 스킬 개선 도구 소개. [원문](https://www.threads.com/@nextcocoai/post/DbceRKWD2md)
+- **2026-09-08**: LLM과 SQL 결합에 대한 논의. [원문](https://www.threads.com/@unclejobs.ai/post/Dc7bQMGDK-H)
+- **2026-06-12**: Edit Tool을 통한 LLM 성능 향상. [원문](https://www.threads.com/@unclejobs.ai/post/DZY9bN1CbE-)
 - **2026-05-27**: Claude Code의 Workflow 기능 소개. [원문](https://www.threads.com/@ai.liberal.arts/post/DYzoIOgCSGw)
-- **2026-05-11**: LLM 백엔드를 Codex SDK로 변경하여 API 비용 무료화. [원문](https://www.threads.com/@ddongddangddi/post/DYFceHHmF91)
-- **2026-04-28**: GPT의 이미지 활용 가능성 주목. [원문](https://www.threads.com/@choi.openai/post/DXfXyQOCJDk)
+- **2026-05-11**: Codex SDK로 API 호출 비용 무료화. [원문](https://www.threads.com/@ddongddangddi/post/DYFceHHmF91)
 
 ## 주요 인사이트
-- **AI 캐릭터 챗봇**: 국내 AI 챗봇 시장에서 캐릭터 챗봇의 사용 시간이 ChatGPT를 앞지르고 있으며, 제타(Zeta)가 주목받고 있음.
-- **개인 지식 관리**: 안드레 카파시의 LLM 위키 아이디어가 개발자들 사이에서 큰 반향을 일으키고 있음.
-- **비용 절감 방안**: 오픈클로 사용 비용 문제에 대한 다양한 대안이 논의됨.
+- **AI 캐릭터 챗봇의 성장**: 국내 AI 챗봇 시장에서 캐릭터 챗봇의 사용 시간이 ChatGPT를 앞지르고 있으며, 특히 제타(Zeta)가 두각을 나타내고 있음. [원문](https://www.threads.com/@unclejobs.ai/post/DV5UA5DiRa6)
+- **LLM을 활용한 개인 지식 관리**: 안드레 카파시의 아이디어가 개인 위키 생성에 대한 관심을 불러일으키고 있음. [원문](https://www.threads.com/@choi.openai/post/DWvW8IvicHN)
 
 ## 관련 도구/링크
-- [MarkItDown](https://www.threads.com/@unclejobs.ai/post/DXF5bLIk03R) - 문서 변환 도구
-- [OpenVizAI](https://www.threads.com/@iam_mychan/post/DV1UFjeElEp) - 데이터 시각화 도구
-- [Neurons](https://www.threads.com/@feelfree_ai/post/DXbOFbDAdze) - 로컬 LLM 추론 엔진
+- [Microsoft의 MarkItDown](https://www.threads.com/@unclejobs.ai/post/DXF5bLIk03R) — 문서 변환 도구.
+- [Neurons 프로젝트](https://www.threads.com/@feelfree_ai/post/DXbOFbDAdze) — 로컬 LLM 추론 엔진.
+- [OpenVizAI](https://www.threads.com/@iam_mychan/post/DV1UFjeElEp) — 자동 차트 생성 도구.
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260908_nextcocoai_마이크로-소프트의-오픈-소_585d88.md` | @nextcocoai | 2026-09-08 | SkillOpt, Microsoft, 오픈소스, 프로그래밍 |
+| `u260908_unclejobs.ai_이-글에서는-LLM과-SQ_7c45e9.md` | @unclejobs.ai | 2026-09-08 | LLM, SQL, 데이터베이스, 스노우플레이크 |
 | `u260612_unclejobs.ai_Can-B-l-k은-기존-_4bb59b.md` | @unclejobs.ai | 2026-06-12 | 하네스, LLM, edit tool, AI 성능 |
 | `u260527_ai.liberal.arts_Claude-Code에는-_481708.md` | @ai.liberal.arts | 2026-05-27 | ClaudeCode, AIEngineering, 개발자, LLM |
 | `u260511_ddongddangddi_최근-대시보드의-LLM-백_37f8af.md` | @ddongddangddi | 2026-05-11 | Codex SDK, ChatGPT Plus, API 비용, OpenAI |
@@ -75,5 +79,3 @@ LLM(대형 언어 모델)은 인공지능의 발전에 있어 중요한 역할�
 | `u260327_iam_mychan_OpenVizAI는-데이터_b3ab4f.md` | @iam_mychan | 2026-03-27 | AI, 데이터 시각화, OpenVizAI, LLM |
 | `u260327_freainer_웹-스크래핑-시-Brigh_34e95d.md` | @freainer | 2026-03-27 | 웹 스크래핑, Bright Data API, LLM, 레딧 |
 | `u260327_feelfree_ai_LangChain-커뮤니티_01aa90.md` | @feelfree_ai | 2026-03-27 | AI, 데이터 분석, LangChain, LangGraph |
-| `u260327_choi.openai_macOS용-오픈소스-회의_631ee4.md` | @choi.openai | 2026-03-27 | AI, 오픈소스, 회의, 개인비서 |
-| `u260327_bizmentor_kr_PDF-데이터-추출-라이브_c2a189.md` | @bizmentor_kr | 2026-03-27 | PDF, 데이터 추출, opendataloader-pdf, GitHub Trending |

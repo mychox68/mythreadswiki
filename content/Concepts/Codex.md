@@ -1,9 +1,9 @@
 # Codex
-> 관련 노트: 71개 | 마지막 갱신: 2026-07-29 17:24
+> 관련 노트: 73개 | 마지막 갱신: 2026-09-08 19:34
 
 ## 개요
 
-주요 키워드: **Codex** · **AI** · **Claude** · **Codex를** · **다양한** · **코딩** · **작업** · **있다**
+주요 키워드: **Codex** · **AI** · **Claude** · **다양한** · **Codex를** · **있다** · **코딩** · **작업**
 
 ## 핵심 인사이트
 
@@ -22,12 +22,14 @@
 
 ## 관련 개념
 
-[[Concepts/AI|AI]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/github.com|github.com]] | [[Concepts/Claude|Claude]]
+[[Concepts/AI|AI]] | [[Concepts/Claude-Code|Claude Code]] | [[Concepts/AI-코딩|AI 코딩]] | [[Concepts/github.com|github.com]] | [[Concepts/프로그래밍|프로그래밍]]
 
 ## 출처 노트 (30개, 최근순)
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260908_ckdgus99_Codex와-ChatGPT_e71c97]] | `@ckdgus99` · 26-09-08 | Codex와 ChatGPT를 결합한 새로운 도구 'codex-chatgpt-web'이 소개되었다. 이 도구는 Codex의 인터페이스를 유지하면서 ChatGPT 웹에서 답변을 받아오는 방식으로 작동한다. 설치가 간단하고 다양한 운영체제를 지원하며, GitHub에서 소스 코드를 확인할 수 있다. |
+| [[u260908_unclejobs.ai_Orca의-인기가-시들해지_272bb4]] | `@unclejobs.ai` · 26-09-08 | Orca의 인기가 시들해지면서 새로운 툴 Paseo가 등장했다. Paseo는 다양한 AI 툴을 통합하여 제어할 수 있는 기능을 제공하며, 무료로 사용할 수 있다. 간편한 연동 방법과 사용자의 편의를 고려한 디자인이 특징이다. |
 | [[u260729_keke_appa_Threads에서-직접-메_4776c9]] | `@keke_appa` · 26-07-29 | Threads에서 직접 메시지를 보낼 수 있는 기능이 추가되었다. 디자인이 인상적이며, Three.js의 가능성에 대해 감탄한다. Claude Codex의 기본 스킬을 설치하는 내용도 언급되었다. |
 | [[u260713_specal1849_클로드-코드와-Codex를_e8f211]] | `@specal1849` · 26-07-13 | 클로드 코드와 Codex를 이용하여 25분만에 100개의 이미지 생성 방법을 소개한다. 사용자 정의 프롬프트를 통해 이미지 퀄리티를 높이고, 동적 라우팅 기능이 적용된 스킬을 사용하여 대량 생산이 가능하다. 관련된 두 가지 스킬, 공냥 프롬프트 킷과 코덱스 FLEET의 사용법도 간단히 언급된다. |
 | [[u260713_choi.openai_오픈AI-Codex의-Re_fa1217]] | `@choi.openai` · 26-07-13 | 오픈AI Codex의 Record & Replay 기능이 공개되었습니다. 이 기능은 반복적인 업무를 시연하면 Codex가 해당 과정을 기록하여 재사용 가능한 skill로 만들어줍니다. 이를 통해 자동화된 업무 처리가 가능해져 효율성이 증가할 것으로 기대됩니다. |
@@ -56,5 +58,3 @@
 | [[u260428_ai_developer_gen_Codex-sangpye-_d8946e]] | `@ai_developer_genie` · 26-04-28 | Codex-sangpye-skill을 이용해 제품 상세 페이지 이미지를 자동으로 생성하는 스킬을 개발했습니다. Codex OAuth를 사용하여 OpenAI API 키 없이도 ChatGPT 세션을 활용할 수 있습니다. 이 기법을 통해 수동 제작의 번거로움을 줄일 수 있습니다. |
 | [[u260422_choi.openai_오픈AI의-Codex가-C_a69e72]] | `@choi.openai` · 26-04-22 | 오픈AI의 Codex가 'Chronicle' 기능을 도입하여 작업 화면을 분석하고 기억합니다. 이 기능은 개발자가 과거 작업을 쉽게 이어갈 수 있도록 돕습니다. 이제 맥락 단절 문제를 해결하여 작업 효율성이 높아질 것으로 기대됩니다. |
 | [[u260422_atelic.io_Claude-Code와-C_a24cb0]] | `@atelic.io` · 26-04-22 | Claude Code와 Codex를 최적화하기 위한 다양한 설정을 공유하고, 자동 삽입 텍스트, 토큰 비용 감소 방법 등을 설명한다. 특히, 환경 설정과 커넥터 사용의 효율성을 강조하고 있다. 이러한 조정을 통해 프로젝트 성능을 향상시키고 비용 관리에 유리한 전략을 제시한다. |
-| [[u260422_choi.openai_개발자-Nicolas-Zu_7f7448]] | `@choi.openai` · 26-04-22 | 개발자 Nicolas Zullo가 AI로 만든 좀비 게임 'Codex'가 실시간으로 수정되는 모습이 화제를 모았습니다. 사용자는 별도의 새로고침 없이 UI 요소를 클릭하여 게임 내용을 즉시 수정할 수 있습니다. 오픈AI의 그렉 브록만은 이 프로젝트를 통해 dAI의 가능성을 재조명했습니다. |
-| [[u260422_choi.openai_오픈AI가-Euphony-_2e0ab4]] | `@choi.openai` · 26-04-22 | 오픈AI가 'Euphony'라는 시각화 도구를 오픈소스로 공개했습니다. 이 도구는 챗봇 대화 데이터와 Codex 세션 로그를 분석하는 데 도움을 줍니다. 개발자들은 이 툴을 사용하여 AI의 사고 과정을 보다 직관적으로 이해하고 최적화할 수 있게 됩니다. |

@@ -2,54 +2,50 @@
 report_id: ai-coding
 topic: AI 코딩
 tier: tier1-core
-note_count: 116
-last_updated: "2026-07-29 17:25"
+note_count: 117
+last_updated: "2026-09-08 19:35"
 description: "Vibe Coding·에이전트 코딩 흐름"
 ---
 
 # AI 코딩 트렌드 리포트
 
-> 노트 116개 기반 | 마지막 갱신: 2026-07-29 17:25
+> 노트 117개 기반 | 마지막 갱신: 2026-09-08 19:35
 
-# AI 코딩 — Vibe Coding·에이전트 코딩 흐름 리포트
+# AI 코딩 리포트
 
 ## 개요
-AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 비개발자도 코딩에 참여할 수 있도록 돕는 혁신적인 기술입니다. 특히 Vibe Coding과 에이전트 코딩 흐름은 개발자와 AI 간의 협업을 통해 새로운 가능성을 열어주고 있습니다.
+AI 코딩은 소프트웨어 개발의 효율성을 높이고, 비개발자도 쉽게 코딩할 수 있도록 돕는 혁신적인 기술입니다. 최근 AI 코딩 에이전트와 관련된 다양한 도구와 방법론이 등장하면서, 개발자와 비개발자 모두에게 새로운 기회를 제공하고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **Grok Build** | xAI의 새로운 코딩 에이전트로, 마우스 클릭 지원 및 다양한 환경에서 활용 가능. |
-| **바이브 코딩** | 구글의 새로운 개발 방식으로, context engineering과 AI 코딩 에이전트 통합 방법을 다룸. |
-| **Claude Code** | 대규모 코드베이스에서 AI 코딩의 효율성을 높이는 다양한 전략 제공. |
-| **code-review-graph** | 코드 수정 시 영향을 받는 파일만을 받아들이고 변경 영향 범위를 시각화하여 토큰 비용 절감. |
-| **OpenChamber** | OpenCode의 GUI로, 일반 사용자가 AI 코딩을 쉽게 이용할 수 있도록 지원. |
-| **DESIGN.md** | AI 에이전트를 위한 디자인 시스템을 마크다운 파일 형식으로 제공. |
-| **MCP 서버** | Claude Code 사용자를 위한 필수 서버로, 다양한 기능과 장점을 제공. |
-| **AGENTS.md** | 코딩 에이전트 성능에 영향을 미치는 파일 관리의 중요성 강조. |
+| **Vibe Coding** | 새로운 개발 방식으로, AI 코딩 에이전트를 통합하여 효율성을 높임. |
+| **Claude Code** | 대규모 코드베이스에서 효율성을 높이는 AI 코딩 전략을 제공. |
+| **Grok Build** | 마우스 클릭을 지원하는 새로운 작업 방식을 제공하는 AI 코딩 에이전트. |
+| **AGENTS.md** | AI 코딩 에이전트의 성능을 최적화하기 위한 파일 관리 방법. |
+| **MCP 서버** | Claude Code 사용자를 위한 필수 서버 목록으로, 다양한 기능 제공. |
 
 ## 최신 동향
-- **2026-07-20**: xAI의 Grok Build가 새로운 작업 방식을 제공하며 오픈소스 라이센스를 따름.
-- **2026-06-16**: 구글이 바이브 코딩 관련 리포트를 공개.
-- **2026-05-27**: 앤트로픽의 Claude Code가 다양한 전략을 통해 AI 코딩의 효율성을 높임.
-- **2026-05-05**: OpenCode와 DeepSeek V4 Pro의 요금제 소개 및 Pencil 도구의 통합 작업 가능성 언급.
-- **2026-03-30**: Claude Code의 훅 기능이 추가되어 더욱 정밀한 제어 가능.
+- **2026-09-08**: ChatGPT가 코드인터프리터를 위한 제한된 컴퓨터 제공. [원문](https://www.threads.com/@cokac_com/post/DcbX9-Mkkca)
+- **2026-07-20**: xAI의 Grok Build가 새로운 작업 방식을 제공. [원문](https://www.threads.com/@takepage_/post/Da-kIY1j0-y)
+- **2026-06-16**: 구글이 바이브 코딩과 관련된 리포트를 공개. [원문](https://www.threads.com/@choi.openai/post/DZn5SlMj7Y_)
+- **2026-05-27**: 앤트로픽의 Claude Code가 다양한 전략을 제공. [원문](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
 
 ## 주요 인사이트
-- **비개발자도 AI 활용 가능**: 비개발자가 AI를 활용해 코딩하는 플로우 및 DDD, BDD 개념 이해의 중요성 강조.
-- **효율적인 협업**: acpx 툴을 통해 여러 코딩 에이전트를 통합 관리하여 작업 효율성을 높일 수 있음.
-- **디자인 자동화**: AI 코딩 도구에 디자인 뇌를 이식하여 UI/UX 디자인을 자동화하는 방법 소개.
+- **비개발자도 AI 코딩 활용**: 비개발자들이 AI를 통해 코딩할 수 있는 플로우가 제시되며, DDD, BDD 개념 이해가 강조됨.
+- **효율적인 코드 리뷰**: code-review-graph 도구를 통해 코드 수정 시 토큰 비용을 절감할 수 있음.
+- **디자인 자동화**: AI 코딩 도구에 디자인 뇌를 이식하여 UI/UX 디자인을 자동화하는 방법이 소개됨.
 
 ## 관련 도구/링크
-- [Grok Build](https://www.threads.com/@takepage_/post/Da-kIY1j0-y)
-- [바이브 코딩 리포트](https://www.threads.com/@choi.openai/post/DZn5SlMj7Y_)
+- [OpenCode](https://www.threads.com/@unclejobs.ai/post/DX5kgMXiRee)
 - [Claude Code](https://www.threads.com/@choi.openai/post/DYtJ60rD-dq)
-- [OpenChamber](https://www.threads.com/@unclejobs.ai/post/DXsvjH_ia-q)
+- [Grok Build](https://www.threads.com/@takepage_/post/Da-kIY1j0-y)
 - [DESIGN.md](https://www.threads.com/@unclejobs.ai/post/DXE2kCziSGC)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260908_cokac_com_ChatGPT는-코드인터프_cc6873.md` | @cokac_com | 2026-09-08 | ChatGPT, 코드인터프리터, AI 코딩, 업무 효율 |
 | `u260720_takepage_xAI의-그록-빌드-Gro_40c798.md` | @takepage_ | 2026-07-20 | Grok Build, AI 코딩, xAI, 오픈소스 |
 | `u260616_choi.openai_구글이-새로운-개발-방식을_49870b.md` | @choi.openai | 2026-06-16 | 구글, 바이브 코딩, AI 코딩, 개발 방법 |
 | `u260527_choi.openai_앤트로픽의-Claude-C_f8c5a1.md` | @choi.openai | 2026-05-27 | Claude Code, AI 코딩, 프로그래밍, 모델 성능 |
@@ -79,4 +75,3 @@ AI 코딩은 소프트웨어 개발의 효율성을 극대화하고, 비개발�
 | `u260327_choochoo_1221_Claude-Code로-크_9d7364.md` | @choochoo_1221 | 2026-03-27 | Claude Code, 브라우저 자동화, Chrome DevTools MCP, 크롬 원격 디버깅 |
 | `u260327_untruth.study_Claude를-활용하여-옵_c2b87d.md` | @untruth.study | 2026-03-27 | 옵시디언, Claude, AI, 노트 |
 | `u260327_unclejobs.ai_윈도우에서-Claude-C_6bfbb5.md` | @unclejobs.ai | 2026-03-27 | 윈도우 터미널, Claude Code, AI 코딩, WezTerm |
-| `u260327_qjc.ai_웹-디자이너를-위한-30개_61805c.md` | @qjc.ai | 2026-03-27 | 웹디자인, 레퍼런스, UI/UX, 디자인 시스템 |
