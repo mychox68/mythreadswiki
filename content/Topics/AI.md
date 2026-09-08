@@ -1,9 +1,10 @@
 # AI
-> 노트 312개 | 마지막 갱신: 2026-09-08 19:34
+> 노트 313개 | 마지막 갱신: 2026-09-08 20:41
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
 | [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |
+| [[u260908_jisang0914_이선민은-AI-코딩-대회에_4b5601]] | `@jisang0914` · 26-09-08 | 이선민은 AI 코딩 대회에서 Codex에 맡겨 코딩을 수행하고 우승한 후, 스스로 검증하는 AI 도구인 Paperthin을 오픈소스화했다. Paperthin은 AI가 생성한 코드의 품질을 높이기 위한 다양한 스킬을 제공하며, 쉽게 설치하고 사용할 수 있다. 현재 GitHub에서 스타를 받기 시작했지만 널리 알려지지 않은 상태이다. |
 | [[u260908_takepage_프라임-에이전트는-코딩-에_76e216]] | `@takepage_` · 26-09-08 | 프라임 에이전트는 코딩 에이전트로 파일 읽기 도구와 검색 도구가 없으며, 변수를 통해 작업을 지속합니다. 기존 에이전트는 콘텍스트의 한계로 인해 내용을 잃는 경우가 많습니다. 이 새로운 구조는 긴 대용량 작업에 적합하다는 평가를 받고 있습니다. |
 | [[u260908_unclejobs.ai_에이전트에서-bash를-제_d40c24]] | `@unclejobs.ai` · 26-09-08 | 에이전트에서 bash를 제거하고 JavaScript로 전환하여 비용과 보안 문제를 해결했습니다. 새로운 아키텍처로 인해 성능이 향상되었고 운영비가 절감되었습니다. 유저 경험은 변화가 없으나, 코딩 에이전트의 필요와 능력이 재정의되었습니다. |
 | [[u260908_choi.openai_Vercel이-오픈소스로-_74acb3]] | `@choi.openai` · 26-09-08 | Vercel이 오픈소스로 공개한 vGPU는 에이전트 중심의 WebGPU 라이브러리입니다. 이 라이브러리는 브라우저와 headless Node.js에서 통합된 환경에서 운영할 수 있습니다. 특히 AI 에이전트가 시각 효과를 쉽게 만들고 수정할 수 있도록 지원합니다. |

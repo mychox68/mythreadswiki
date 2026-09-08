@@ -1,9 +1,9 @@
 # GitHub
-> 관련 노트: 35개 | 마지막 갱신: 2026-09-08 19:34
+> 관련 노트: 36개 | 마지막 갱신: 2026-09-08 20:41
 
 ## 개요
 
-주요 키워드: **GitHub** · **AI** · **있다** · **오픈소스** · **코딩** · **소개합니다** · **Claude** · **코드**
+주요 키워드: **GitHub** · **AI** · **있다** · **코딩** · **오픈소스** · **소개합니다** · **Claude** · **코드**
 
 ## 핵심 인사이트
 
@@ -29,6 +29,7 @@
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
 | [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |
+| [[u260908_jisang0914_이선민은-AI-코딩-대회에_4b5601]] | `@jisang0914` · 26-09-08 | 이선민은 AI 코딩 대회에서 Codex에 맡겨 코딩을 수행하고 우승한 후, 스스로 검증하는 AI 도구인 Paperthin을 오픈소스화했다. Paperthin은 AI가 생성한 코드의 품질을 높이기 위한 다양한 스킬을 제공하며, 쉽게 설치하고 사용할 수 있다. 현재 GitHub에서 스타를 받기 시작했지만 널리 알려지지 않은 상태이다. |
 | [[u260612_obangti_깃헙에서-트렌딩-1위를-기_086d71]] | `@obangti` · 26-06-12 | 깃헙에서 트렌딩 1위를 기록한 Understand-Anything은 코드베이스를 인터랙티브 지식 그래프로 변환하는 오픈소스 도구입니다. 이 도구는 파일, 함수, 클래스 단위로 코드를 분석하여 대시보드를 제공합니다. AI 코딩 도구의 필요성을 강조하며 대형 프로젝트의 전체 구조를 이해하는 데 도움을 줍니다. |
 | [[u260527_namsangboy_Understand-Any_4fac14]] | `@namsangboy` · 26-05-27 | Understand Anything은 코드베이스와 문서를 인터랙티브한 지식 그래프로 변환해 탐색과 질문이 가능한 툴입니다. AI 시대의 개발 생산성은 코드 작성 속도를 넘어 시스템 이해와 안전한 변경에 초점을 맞추고 있습니다. 새로운 팀에 합류하거나 레거시 분석 시 유용한 프로젝트입니다. |
 | [[u260517_think.5x_GitHub의-새-툴킷-s_5e7765]] | `@think.5x` · 26-05-17 | GitHub의 새 툴킷 spec-kit은 스펙 중심의 개발 방식을 제안하여 AI 코딩 에이전트의 품질 문제를 해결합니다. 이 툴킷은 CLI 하나로 스펙 작성, 검증, 코드 생성을 지원하며, 다양한 AI 에이전트와 통합됩니다. 현재 98,184 스타를 기록하고 있으며, 주간 증가 수치는 +1,159입니다. |
@@ -57,4 +58,3 @@
 | [[u260327_aisolutiondev_AI-에이전트-프로젝트-아_07ece1]] | `@aisolutiondev` · 26-03-27 | AI 에이전트 프로젝트 아이디어가 떠오르지 않는다면, 산업별로 정리된 500개 이상의 AI Agent 프로젝트 GitHub 레포지토리를 참고하세요. 의료, 금융, 교육, 마케팅 등 11개 분야의 프로젝트를 확인할 수 있습니다. 프로젝트 시작 전 문제 정의가 중요하다는 점을 강조합니다. |
 | [[u260327_aisolutiondev_한컴에서-개발한-오픈소스-_113ead]] | `@aisolutiondev` · 26-03-27 | 한컴에서 개발한 오픈소스 '한컴 오픈데이터로더 PDF v2.0'이 GitHub 트렌딩 1위를 기록했다. 이 도구는 PDF를 AI가 읽을 수 있는 데이터로 변환하며, 상업적 사용도 무료이다. 사용자들은 긍정적인 반응과 함께 한컴 오피스 연동, hwp 파일 관련 개선 등의 의견을 제시하고 있다. |
 | [[u260327_grit_with_me_바이브코딩-입문자를-위한-_7333f3]] | `@grit_with_me` · 26-03-27 | 바이브코딩 입문자를 위한 디자인 고민 해결책으로, UI UX Pro Max Skill, Taste Skill, Supanova Design Skill 세 가지 오픈소스 도구를 소개합니다. UI UX Pro Max Skill은 디자인 시스템 자동 생성, Taste Skill은 AI 디자인 감각 향상, Supanova Design Skill은 한국어 서비스 최적화에 특화되어 있습니다. 각 도구의 특징과 활용법을 간략하게 설명하고, GitHub 링크를 제공하여 사용자가 직접 사용해 볼 수 있도록 안내합니다. |
-| [[u260327_unclejobs.ai_Claude-Code에-P_ae5fc7]] | `@unclejobs.ai` · 26-03-27 | Claude Code에 PM 역할을 수행하는 오픈소스 'PM Skills Marketplace'가 등장했습니다. 72시간 만에 GitHub 스타 1,300개를 넘어서며 뜨거운 반응을 얻고 있으며, PM의 제품 전략, 로드맵, 시장 조사, 개발팀 협업 등의 업무를 AI가 대신 수행합니다. Claude Code, Cursor 등 다양한 환경에서 사용 가능하며, PM 업무 전반을 커버하는 8개의 플러그인을 제공합니다. |

@@ -1,9 +1,10 @@
 # GitHub
-> 노트 35개 | 마지막 갱신: 2026-09-08 19:34
+> 노트 36개 | 마지막 갱신: 2026-09-08 20:41
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
 | [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |
+| [[u260908_jisang0914_이선민은-AI-코딩-대회에_4b5601]] | `@jisang0914` · 26-09-08 | 이선민은 AI 코딩 대회에서 Codex에 맡겨 코딩을 수행하고 우승한 후, 스스로 검증하는 AI 도구인 Paperthin을 오픈소스화했다. Paperthin은 AI가 생성한 코드의 품질을 높이기 위한 다양한 스킬을 제공하며, 쉽게 설치하고 사용할 수 있다. 현재 GitHub에서 스타를 받기 시작했지만 널리 알려지지 않은 상태이다. |
 | [[u260612_obangti_깃헙에서-트렌딩-1위를-기_086d71]] | `@obangti` · 26-06-12 | 깃헙에서 트렌딩 1위를 기록한 Understand-Anything은 코드베이스를 인터랙티브 지식 그래프로 변환하는 오픈소스 도구입니다. 이 도구는 파일, 함수, 클래스 단위로 코드를 분석하여 대시보드를 제공합니다. AI 코딩 도구의 필요성을 강조하며 대형 프로젝트의 전체 구조를 이해하는 데 도움을 줍니다. |
 | [[u260527_namsangboy_Understand-Any_4fac14]] | `@namsangboy` · 26-05-27 | Understand Anything은 코드베이스와 문서를 인터랙티브한 지식 그래프로 변환해 탐색과 질문이 가능한 툴입니다. AI 시대의 개발 생산성은 코드 작성 속도를 넘어 시스템 이해와 안전한 변경에 초점을 맞추고 있습니다. 새로운 팀에 합류하거나 레거시 분석 시 유용한 프로젝트입니다. |
 | [[u260517_think.5x_GitHub의-새-툴킷-s_5e7765]] | `@think.5x` · 26-05-17 | GitHub의 새 툴킷 spec-kit은 스펙 중심의 개발 방식을 제안하여 AI 코딩 에이전트의 품질 문제를 해결합니다. 이 툴킷은 CLI 하나로 스펙 작성, 검증, 코드 생성을 지원하며, 다양한 AI 에이전트와 통합됩니다. 현재 98,184 스타를 기록하고 있으며, 주간 증가 수치는 +1,159입니다. |
