@@ -2,50 +2,51 @@
 report_id: gemini
 topic: Gemini
 tier: tier2-concepts
-note_count: 24
-last_updated: "2026-07-05 21:42"
+note_count: 25
+last_updated: "2026-09-28 09:44"
 description: "Google Gemini 계열 동향"
 ---
 
 # Gemini 트렌드 리포트
 
-> 노트 24개 기반 | 마지막 갱신: 2026-07-05 21:42
+> 노트 25개 기반 | 마지막 갱신: 2026-09-28 09:44
 
 # Gemini 동향 리포트
 
 ## 개요
-Google Gemini는 AI 기술의 발전과 함께 다양한 기능을 제공하며, 특히 자동화와 협업을 통한 효율성을 강조하고 있습니다. 이러한 기술은 게임 개발, 문서 생성, 웹 브라우저 통합 등 여러 분야에서 활용되고 있어, 현대의 디지털 환경에서 중요한 역할을 하고 있습니다.
+Gemini는 구글의 최신 AI 기술로, 다양한 기능과 응용 프로그램을 통해 사용자들에게 혁신적인 경험을 제공합니다. 특히, AI 영상 생성, 파일 생성, 브라우저 통합 등 여러 분야에서의 활용 가능성이 높아 주목받고 있습니다.
 
 ## 핵심 내용
-| 기능/개념/특징 | 설명 |
-|----------------|-----|
-| **파일 생성** | 다양한 파일 형식(PDF, .docx 등)을 생성하고 다운로드 가능 |
-| **AI 비서 기능** | Chrome 브라우저에 통합되어 정보 요약 및 작업 지원 |
-| **자동화된 워크플로우** | Codex와 Gemini를 활용한 게임 개발 및 협업 강조 |
-| **보안 점검** | AI Studio 앱의 보안 허점 및 API 키 노출 문제 |
-| **회의록 자동화** | NotebookLM과 연계하여 회의 내용 요약 및 액션 아이템 추출 |
-| **이미지 다운로드** | Gemini Voyager 크롬 확장 프로그램을 통한 워터마크 없는 이미지 다운로드 |
-| **자동 수익 구조** | Gemini를 활용한 자동 수익 구조 생성 방법 공유 |
-| **AI 스킬 디자인 패턴** | Google이 공개한 AI 스킬 설계에 대한 5가지 디자인 패턴 |
+| 기능/개념       | 설명                                                         |
+|----------------|------------------------------------------------------------|
+| AI 영상 생성    | Vids 앱을 통해 무료로 AI 영상을 생성할 수 있는 기능 제공 (Gemini Omni 1.1 Flash) |
+| 파일 생성       | 다양한 파일 형식(PDF, .docx 등)을 생성하고 다운로드할 수 있는 기능 출시 |
+| AI 비서 기능    | 크롬 브라우저에 'Gemini in Chrome' 기능 도입, 정보 통합 및 요약 지원 |
+| 협업 및 자동화  | Codex와 Gemini를 활용한 게임 개발 및 자동화된 워크플로우 지원 |
+| 보안 강화      | AI Studio에서 API 키 노출 사건 발생, 보안 점검 필요성 강조 |
+| 멀티모델 에이전트 | 여러 AI 모델을 조합하여 효율적인 작업 수행 가능 |
 
 ## 최신 동향
-- **2026-05-17**: Codex와 Gemini를 활용한 새로운 게임 개발 방식 소개 ([원문](https://www.threads.com/@bamtolai/post/DYYlKb3HUoc))
-- **2026-05-05**: Gemini 앱에서 다양한 파일 형식 생성 및 다운로드 기능 출시 ([원문](https://www.threads.com/@choi.openai/post/DX4LEAVD042))
-- **2026-04-22**: Chrome 브라우저에 AI 비서 기능 'Gemini in Chrome' 도입 ([원문](https://www.threads.com/@choi.openai/post/DXXpVodE8Y6))
-- **2026-04-15**: AI Studio 앱의 보안 허점으로 API 키 노출 ([원문](https://www.threads.com/@minorabanggu/post/DXDlSFQmB63))
+- **2026-09-28**: 구글의 Vids 앱에서 AI 영상을 무료로 생성할 수 있는 기능이 추가됨 (Gemini Omni 1.1 Flash).
+- **2026-05-17**: Codex와 Gemini를 활용한 새로운 게임 개발 방식 소개.
+- **2026-05-05**: Gemini 앱에서 다양한 파일 형식 생성 및 다운로드 기능 출시.
+- **2026-04-22**: 크롬 브라우저에 AI 비서 기능 'Gemini in Chrome' 도입.
+- **2026-04-15**: AI Studio에서 API 키 노출 사건 발생, 보안 점검 필요성 강조.
 
 ## 주요 인사이트
-- 사용자들은 Gemini와 Codex를 활용한 자동화된 워크플로우에 대한 경험을 공유하고 있으며, 특히 게임 개발에서의 협업 중요성을 강조하고 있습니다.
-- 회의록 작성 시 NotebookLM과 Gemini를 활용하여 효율성을 높이는 방법이 논의되고 있으며, 다양한 AI 도구와의 연계 사용법도 활발히 공유되고 있습니다.
-- Gemini Voyager와 같은 크롬 확장 프로그램이 사용자들에게 유용한 팁으로 언급되고 있습니다.
+- 사용자들은 Gemini를 활용한 자동화된 워크플로우에 대한 경험을 공유하며, 협업의 중요성을 강조하고 있습니다.
+- AI 영상 생성 및 파일 생성 기능이 특히 인기를 끌고 있으며, 이러한 기능들이 작업의 효율성을 크게 향상시킬 것으로 기대되고 있습니다.
+- 보안 문제에 대한 경각심이 높아지고 있으며, API 키 관리의 중요성이 강조되고 있습니다.
 
 ## 관련 도구/링크
-- [Gemini Voyager](https://www.threads.com/@thestack_ai/post/DVcvA74DwVH) - 크롬 확장 프로그램
-- [Gemini API GitHub](https://www.threads.com/@aicoffeechat/post/DUtm8I2kwQ3) - 개발 베스트 프랙티스
+- [Gemini API 스킬](https://www.threads.com/@aicoffeechat/post/DUtm8I2kwQ3) - GitHub에서 확인 가능.
+- [Gemini Voyager](https://www.threads.com/@thestack_ai/post/DVcvA74DwVH) - 워터마크 없이 이미지 다운로드 가능.
+- [NotebookLM](https://www.threads.com/@iam_mychan/post/DVwsDidk5vk) - PDF를 PPTX로 변환하는 도구.
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260928_the_pcher_pt_구글의-Vids-앱에서-A_c6121b.md` | @the_pcher_pt | 2026-09-28 | AI영상, 구글, Vids, Gemini |
 | `u260517_bamtolai_Codex와-Gemini를_6784a5.md` | @bamtolai | 2026-05-17 | Codex, Gemini, 게임개발, 자동화 |
 | `u260505_choi.openai_구글이-Gemini-앱에서_b1e812.md` | @choi.openai | 2026-05-05 | 구글, Gemini, 파일 생성, AI 기술 |
 | `u260422_choi.openai_구글이-크롬-브라우저에-A_fe11a3.md` | @choi.openai | 2026-04-22 | 구글, 크롬, Gemini, AI 비서 |

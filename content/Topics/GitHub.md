@@ -1,8 +1,10 @@
 # GitHub
-> 노트 36개 | 마지막 갱신: 2026-09-08 20:46
+> 노트 38개 | 마지막 갱신: 2026-09-28 09:43
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[u260928_ai_neo_lab_GitHub에-올라온-AI_77be01]] | `@ai_neo_lab` · 26-09-28 | GitHub에 올라온 AI 엔지니어링 기초 강의는 읽기만 하는 것이 아니라 실제 코드를 작성하면서 학습하는 커리큘럼입니다. 파이썬, 타입스크립트 등의 언어로 523개의 프로젝트를 진행하고, 최신 AI 기술도 다루고 있습니다. 완주하기 위해서는 상당한 시간과 노력이 필요합니다. |
+| [[u260928_ddalkkakfactory_Threads의-새로운-기_63b557]] | `@ddalkkakfactory` · 26-09-28 | Threads의 새로운 기능으로 메시지를 직접 보낼 수 있게 되었다. 딸깍 Threads 공장이 오픈소스로 공개되며, GitHub에 소스와 설치파일이 올라왔다. 무료 Community 버전으로 사용할 수 있다. |
 | [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |
 | [[u260908_jisang0914_이선민은-AI-코딩-대회에_4b5601]] | `@jisang0914` · 26-09-08 | 이선민은 AI 코딩 대회에서 Codex에 맡겨 코딩을 수행하고 우승한 후, 스스로 검증하는 AI 도구인 Paperthin을 오픈소스화했다. Paperthin은 AI가 생성한 코드의 품질을 높이기 위한 다양한 스킬을 제공하며, 쉽게 설치하고 사용할 수 있다. 현재 GitHub에서 스타를 받기 시작했지만 널리 알려지지 않은 상태이다. |
 | [[u260612_obangti_깃헙에서-트렌딩-1위를-기_086d71]] | `@obangti` · 26-06-12 | 깃헙에서 트렌딩 1위를 기록한 Understand-Anything은 코드베이스를 인터랙티브 지식 그래프로 변환하는 오픈소스 도구입니다. 이 도구는 파일, 함수, 클래스 단위로 코드를 분석하여 대시보드를 제공합니다. AI 코딩 도구의 필요성을 강조하며 대형 프로젝트의 전체 구조를 이해하는 데 도움을 줍니다. |

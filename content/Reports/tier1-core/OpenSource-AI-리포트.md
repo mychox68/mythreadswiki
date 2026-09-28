@@ -2,63 +2,57 @@
 report_id: opensource-ai
 topic: 오픈소스 AI
 tier: tier1-core
-note_count: 142
-last_updated: "2026-09-08 20:46"
+note_count: 143
+last_updated: "2026-09-28 09:44"
 description: "오픈소스 에이전트·모델 생태계 동향"
 ---
 
 # 오픈소스 AI 트렌드 리포트
 
-> 노트 142개 기반 | 마지막 갱신: 2026-09-08 20:46
+> 노트 143개 기반 | 마지막 갱신: 2026-09-28 09:44
 
 # 오픈소스 AI 리포트
 
 ## 개요
-오픈소스 AI는 다양한 도구와 모델을 통해 개발자와 기업이 AI 기술을 보다 쉽게 활용할 수 있도록 돕고 있습니다. 이러한 오픈소스 생태계는 혁신을 촉진하고, 사용자들이 자유롭게 기여하며 발전할 수 있는 기회를 제공합니다.
+오픈소스 AI는 혁신적인 기술 개발과 협업을 촉진하는 중요한 요소로 자리 잡고 있습니다. 다양한 오픈소스 프로젝트와 도구들이 등장함에 따라, 개발자와 기업들은 비용 효율적으로 AI 솔루션을 구현하고 활용할 수 있는 기회를 얻고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **Tailscale Tailcat** | 데이터 플레인만 사용하여 기기 간 직접 연결 지원, 계정과 관리자 필요 없음 |
-| **유튜브 자동화 툴** | 영상 제작 효율성을 높이는 오픈소스 툴 5종 소개 |
-| **비디오 편집 도구** | 텍스트 기반 편집 방식으로 영상을 처리하는 도구 |
-| **Paperthin** | AI가 생성한 코드의 품질을 높이는 오픈소스 도구 |
-| **CozyClay** | AI 영상을 생성하는 무료 3D 스튜디오 도구 |
-| **Recordly** | 무료 오픈소스 화면 녹화 툴, 다양한 플랫폼 지원 |
-| **Claude SEO** | 18개의 AI 에이전트를 통한 사이트 병렬 분석 및 SEO 점수 매김 |
-| **codex-chatgpt-web** | Codex와 ChatGPT를 결합한 도구 |
-| **SkillOpt** | Codex·Claude의 작업 기록을 활용하여 수정안 생성 |
-| **Concat** | CapCut 기능을 대체하는 오픈소스 프로그램 |
+| **딸깍 Threads** | 메시지를 직접 보낼 수 있는 기능과 함께 오픈소스로 공개됨. GitHub에서 무료 Community 버전 제공. |
+| **Tailcat** | Tailscale의 새로운 오픈소스 제품으로, 기기 간 직접 연결을 지원하며 계정과 관리자가 필요 없음. |
+| **Paperthin** | AI가 생성한 코드의 품질을 높이기 위한 도구로, 오픈소스화되어 GitHub에서 사용 가능. |
+| **CozyClay** | AI 영상을 생성하는 무료 3D 스튜디오 도구로, 오픈소스이며 직관적인 조작 제공. |
+| **Recordly** | 무료 오픈소스 화면 녹화 툴로, 다양한 플랫폼 지원 및 프로급 기능 제공. |
+| **Claude SEO** | 18개의 AI 에이전트를 통해 사이트를 병렬 분석하고 자동으로 SEO 점수를 매기는 도구. |
+| **codex-chatgpt-web** | Codex와 ChatGPT를 결합한 도구로, 설치가 간편하고 다양한 운영체제 지원. |
+| **SkillOpt** | Microsoft의 오픈소스 스킬 개선 도구로, Codex·Claude의 작업 기록을 활용. |
 
 ## 최신 동향
-- **2026-09-08**: Tailscale의 새로운 오픈소스 제품인 Tailcat 발표.
-- **2026-09-08**: 유튜브 자동화 관련 오픈소스 툴 5종 소개.
-- **2026-09-08**: Recordly, 무료 오픈소스 화면 녹화 툴 출시.
-- **2026-09-08**: Claude SEO 도구 출시, 무료로 사용 가능.
-- **2026-09-08**: Codex와 ChatGPT를 결합한 새로운 도구 소개.
+- **2026-09-28**: 딸깍 Threads의 새로운 기능이 추가되고, 오픈소스로 공개됨. [원문](https://www.threads.com/@ddalkkakfactory/post/DdCzOumAX_n)
+- **2026-09-08**: Tailscale의 Tailcat 발표 및 다양한 오픈소스 도구들이 소개됨. [원문](https://www.threads.com/@unclejobs.ai/post/DcvMemaDHAJ)
+- **2026-07-29**: Claude Code의 오픈소스 재현 및 Codex Security CLI 공개. [원문](https://www.threads.com/@choi.openai/post/DbXoqEij2z_)
 
 ## 주요 인사이트
-- **영상 제작 효율성**: 유튜브 자동화 툴의 중요성이 강조되며, 영상 주제 선정이 핵심으로 언급됨.
-- **AI 코드 검증**: Paperthin의 도입으로 AI가 생성한 코드의 품질 향상 가능성 제시.
-- **오픈소스의 접근성**: 다양한 오픈소스 도구들이 무료로 제공되며, 사용자들이 쉽게 접근할 수 있도록 설계됨.
+- Threads 커뮤니티에서는 오픈소스 AI 도구들이 개발자들에게 큰 도움이 되고 있으며, 특히 영상 편집 및 자동화 도구에 대한 관심이 높아지고 있습니다.
+- 다양한 오픈소스 프로젝트들이 서로 연동되어 사용될 수 있는 가능성이 커지고 있으며, 사용자들은 이를 통해 효율성을 극대화할 수 있는 방법을 모색하고 있습니다.
 
 ## 관련 도구/링크
-- [Tailscale](https://tailscale.com)
-- [Paperthin GitHub](https://github.com/jisang0914/paperthin)
-- [Recordly GitHub](https://github.com/unclejobs.ai/recordly)
-- [Claude SEO GitHub](https://github.com/coke_ai/claude-seo)
-- [codex-chatgpt-web GitHub](https://github.com/ckdgus99/codex-chatgpt-web)
+- [딸깍 Threads GitHub](https://www.threads.com/@ddalkkakfactory/post/DdCzOumAX_n)
+- [Tailcat GitHub](https://www.threads.com/@unclejobs.ai/post/DcvMemaDHAJ)
+- [Paperthin GitHub](https://www.threads.com/@jisang0914/post/Dcf4XokmuJZ)
+- [Recordly GitHub](https://www.threads.com/@unclejobs.ai/post/DbnmT6GCdwl)
+- [Claude SEO GitHub](https://www.threads.com/@coke_ai/post/Dca6m8gGL_X)
+- [codex-chatgpt-web GitHub](https://www.threads.com/@ckdgus99/post/DcsSNCsCBWy)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260928_ddalkkakfactory_Threads의-새로운-기_63b557.md` | @ddalkkakfactory | 2026-09-28 | Threads, 오픈소스, GitHub, 무료소프트웨어 |
 | `u260908_unclejobs.ai_테일스케일이-새로운-오픈소_d1ea63.md` | @unclejobs.ai | 2026-09-08 | Tailscale, Tailcat, 오픈소스, 데이터플레인 |
-| `u260908_h2smusic_유튜브-자동화에-관한-오픈_dcd1d1.md` | @h2smusic | 2026-09-08 | 유튜브, 자동화, 오픈소스, AI |
-| `u260908_unclejobs.ai_브라우저유즈가-제공하는-비_8e0107.md` | @unclejobs.ai | 2026-09-08 | 비디오 편집, AI 도구, 오픈소스 |
 | `u260908_jisang0914_이선민은-AI-코딩-대회에_4b5601.md` | @jisang0914 | 2026-09-08 | AI, 코딩, Paperthin, 오픈소스 |
-| `u260908_jisang0914_CozyClay는-사용자가_18c4e2.md` | @jisang0914 | 2026-09-08 | CozyClay, AI 영상, 3D 스튜디오, 하도윤 |
 | `u260908_unclejobs.ai_무료-오픈소스-화면-녹화-_aad305.md` | @unclejobs.ai | 2026-09-08 | Recordly, 화면 녹화, 오픈소스, AI 툴 |
 | `u260908_coke_ai_오픈소스-AI-SEO-도구_ec6ad0.md` | @coke_ai | 2026-09-08 | SEO, Claude SEO, 오픈소스, AI |
-| `u260908_ckdgus99_Codex와-ChatGPT_e71c97.md` | @ckdgus99 | 2026-09-08 | Codex, ChatGPT, AI 도구, 오픈소스 |
-| `u260908_nextcocoai_마이크로-소프트의-오픈-소_585d88.md` | @nextcocoai | 2026-09-08 | SkillOpt, Microsoft, 오픈소스, 프로그래밍 |
-| `u260908_nangman_muk_오픈소스-프로그램-Conc_d8830c.md` | @nangman_muk | 2026-09-08 | 오픈소스, 영상 편집, CapCut 대체, 자동 자막 |
+| `u260729_think.5x_HKUDS가-Claude-_9d0d78.md` | @think.5x | 2026-07-29 | AI, Claude Code, 오픈소스, 툴셋 |
+| `u260729_choi.openai_오픈AI가-Codex-Se_898a99.md` | @choi.openai | 2026-07-29 | 오픈AI, Codex Security, 취약점 검증, 오픈소스 |
+| `u260720_takepage_xAI의-그록-빌드-Gro_40c798.md` | @takepage_ | 2026-07-20 | Grok Build, AI 코딩, xAI, 오픈소스 |
