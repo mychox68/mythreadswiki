@@ -2,46 +2,48 @@
 report_id: prompt-eng
 topic: 프롬프트 엔지니어링
 tier: tier3-emerging
-note_count: 87
-last_updated: "2026-09-28 09:44"
+note_count: 88
+last_updated: "2026-09-28 12:57"
 description: "프롬프트 패턴·기법·최신 사례"
 ---
 
 # 프롬프트 엔지니어링 트렌드 리포트
 
-> 노트 87개 기반 | 마지막 갱신: 2026-09-28 09:44
+> 노트 88개 기반 | 마지막 갱신: 2026-09-28 12:57
 
 # 프롬프트 엔지니어링 리포트
 
 ## 개요
-프롬프트 엔지니어링은 AI 모델의 성능을 극대화하기 위한 중요한 기술로, 사용자가 AI에게 명확하고 효과적인 요청을 전달하는 방법을 연구합니다. 이 분야의 발전은 AI의 활용 가능성을 넓히고, 다양한 산업에서의 혁신을 이끌어내고 있습니다.
+프롬프트 엔지니어링은 AI 모델의 성능을 극대화하기 위한 필수 기술로, 사용자와 AI 간의 상호작용을 최적화하는 방법론입니다. 최근 AI 기술의 발전과 함께 프롬프트의 중요성이 더욱 부각되고 있으며, 다양한 분야에서 활용되고 있습니다.
 
 ## 핵심 내용
-| 핵심 기능/개념 | 설명 |
-|----------------|------|
-| 프롬프트 패턴 | AI 모델에 대한 요청을 구조화하는 다양한 형식과 방법 |
-| 요청의 명확성 | 요청의 범위와 세부 사항을 명확히 하여 결과물의 품질 향상 |
-| 루프 엔지니어링 | AI가 스스로 작업을 수행하도록 설계된 시스템 |
-| AI 도구 활용 | GSAP, Three.js 등 다양한 도구를 활용한 프롬프트 작성 기법 |
+| 핵심 기능·개념·특징 | 설명 |
+|------------------|------|
+| 프롬프트 패턴 | AI에게 명확한 지시를 제공하여 원하는 결과를 얻기 위한 구조화된 입력 방식 |
+| 요청의 명확성 | 요청의 범위와 세부 사항을 명확히 하여 AI의 이해도를 높임 |
+| 루프 엔지니어링 | AI가 스스로 작업을 수행하도록 설계된 반복적인 프로세스 |
+| 다양한 프롬프트 기법 | 영상 제작, 이미지 생성, 협상 등 다양한 분야에서의 프롬프트 활용법 |
 
 ## 최신 동향
-- **2026-09-28**: Opus 5.5 출시로 유튜브 쇼츠 영상 무한 생성 가능 ([@ai__frontier](https://www.threads.com/@ai__frontier/post/DdrNOH9DvDX))
-- **2026-09-08**: GPT-6 ASTRA 모델의 요청 처리 방식 및 효과적인 요청 방법 소개 ([@cc.dev_](https://www.threads.com/@cc.dev_/post/Dc5YNocD8nN))
-- **2026-07-29**: 3,600개 이상의 GPT Image 2 프롬프트 저장소 공개 ([@jjin_ai_hj](https://www.threads.com/@jjin_ai_hj/post/DbE5omjjwtT))
-- **2026-05-17**: Ralph Loop 패턴을 통한 목표 설정 및 달성 과정 자동화 ([@unclejobs.ai](https://www.threads.com/@unclejobs.ai/post/DYQ_uzCiXar))
+- **2026-09-28**: Opus 5.5 출시로 유튜브 쇼츠 영상 무한 생성 가능
+- **2026-09-08**: GPT-6 ASTRA 모델의 요청 처리 방식 개선
+- **2026-07-29**: 3,600개 이상의 GPT Image 2 프롬프트 무료 제공
+- **2026-05-17**: Ralph Loop 패턴을 통한 AI 에이전트의 목표 설정 자동화
 
 ## 주요 인사이트
-- **프롬프트 작성 기술**: AI와의 상호작용을 개선하기 위한 다양한 팁과 기법이 공유되고 있으며, 이는 결과물의 품질을 높이는 데 기여하고 있습니다. ([@siluv_00](https://www.threads.com/@siluv_00/post/DZZORYykrgz))
-- **AI 영상 제작**: scenic.sh 사이트에서 바이럴 영상 프롬프트를 공유하며, 카메라 무빙과 조명 프롬프트 활용에 대한 통찰 제공 ([@mywhiteboutique](https://www.threads.com/@mywhiteboutique/post/DYQ1WTPDUdz))
+- 프롬프트의 질이 AI 결과물의 질을 결정짓는다는 점이 강조됨.
+- 사용자들은 AI와의 상호작용을 개선하기 위한 다양한 실전 팁을 공유하고 있으며, 이는 결과물의 품질 향상에 기여하고 있음.
+- 루프 엔지니어링이 주목받으며, 자동화된 시스템 설계의 중요성이 부각되고 있음.
 
 ## 관련 도구/링크
-- [GitHub](https://github.com)
-- [프롬프트 저장소](https://www.threads.com/@prompts3.kr/post/DaLDOrTkgA6)
-- [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-)
+- [scenic.sh](https://www.threads.com/@mywhiteboutique/post/DYQ1WTPDUdz) - 바이럴 영상 프롬프트 공유 사이트
+- [prompts3.kr](https://www.threads.com/@prompts3.kr/post/DaLDOrTkgA6) - 한국어 프롬프트 무료 제공 사이트
+- [Chomex](https://www.threads.com/@choi.openai/post/DXtljgcDPa-) - 오픈소스 프롬프트 생성 도구
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `u260928_bobpooh_official_AI를-활용해-짧은-영상을_f26158.md` | @bobpooh_official | 2026-09-28 | 영상 제작, AI 툴, 프롬프트, Gemini |
 | `u260928_ai__frontier_Opus-5.5의-출시로-_62a457.md` | @ai__frontier | 2026-09-28 | Opus 5.5, 유튜브 쇼츠, 애니메이션, 프롬프트 |
 | `u260908_crome.ai_이-게시물은-대규모-군집-_3e5c6e.md` | @crome.ai | 2026-09-08 | 군집 댄스, K-pop, 영상 제작, 프롬프트 |
 | `u260908_cc.dev_GPT-6-ASTRA-모델_138405.md` | @cc.dev_ | 2026-09-08 | GPT-6, ASTRA, 프롬프트, AI 활용법 |
@@ -71,4 +73,3 @@ description: "프롬프트 패턴·기법·최신 사례"
 | `u260428_unclejobs.ai_Nous-Research가_856d94.md` | @unclejobs.ai | 2026-04-28 | AI, 프롬프트 엔지니어링, Self-Evolution, Nous Research |
 | `u260428_myou_hyun_이모티콘-제작을-위한-프롬_1a86c0.md` | @myou_hyun | 2026-04-28 | 이모티콘, 프롬프트, 그룩AI, 캐릭터 디자인 |
 | `u260422_jwon.ig_클로드-코드-프로젝트-템플_7cffc0.md` | @jwon.ig | 2026-04-22 | Claude, AI 인프라, 자동화, 프롬프트 |
-| `u260422_yourgpt3650_클로드의-숨겨진-9가지-프_6c4292.md` | @yourgpt3650 | 2026-04-22 | 클로드, 프롬프트, AI, 효율성 |

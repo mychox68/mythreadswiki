@@ -3,42 +3,46 @@ report_id: multi-agent
 topic: 멀티 에이전트
 tier: tier2-concepts
 note_count: 15
-last_updated: "2026-09-08 19:36"
+last_updated: "2026-09-28 12:56"
 description: "acpx·Profile·오케스트레이션 패턴"
 ---
 
 # 멀티 에이전트 트렌드 리포트
 
-> 노트 15개 기반 | 마지막 갱신: 2026-09-08 19:36
+> 노트 15개 기반 | 마지막 갱신: 2026-09-28 12:56
 
 # 멀티 에이전트 리포트
 
 ## 개요
-멀티 에이전트 시스템은 여러 개의 에이전트를 동시에 운영하여 작업 효율성을 극대화하는 기술입니다. 이 시스템은 특히 AI와 자동화 분야에서 협업 및 작업 관리의 혁신을 가져오고 있어, 개발자와 기업에게 중요한 도구로 자리잡고 있습니다.
+멀티 에이전트 시스템은 여러 개의 에이전트를 동시에 운영하여 작업의 효율성을 극대화하는 기술입니다. 이 시스템은 AI와 자동화의 발전에 따라 점점 더 중요해지고 있으며, 다양한 도구와 패턴이 개발되고 있습니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **Herdr** | 멀티 에이전트 상태를 자동으로 관리하는 터미널 도구로, 개발자들이 에이전트의 상태를 쉽게 확인하고 작업 흐름을 증대시킴. |
-| **MCP** | 초경량 멀티 에이전트 스텔스 브라우저로, 메모리 사용을 최소화하며 탐지 회피 기능을 강화함. |
-| **acpx** | 여러 코딩 에이전트를 통합 관리하는 툴로, 에이전트 간의 호환성을 높이고 작업 효율성을 향상시킴. |
-| **Claude Code** | 멀티 에이전트 관리 기능과 /goal 기능을 통해 여러 세션을 보다 효율적으로 관리할 수 있도록 지원함. |
-| **Agent Team** | 여러 Claude Code를 팀으로 묶어 작업을 분배하고 협업을 가능하게 함. |
+| Herdr | 멀티 에이전트 상태를 자동으로 관리하는 터미널 도구로, 개발자들이 에이전트의 상태를 쉽게 확인할 수 있도록 돕습니다. |
+| MCP | 초경량 멀티 에이전트 스텔스 브라우저로, 메모리 사용을 최소화하며 탐지 회피 기능을 강화합니다. |
+| acpx | 여러 코딩 에이전트를 통합 관리하는 툴로, 에이전트 간의 협업을 가능하게 합니다. |
+| Claude Code | 멀티 에이전트 관리 기능과 /goal 기능을 통해 여러 세션을 효율적으로 관리할 수 있습니다. |
+| Hermes | 독립적인 환경을 제공하여 격리된 에이전트를 운영할 수 있는 기능을 지원합니다. |
+| OpenClaw | 오케스트레이션 CLI 툴로, 멀티 에이전트를 활용한 작업 성사 방법을 제공합니다. |
 
 ## 최신 동향
-- **2026-09-08**: Herdr가 멀티 에이전트 상태를 자동으로 관리하는 기능을 제공하는 터미널 도구로 소개됨. [원문](https://www.threads.com/@keynart2024/post/Db2WBz2CRnY)
-- **2026-07-29**: MCP 브라우저가 출시되어 여러 에이전트를 운영하면서도 메모리 사용을 최소화함. [원문](https://www.threads.com/@why.anthropic/post/Da5mE6KlHtj)
-- **2026-05-17**: Claude Code의 최신 버전에서 멀티 에이전트 관리 기능이 추가됨. [원문](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
+- **2026-09-08**: Herdr가 멀티 에이전트 상태 자동 관리 기능을 추가했습니다. [원문](https://www.threads.com/@keynart2024/post/Db2WBz2CRnY)
+- **2026-07-29**: MCP 브라우저가 출시되어 메모리 사용을 최소화하며 탐지 회피 기능을 강화했습니다. [원문](https://www.threads.com/@why.anthropic/post/Da5mE6KlHtj)
+- **2026-05-17**: Claude Code의 최신 버전에서 멀티 에이전트 관리 기능과 /goal 기능이 추가되었습니다. [원문](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
+- **2026-04-15**: Hermes에서 멀티 에이전트를 구축하는 방법이 카드뉴스 형식으로 설명되었습니다. [원문](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
 
 ## 주요 인사이트
-- **작업 효율성 향상**: 멀티 에이전트를 통해 팀원 간의 간단한 대화가 가능해지고, 작업을 병렬로 처리할 수 있어 생산성이 향상됨.
-- **문맥 비대증 방지**: AI 에이전트를 활용할 때 명확한 지시와 종료 조건을 설정하여 효율성을 높이는 것이 중요하다는 의견이 제시됨.
+- **효율적인 팀워크**: 멀티 에이전트를 활용하면 팀장과의 간단한 대화가 가능해지며, 작업의 흐름을 증대시킬 수 있습니다. (출처: @allenjj4911)
+- **에이전트 팀 구성**: 여러 Claude Code를 팀으로 묶어 작업을 분배하고 협업하는 방법이 소개되었습니다. (출처: @lian.lab71)
+- **문맥 비대증 방지**: AI 에이전트를 활용할 때 명확한 지시와 종료 조건 설정이 중요하다는 의견이 제시되었습니다. (출처: @choi.openai)
 
 ## 관련 도구/링크
 - [Herdr](https://www.threads.com/@keynart2024/post/Db2WBz2CRnY)
 - [MCP](https://www.threads.com/@why.anthropic/post/Da5mE6KlHtj)
 - [Claude Code](https://www.threads.com/@gonnector/post/DYNmn8xEylp)
-- [acpx](https://www.threads.com/@unclejobs.ai/post/DWdCpTRiRFW)
+- [Hermes](https://www.threads.com/@dev_roach_log/post/DXHFoWqj_mI)
+- [OpenClaw](https://www.threads.com/@zig_mini/post/DWXx6lHGAGU)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
