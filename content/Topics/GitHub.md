@@ -1,8 +1,9 @@
 # GitHub
-> 노트 38개 | 마지막 갱신: 2026-09-28 13:10
+> 노트 39개 | 마지막 갱신: 2026-10-07 08:57
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[260930_specal1849_영상-제작에-필요한-AI-_be7f15]] | `@specal1849` · 26-10-07 | 영상 제작에 필요한 AI 프롬프트와 효과 설정에 대한 질문이 많아 이를 해결하기 위한 스킬을 개발했다. 여러 가지 운동 기법과 효과를 정의하고 실제 예시를 제공한다. GitHub에서 관련 자료를 찾아볼 수 있다. |
 | [[u260928_ai_neo_lab_GitHub에-올라온-AI_77be01]] | `@ai_neo_lab` · 26-09-28 | GitHub에 올라온 AI 엔지니어링 기초 강의는 읽기만 하는 것이 아니라 실제 코드를 작성하면서 학습하는 커리큘럼입니다. 파이썬, 타입스크립트 등의 언어로 523개의 프로젝트를 진행하고, 최신 AI 기술도 다루고 있습니다. 완주하기 위해서는 상당한 시간과 노력이 필요합니다. |
 | [[u260928_ddalkkakfactory_Threads의-새로운-기_63b557]] | `@ddalkkakfactory` · 26-09-28 | Threads의 새로운 기능으로 메시지를 직접 보낼 수 있게 되었다. 딸깍 Threads 공장이 오픈소스로 공개되며, GitHub에 소스와 설치파일이 올라왔다. 무료 Community 버전으로 사용할 수 있다. |
 | [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |

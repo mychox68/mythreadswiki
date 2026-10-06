@@ -1,5 +1,5 @@
 # GitHub
-> 관련 노트: 38개 | 마지막 갱신: 2026-09-28 13:10
+> 관련 노트: 39개 | 마지막 갱신: 2026-10-07 08:57
 
 ## 개요
 
@@ -28,6 +28,7 @@
 
 | 노트 | 저자 · 날짜 | 요약 |
 |------|-------------|------|
+| [[260930_specal1849_영상-제작에-필요한-AI-_be7f15]] | `@specal1849` · 26-10-07 | 영상 제작에 필요한 AI 프롬프트와 효과 설정에 대한 질문이 많아 이를 해결하기 위한 스킬을 개발했다. 여러 가지 운동 기법과 효과를 정의하고 실제 예시를 제공한다. GitHub에서 관련 자료를 찾아볼 수 있다. |
 | [[u260928_ai_neo_lab_GitHub에-올라온-AI_77be01]] | `@ai_neo_lab` · 26-09-28 | GitHub에 올라온 AI 엔지니어링 기초 강의는 읽기만 하는 것이 아니라 실제 코드를 작성하면서 학습하는 커리큘럼입니다. 파이썬, 타입스크립트 등의 언어로 523개의 프로젝트를 진행하고, 최신 AI 기술도 다루고 있습니다. 완주하기 위해서는 상당한 시간과 노력이 필요합니다. |
 | [[u260928_ddalkkakfactory_Threads의-새로운-기_63b557]] | `@ddalkkakfactory` · 26-09-28 | Threads의 새로운 기능으로 메시지를 직접 보낼 수 있게 되었다. 딸깍 Threads 공장이 오픈소스로 공개되며, GitHub에 소스와 설치파일이 올라왔다. 무료 Community 버전으로 사용할 수 있다. |
 | [[u260908_a.lan.kim_Various-AI-ski_ec36f7]] | `@a.lan.kim` · 26-09-08 | Various AI skills on GitHub show different applications in programming. Each skill helps improve coding efficiency and reduce repetitive tasks. Users are encouraged to share any effective skills they use. |
@@ -57,4 +58,3 @@
 | [[u260327_trikey_ai_Claude-Code와-유_64faa5]] | `@trikey_ai` · 26-03-27 | Claude Code와 유사한 AI 코딩 에이전트를 Bash로 직접 구현하는 오픈소스 프로젝트가 공개되었습니다. 12단계 학습 과정을 통해 기본 에이전트 루프부터 멀티 에이전트 시스템까지 구축 가능합니다. ASCII 다이어그램을 활용하여 이해를 돕고, 다국어 문서도 지원합니다. |
 | [[u260327_bizmentor_kr_GitHub-Trendin_dfe5b0]] | `@bizmentor_kr` · 26-03-27 | GitHub Trending 1위는 agency-agents 프로젝트이며, 이는 여러 AI 역할군을 조합하여 실제 업무 흐름처럼 사용할 수 있도록 만든 프로젝트이다. 프론트엔드 도우미, 커뮤니티 운영 등 다양한 역할로 구성되어 'AI 팀'을 꾸리는 느낌을 준다. 기술 데모를 넘어 실제 활용 가능성이 높아 인기를 얻고 있다. |
 | [[u260327_zhugehyuk_20세-대학생이-10일-만_17619d]] | `@zhugehyuk` · 26-03-27 | 20세 대학생이 10일 만에 개발한 MiroFish라는 소프트웨어가 GitHub 글로벌 트렌딩 1위를 차지하며 주목받고 있다. 이 소프트웨어는 문서를 기반으로 수천 명의 디지털 인간을 생성하여 미래를 예측하는 시뮬레이션 엔진이다. 하지만 예측 정확도에 대한 검증은 부족하며, LLM 에이전트의 편향 문제와 API 비용 문제 등 해결해야 할 과제가 남아있다. |
-| [[u260327_aisolutiondev_AI-에이전트-프로젝트-아_07ece1]] | `@aisolutiondev` · 26-03-27 | AI 에이전트 프로젝트 아이디어가 떠오르지 않는다면, 산업별로 정리된 500개 이상의 AI Agent 프로젝트 GitHub 레포지토리를 참고하세요. 의료, 금융, 교육, 마케팅 등 11개 분야의 프로젝트를 확인할 수 있습니다. 프로젝트 시작 전 문제 정의가 중요하다는 점을 강조합니다. |
