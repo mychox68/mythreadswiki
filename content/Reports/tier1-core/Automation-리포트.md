@@ -2,50 +2,55 @@
 report_id: automation
 topic: AI 자동화
 tier: tier1-core
-note_count: 171
-last_updated: "2026-10-07 08:57"
+note_count: 174
+last_updated: "2026-10-15 06:00"
 description: "AI 자동화 패턴·워크플로우 사례"
 ---
 
 # AI 자동화 트렌드 리포트
 
-> 노트 171개 기반 | 마지막 갱신: 2026-10-07 08:57
+> 노트 174개 기반 | 마지막 갱신: 2026-10-15 06:00
+
+# AI 자동화 리포트
 
 ## 개요
-AI 자동화는 현대 비즈니스와 개인의 효율성을 극대화하는 중요한 기술로 자리 잡고 있습니다. 다양한 자동화 도구와 패턴이 등장하면서, 반복적인 작업을 줄이고 창의적인 업무에 더 많은 시간을 할애할 수 있게 되었습니다.
+AI 자동화는 다양한 산업에서 효율성을 극대화하고 인적 자원의 부담을 줄이는 중요한 기술로 자리 잡고 있습니다. 특히, 반복적인 작업을 자동화함으로써 기업과 개인 모두에게 시간과 비용 절감의 혜택을 제공합니다.
 
 ## 핵심 내용
-| 기능/개념       | 설명                                                         |
-|----------------|------------------------------------------------------------|
-| Aside          | AI 브라우저로, 로그인된 웹사이트에서 자동으로 작업 수행. 다양한 자동화 기능과 보안성 제공. |
-| 자동화된 리뷰 작성 | 사용자가 Aside를 통해 네이버 구매 리뷰 작성을 자동화한 사례. 긍정적인 피드백이 이어짐. |
-| 앱 개발 자동화  | AI를 활용한 앱 개발 프로세스 설명, 자동화된 스크린샷 캡처 및 API 키 발급 포함. |
-| 유튜브 자동화 툴 | 영상 제작 효율성을 높이는 오픈소스 툴 5가지 소개. 영상 주제 선정의 중요성 강조. |
-| AI 코딩 도구    | 샤오미의 MiMo Code, 이미지 이해 및 웹사이트 제작 지원. 무료 도구로 코딩 및 자동화에 유용. |
-| 영상 편집 자동화 | 'video-use' 툴을 통한 텍스트 기반 영상 편집 자동화. ElevenLabs API 지원. |
-| AI 비서 Hermes  | 목표 관리 및 자동 분석 기능을 통해 업무 효율성 증대. |
-| 웹툰 제작 자동화 | AI 에이전트를 활용한 웹툰 제작 과정 자동화. 트렌드 조사부터 스크롤 뷰어 제작까지 포함. |
+| 기능/개념 | 설명 |
+|------------|------|
+| 자막 자동 생성 | 영상 자막을 자동으로 생성하고 편집하는 툴 소개 |
+| 쇼핑 숏폼 제작 | Astra를 활용한 쇼핑 숏폼 기획 및 제작 자동화 |
+| 개인 비서 | 어사이드를 통한 업무 자동화 경험 공유 |
+| AI 브라우저 | Aside 브라우저의 자동화 기능 및 보안성 |
+| 앱 개발 자동화 | AI를 활용한 앱 개발 및 출시 과정 설명 |
+| 유튜브 자동화 | 오픈소스 툴을 통한 유튜브 영상 제작 자동화 |
+| 문서 업데이트 | AI 에이전트를 통한 자동 문서 업데이트 |
+| 루프 엔지니어링 | 반복 작업 관리 및 자동화 시스템 설계 |
 
 ## 최신 동향
-- **2026-09-14**: Aside for Windows 정식 출시. 기존 크롬 대비 다양한 자동화 기능과 보안성 제공.
-- **2026-09-28**: 사용자가 Aside를 통해 네이버 구매 리뷰 작성을 자동화한 경험 공유.
-- **2026-07-14**: 샤오미의 무료 AI 코딩 도구 MiMo Code 출시.
-- **2026-07-13**: AI 브라우저 Aside의 다양한 기능 및 사용자 맞춤형 메모리 기능 소개.
+- **2026-10-15**: 영상 자막 자동 생성 툴 소개 및 자막 작업 효율성 향상 관련 게시물 ([@early_ria](https://www.threads.com/@early_ria/post/DeT5KByIGwR))
+- **2026-10-15**: Astra를 활용한 쇼핑 숏폼 제작 방법 소개 ([@quitting_time_lab](https://www.threads.com/@quitting_time_lab/post/DeZtkMsjr9M))
+- **2026-09-28**: Aside for Windows 정식 출시, 다양한 자동화 기능 제공 ([@jjcreativeedu](https://www.threads.com/@jjcreativeedu/post/DdTHfCnGgVd))
+- **2026-09-28**: Aside를 통한 네이버 구매 리뷰 자동화 경험 공유 ([@iceofficer_hong](https://www.threads.com/@iceofficer_hong/post/DdSYNs_kefk))
 
 ## 주요 인사이트
-- 사용자는 Aside를 통해 일상적인 작업을 자동화하며, 긍정적인 피드백을 공유하고 있습니다.
-- AI를 활용한 앱 개발 및 영상 편집 자동화는 효율성을 크게 향상시키는 사례로 주목받고 있습니다.
-- AI 에이전트와의 연동을 통해 마케팅 및 데이터 분석의 자동화가 가능해지고 있습니다.
+- **사용자 경험**: 어사이드를 사용한 개인 비서의 편리함과 팀 사용의 어려움에 대한 논의가 활발함.
+- **효율성 강조**: 영상 제작 및 쇼핑 숏폼 제작에서 AI 도구 활용의 효율성이 강조되며, 사용자들이 경험을 공유하고 있음.
+- **자동화의 필요성**: 반복적인 작업을 줄이고 효율성을 높이기 위한 다양한 자동화 툴과 시스템에 대한 관심이 증가하고 있음.
 
 ## 관련 도구/링크
-- [Aside 브라우저](https://www.threads.com/@jjcreativeedu/post/DdTHfCnGgVd)
-- [MiMo Code](https://www.threads.com/@h2smusic/post/Dav9nqMEwLv)
-- [video-use 툴](https://www.threads.com/@life.of.haru/post/DatxJS6k7mi)
-- [AI 비서 Hermes](https://www.threads.com/@passionplus_ai/post/DYyVbCCAZsA)
+- [Aside](https://www.threads.com/@jjcreativeedu/post/DdTHfCnGgVd) - AI 브라우저
+- [Astra](https://www.threads.com/@quitting_time_lab/post/DeZtkMsjr9M) - 쇼핑 숏폼 제작 도구
+- [MiMo Code](https://www.threads.com/@h2smusic/post/Dav9nqMEwLv) - 무료 AI 코딩 도구
+- [video-use](https://www.threads.com/@life.of.haru/post/DatxJS6k7mi) - 영상 편집 자동화 툴
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `261010_early_ria_영상-자막을-자동으로-생성_c73a1d.md` | @early_ria | 2026-10-15 | 자막, 영상 편집, 자동화, 꿀팁 |
+| `261012_quitting_time_la_Astra를-활용한-쇼핑-_87414b.md` | @quitting_time_lab | 2026-10-15 | Astra, 쇼핑 숏폼, AI 도구, 자동화 |
+| `261014_jonghun__seo_어사이드라는-개인-비서를-_2462dd.md` | @jonghun__seo | 2026-10-15 | 어사이드, 업무 자동화, 개인 비서, 경험 공유 |
 | `u260928_jjcreativeedu_Aside-for-Wind_7bb30e.md` | @jjcreativeedu | 2026-09-28 | Aside, AI브라우저, 윈도우, 크롬 |
 | `u260928_iceofficer_hong_사용자가-Aside를-통해_9d47f5.md` | @iceofficer_hong | 2026-09-28 | Aside, 네이버, 구매 리뷰, 자동화 |
 | `u260928_vibe.bizness_사용자가-AI를-활용해-앱_dd860d.md` | @vibe.bizness | 2026-09-28 | AI, 앱 개발, Flutter, 자동화 |
@@ -73,6 +78,3 @@ AI 자동화는 현대 비즈니스와 개인의 효율성을 극대화하는 �
 | `u260511_think.5x_CC-Switch를-사용하_dbf30b.md` | @think.5x | 2026-05-11 | AI 툴, 코딩, 자동화, 클라우드 |
 | `u260507_vyblor_OpenCode를-이용해-_5a2488.md` | @vyblor | 2026-05-07 | OpenCode, agents.md, AI, 프로그래밍 |
 | `u260507_chulmulking_AI-챗봇-Claude-O_de9dc1.md` | @chulmulking | 2026-05-07 | AI, Claude Opus, Cloudflare Workers, 텔레그램 |
-| `u260507_conanssam_n8n-MCP는-AI가-생_b4d6cf.md` | @conanssam | 2026-05-07 | n8n, Slack, AI, 워크플로우 |
-| `u260507_unclejobs.ai_AI-에이전트가-자기-도구_555043.md` | @unclejobs.ai | 2026-05-07 | AI 에이전트, 자동화, 자기 개선, Nous Research |
-| `u260507_the_inno_lab_오픈소스-에이전트-Goos_e21bf0.md` | @the_inno_lab | 2026-05-07 | 반갑다, 구스덕, Goose, 에이전트 |

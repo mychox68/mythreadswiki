@@ -2,54 +2,52 @@
 report_id: opensource-ai
 topic: 오픈소스 AI
 tier: tier1-core
-note_count: 145
-last_updated: "2026-10-07 08:57"
+note_count: 147
+last_updated: "2026-10-15 06:00"
 description: "오픈소스 에이전트·모델 생태계 동향"
 ---
 
 # 오픈소스 AI 트렌드 리포트
 
-> 노트 145개 기반 | 마지막 갱신: 2026-10-07 08:57
+> 노트 147개 기반 | 마지막 갱신: 2026-10-15 06:00
 
 # 오픈소스 AI 리포트
 
 ## 개요
-오픈소스 AI는 다양한 개발자와 기업들이 협력하여 혁신적인 AI 솔루션을 개발할 수 있는 환경을 제공합니다. 이러한 생태계는 비용 효율적이며, 사용자 맞춤형 솔루션을 가능하게 하여 AI 기술의 발전을 가속화하고 있습니다.
+오픈소스 AI는 개발자와 기업에게 혁신적인 도구와 솔루션을 제공하며, 다양한 산업에서의 활용 가능성을 높이고 있습니다. 특히, AI 모델과 에이전트의 생태계가 빠르게 발전함에 따라, 오픈소스 프로젝트들은 사용자에게 비용 효율적이고 유연한 선택지를 제공합니다.
 
 ## 핵심 내용
 | 기능/개념/특징 | 설명 |
 |----------------|------|
-| **VoiceStudio** | 오픈소스 음성 AI 툴킷으로, 고품질 음성 복제 및 다국어 더빙 지원 |
-| **Tailscale Tailcat** | 데이터 플레인만 사용하여 기기 간 직접 연결 지원, 관리자가 필요 없음 |
-| **Recordly** | 무료 오픈소스 화면 녹화 툴, 커서 애니메이션 및 자동 줌 기능 제공 |
-| **Paperthin** | AI가 생성한 코드의 품질을 높이는 도구, 오픈소스화됨 |
-| **CozyClay** | 사용자가 AI 영상을 생성할 수 있는 무료 3D 스튜디오 도구 |
-| **Claude SEO** | AI 에이전트를 통한 사이트 병렬 분석 및 자동 SEO 점수 매김 |
-| **codex-chatgpt-web** | Codex와 ChatGPT를 결합한 도구, 다양한 운영체제 지원 |
+| HyperFrames | HeyGen의 도구로, HTML로 30초 출시 영상을 제작 가능 |
+| VoiceStudio | 고품질 음성 복제 및 다국어 더빙을 지원하는 음성 AI 툴킷 |
+| Recordly | 무료 오픈소스 화면 녹화 툴, 다양한 플랫폼 지원 |
+| Claude SEO | 18개의 AI 에이전트를 통해 사이트를 분석하고 SEO 점수를 매김 |
+| Tailcat | Tailscale의 오픈소스 제품으로, 데이터 플레인만 사용하여 기기 간 직접 연결 지원 |
 
 ## 최신 동향
-- **2026-09-28**: VoiceStudio 출시, 음성 AI 영역의 혁신 기대
-- **2026-09-28**: Threads의 새로운 기능으로 메시지 직접 전송 가능
-- **2026-09-08**: Tailscale의 Tailcat 발표, 에이전트 워커 중심의 네트워크 패러다임 제시
-- **2026-09-08**: 무료 오픈소스 화면 녹화 툴 Recordly 출시
-- **2026-07-29**: 오픈AI Codex Security CLI 공개, 코드 스캔 및 취약점 검증 기능 제공
+- **2026-10-15**: HeyGen의 HyperFrames 도구 사용법 소개 ([@dhdbtkd](https://www.threads.com/@dhdbtkd/post/DeYEK0tj6LU))
+- **2026-10-15**: 3D 효과와 애니메이션을 위한 10개의 오픈소스 라이브러리 소개 ([@vibe.itji](https://www.threads.com/@vibe.itji/post/DeZKQMJj1mN))
+- **2026-09-28**: VoiceStudio 출시, 음성 AI 영역 혁신 기대 ([@vibe.itji](https://www.threads.com/@vibe.itji/post/DdS6FMVD-DF))
+- **2026-09-08**: 무료 오픈소스 화면 녹화 툴 Recordly 출시 ([@unclejobs.ai](https://www.threads.com/@unclejobs.ai/post/DbnmT6GCdwl))
+- **2026-09-08**: Claude SEO 도구 출시, 무료로 SEO 점수 제공 ([@coke_ai](https://www.threads.com/@coke_ai/post/Dca6m8gGL_X))
 
 ## 주요 인사이트
-- **계정 관리**: 여러 계정을 사용하는 사용자들을 위한 `claude-swap` 도구가 유용하다는 의견이 많음.
-- **영상 편집 자동화**: AI 도구를 활용한 영상 편집의 효율성에 대한 논의가 활발함.
-- **오픈소스의 접근성**: 다양한 오픈소스 도구들이 무료로 제공되어 사용자의 접근성을 높이고 있음.
+- **다양한 플랫폼 지원**: 많은 오픈소스 도구들이 다양한 운영체제를 지원하여 접근성을 높이고 있습니다.
+- **비용 절감**: 오픈소스 AI 도구들은 기존 유료 솔루션에 비해 비용 효율적인 대안을 제공하고 있습니다.
+- **커뮤니티의 중요성**: 사용자들이 오픈소스 프로젝트에 기여하고 피드백을 주면서 생태계가 더욱 발전하고 있습니다.
 
 ## 관련 도구/링크
+- [HeyGen HyperFrames](https://www.threads.com/@dhdbtkd/post/DeYEK0tj6LU)
 - [VoiceStudio](https://www.threads.com/@vibe.itji/post/DdS6FMVD-DF)
-- [Tailscale Tailcat](https://www.threads.com/@unclejobs.ai/post/DcvMemaDHAJ)
 - [Recordly](https://www.threads.com/@unclejobs.ai/post/DbnmT6GCdwl)
-- [Paperthin](https://www.threads.com/@jisang0914/post/Dcf4XokmuJZ)
 - [Claude SEO](https://www.threads.com/@coke_ai/post/Dca6m8gGL_X)
-- [codex-chatgpt-web](https://www.threads.com/@ckdgus99/post/DcsSNCsCBWy)
 
 ## 출처 노트 목록
 | 파일 | 저자 | 날짜 | 태그 |
 |------|------|------|------|
+| `261012_dhdbtkd_HeyGen의-HyperF_d81f81.md` | @dhdbtkd | 2026-10-15 | HyperFrames, 클로드 코드, 영상 제작, 오픈소스 |
+| `261012_vibe.itji_웹사이트에-3D-효과와-애_3fca6b.md` | @vibe.itji | 2026-10-15 | 3D 그래픽, 애니메이션, 오픈소스, 웹 개발 |
 | `u260928_unclejobs.ai_맥북에서-ChatGPT-계_65055f.md` | @unclejobs.ai | 2026-09-28 | ChatGPT, 맥북, 계정 전환, 오픈소스 |
 | `u260928_vibe.itji_오픈소스-음성-AI-툴킷-_c5ff51.md` | @vibe.itji | 2026-09-28 | VoiceStudio, 오픈소스, 음성 AI, 음성 클로닝 |
 | `u260928_ddalkkakfactory_Threads의-새로운-기_63b557.md` | @ddalkkakfactory | 2026-09-28 | Threads, 오픈소스, GitHub, 무료소프트웨어 |
@@ -78,5 +76,3 @@ description: "오픈소스 에이전트·모델 생태계 동향"
 | `u260713_namsangboy_Claude-Code-계정_df60ae.md` | @namsangboy | 2026-07-13 | Claude Code, 오픈소스, 계정 전환, CLI 도구 |
 | `u260713_unclejobs.ai_플래시타입-Flashtyp_14a753.md` | @unclejobs.ai | 2026-07-13 | 플래시타입, AI, 마크다운, 오픈소스 |
 | `u260713_commme210_맥을-처음-사용하면서-여러_ec10b1.md` | @commme210 | 2026-07-13 | 맥, 생산성, 오픈소스, 인디개발 |
-| `u260713_funcodingdavelee_Netflix의-Headr_049fb2.md` | @funcodingdavelee | 2026-07-13 | Headroom, AI, 데이터 압축, 오픈소스 |
-| `u260713_ggnung_오픈소스-마케팅-스킬셋이-_d66025.md` | @ggnung | 2026-07-13 | AI 에이전트, 마케팅, 오픈소스, 자동화, CRO |
